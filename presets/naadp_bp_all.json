@@ -1,0 +1,15 @@
+{
+  "name": "NAADP binder exhaustive hunt (everything)",
+  "description": "The all-in-one default: Compara paralog mine, ortholog expansion, InterPro Pfam enumeration, merged into a census, then every analysis plus discovery scoring and the presence/absence matrix. Takes 5-15 min against live APIs. Carry JPT1 into every JPT analysis set — it is the decoy the whole project turns on. The presence/absence matrix is the deliverable that matters most here: binder presence against two-pore-channel presence, lineage by lineage.",
+  "mode": "exhaustive",
+  "genes": ["JPT2", "JPT1", "LSM12"],
+  "known_paralogs": ["JPT2", "LSM12"],
+  "pfam_ids": ["PF17054", "PF09793"],
+  "max_per_source": 60,
+  "max_orthologs_per_candidate": 12,
+  "max_proteins_per_pfam": 200,
+  "min_length_aa": 120,
+  "max_length_aa": 280,
+  "max_analysis_variants": 80,
+  "discovery": {"novelty_ceiling": 0.55}
+}

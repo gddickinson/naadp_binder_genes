@@ -1,0 +1,9 @@
+{
+  "name": "NAADP binders — JPT2 and LSM12",
+  "description": "The two NAADP-binding proteins across the default species panel. WARNING: these are two UNRELATED families in one query. Do not read a cross-family identity, tree or novelty score off this result set — JPT2 and LSM12 share a ligand and nothing else (roadmap D14).",
+  "genes": ["JPT2", "LSM12"],
+  "species": "",
+  "sources": ["NCBI", "Ensembl", "UniProt"],
+  "max_per_source": 200,
+  "include_sequence": false
+}

@@ -1,0 +1,14 @@
+{
+  "name": "NAADP binder domain-bait scan (PF17054 + PF09793/PF21166)",
+  "description": "Candidate binder-family proteins from InterPro's Pfam protein lists. Note what this scan can and cannot do: it finds JPT-family and Lsm12-family proteins, which is NOT the same as finding NAADP binders — JPT1 carries the JPT signature and does not bind NAADP. A domain hit here is a family call, never a function call.",
+  "mode": "domain_scan",
+  "pfam_ids": ["PF17054", "PF09793", "PF21166"],
+  "exclude_name_substrings": ["JPT2", "jpt2", "LSM12", "lsm12"],
+  "exclude_gene_substrings": ["JPT2", "jpt2", "LSM12", "lsm12"],
+  "known_paralogs": ["JPT2", "LSM12"],
+  "max_proteins_per_pfam": 400,
+  "max_with_sequences": 40,
+  "reviewed_only": false,
+  "min_length_aa": 120,
+  "max_length_aa": 280
+}

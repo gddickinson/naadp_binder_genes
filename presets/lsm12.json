@@ -1,0 +1,10 @@
+{
+  "name": "LSM12 partition",
+  "description": "The LSM12 half of the project, run alone. LSM12 reaches further by symbol than JPT2 does — Drosophila Q9VYR0 (217 aa) resolves where JPT2 does not — and PF09793 sits in the ancient Lsm/anticodon-binding fold set, so the decoy pool here is deep and old.",
+  "genes": ["LSM12"],
+  "species": "",
+  "sources": ["NCBI", "Ensembl", "UniProt"],
+  "max_per_source": 120,
+  "include_sequence": true,
+  "known_paralogs": ["LSM12"]
+}

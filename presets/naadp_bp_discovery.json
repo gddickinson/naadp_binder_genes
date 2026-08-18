@@ -1,0 +1,11 @@
+{
+  "name": "NAADP binders — novel-binder discovery",
+  "description": "Discovery run across the sequence databases plus BLAST bait. RUN THIS PER PARTITION, not once over both families: with JPT and LSM12 in one set the nearest-known-paralog distance is computed against an unrelated protein, so every candidate lands in the twilight zone by construction and the novelty component becomes meaningless. Measuring exactly how bad that is is the first job of S1.",
+  "genes": ["JPT2", "JPT1"],
+  "species": "",
+  "sources": ["NCBI", "Ensembl", "UniProt", "Compara", "BLAST"],
+  "max_per_source": 120,
+  "include_sequence": true,
+  "known_paralogs": ["JPT2"],
+  "discovery": {"novelty_ceiling": 0.55, "min_taxa_breadth": 2}
+}

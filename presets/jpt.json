@@ -1,0 +1,10 @@
+{
+  "name": "JPT partition — JPT2 against its decoy paralog JPT1",
+  "description": "The JPT half of the project, run with its sharp decoy in the set. JPT1 (HN1) carries PF17054 exactly as JPT2 does, is the same size class, and is not a NAADP binder — no domain signature distinguishes the binder from its paralog, which is the whole problem this project is built around. SYMBOL TRAP, verified 2026-08-18: gene_exact:HN1L returns both Q9H910 (190 aa, the real JPT2) and CRAMP1 (Q96RY5, 1,269 aa) on a synonym, so a longest-first pick selects the wrong protein. Screen by length and Pfam, never by rank.",
+  "genes": ["JPT2", "JPT1", "HN1L"],
+  "species": "",
+  "sources": ["NCBI", "Ensembl", "UniProt"],
+  "max_per_source": 120,
+  "include_sequence": true,
+  "known_paralogs": ["JPT2"]
+}

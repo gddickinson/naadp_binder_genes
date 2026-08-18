@@ -1,0 +1,11 @@
+{
+  "name": "NAADP binder paralog mine (Compara)",
+  "description": "Phylogenomic hunt for unnamed binder-family genes via Ensembl Compara gene trees. Run once per partition — a Compara tree containing both JPT and LSM12 members would be a tree of two unrelated families, and every distance computed across that boundary is noise.",
+  "genes": ["JPT2", "JPT1"],
+  "species": "",
+  "sources": ["Compara"],
+  "max_per_source": 60,
+  "include_sequence": true,
+  "known_paralogs": ["JPT2"],
+  "discovery": {"novelty_ceiling": 0.55}
+}
