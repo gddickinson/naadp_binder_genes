@@ -1,0 +1,7 @@
+metric	pair_class	n_pairs	min_identity	median_identity	max_identity	n_in_twilight_zone	pct_in_twilight_zone	twilight_zone
+full alignment	across families (JPT vs LSM12)	800	0.0079	0.0427	0.1082	0	0.0	0.20-0.40
+full alignment	within family (JPT)	496	0.0062	0.0430	1.0000	44	8.9	0.20-0.40
+full alignment	within family (LSM12)	300	0.0102	0.0625	1.0000	26	8.7	0.20-0.40
+covered columns only	across families (JPT vs LSM12)	800	0.0541	0.1538	0.3913	105	13.1	0.20-0.40
+covered columns only	within family (JPT)	496	0.0455	0.1667	1.0000	116	23.4	0.20-0.40
+covered columns only	within family (LSM12)	300	0.0700	0.1932	1.0000	121	40.3	0.20-0.40

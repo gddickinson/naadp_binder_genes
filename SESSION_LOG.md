@@ -178,3 +178,78 @@ Toolchain install + control benchmark per partition. Read
 `results/s0_baseline/report.md` first — it carries the ~40 % identity, the
 D25 denominator change and the Ensembl outage. Note the four open Emergent
 rows S0 added. The external drive is still not required for S1.
+
+---
+
+## S1 — 2026-08-18 · Toolchain + control benchmark (per partition)
+
+**Status: completed.** Data root unavailable (`/Volumes/FANTOM/NAADP_BP_DATA`
+not attached, exit 1) — the roadmap declares the drive unnecessary for S0–S2,
+so the session proceeded. **It is required from S3 on.**
+
+### What ran
+
+| Step | Script | Output |
+|---|---|---|
+| Ensembl re-probe (S0 emergent) | `scripts/s0_ensembl_probe.py` | `results/benchmark_controls/ensembl_reprobe.tsv` |
+| Toolchain probe | `scripts/s1_toolchain.py` | `results/toolchain_manifest.txt`, `benchmark_controls/toolchain.tsv` |
+| Control panels (live UniProt) | `scripts/s1_panels.py` | `panel_{positives,decoys,giants}.{json,fasta}`, `*_missing.tsv`, `symbol_collisions.tsv` |
+| Six benchmark experiments | `scripts/s1_benchmark.py` + `s1_runs.py` + `s1_lib.py` | `scores.tsv`, `bait_margin.tsv`, `size_component.tsv`, `crossfamily_identity.tsv`, `alignment_width_effect.tsv`, `partition_assignment.tsv`, `domain_hits.tsv`, `mafft_trace.json`, `summary.json` |
+| Figure | `scripts/s1_figures.py` | `figures/s1_scorer_validation.{png,pdf}` |
+| Report (D13) | `scripts/s1_report.py` + `s1_report_sections.py` | `results/benchmark_controls/report.md` |
+
+Benchmark wall-clock 99.5 s; 17 positive + 58 decoy panel records over 57
+unique accessions. MAFFT verified by return code (`mafft --auto --quiet`,
+rc=0), not by the fact a call happened.
+
+### Code changed
+
+* **`src/utils/partitions.py` (new)** — partition assignment (provenance →
+  family Pfam → symbol) + `CrossPartitionError` + `assert_single_partition`.
+* **`src/discovery/partition.py` (new)** — `run_partitioned_discovery`
+  splits **before the alignment**, so each family gets its own MSA,
+  identity matrix and tree and a cross-family cell has nowhere to exist;
+  `merge_reports`, `partition_table`, `known_for_partition`. Accepts
+  `signature_sets=` so a signature built from named members can be applied
+  to unnamed candidates.
+* **`src/discovery/candidates.py`** — calls the guard on every run
+  (`allow_cross_partition=True` is the explicit opt-out the benchmark used);
+  `partition` and `size_component_points` config fields; **bug fix**:
+  `restrict=known_labels or None` turned an *empty* known set into "no
+  restriction", so outlier/cluster/sister scored candidates against their
+  nearest neighbour of any kind (D24 failure class).
+* **`src/discovery/writer.py` (new)** — `write_discovery` moved out to keep
+  `candidates.py` under the 500-line rule; imports updated in `cli.py`,
+  `domain_scan.py`, `exhaustive.py`, `__init__.py`.
+* **`src/cli.py`** — a preset spanning both families now routes through
+  `run_partitioned_discovery` instead of being scored in one set.
+
+### Results (headline)
+
+* All 12 binaries resolve. MAFFT v7.526, HMMER 3.4, BLAST+ 2.16.0+,
+  miniprot 0.18-r281, trimAl v1.5.rev1, IQ-TREE 2.3.6, datasets 18.35.0,
+  foldseek 10.941cd33.
+* **Specificity 58/58; JPT1 5/5 — but only because of the sister test.**
+  Disabled: 5/5 JPT1 decoys promote (80 for the three carrying PF17054,
+  60 for the two that do not) and specificity falls to 53/58.
+* **Recall 12/15** for unnamed true members, **15/15** with the
+  MSA-signature fallback. All three misses are JPT2 orthologs carrying no
+  Pfam cross-reference (D25 reaching the scorer).
+* **Distortion is conditional (D27):** 1/57 scores differ joint-vs-partitioned
+  with both families named; **44/57 with 2 call flips** when one family has
+  no named member.
+* **Cross-family identity (D28):** max 0.108 full-alignment (0 % in the
+  twilight zone) vs 0.391 covered-only (13.1 %).
+* **Size component (D29):** retained at +15; band holds 17/17 members and
+  40/58 decoys; zeroing it loses 7 true positives and gains no specificity.
+* `gene_exact:ALB` returns FBF1 (1,133 aa) on a synonym — the HN1L trap is
+  not a one-off. Panel builder now prefers primary symbols.
+
+### Next session: S2
+
+Uncapped enumeration from **IPR033335** (JPT) and **IPR039683** (LSM12) →
+census v2. Read `results/benchmark_controls/report.md` first. Four things
+S2 must carry: the signature fallback (built from the named panel, applied
+to candidates), `family.py:SISTER_PANEL` in every JPT search, the
+primary-symbol rule for `pick_best`, and the fact that Ensembl is still not
+dependable. The external drive is not required for S2.

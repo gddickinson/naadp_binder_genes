@@ -1,0 +1,134 @@
+run	partition	panel_kind	group	accession	gene_symbol	length_aa	in_band	score_size15	score_size0	delta	promoted_size15	promoted_size0	call_changed
+part_baseline	JPT	positive	JPT2	K7D4U4	HN1L	190	True	35	20	-15	False	False	False
+part_baseline	JPT	positive	deep_grade	Q9I7K0	Jupiter	208	True	65	50	-15	True	True	False
+part_baseline	JPT	decoy	JPT1 (sister paralog)	Q9UK76	JPT1	154	True	39	39	0	False	False	False
+part_baseline	JPT	decoy	JPT1 (sister paralog)	P97825	Jpt1	154	True	39	39	0	False	False	False
+part_baseline	JPT	decoy	JPT1 (sister paralog)	Q6AXU6	Jpt1	149	True	39	39	0	False	False	False
+part_baseline	JPT	decoy	JPT1 (sister paralog)	I7KJP8	jpt1	143	True	39	39	0	False	False	False
+part_baseline	JPT	decoy	JPT1 (sister paralog)	Q3T0T5	JPT1	154	True	39	39	0	False	False	False
+part_baseline	JPT	decoy	symbol-collision trap	Q96RY5	CRAMP1	1269	False	10	10	0	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P0DP23	CALM1	149	True	39	25	-14	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P07737	PFN1	140	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P23528	CFL1	166	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P61586	RHOA	193	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P63000	RAC1	192	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P60953	CDC42	191	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P01112	HRAS	189	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P01116	KRAS	189	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P13693	TPT1	172	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P00441	SOD1	154	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P62937	PPIA	165	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P23396	RPS3	243	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P18124	RPL7	248	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P60660	MYL6	151	True	39	25	-14	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P37802	TAGLN2	199	True	25	10	-15	False	False	False
+part_baseline	JPT	decoy	in-band unrelated	P0DP26	Calm1	149	True	39	25	-14	False	False	False
+part_baseline	JPT	decoy	out-of-band unrelated	P02768	ALB	609	False	10	10	0	False	False	False
+part_baseline	JPT	decoy	out-of-band unrelated	P11021	HSPA5	654	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	O15116	LSM1	133	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	Q9Y333	LSM2	95	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62310	LSM3	102	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	Q9Y4Z0	LSM4	139	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	Q9Y4Y9	LSM5	91	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62312	LSM6	80	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	Q9UK45	LSM7	103	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	O95777	LSM8	96	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	Q8ND56	LSM14A	463	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62314	SNRPD1	119	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62316	SNRPD2	118	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62318	SNRPD3	126	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62304	SNRPE	92	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62306	SNRPF	86	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62308	SNRPG	76	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	Lsm/Sm fold set	Q8WWM7	ATXN2L	1075	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P0DP23	CALM1	149	True	39	25	-14	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P07737	PFN1	140	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P23528	CFL1	166	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P61586	RHOA	193	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P63000	RAC1	192	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P60953	CDC42	191	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P01112	HRAS	189	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P01116	KRAS	189	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P13693	TPT1	172	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P00441	SOD1	154	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P62937	PPIA	165	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P23396	RPS3	243	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P18124	RPL7	248	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P60660	MYL6	151	True	39	25	-14	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P37802	TAGLN2	199	True	25	10	-15	False	False	False
+part_baseline	LSM12	decoy	in-band unrelated	P0DP26	Calm1	149	True	39	25	-14	False	False	False
+part_baseline	LSM12	decoy	out-of-band unrelated	P02768	ALB	609	False	10	10	0	False	False	False
+part_baseline	LSM12	decoy	out-of-band unrelated	P11021	HSPA5	654	False	10	10	0	False	False	False
+part_anonymised	JPT	positive	JPT2	Q6PGH2	Jpt2	190	True	30	15	-15	False	False	False
+part_anonymised	JPT	positive	JPT2	Q5BK20	Jpt2	190	True	30	15	-15	False	False	False
+part_anonymised	JPT	positive	JPT2	A0A6I8PKV3	jpt2	192	True	60	45	-15	True	True	False
+part_anonymised	JPT	positive	JPT2	F1Q6E4	jpt2	218	True	80	65	-15	True	True	False
+part_anonymised	JPT	positive	JPT2	A0AAA9SSJ4	JPT2	209	True	39	25	-14	False	False	False
+part_anonymised	JPT	positive	JPT2	K7D4U4	HN1L	190	True	50	35	-15	True	False	True
+part_anonymised	JPT	positive	deep_grade	Q9I7K0	Jupiter	208	True	65	50	-15	True	True	False
+part_anonymised	JPT	decoy	JPT1 (sister paralog)	Q9UK76	JPT1	154	True	39	39	0	False	False	False
+part_anonymised	JPT	decoy	JPT1 (sister paralog)	P97825	Jpt1	154	True	39	39	0	False	False	False
+part_anonymised	JPT	decoy	JPT1 (sister paralog)	Q6AXU6	Jpt1	149	True	39	39	0	False	False	False
+part_anonymised	JPT	decoy	JPT1 (sister paralog)	I7KJP8	jpt1	143	True	39	25	-14	False	False	False
+part_anonymised	JPT	decoy	JPT1 (sister paralog)	Q3T0T5	JPT1	154	True	39	39	0	False	False	False
+part_anonymised	JPT	decoy	symbol-collision trap	Q96RY5	CRAMP1	1269	False	10	10	0	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P0DP23	CALM1	149	True	39	25	-14	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P07737	PFN1	140	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P23528	CFL1	166	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P61586	RHOA	193	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P63000	RAC1	192	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P60953	CDC42	191	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P01112	HRAS	189	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P01116	KRAS	189	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P13693	TPT1	172	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P00441	SOD1	154	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P62937	PPIA	165	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P23396	RPS3	243	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P18124	RPL7	248	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P60660	MYL6	151	True	39	25	-14	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P37802	TAGLN2	199	True	25	10	-15	False	False	False
+part_anonymised	JPT	decoy	in-band unrelated	P0DP26	Calm1	149	True	39	25	-14	False	False	False
+part_anonymised	JPT	decoy	out-of-band unrelated	P02768	ALB	609	False	10	10	0	False	False	False
+part_anonymised	JPT	decoy	out-of-band unrelated	P11021	HSPA5	654	False	10	10	0	False	False	False
+part_anonymised	LSM12	positive	LSM12	Q9D0R8	Lsm12	195	True	50	35	-15	True	False	True
+part_anonymised	LSM12	positive	LSM12	A0A8I6GM11	Lsm12	195	True	50	35	-15	True	False	True
+part_anonymised	LSM12	positive	LSM12	Q5ZML5	LSM12	194	True	50	35	-15	True	False	True
+part_anonymised	LSM12	positive	LSM12	Q6P833	lsm12	194	True	50	35	-15	True	False	True
+part_anonymised	LSM12	positive	LSM12	Q6PBA2	lsm12a	196	True	50	35	-15	True	False	True
+part_anonymised	LSM12	positive	LSM12	Q0VCF9	LSM12	195	True	50	35	-15	True	False	True
+part_anonymised	LSM12	positive	deep_grade	Q9VYR0	Lsm12a	217	True	65	50	-15	True	True	False
+part_anonymised	LSM12	positive	deep_grade	P38828	LSM12	187	True	65	50	-15	True	True	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	O15116	LSM1	133	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	Q9Y333	LSM2	95	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62310	LSM3	102	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	Q9Y4Z0	LSM4	139	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	Q9Y4Y9	LSM5	91	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62312	LSM6	80	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	Q9UK45	LSM7	103	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	O95777	LSM8	96	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	Q8ND56	LSM14A	463	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62314	SNRPD1	119	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62316	SNRPD2	118	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62318	SNRPD3	126	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62304	SNRPE	92	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62306	SNRPF	86	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62308	SNRPG	76	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	Q8WWM7	ATXN2L	1075	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P0DP23	CALM1	149	True	39	25	-14	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P07737	PFN1	140	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P23528	CFL1	166	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P61586	RHOA	193	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P63000	RAC1	192	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P60953	CDC42	191	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P01112	HRAS	189	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P01116	KRAS	189	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P13693	TPT1	172	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P00441	SOD1	154	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P62937	PPIA	165	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P23396	RPS3	243	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P18124	RPL7	248	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P60660	MYL6	151	True	39	25	-14	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P37802	TAGLN2	199	True	25	10	-15	False	False	False
+part_anonymised	LSM12	decoy	in-band unrelated	P0DP26	Calm1	149	True	39	25	-14	False	False	False
+part_anonymised	LSM12	decoy	out-of-band unrelated	P02768	ALB	609	False	10	10	0	False	False	False
+part_anonymised	LSM12	decoy	out-of-band unrelated	P11021	HSPA5	654	False	10	10	0	False	False	False

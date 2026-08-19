@@ -1,0 +1,547 @@
+run	partition	panel_kind	group	accession	gene_symbol	scored_as	species	length_aa	in_band	n_family_pfam	score	promoted	components	id_to_nearest_known_pct	nearest_in_set	sister_margin
+joint_baseline	JOINT	positive	JPT2	Q9H910	JPT2	JPT2	Homo sapiens	190	True	1	n/a	False				
+joint_baseline	JOINT	positive	JPT2	Q6PGH2	Jpt2	Jpt2	Mus musculus	190	True	0	n/a	False				
+joint_baseline	JOINT	positive	JPT2	Q5BK20	Jpt2	Jpt2	Rattus norvegicus	190	True	0	n/a	False				
+joint_baseline	JOINT	positive	JPT2	A0A6I8PKV3	jpt2	jpt2	Xenopus tropicalis	192	True	1	n/a	False				
+joint_baseline	JOINT	positive	JPT2	F1Q6E4	jpt2	jpt2	Danio rerio	218	True	1	n/a	False				
+joint_baseline	JOINT	positive	JPT2	A0AAA9SSJ4	JPT2	JPT2	Bos taurus	209	True	0	n/a	False				
+joint_baseline	JOINT	positive	JPT2	K7D4U4	HN1L	HN1L	Pan troglodytes	190	True	1	35	False	size+15,pfam+20	99	Uni_JPT2_Homo_Q9H910 at 99% identity	+73%
+joint_baseline	JOINT	positive	LSM12	Q3MHD2	LSM12	LSM12	Homo sapiens	195	True	2	n/a	False				
+joint_baseline	JOINT	positive	LSM12	Q9D0R8	Lsm12	Lsm12	Mus musculus	195	True	2	n/a	False				
+joint_baseline	JOINT	positive	LSM12	A0A8I6GM11	Lsm12	Lsm12	Rattus norvegicus	195	True	2	n/a	False				
+joint_baseline	JOINT	positive	LSM12	Q5ZML5	LSM12	LSM12	Gallus gallus	194	True	2	n/a	False				
+joint_baseline	JOINT	positive	LSM12	Q6P833	lsm12	lsm12	Xenopus tropicalis	194	True	2	n/a	False				
+joint_baseline	JOINT	positive	LSM12	Q6PBA2	lsm12a	lsm12a	Danio rerio	196	True	2	n/a	False				
+joint_baseline	JOINT	positive	LSM12	Q0VCF9	LSM12	LSM12	Bos taurus	195	True	2	n/a	False				
+joint_baseline	JOINT	positive	deep_grade	Q9I7K0	Jupiter	Jupiter	Drosophila melanogaster	208	True	1	45	True	size+15,pfam+20,cluster+10	17	Uni_JPT2_Homo_Q9H910 at 17% identity	+0%
+joint_baseline	JOINT	positive	deep_grade	Q9VYR0	Lsm12a	Lsm12a	Drosophila melanogaster	217	True	2	n/a	False				
+joint_baseline	JOINT	positive	deep_grade	P38828	LSM12	LSM12	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	187	True	1	n/a	False				
+joint_baseline	JOINT	decoy	JPT1 (sister paralog)	Q9UK76	JPT1	JPT1	Homo sapiens	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	30	Uni_JPT1_Bos_Q3T0T5 at 94% identity	-64%
+joint_baseline	JOINT	decoy	JPT1 (sister paralog)	P97825	Jpt1	Jpt1	Mus musculus	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	29	Uni_Jpt1_Rattus_Q6AXU6 at 93% identity	-64%
+joint_baseline	JOINT	decoy	JPT1 (sister paralog)	Q6AXU6	Jpt1	Jpt1	Rattus norvegicus	149	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	28	Uni_Jpt1_Mus_P97825 at 93% identity	-65%
+joint_baseline	JOINT	decoy	JPT1 (sister paralog)	I7KJP8	jpt1	jpt1	Xenopus tropicalis	143	True	0	39	False	size+15,outlier+20,cluster+10,breadth+15,SISTER→39	23	Uni_Jpt1_Mus_P97825 at 42% identity	-19%
+joint_baseline	JOINT	decoy	JPT1 (sister paralog)	Q3T0T5	JPT1	JPT1	Bos taurus	154	True	0	39	False	size+15,outlier+20,cluster+10,breadth+15,SISTER→39	29	Uni_JPT1_Homo_Q9UK76 at 94% identity	-64%
+joint_baseline	JOINT	decoy	symbol-collision trap	Q96RY5	CRAMP1	CRAMP1	Homo sapiens	1269	False	0	10	False	cluster+10	4	Uni_ATXN2L_Homo_Q8WWM7 at 10% identity	+1%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	O15116	LSM1	LSM1	Homo sapiens	133	True	0	25	False	size+15,cluster+10	6	Uni_SNRPG_Homo_P62308 at 21% identity	+0%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	Q9Y333	LSM2	LSM2	Homo sapiens	95	False	0	10	False	cluster+10	6	Uni_SNRPF_Homo_P62306 at 22% identity	+4%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	P62310	LSM3	LSM3	Homo sapiens	102	False	0	10	False	cluster+10	6	Uni_LSM5_Homo_Q9Y4Y9 at 23% identity	+4%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	Q9Y4Z0	LSM4	LSM4	Homo sapiens	139	True	0	25	False	size+15,cluster+10	6	Uni_SNRPD3_Homo_P62318 at 26% identity	+1%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	Q9Y4Y9	LSM5	LSM5	Homo sapiens	91	False	0	10	False	cluster+10	8	Uni_LSM3_Homo_P62310 at 23% identity	+5%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	P62312	LSM6	LSM6	Homo sapiens	80	False	0	10	False	cluster+10	5	Uni_SNRPF_Homo_P62306 at 39% identity	+3%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	Q9UK45	LSM7	LSM7	Homo sapiens	103	False	0	10	False	cluster+10	6	Uni_SNRPG_Homo_P62308 at 27% identity	+2%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	O95777	LSM8	LSM8	Homo sapiens	96	False	0	10	False	cluster+10	4	Uni_LSM7_Homo_Q9UK45 at 21% identity	+2%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	Q8ND56	LSM14A	LSM14A	Homo sapiens	463	False	0	10	False	cluster+10	6	Uni_ATXN2L_Homo_Q8WWM7 at 7% identity	+1%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	P62314	SNRPD1	SNRPD1	Homo sapiens	119	False	0	10	False	cluster+10	5	Uni_SNRPD3_Homo_P62318 at 25% identity	+0%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	P62316	SNRPD2	SNRPD2	Homo sapiens	118	False	0	10	False	cluster+10	7	Uni_LSM3_Homo_P62310 at 21% identity	+4%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	P62318	SNRPD3	SNRPD3	Homo sapiens	126	True	0	25	False	size+15,cluster+10	8	Uni_LSM4_Homo_Q9Y4Z0 at 26% identity	+4%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	P62304	SNRPE	SNRPE	Homo sapiens	92	False	0	10	False	cluster+10	5	Uni_LSM5_Homo_Q9Y4Y9 at 21% identity	+3%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	P62306	SNRPF	SNRPF	Homo sapiens	86	False	0	10	False	cluster+10	6	Uni_LSM6_Homo_P62312 at 39% identity	+4%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	P62308	SNRPG	SNRPG	Homo sapiens	76	False	0	10	False	cluster+10	6	Uni_LSM7_Homo_Q9UK45 at 27% identity	+4%
+joint_baseline	JOINT	decoy	Lsm/Sm fold set	Q8WWM7	ATXN2L	ATXN2L	Homo sapiens	1075	False	0	10	False	cluster+10	4	Uni_CRAMP1_Homo_Q96RY5 at 10% identity	+0%
+joint_baseline	JOINT	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	8	Uni_Calm1_Mus_P0DP26 at 100% identity	+6%
+joint_baseline	JOINT	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	25	False	size+15,cluster+10	5	Uni_PPIA_Homo_P62937 at 8% identity	+3%
+joint_baseline	JOINT	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	25	False	size+15,cluster+10	5	Uni_LSM1_Homo_O15116 at 11% identity	+1%
+joint_baseline	JOINT	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	25	False	size+15,cluster+10	7	Uni_RAC1_Homo_P63000 at 58% identity	+1%
+joint_baseline	JOINT	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	25	False	size+15,cluster+10	8	Uni_CDC42_Homo_P60953 at 70% identity	+1%
+joint_baseline	JOINT	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	25	False	size+15,cluster+10	7	Uni_RAC1_Homo_P63000 at 70% identity	+1%
+joint_baseline	JOINT	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	6	Uni_KRAS_Homo_P01116 at 86% identity	+1%
+joint_baseline	JOINT	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	6	Uni_HRAS_Homo_P01112 at 86% identity	+1%
+joint_baseline	JOINT	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	25	False	size+15,cluster+10	5	Uni_LSM1_Homo_O15116 at 8% identity	-1%
+joint_baseline	JOINT	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	25	False	size+15,cluster+10	6	Uni_PPIA_Homo_P62937 at 11% identity	+3%
+joint_baseline	JOINT	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	25	False	size+15,cluster+10	6	Uni_SOD1_Homo_P00441 at 11% identity	+1%
+joint_baseline	JOINT	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	25	False	size+15,cluster+10	7	Uni_jpt2_Xenopus_A0A6I8PKV3 at 7% identity	+0%
+joint_baseline	JOINT	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	25	False	size+15,cluster+10	6	Uni_LSM7_Homo_Q9UK45 at 8% identity	+2%
+joint_baseline	JOINT	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	8	Uni_CALM1_Homo_P0DP23 at 45% identity	+5%
+joint_baseline	JOINT	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	25	False	size+15,cluster+10	5	Uni_LSM4_Homo_Q9Y4Z0 at 9% identity	+2%
+joint_baseline	JOINT	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	8	Uni_CALM1_Homo_P0DP23 at 100% identity	+6%
+joint_baseline	JOINT	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	10	False	cluster+10	5	Uni_HSPA5_Homo_P11021 at 7% identity	+0%
+joint_baseline	JOINT	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	10	False	cluster+10	4	Uni_ALB_Homo_P02768 at 7% identity	+1%
+joint_anonymised	JOINT	positive	JPT2	Q9H910	JPT2	JPT2	Homo sapiens	190	True	1	n/a	False				
+joint_anonymised	JOINT	positive	JPT2	Q6PGH2	Jpt2	LOCQ6PGH2	Mus musculus	190	True	0	30	False	size+15,breadth+15	79	Uni_LOCQ5BK20_Rattus_Q5BK20 at 91% identity	+54%
+joint_anonymised	JOINT	positive	JPT2	Q5BK20	Jpt2	LOCQ5BK20	Rattus norvegicus	190	True	0	30	False	size+15,breadth+15	79	Uni_LOCQ6PGH2_Mus_Q6PGH2 at 91% identity	+53%
+joint_anonymised	JOINT	positive	JPT2	A0A6I8PKV3	jpt2	LOCA0A6I8PKV3	Xenopus tropicalis	192	True	1	60	True	size+15,pfam+20,cluster+10,breadth+15	47	Uni_LOCQ6PGH2_Mus_Q6PGH2 at 50% identity	+17%
+joint_anonymised	JOINT	positive	JPT2	F1Q6E4	jpt2	LOCF1Q6E4	Danio rerio	218	True	1	80	True	size+15,pfam+20,outlier+20,cluster+10,breadth+15	39	Uni_LOCA0A6I8PKV3_Xenopus_A0A6I8PKV3 at 44% identity	+11%
+joint_anonymised	JOINT	positive	JPT2	A0AAA9SSJ4	JPT2	LOCA0AAA9SSJ4	Bos taurus	209	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	45	Uni_LOCK7D4U4_Pan_K7D4U4 at 46% identity	+30%
+joint_anonymised	JOINT	positive	JPT2	K7D4U4	HN1L	LOCK7D4U4	Pan troglodytes	190	True	1	50	True	size+15,pfam+20,breadth+15	99	Uni_JPT2_Homo_Q9H910 at 99% identity	+73%
+joint_anonymised	JOINT	positive	LSM12	Q3MHD2	LSM12	LSM12	Homo sapiens	195	True	2	n/a	False				
+joint_anonymised	JOINT	positive	LSM12	Q9D0R8	Lsm12	LOCQ9D0R8	Mus musculus	195	True	2	50	True	size+15,pfam+20,breadth+15	100	Uni_LSM12_Homo_Q3MHD2 at 100% identity	+95%
+joint_anonymised	JOINT	positive	LSM12	A0A8I6GM11	Lsm12	LOCA0A8I6GM11	Rattus norvegicus	195	True	2	50	True	size+15,pfam+20,breadth+15	100	Uni_LSM12_Homo_Q3MHD2 at 100% identity	+95%
+joint_anonymised	JOINT	positive	LSM12	Q5ZML5	LSM12	LOCQ5ZML5	Gallus gallus	194	True	2	50	True	size+15,pfam+20,breadth+15	94	Uni_LSM12_Homo_Q3MHD2 at 94% identity	+90%
+joint_anonymised	JOINT	positive	LSM12	Q6P833	lsm12	LOCQ6P833	Xenopus tropicalis	194	True	2	50	True	size+15,pfam+20,breadth+15	82	Uni_LSM12_Homo_Q3MHD2 at 82% identity	+76%
+joint_anonymised	JOINT	positive	LSM12	Q6PBA2	lsm12a	LOCQ6PBA2	Danio rerio	196	True	2	50	True	size+15,pfam+20,breadth+15	85	Uni_LSM12_Homo_Q3MHD2 at 85% identity	+80%
+joint_anonymised	JOINT	positive	LSM12	Q0VCF9	LSM12	LOCQ0VCF9	Bos taurus	195	True	2	50	True	size+15,pfam+20,breadth+15	100	Uni_LSM12_Homo_Q3MHD2 at 100% identity	+95%
+joint_anonymised	JOINT	positive	deep_grade	Q9I7K0	Jupiter	LOCQ9I7K0	Drosophila melanogaster	208	True	1	45	True	size+15,pfam+20,cluster+10	17	Uni_JPT2_Homo_Q9H910 at 17% identity	+1%
+joint_anonymised	JOINT	positive	deep_grade	Q9VYR0	Lsm12a	LOCQ9VYR0	Drosophila melanogaster	217	True	2	65	True	size+15,pfam+20,outlier+20,cluster+10	26	Uni_LOCQ6P833_Xenopus_Q6P833 at 27% identity	+20%
+joint_anonymised	JOINT	positive	deep_grade	P38828	LSM12	LOCP38828	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	187	True	1	45	True	size+15,pfam+20,cluster+10	19	Uni_LOCQ6PBA2_Danio_Q6PBA2 at 21% identity	+14%
+joint_anonymised	JOINT	decoy	JPT1 (sister paralog)	Q9UK76	JPT1	JPT1	Homo sapiens	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	24	Uni_JPT1_Bos_Q3T0T5 at 94% identity	-69%
+joint_anonymised	JOINT	decoy	JPT1 (sister paralog)	P97825	Jpt1	Jpt1	Mus musculus	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	26	Uni_Jpt1_Rattus_Q6AXU6 at 93% identity	-66%
+joint_anonymised	JOINT	decoy	JPT1 (sister paralog)	Q6AXU6	Jpt1	Jpt1	Rattus norvegicus	149	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	24	Uni_Jpt1_Mus_P97825 at 93% identity	-68%
+joint_anonymised	JOINT	decoy	JPT1 (sister paralog)	I7KJP8	jpt1	jpt1	Xenopus tropicalis	143	True	0	39	False	size+15,outlier+20,cluster+10,breadth+15,SISTER→39	22	Uni_Jpt1_Mus_P97825 at 42% identity	-21%
+joint_anonymised	JOINT	decoy	JPT1 (sister paralog)	Q3T0T5	JPT1	JPT1	Bos taurus	154	True	0	39	False	size+15,outlier+20,cluster+10,breadth+15,SISTER→39	24	Uni_JPT1_Homo_Q9UK76 at 94% identity	-69%
+joint_anonymised	JOINT	decoy	symbol-collision trap	Q96RY5	CRAMP1	CRAMP1	Homo sapiens	1269	False	0	10	False	cluster+10	3	Uni_ATXN2L_Homo_Q8WWM7 at 10% identity	+0%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	O15116	LSM1	LSM1	Homo sapiens	133	True	0	25	False	size+15,cluster+10	4	Uni_SNRPG_Homo_P62308 at 21% identity	-1%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	Q9Y333	LSM2	LSM2	Homo sapiens	95	False	0	10	False	cluster+10	6	Uni_SNRPF_Homo_P62306 at 22% identity	+3%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	P62310	LSM3	LSM3	Homo sapiens	102	False	0	10	False	cluster+10	6	Uni_LSM5_Homo_Q9Y4Y9 at 23% identity	+3%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	Q9Y4Z0	LSM4	LSM4	Homo sapiens	139	True	0	25	False	size+15,cluster+10	4	Uni_SNRPD3_Homo_P62318 at 26% identity	-2%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	Q9Y4Y9	LSM5	LSM5	Homo sapiens	91	False	0	10	False	cluster+10	7	Uni_LSM3_Homo_P62310 at 23% identity	+4%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	P62312	LSM6	LSM6	Homo sapiens	80	False	0	10	False	cluster+10	4	Uni_SNRPF_Homo_P62306 at 39% identity	+1%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	Q9UK45	LSM7	LSM7	Homo sapiens	103	False	0	10	False	cluster+10	4	Uni_SNRPG_Homo_P62308 at 27% identity	+0%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	O95777	LSM8	LSM8	Homo sapiens	96	False	0	10	False	cluster+10	4	Uni_LSM7_Homo_Q9UK45 at 21% identity	+1%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	Q8ND56	LSM14A	LSM14A	Homo sapiens	463	False	0	10	False	cluster+10	5	Uni_ATXN2L_Homo_Q8WWM7 at 7% identity	+1%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	P62314	SNRPD1	SNRPD1	Homo sapiens	119	False	0	10	False	cluster+10	4	Uni_SNRPD3_Homo_P62318 at 25% identity	-1%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	P62316	SNRPD2	SNRPD2	Homo sapiens	118	False	0	10	False	cluster+10	7	Uni_LSM3_Homo_P62310 at 21% identity	+4%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	P62318	SNRPD3	SNRPD3	Homo sapiens	126	True	0	25	False	size+15,cluster+10	6	Uni_LSM4_Homo_Q9Y4Z0 at 26% identity	+1%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	P62304	SNRPE	SNRPE	Homo sapiens	92	False	0	10	False	cluster+10	4	Uni_LSM5_Homo_Q9Y4Y9 at 21% identity	+2%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	P62306	SNRPF	SNRPF	Homo sapiens	86	False	0	10	False	cluster+10	6	Uni_LSM6_Homo_P62312 at 39% identity	+4%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	P62308	SNRPG	SNRPG	Homo sapiens	76	False	0	10	False	cluster+10	5	Uni_LSM7_Homo_Q9UK45 at 27% identity	+3%
+joint_anonymised	JOINT	decoy	Lsm/Sm fold set	Q8WWM7	ATXN2L	ATXN2L	Homo sapiens	1075	False	0	10	False	cluster+10	4	Uni_CRAMP1_Homo_Q96RY5 at 10% identity	+1%
+joint_anonymised	JOINT	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	7	Uni_Calm1_Mus_P0DP26 at 100% identity	+5%
+joint_anonymised	JOINT	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	25	False	size+15,cluster+10	4	Uni_PPIA_Homo_P62937 at 8% identity	+2%
+joint_anonymised	JOINT	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	25	False	size+15,cluster+10	5	Uni_LSM1_Homo_O15116 at 11% identity	+1%
+joint_anonymised	JOINT	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	25	False	size+15,cluster+10	6	Uni_RAC1_Homo_P63000 at 58% identity	+1%
+joint_anonymised	JOINT	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	25	False	size+15,cluster+10	8	Uni_CDC42_Homo_P60953 at 70% identity	+1%
+joint_anonymised	JOINT	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	25	False	size+15,cluster+10	7	Uni_RAC1_Homo_P63000 at 70% identity	+1%
+joint_anonymised	JOINT	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	6	Uni_KRAS_Homo_P01116 at 86% identity	+1%
+joint_anonymised	JOINT	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	6	Uni_HRAS_Homo_P01112 at 86% identity	+1%
+joint_anonymised	JOINT	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	25	False	size+15,cluster+10	5	Uni_LSM1_Homo_O15116 at 8% identity	-2%
+joint_anonymised	JOINT	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	25	False	size+15,cluster+10	5	Uni_PPIA_Homo_P62937 at 11% identity	+2%
+joint_anonymised	JOINT	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	25	False	size+15,cluster+10	5	Uni_SOD1_Homo_P00441 at 11% identity	+0%
+joint_anonymised	JOINT	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	25	False	size+15,cluster+10	5	Uni_LOCA0A6I8PKV3_Xenopus_A0A6I8PKV3 at 7% identity	-2%
+joint_anonymised	JOINT	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	25	False	size+15,cluster+10	5	Uni_LSM7_Homo_Q9UK45 at 8% identity	+2%
+joint_anonymised	JOINT	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	4	Uni_CALM1_Homo_P0DP23 at 45% identity	+1%
+joint_anonymised	JOINT	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	25	False	size+15,cluster+10	4	Uni_LSM4_Homo_Q9Y4Z0 at 9% identity	+0%
+joint_anonymised	JOINT	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	7	Uni_CALM1_Homo_P0DP23 at 100% identity	+5%
+joint_anonymised	JOINT	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	10	False	cluster+10	5	Uni_HSPA5_Homo_P11021 at 7% identity	+2%
+joint_anonymised	JOINT	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	10	False	cluster+10	3	Uni_ALB_Homo_P02768 at 7% identity	+0%
+part_baseline	JPT	positive	JPT2	Q9H910	JPT2	JPT2	Homo sapiens	190	True	1	n/a	False				
+part_baseline	JPT	positive	JPT2	Q6PGH2	Jpt2	Jpt2	Mus musculus	190	True	0	n/a	False				
+part_baseline	JPT	positive	JPT2	Q5BK20	Jpt2	Jpt2	Rattus norvegicus	190	True	0	n/a	False				
+part_baseline	JPT	positive	JPT2	A0A6I8PKV3	jpt2	jpt2	Xenopus tropicalis	192	True	1	n/a	False				
+part_baseline	JPT	positive	JPT2	F1Q6E4	jpt2	jpt2	Danio rerio	218	True	1	n/a	False				
+part_baseline	JPT	positive	JPT2	A0AAA9SSJ4	JPT2	JPT2	Bos taurus	209	True	0	n/a	False				
+part_baseline	JPT	positive	JPT2	K7D4U4	HN1L	HN1L	Pan troglodytes	190	True	1	35	False	size+15,pfam+20	99	Uni_JPT2_Homo_Q9H910 at 99% identity	+75%
+part_baseline	JPT	positive	deep_grade	Q9I7K0	Jupiter	Jupiter	Drosophila melanogaster	208	True	1	65	True	size+15,pfam+20,outlier+20,cluster+10	21	Uni_JPT2_Homo_Q9H910 at 21% identity	+0%
+part_baseline	JPT	decoy	JPT1 (sister paralog)	Q9UK76	JPT1	JPT1	Homo sapiens	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	28	Uni_JPT1_Bos_Q3T0T5 at 94% identity	-66%
+part_baseline	JPT	decoy	JPT1 (sister paralog)	P97825	Jpt1	Jpt1	Mus musculus	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	27	Uni_Jpt1_Rattus_Q6AXU6 at 93% identity	-66%
+part_baseline	JPT	decoy	JPT1 (sister paralog)	Q6AXU6	Jpt1	Jpt1	Rattus norvegicus	149	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	26	Uni_Jpt1_Mus_P97825 at 93% identity	-67%
+part_baseline	JPT	decoy	JPT1 (sister paralog)	I7KJP8	jpt1	jpt1	Xenopus tropicalis	143	True	0	39	False	size+15,outlier+20,cluster+10,breadth+15,SISTER→39	23	Uni_Jpt1_Mus_P97825 at 45% identity	-22%
+part_baseline	JPT	decoy	JPT1 (sister paralog)	Q3T0T5	JPT1	JPT1	Bos taurus	154	True	0	39	False	size+15,outlier+20,cluster+10,breadth+15,SISTER→39	27	Uni_JPT1_Homo_Q9UK76 at 94% identity	-66%
+part_baseline	JPT	decoy	symbol-collision trap	Q96RY5	CRAMP1	CRAMP1	Homo sapiens	1269	False	0	10	False	cluster+10	4	Uni_ALB_Homo_P02768 at 8% identity	+1%
+part_baseline	JPT	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	4	Uni_Calm1_Mus_P0DP26 at 100% identity	-0%
+part_baseline	JPT	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	25	False	size+15,cluster+10	6	Uni_CFL1_Homo_P23528 at 9% identity	+2%
+part_baseline	JPT	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	25	False	size+15,cluster+10	7	Uni_PFN1_Homo_P07737 at 9% identity	+1%
+part_baseline	JPT	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	25	False	size+15,cluster+10	6	Uni_RAC1_Homo_P63000 at 57% identity	+1%
+part_baseline	JPT	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	25	False	size+15,cluster+10	4	Uni_CDC42_Homo_P60953 at 70% identity	-1%
+part_baseline	JPT	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	25	False	size+15,cluster+10	5	Uni_RAC1_Homo_P63000 at 70% identity	+0%
+part_baseline	JPT	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	4	Uni_KRAS_Homo_P01116 at 86% identity	-0%
+part_baseline	JPT	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	5	Uni_HRAS_Homo_P01112 at 86% identity	+1%
+part_baseline	JPT	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	25	False	size+15,cluster+10	8	Uni_jpt2_Xenopus_A0A6I8PKV3 at 8% identity	+1%
+part_baseline	JPT	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	25	False	size+15,cluster+10	6	Uni_PPIA_Homo_P62937 at 13% identity	+2%
+part_baseline	JPT	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	25	False	size+15,cluster+10	6	Uni_SOD1_Homo_P00441 at 13% identity	+0%
+part_baseline	JPT	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	25	False	size+15,cluster+10	7	Uni_CALM1_Homo_P0DP23 at 7% identity	+1%
+part_baseline	JPT	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	25	False	size+15,cluster+10	6	Uni_PFN1_Homo_P07737 at 7% identity	+0%
+part_baseline	JPT	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	5	Uni_CALM1_Homo_P0DP23 at 46% identity	+0%
+part_baseline	JPT	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	25	False	size+15,cluster+10	8	Uni_JPT2_Bos_A0AAA9SSJ4 at 8% identity	+2%
+part_baseline	JPT	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	4	Uni_CALM1_Homo_P0DP23 at 100% identity	-0%
+part_baseline	JPT	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	10	False	cluster+10	4	Uni_HSPA5_Homo_P11021 at 9% identity	+1%
+part_baseline	JPT	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	10	False	cluster+10	5	Uni_ALB_Homo_P02768 at 9% identity	+0%
+part_baseline	LSM12	positive	LSM12	Q3MHD2	LSM12	LSM12	Homo sapiens	195	True	2	n/a	False				
+part_baseline	LSM12	positive	LSM12	Q9D0R8	Lsm12	Lsm12	Mus musculus	195	True	2	n/a	False				
+part_baseline	LSM12	positive	LSM12	A0A8I6GM11	Lsm12	Lsm12	Rattus norvegicus	195	True	2	n/a	False				
+part_baseline	LSM12	positive	LSM12	Q5ZML5	LSM12	LSM12	Gallus gallus	194	True	2	n/a	False				
+part_baseline	LSM12	positive	LSM12	Q6P833	lsm12	lsm12	Xenopus tropicalis	194	True	2	n/a	False				
+part_baseline	LSM12	positive	LSM12	Q6PBA2	lsm12a	lsm12a	Danio rerio	196	True	2	n/a	False				
+part_baseline	LSM12	positive	LSM12	Q0VCF9	LSM12	LSM12	Bos taurus	195	True	2	n/a	False				
+part_baseline	LSM12	positive	deep_grade	Q9VYR0	Lsm12a	Lsm12a	Drosophila melanogaster	217	True	2	n/a	False				
+part_baseline	LSM12	positive	deep_grade	P38828	LSM12	LSM12	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	187	True	1	n/a	False				
+part_baseline	LSM12	decoy	Lsm/Sm fold set	O15116	LSM1	LSM1	Homo sapiens	133	True	0	25	False	size+15,cluster+10	8	Uni_LSM8_Homo_O95777 at 21% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	Q9Y333	LSM2	LSM2	Homo sapiens	95	False	0	10	False	cluster+10	8	Uni_LSM6_Homo_P62312 at 22% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62310	LSM3	LSM3	Homo sapiens	102	False	0	10	False	cluster+10	8	Uni_SNRPD2_Homo_P62316 at 21% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	Q9Y4Z0	LSM4	LSM4	Homo sapiens	139	True	0	25	False	size+15,cluster+10	9	Uni_SNRPD3_Homo_P62318 at 28% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	Q9Y4Y9	LSM5	LSM5	Homo sapiens	91	False	0	10	False	cluster+10	9	Uni_SNRPE_Homo_P62304 at 21% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62312	LSM6	LSM6	Homo sapiens	80	False	0	10	False	cluster+10	8	Uni_SNRPF_Homo_P62306 at 42% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	Q9UK45	LSM7	LSM7	Homo sapiens	103	False	0	10	False	cluster+10	6	Uni_SNRPG_Homo_P62308 at 27% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	O95777	LSM8	LSM8	Homo sapiens	96	False	0	10	False	cluster+10	6	Uni_LSM7_Homo_Q9UK45 at 24% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	Q8ND56	LSM14A	LSM14A	Homo sapiens	463	False	0	10	False	cluster+10	4	Uni_LSM4_Homo_Q9Y4Z0 at 8% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62314	SNRPD1	SNRPD1	Homo sapiens	119	False	0	10	False	cluster+10	8	Uni_SNRPD3_Homo_P62318 at 28% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62316	SNRPD2	SNRPD2	Homo sapiens	118	False	0	10	False	cluster+10	7	Uni_LSM3_Homo_P62310 at 21% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62318	SNRPD3	SNRPD3	Homo sapiens	126	True	0	25	False	size+15,cluster+10	9	Uni_SNRPD1_Homo_P62314 at 28% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62304	SNRPE	SNRPE	Homo sapiens	92	False	0	10	False	cluster+10	7	Uni_LSM5_Homo_Q9Y4Y9 at 21% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62306	SNRPF	SNRPF	Homo sapiens	86	False	0	10	False	cluster+10	6	Uni_LSM6_Homo_P62312 at 42% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	P62308	SNRPG	SNRPG	Homo sapiens	76	False	0	10	False	cluster+10	6	Uni_LSM7_Homo_Q9UK45 at 27% identity	
+part_baseline	LSM12	decoy	Lsm/Sm fold set	Q8WWM7	ATXN2L	ATXN2L	Homo sapiens	1075	False	0	10	False	cluster+10	2	Uni_LSM14A_Homo_Q8ND56 at 7% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	7	Uni_Calm1_Mus_P0DP26 at 100% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	25	False	size+15,cluster+10	6	Uni_SNRPD3_Homo_P62318 at 7% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	25	False	size+15,cluster+10	5	Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	25	False	size+15,cluster+10	8	Uni_RAC1_Homo_P63000 at 58% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	25	False	size+15,cluster+10	5	Uni_CDC42_Homo_P60953 at 70% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	25	False	size+15,cluster+10	6	Uni_RAC1_Homo_P63000 at 70% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	6	Uni_KRAS_Homo_P01116 at 86% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	6	Uni_HRAS_Homo_P01112 at 86% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	25	False	size+15,cluster+10	5	Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	25	False	size+15,cluster+10	7	Uni_CFL1_Homo_P23528 at 9% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	25	False	size+15,cluster+10	7	Uni_CDC42_Homo_P60953 at 7% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	25	False	size+15,cluster+10	8	Uni_lsm12_Xenopus_Q6P833 at 8% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	25	False	size+15,cluster+10	6	Uni_LSM4_Homo_Q9Y4Z0 at 7% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	8	Uni_CALM1_Homo_P0DP23 at 46% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	25	False	size+15,cluster+10	7	Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_baseline	LSM12	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	7	Uni_CALM1_Homo_P0DP23 at 100% identity	
+part_baseline	LSM12	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	10	False	cluster+10	4	Uni_HSPA5_Homo_P11021 at 7% identity	
+part_baseline	LSM12	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	10	False	cluster+10	4	Uni_ALB_Homo_P02768 at 7% identity	
+part_anonymised	JPT	positive	JPT2	Q9H910	JPT2	JPT2	Homo sapiens	190	True	1	n/a	False				
+part_anonymised	JPT	positive	JPT2	Q6PGH2	Jpt2	LOCQ6PGH2	Mus musculus	190	True	0	30	False	size+15,breadth+15	79	Uni_LOCQ5BK20_Rattus_Q5BK20 at 91% identity	+56%
+part_anonymised	JPT	positive	JPT2	Q5BK20	Jpt2	LOCQ5BK20	Rattus norvegicus	190	True	0	30	False	size+15,breadth+15	79	Uni_LOCQ6PGH2_Mus_Q6PGH2 at 91% identity	+55%
+part_anonymised	JPT	positive	JPT2	A0A6I8PKV3	jpt2	LOCA0A6I8PKV3	Xenopus tropicalis	192	True	1	60	True	size+15,pfam+20,cluster+10,breadth+15	48	Uni_LOCQ6PGH2_Mus_Q6PGH2 at 51% identity	+21%
+part_anonymised	JPT	positive	JPT2	F1Q6E4	jpt2	LOCF1Q6E4	Danio rerio	218	True	1	80	True	size+15,pfam+20,outlier+20,cluster+10,breadth+15	39	Uni_LOCA0A6I8PKV3_Xenopus_A0A6I8PKV3 at 44% identity	+13%
+part_anonymised	JPT	positive	JPT2	A0AAA9SSJ4	JPT2	LOCA0AAA9SSJ4	Bos taurus	209	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	47	Uni_LOCK7D4U4_Pan_K7D4U4 at 47% identity	+32%
+part_anonymised	JPT	positive	JPT2	K7D4U4	HN1L	LOCK7D4U4	Pan troglodytes	190	True	1	50	True	size+15,pfam+20,breadth+15	99	Uni_JPT2_Homo_Q9H910 at 99% identity	+75%
+part_anonymised	JPT	positive	deep_grade	Q9I7K0	Jupiter	LOCQ9I7K0	Drosophila melanogaster	208	True	1	65	True	size+15,pfam+20,outlier+20,cluster+10	21	Uni_JPT2_Homo_Q9H910 at 21% identity	+4%
+part_anonymised	JPT	decoy	JPT1 (sister paralog)	Q9UK76	JPT1	JPT1	Homo sapiens	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	23	Uni_JPT1_Bos_Q3T0T5 at 94% identity	-70%
+part_anonymised	JPT	decoy	JPT1 (sister paralog)	P97825	Jpt1	Jpt1	Mus musculus	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	24	Uni_Jpt1_Rattus_Q6AXU6 at 93% identity	-69%
+part_anonymised	JPT	decoy	JPT1 (sister paralog)	Q6AXU6	Jpt1	Jpt1	Rattus norvegicus	149	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	22	Uni_Jpt1_Mus_P97825 at 93% identity	-71%
+part_anonymised	JPT	decoy	JPT1 (sister paralog)	I7KJP8	jpt1	jpt1	Xenopus tropicalis	143	True	0	39	False	size+15,cluster+10,breadth+15,SISTER→39	19	Uni_Jpt1_Mus_P97825 at 45% identity	-26%
+part_anonymised	JPT	decoy	JPT1 (sister paralog)	Q3T0T5	JPT1	JPT1	Bos taurus	154	True	0	39	False	size+15,outlier+20,cluster+10,breadth+15,SISTER→39	23	Uni_JPT1_Homo_Q9UK76 at 94% identity	-70%
+part_anonymised	JPT	decoy	symbol-collision trap	Q96RY5	CRAMP1	CRAMP1	Homo sapiens	1269	False	0	10	False	cluster+10	3	Uni_ALB_Homo_P02768 at 8% identity	+0%
+part_anonymised	JPT	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	4	Uni_Calm1_Mus_P0DP26 at 100% identity	-0%
+part_anonymised	JPT	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	25	False	size+15,cluster+10	4	Uni_CFL1_Homo_P23528 at 9% identity	+0%
+part_anonymised	JPT	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	25	False	size+15,cluster+10	6	Uni_PFN1_Homo_P07737 at 9% identity	+1%
+part_anonymised	JPT	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	25	False	size+15,cluster+10	5	Uni_RAC1_Homo_P63000 at 57% identity	-0%
+part_anonymised	JPT	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	25	False	size+15,cluster+10	3	Uni_CDC42_Homo_P60953 at 70% identity	-2%
+part_anonymised	JPT	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	25	False	size+15,cluster+10	4	Uni_RAC1_Homo_P63000 at 70% identity	-0%
+part_anonymised	JPT	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	3	Uni_KRAS_Homo_P01116 at 86% identity	-1%
+part_anonymised	JPT	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	5	Uni_HRAS_Homo_P01112 at 86% identity	-0%
+part_anonymised	JPT	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	25	False	size+15,cluster+10	7	Uni_LOCA0A6I8PKV3_Xenopus_A0A6I8PKV3 at 8% identity	+0%
+part_anonymised	JPT	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	25	False	size+15,cluster+10	3	Uni_PPIA_Homo_P62937 at 13% identity	-1%
+part_anonymised	JPT	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	25	False	size+15,cluster+10	5	Uni_SOD1_Homo_P00441 at 13% identity	-1%
+part_anonymised	JPT	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	25	False	size+15,cluster+10	5	Uni_CALM1_Homo_P0DP23 at 7% identity	+0%
+part_anonymised	JPT	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	25	False	size+15,cluster+10	6	Uni_PFN1_Homo_P07737 at 7% identity	+1%
+part_anonymised	JPT	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	5	Uni_CALM1_Homo_P0DP23 at 46% identity	+1%
+part_anonymised	JPT	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	25	False	size+15,cluster+10	6	Uni_LOCA0AAA9SSJ4_Bos_A0AAA9SSJ4 at 8% identity	+0%
+part_anonymised	JPT	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	4	Uni_CALM1_Homo_P0DP23 at 100% identity	-0%
+part_anonymised	JPT	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	10	False	cluster+10	3	Uni_HSPA5_Homo_P11021 at 9% identity	+1%
+part_anonymised	JPT	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	10	False	cluster+10	4	Uni_ALB_Homo_P02768 at 9% identity	-0%
+part_anonymised	LSM12	positive	LSM12	Q3MHD2	LSM12	LSM12	Homo sapiens	195	True	2	n/a	False				
+part_anonymised	LSM12	positive	LSM12	Q9D0R8	Lsm12	LOCQ9D0R8	Mus musculus	195	True	2	50	True	size+15,pfam+20,breadth+15	100	Uni_LSM12_Homo_Q3MHD2 at 100% identity	
+part_anonymised	LSM12	positive	LSM12	A0A8I6GM11	Lsm12	LOCA0A8I6GM11	Rattus norvegicus	195	True	2	50	True	size+15,pfam+20,breadth+15	100	Uni_LSM12_Homo_Q3MHD2 at 100% identity	
+part_anonymised	LSM12	positive	LSM12	Q5ZML5	LSM12	LOCQ5ZML5	Gallus gallus	194	True	2	50	True	size+15,pfam+20,breadth+15	94	Uni_LSM12_Homo_Q3MHD2 at 94% identity	
+part_anonymised	LSM12	positive	LSM12	Q6P833	lsm12	LOCQ6P833	Xenopus tropicalis	194	True	2	50	True	size+15,pfam+20,breadth+15	82	Uni_LSM12_Homo_Q3MHD2 at 82% identity	
+part_anonymised	LSM12	positive	LSM12	Q6PBA2	lsm12a	LOCQ6PBA2	Danio rerio	196	True	2	50	True	size+15,pfam+20,breadth+15	85	Uni_LSM12_Homo_Q3MHD2 at 85% identity	
+part_anonymised	LSM12	positive	LSM12	Q0VCF9	LSM12	LOCQ0VCF9	Bos taurus	195	True	2	50	True	size+15,pfam+20,breadth+15	100	Uni_LSM12_Homo_Q3MHD2 at 100% identity	
+part_anonymised	LSM12	positive	deep_grade	Q9VYR0	Lsm12a	LOCQ9VYR0	Drosophila melanogaster	217	True	2	65	True	size+15,pfam+20,outlier+20,cluster+10	29	Uni_LOCQ6PBA2_Danio_Q6PBA2 at 32% identity	
+part_anonymised	LSM12	positive	deep_grade	P38828	LSM12	LOCP38828	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	187	True	1	65	True	size+15,pfam+20,outlier+20,cluster+10	23	Uni_LOCQ6PBA2_Danio_Q6PBA2 at 24% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	O15116	LSM1	LSM1	Homo sapiens	133	True	0	25	False	size+15,cluster+10	7	Uni_LSM8_Homo_O95777 at 21% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	Q9Y333	LSM2	LSM2	Homo sapiens	95	False	0	10	False	cluster+10	6	Uni_LSM6_Homo_P62312 at 22% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62310	LSM3	LSM3	Homo sapiens	102	False	0	10	False	cluster+10	5	Uni_SNRPD2_Homo_P62316 at 21% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	Q9Y4Z0	LSM4	LSM4	Homo sapiens	139	True	0	25	False	size+15,cluster+10	4	Uni_SNRPD3_Homo_P62318 at 28% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	Q9Y4Y9	LSM5	LSM5	Homo sapiens	91	False	0	10	False	cluster+10	7	Uni_SNRPE_Homo_P62304 at 21% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62312	LSM6	LSM6	Homo sapiens	80	False	0	10	False	cluster+10	4	Uni_SNRPF_Homo_P62306 at 42% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	Q9UK45	LSM7	LSM7	Homo sapiens	103	False	0	10	False	cluster+10	5	Uni_SNRPG_Homo_P62308 at 27% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	O95777	LSM8	LSM8	Homo sapiens	96	False	0	10	False	cluster+10	6	Uni_LSM7_Homo_Q9UK45 at 24% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	Q8ND56	LSM14A	LSM14A	Homo sapiens	463	False	0	10	False	cluster+10	2	Uni_LSM4_Homo_Q9Y4Z0 at 8% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62314	SNRPD1	SNRPD1	Homo sapiens	119	False	0	10	False	cluster+10	7	Uni_SNRPD3_Homo_P62318 at 28% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62316	SNRPD2	SNRPD2	Homo sapiens	118	False	0	10	False	cluster+10	7	Uni_LSM3_Homo_P62310 at 21% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62318	SNRPD3	SNRPD3	Homo sapiens	126	True	0	25	False	size+15,cluster+10	7	Uni_SNRPD1_Homo_P62314 at 28% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62304	SNRPE	SNRPE	Homo sapiens	92	False	0	10	False	cluster+10	6	Uni_LSM5_Homo_Q9Y4Y9 at 21% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62306	SNRPF	SNRPF	Homo sapiens	86	False	0	10	False	cluster+10	5	Uni_LSM6_Homo_P62312 at 42% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	P62308	SNRPG	SNRPG	Homo sapiens	76	False	0	10	False	cluster+10	4	Uni_LSM7_Homo_Q9UK45 at 27% identity	
+part_anonymised	LSM12	decoy	Lsm/Sm fold set	Q8WWM7	ATXN2L	ATXN2L	Homo sapiens	1075	False	0	10	False	cluster+10	1	Uni_LSM14A_Homo_Q8ND56 at 7% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	6	Uni_Calm1_Mus_P0DP26 at 100% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	25	False	size+15,cluster+10	5	Uni_SNRPD3_Homo_P62318 at 7% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	25	False	size+15,cluster+10	4	Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	25	False	size+15,cluster+10	6	Uni_RAC1_Homo_P63000 at 58% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	25	False	size+15,cluster+10	4	Uni_CDC42_Homo_P60953 at 70% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	25	False	size+15,cluster+10	5	Uni_RAC1_Homo_P63000 at 70% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	5	Uni_KRAS_Homo_P01116 at 86% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	5	Uni_HRAS_Homo_P01112 at 86% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	25	False	size+15,cluster+10	4	Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	25	False	size+15,cluster+10	6	Uni_CFL1_Homo_P23528 at 9% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	25	False	size+15,cluster+10	7	Uni_CDC42_Homo_P60953 at 7% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	25	False	size+15,cluster+10	7	Uni_LOCQ6P833_Xenopus_Q6P833 at 8% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	25	False	size+15,cluster+10	5	Uni_LSM4_Homo_Q9Y4Z0 at 7% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	7	Uni_CALM1_Homo_P0DP23 at 46% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	25	False	size+15,cluster+10	7	Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_anonymised	LSM12	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	6	Uni_CALM1_Homo_P0DP23 at 100% identity	
+part_anonymised	LSM12	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	10	False	cluster+10	3	Uni_HSPA5_Homo_P11021 at 7% identity	
+part_anonymised	LSM12	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	10	False	cluster+10	3	Uni_ALB_Homo_P02768 at 7% identity	
+joint_crossfam	JOINT	positive	JPT2	Q9H910	JPT2	JPT2	Homo sapiens	190	True	1	n/a	False				
+joint_crossfam	JOINT	positive	JPT2	Q6PGH2	Jpt2	LOCQ6PGH2	Mus musculus	190	True	0	30	False	size+15,breadth+15	79	Uni_LOCQ5BK20_Rattus_Q5BK20 at 91% identity	+54%
+joint_crossfam	JOINT	positive	JPT2	Q5BK20	Jpt2	LOCQ5BK20	Rattus norvegicus	190	True	0	30	False	size+15,breadth+15	79	Uni_LOCQ6PGH2_Mus_Q6PGH2 at 91% identity	+53%
+joint_crossfam	JOINT	positive	JPT2	A0A6I8PKV3	jpt2	LOCA0A6I8PKV3	Xenopus tropicalis	192	True	1	60	True	size+15,pfam+20,cluster+10,breadth+15	47	Uni_LOCQ6PGH2_Mus_Q6PGH2 at 50% identity	+17%
+joint_crossfam	JOINT	positive	JPT2	F1Q6E4	jpt2	LOCF1Q6E4	Danio rerio	218	True	1	80	True	size+15,pfam+20,outlier+20,cluster+10,breadth+15	39	Uni_LOCA0A6I8PKV3_Xenopus_A0A6I8PKV3 at 44% identity	+11%
+joint_crossfam	JOINT	positive	JPT2	A0AAA9SSJ4	JPT2	LOCA0AAA9SSJ4	Bos taurus	209	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	45	Uni_LOCK7D4U4_Pan_K7D4U4 at 46% identity	+30%
+joint_crossfam	JOINT	positive	JPT2	K7D4U4	HN1L	LOCK7D4U4	Pan troglodytes	190	True	1	50	True	size+15,pfam+20,breadth+15	99	Uni_JPT2_Homo_Q9H910 at 99% identity	+73%
+joint_crossfam	JOINT	positive	LSM12	Q3MHD2	LSM12	LSM12	Homo sapiens	195	True	2	60	True	size+15,pfam+20,cluster+10,breadth+15	5	Uni_LOCQ9D0R8_Mus_Q9D0R8 at 100% identity	+1%
+joint_crossfam	JOINT	positive	LSM12	Q9D0R8	Lsm12	LOCQ9D0R8	Mus musculus	195	True	2	60	True	size+15,pfam+20,cluster+10,breadth+15	5	Uni_LSM12_Homo_Q3MHD2 at 100% identity	+1%
+joint_crossfam	JOINT	positive	LSM12	A0A8I6GM11	Lsm12	LOCA0A8I6GM11	Rattus norvegicus	195	True	2	60	True	size+15,pfam+20,cluster+10,breadth+15	5	Uni_LSM12_Homo_Q3MHD2 at 100% identity	+1%
+joint_crossfam	JOINT	positive	LSM12	Q5ZML5	LSM12	LOCQ5ZML5	Gallus gallus	194	True	2	60	True	size+15,pfam+20,cluster+10,breadth+15	5	Uni_LSM12_Homo_Q3MHD2 at 94% identity	+0%
+joint_crossfam	JOINT	positive	LSM12	Q6P833	lsm12	LOCQ6P833	Xenopus tropicalis	194	True	2	60	True	size+15,pfam+20,cluster+10,breadth+15	5	Uni_LSM12_Homo_Q3MHD2 at 82% identity	-1%
+joint_crossfam	JOINT	positive	LSM12	Q6PBA2	lsm12a	LOCQ6PBA2	Danio rerio	196	True	2	60	True	size+15,pfam+20,cluster+10,breadth+15	5	Uni_LSM12_Homo_Q3MHD2 at 85% identity	-0%
+joint_crossfam	JOINT	positive	LSM12	Q0VCF9	LSM12	LOCQ0VCF9	Bos taurus	195	True	2	60	True	size+15,pfam+20,cluster+10,breadth+15	5	Uni_LSM12_Homo_Q3MHD2 at 100% identity	+1%
+joint_crossfam	JOINT	positive	deep_grade	Q9I7K0	Jupiter	LOCQ9I7K0	Drosophila melanogaster	208	True	1	45	True	size+15,pfam+20,cluster+10	17	Uni_JPT2_Homo_Q9H910 at 17% identity	+1%
+joint_crossfam	JOINT	positive	deep_grade	Q9VYR0	Lsm12a	LOCQ9VYR0	Drosophila melanogaster	217	True	2	45	True	size+15,pfam+20,cluster+10	6	Uni_LOCQ6P833_Xenopus_Q6P833 at 27% identity	+0%
+joint_crossfam	JOINT	positive	deep_grade	P38828	LSM12	LOCP38828	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	187	True	1	45	True	size+15,pfam+20,cluster+10	4	Uni_LOCQ6PBA2_Danio_Q6PBA2 at 21% identity	-1%
+joint_crossfam	JOINT	decoy	JPT1 (sister paralog)	Q9UK76	JPT1	JPT1	Homo sapiens	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	24	Uni_JPT1_Bos_Q3T0T5 at 94% identity	-69%
+joint_crossfam	JOINT	decoy	JPT1 (sister paralog)	P97825	Jpt1	Jpt1	Mus musculus	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	26	Uni_Jpt1_Rattus_Q6AXU6 at 93% identity	-66%
+joint_crossfam	JOINT	decoy	JPT1 (sister paralog)	Q6AXU6	Jpt1	Jpt1	Rattus norvegicus	149	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	24	Uni_Jpt1_Mus_P97825 at 93% identity	-68%
+joint_crossfam	JOINT	decoy	JPT1 (sister paralog)	I7KJP8	jpt1	jpt1	Xenopus tropicalis	143	True	0	39	False	size+15,outlier+20,cluster+10,breadth+15,SISTER→39	22	Uni_Jpt1_Mus_P97825 at 42% identity	-21%
+joint_crossfam	JOINT	decoy	JPT1 (sister paralog)	Q3T0T5	JPT1	JPT1	Bos taurus	154	True	0	39	False	size+15,outlier+20,cluster+10,breadth+15,SISTER→39	24	Uni_JPT1_Homo_Q9UK76 at 94% identity	-69%
+joint_crossfam	JOINT	decoy	symbol-collision trap	Q96RY5	CRAMP1	CRAMP1	Homo sapiens	1269	False	0	10	False	cluster+10	3	Uni_ATXN2L_Homo_Q8WWM7 at 10% identity	+0%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	O15116	LSM1	LSM1	Homo sapiens	133	True	0	25	False	size+15,cluster+10	3	Uni_SNRPG_Homo_P62308 at 21% identity	-3%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	Q9Y333	LSM2	LSM2	Homo sapiens	95	False	0	10	False	cluster+10	1	Uni_SNRPF_Homo_P62306 at 22% identity	-2%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	P62310	LSM3	LSM3	Homo sapiens	102	False	0	10	False	cluster+10	1	Uni_LSM5_Homo_Q9Y4Y9 at 23% identity	-1%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	Q9Y4Z0	LSM4	LSM4	Homo sapiens	139	True	0	25	False	size+15,cluster+10	3	Uni_SNRPD3_Homo_P62318 at 26% identity	-2%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	Q9Y4Y9	LSM5	LSM5	Homo sapiens	91	False	0	10	False	cluster+10	2	Uni_LSM3_Homo_P62310 at 23% identity	-1%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	P62312	LSM6	LSM6	Homo sapiens	80	False	0	10	False	cluster+10	1	Uni_SNRPF_Homo_P62306 at 39% identity	-1%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	Q9UK45	LSM7	LSM7	Homo sapiens	103	False	0	10	False	cluster+10	2	Uni_SNRPG_Homo_P62308 at 27% identity	-2%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	O95777	LSM8	LSM8	Homo sapiens	96	False	0	10	False	cluster+10	2	Uni_LSM7_Homo_Q9UK45 at 21% identity	-1%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	Q8ND56	LSM14A	LSM14A	Homo sapiens	463	False	0	10	False	cluster+10	4	Uni_ATXN2L_Homo_Q8WWM7 at 7% identity	+0%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	P62314	SNRPD1	SNRPD1	Homo sapiens	119	False	0	10	False	cluster+10	3	Uni_SNRPD3_Homo_P62318 at 25% identity	-2%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	P62316	SNRPD2	SNRPD2	Homo sapiens	118	False	0	10	False	cluster+10	1	Uni_LSM3_Homo_P62310 at 21% identity	-2%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	P62318	SNRPD3	SNRPD3	Homo sapiens	126	True	0	25	False	size+15,cluster+10	3	Uni_LSM4_Homo_Q9Y4Z0 at 26% identity	-2%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	P62304	SNRPE	SNRPE	Homo sapiens	92	False	0	10	False	cluster+10	1	Uni_LSM5_Homo_Q9Y4Y9 at 21% identity	-1%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	P62306	SNRPF	SNRPF	Homo sapiens	86	False	0	10	False	cluster+10	1	Uni_LSM6_Homo_P62312 at 39% identity	-1%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	P62308	SNRPG	SNRPG	Homo sapiens	76	False	0	10	False	cluster+10	2	Uni_LSM7_Homo_Q9UK45 at 27% identity	-0%
+joint_crossfam	JOINT	decoy	Lsm/Sm fold set	Q8WWM7	ATXN2L	ATXN2L	Homo sapiens	1075	False	0	10	False	cluster+10	4	Uni_CRAMP1_Homo_Q96RY5 at 10% identity	+1%
+joint_crossfam	JOINT	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	1	Uni_Calm1_Mus_P0DP26 at 100% identity	-1%
+joint_crossfam	JOINT	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	25	False	size+15,cluster+10	1	Uni_PPIA_Homo_P62937 at 8% identity	-1%
+joint_crossfam	JOINT	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	25	False	size+15,cluster+10	3	Uni_LSM1_Homo_O15116 at 11% identity	-1%
+joint_crossfam	JOINT	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	25	False	size+15,cluster+10	6	Uni_RAC1_Homo_P63000 at 58% identity	+1%
+joint_crossfam	JOINT	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	25	False	size+15,cluster+10	6	Uni_CDC42_Homo_P60953 at 70% identity	-1%
+joint_crossfam	JOINT	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	25	False	size+15,cluster+10	6	Uni_RAC1_Homo_P63000 at 70% identity	-0%
+joint_crossfam	JOINT	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	4	Uni_KRAS_Homo_P01116 at 86% identity	-1%
+joint_crossfam	JOINT	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	5	Uni_HRAS_Homo_P01112 at 86% identity	-0%
+joint_crossfam	JOINT	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	25	False	size+15,cluster+10	5	Uni_LSM1_Homo_O15116 at 8% identity	-2%
+joint_crossfam	JOINT	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	25	False	size+15,cluster+10	3	Uni_PPIA_Homo_P62937 at 11% identity	-0%
+joint_crossfam	JOINT	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	25	False	size+15,cluster+10	4	Uni_SOD1_Homo_P00441 at 11% identity	-1%
+joint_crossfam	JOINT	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	25	False	size+15,cluster+10	5	Uni_LOCA0A6I8PKV3_Xenopus_A0A6I8PKV3 at 7% identity	-2%
+joint_crossfam	JOINT	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	25	False	size+15,cluster+10	3	Uni_LSM7_Homo_Q9UK45 at 8% identity	-1%
+joint_crossfam	JOINT	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	2	Uni_CALM1_Homo_P0DP23 at 45% identity	-1%
+joint_crossfam	JOINT	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	25	False	size+15,cluster+10	3	Uni_LSM4_Homo_Q9Y4Z0 at 9% identity	-0%
+joint_crossfam	JOINT	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	1	Uni_CALM1_Homo_P0DP23 at 100% identity	-1%
+joint_crossfam	JOINT	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	10	False	cluster+10	5	Uni_HSPA5_Homo_P11021 at 7% identity	+2%
+joint_crossfam	JOINT	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	10	False	cluster+10	3	Uni_ALB_Homo_P02768 at 7% identity	+0%
+part_crossfam	JPT	positive	JPT2	Q9H910	JPT2	JPT2	Homo sapiens	190	True	1	n/a	False				
+part_crossfam	JPT	positive	JPT2	Q6PGH2	Jpt2	LOCQ6PGH2	Mus musculus	190	True	0	30	False	size+15,breadth+15	79	Uni_LOCQ5BK20_Rattus_Q5BK20 at 91% identity	+56%
+part_crossfam	JPT	positive	JPT2	Q5BK20	Jpt2	LOCQ5BK20	Rattus norvegicus	190	True	0	30	False	size+15,breadth+15	79	Uni_LOCQ6PGH2_Mus_Q6PGH2 at 91% identity	+55%
+part_crossfam	JPT	positive	JPT2	A0A6I8PKV3	jpt2	LOCA0A6I8PKV3	Xenopus tropicalis	192	True	1	60	True	size+15,pfam+20,cluster+10,breadth+15	48	Uni_LOCQ6PGH2_Mus_Q6PGH2 at 51% identity	+21%
+part_crossfam	JPT	positive	JPT2	F1Q6E4	jpt2	LOCF1Q6E4	Danio rerio	218	True	1	80	True	size+15,pfam+20,outlier+20,cluster+10,breadth+15	39	Uni_LOCA0A6I8PKV3_Xenopus_A0A6I8PKV3 at 44% identity	+13%
+part_crossfam	JPT	positive	JPT2	A0AAA9SSJ4	JPT2	LOCA0AAA9SSJ4	Bos taurus	209	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	47	Uni_LOCK7D4U4_Pan_K7D4U4 at 47% identity	+32%
+part_crossfam	JPT	positive	JPT2	K7D4U4	HN1L	LOCK7D4U4	Pan troglodytes	190	True	1	50	True	size+15,pfam+20,breadth+15	99	Uni_JPT2_Homo_Q9H910 at 99% identity	+75%
+part_crossfam	JPT	positive	deep_grade	Q9I7K0	Jupiter	LOCQ9I7K0	Drosophila melanogaster	208	True	1	65	True	size+15,pfam+20,outlier+20,cluster+10	21	Uni_JPT2_Homo_Q9H910 at 21% identity	+4%
+part_crossfam	JPT	decoy	JPT1 (sister paralog)	Q9UK76	JPT1	JPT1	Homo sapiens	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	23	Uni_JPT1_Bos_Q3T0T5 at 94% identity	-70%
+part_crossfam	JPT	decoy	JPT1 (sister paralog)	P97825	Jpt1	Jpt1	Mus musculus	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	24	Uni_Jpt1_Rattus_Q6AXU6 at 93% identity	-69%
+part_crossfam	JPT	decoy	JPT1 (sister paralog)	Q6AXU6	Jpt1	Jpt1	Rattus norvegicus	149	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	22	Uni_Jpt1_Mus_P97825 at 93% identity	-71%
+part_crossfam	JPT	decoy	JPT1 (sister paralog)	I7KJP8	jpt1	jpt1	Xenopus tropicalis	143	True	0	39	False	size+15,cluster+10,breadth+15,SISTER→39	19	Uni_Jpt1_Mus_P97825 at 45% identity	-26%
+part_crossfam	JPT	decoy	JPT1 (sister paralog)	Q3T0T5	JPT1	JPT1	Bos taurus	154	True	0	39	False	size+15,outlier+20,cluster+10,breadth+15,SISTER→39	23	Uni_JPT1_Homo_Q9UK76 at 94% identity	-70%
+part_crossfam	JPT	decoy	symbol-collision trap	Q96RY5	CRAMP1	CRAMP1	Homo sapiens	1269	False	0	10	False	cluster+10	3	Uni_ALB_Homo_P02768 at 8% identity	+0%
+part_crossfam	JPT	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	4	Uni_Calm1_Mus_P0DP26 at 100% identity	-0%
+part_crossfam	JPT	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	25	False	size+15,cluster+10	4	Uni_CFL1_Homo_P23528 at 9% identity	+0%
+part_crossfam	JPT	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	25	False	size+15,cluster+10	6	Uni_PFN1_Homo_P07737 at 9% identity	+1%
+part_crossfam	JPT	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	25	False	size+15,cluster+10	5	Uni_RAC1_Homo_P63000 at 57% identity	-0%
+part_crossfam	JPT	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	25	False	size+15,cluster+10	3	Uni_CDC42_Homo_P60953 at 70% identity	-2%
+part_crossfam	JPT	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	25	False	size+15,cluster+10	4	Uni_RAC1_Homo_P63000 at 70% identity	-0%
+part_crossfam	JPT	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	3	Uni_KRAS_Homo_P01116 at 86% identity	-1%
+part_crossfam	JPT	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	5	Uni_HRAS_Homo_P01112 at 86% identity	-0%
+part_crossfam	JPT	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	25	False	size+15,cluster+10	7	Uni_LOCA0A6I8PKV3_Xenopus_A0A6I8PKV3 at 8% identity	+0%
+part_crossfam	JPT	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	25	False	size+15,cluster+10	3	Uni_PPIA_Homo_P62937 at 13% identity	-1%
+part_crossfam	JPT	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	25	False	size+15,cluster+10	5	Uni_SOD1_Homo_P00441 at 13% identity	-1%
+part_crossfam	JPT	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	25	False	size+15,cluster+10	5	Uni_CALM1_Homo_P0DP23 at 7% identity	+0%
+part_crossfam	JPT	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	25	False	size+15,cluster+10	6	Uni_PFN1_Homo_P07737 at 7% identity	+1%
+part_crossfam	JPT	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	5	Uni_CALM1_Homo_P0DP23 at 46% identity	+1%
+part_crossfam	JPT	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	25	False	size+15,cluster+10	6	Uni_LOCA0AAA9SSJ4_Bos_A0AAA9SSJ4 at 8% identity	+0%
+part_crossfam	JPT	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	4	Uni_CALM1_Homo_P0DP23 at 100% identity	-0%
+part_crossfam	JPT	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	10	False	cluster+10	3	Uni_HSPA5_Homo_P11021 at 9% identity	+1%
+part_crossfam	JPT	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	10	False	cluster+10	4	Uni_ALB_Homo_P02768 at 9% identity	-0%
+part_crossfam	LSM12	positive	LSM12	Q3MHD2	LSM12	LSM12	Homo sapiens	195	True	2	50	True	size+15,pfam+20,breadth+15		Uni_LOCQ9D0R8_Mus_Q9D0R8 at 100% identity	
+part_crossfam	LSM12	positive	LSM12	Q9D0R8	Lsm12	LOCQ9D0R8	Mus musculus	195	True	2	50	True	size+15,pfam+20,breadth+15		Uni_LSM12_Homo_Q3MHD2 at 100% identity	
+part_crossfam	LSM12	positive	LSM12	A0A8I6GM11	Lsm12	LOCA0A8I6GM11	Rattus norvegicus	195	True	2	50	True	size+15,pfam+20,breadth+15		Uni_LSM12_Homo_Q3MHD2 at 100% identity	
+part_crossfam	LSM12	positive	LSM12	Q5ZML5	LSM12	LOCQ5ZML5	Gallus gallus	194	True	2	50	True	size+15,pfam+20,breadth+15		Uni_LSM12_Homo_Q3MHD2 at 94% identity	
+part_crossfam	LSM12	positive	LSM12	Q6P833	lsm12	LOCQ6P833	Xenopus tropicalis	194	True	2	50	True	size+15,pfam+20,breadth+15		Uni_LSM12_Homo_Q3MHD2 at 82% identity	
+part_crossfam	LSM12	positive	LSM12	Q6PBA2	lsm12a	LOCQ6PBA2	Danio rerio	196	True	2	50	True	size+15,pfam+20,breadth+15		Uni_LSM12_Homo_Q3MHD2 at 85% identity	
+part_crossfam	LSM12	positive	LSM12	Q0VCF9	LSM12	LOCQ0VCF9	Bos taurus	195	True	2	50	True	size+15,pfam+20,breadth+15		Uni_LSM12_Homo_Q3MHD2 at 100% identity	
+part_crossfam	LSM12	positive	deep_grade	Q9VYR0	Lsm12a	LOCQ9VYR0	Drosophila melanogaster	217	True	2	35	False	size+15,pfam+20		Uni_LOCQ6PBA2_Danio_Q6PBA2 at 32% identity	
+part_crossfam	LSM12	positive	deep_grade	P38828	LSM12	LOCP38828	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	187	True	1	35	False	size+15,pfam+20		Uni_LOCQ6PBA2_Danio_Q6PBA2 at 24% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	O15116	LSM1	LSM1	Homo sapiens	133	True	0	15	False	size+15		Uni_LSM8_Homo_O95777 at 21% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	Q9Y333	LSM2	LSM2	Homo sapiens	95	False	0	0	False			Uni_LSM6_Homo_P62312 at 22% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	P62310	LSM3	LSM3	Homo sapiens	102	False	0	0	False			Uni_SNRPD2_Homo_P62316 at 21% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	Q9Y4Z0	LSM4	LSM4	Homo sapiens	139	True	0	15	False	size+15		Uni_SNRPD3_Homo_P62318 at 28% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	Q9Y4Y9	LSM5	LSM5	Homo sapiens	91	False	0	0	False			Uni_SNRPE_Homo_P62304 at 21% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	P62312	LSM6	LSM6	Homo sapiens	80	False	0	0	False			Uni_SNRPF_Homo_P62306 at 42% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	Q9UK45	LSM7	LSM7	Homo sapiens	103	False	0	0	False			Uni_SNRPG_Homo_P62308 at 27% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	O95777	LSM8	LSM8	Homo sapiens	96	False	0	0	False			Uni_LSM7_Homo_Q9UK45 at 24% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	Q8ND56	LSM14A	LSM14A	Homo sapiens	463	False	0	0	False			Uni_LSM4_Homo_Q9Y4Z0 at 8% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	P62314	SNRPD1	SNRPD1	Homo sapiens	119	False	0	0	False			Uni_SNRPD3_Homo_P62318 at 28% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	P62316	SNRPD2	SNRPD2	Homo sapiens	118	False	0	0	False			Uni_LSM3_Homo_P62310 at 21% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	P62318	SNRPD3	SNRPD3	Homo sapiens	126	True	0	15	False	size+15		Uni_SNRPD1_Homo_P62314 at 28% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	P62304	SNRPE	SNRPE	Homo sapiens	92	False	0	0	False			Uni_LSM5_Homo_Q9Y4Y9 at 21% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	P62306	SNRPF	SNRPF	Homo sapiens	86	False	0	0	False			Uni_LSM6_Homo_P62312 at 42% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	P62308	SNRPG	SNRPG	Homo sapiens	76	False	0	0	False			Uni_LSM7_Homo_Q9UK45 at 27% identity	
+part_crossfam	LSM12	decoy	Lsm/Sm fold set	Q8WWM7	ATXN2L	ATXN2L	Homo sapiens	1075	False	0	0	False			Uni_LSM14A_Homo_Q8ND56 at 7% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	30	False	size+15,breadth+15		Uni_Calm1_Mus_P0DP26 at 100% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	15	False	size+15		Uni_SNRPD3_Homo_P62318 at 7% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	15	False	size+15		Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	15	False	size+15		Uni_RAC1_Homo_P63000 at 58% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	15	False	size+15		Uni_CDC42_Homo_P60953 at 70% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	15	False	size+15		Uni_RAC1_Homo_P63000 at 70% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	15	False	size+15		Uni_KRAS_Homo_P01116 at 86% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	15	False	size+15		Uni_HRAS_Homo_P01112 at 86% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	15	False	size+15		Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	15	False	size+15		Uni_CFL1_Homo_P23528 at 9% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	15	False	size+15		Uni_CDC42_Homo_P60953 at 7% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	15	False	size+15		Uni_LOCQ6P833_Xenopus_Q6P833 at 8% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	15	False	size+15		Uni_LSM4_Homo_Q9Y4Z0 at 7% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	30	False	size+15,breadth+15		Uni_CALM1_Homo_P0DP23 at 46% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	15	False	size+15		Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_crossfam	LSM12	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	30	False	size+15,breadth+15		Uni_CALM1_Homo_P0DP23 at 100% identity	
+part_crossfam	LSM12	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	0	False			Uni_HSPA5_Homo_P11021 at 7% identity	
+part_crossfam	LSM12	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	0	False			Uni_ALB_Homo_P02768 at 7% identity	
+part_anon_sigset	JPT	positive	JPT2	Q9H910	JPT2	JPT2	Homo sapiens	190	True	1	n/a	False				
+part_anon_sigset	JPT	positive	JPT2	Q6PGH2	Jpt2	LOCQ6PGH2	Mus musculus	190	True	0	45	True	size+15,sig+15,breadth+15	79	Uni_LOCQ5BK20_Rattus_Q5BK20 at 91% identity	+56%
+part_anon_sigset	JPT	positive	JPT2	Q5BK20	Jpt2	LOCQ5BK20	Rattus norvegicus	190	True	0	45	True	size+15,sig+15,breadth+15	79	Uni_LOCQ6PGH2_Mus_Q6PGH2 at 91% identity	+55%
+part_anon_sigset	JPT	positive	JPT2	A0A6I8PKV3	jpt2	LOCA0A6I8PKV3	Xenopus tropicalis	192	True	1	60	True	size+15,pfam+20,cluster+10,breadth+15	48	Uni_LOCQ6PGH2_Mus_Q6PGH2 at 51% identity	+21%
+part_anon_sigset	JPT	positive	JPT2	F1Q6E4	jpt2	LOCF1Q6E4	Danio rerio	218	True	1	80	True	size+15,pfam+20,outlier+20,cluster+10,breadth+15	39	Uni_LOCA0A6I8PKV3_Xenopus_A0A6I8PKV3 at 44% identity	+13%
+part_anon_sigset	JPT	positive	JPT2	A0AAA9SSJ4	JPT2	LOCA0AAA9SSJ4	Bos taurus	209	True	0	55	True	size+15,sig+15,cluster+10,breadth+15	47	Uni_LOCK7D4U4_Pan_K7D4U4 at 47% identity	+32%
+part_anon_sigset	JPT	positive	JPT2	K7D4U4	HN1L	LOCK7D4U4	Pan troglodytes	190	True	1	50	True	size+15,pfam+20,breadth+15	99	Uni_JPT2_Homo_Q9H910 at 99% identity	+75%
+part_anon_sigset	JPT	positive	deep_grade	Q9I7K0	Jupiter	LOCQ9I7K0	Drosophila melanogaster	208	True	1	65	True	size+15,pfam+20,outlier+20,cluster+10	21	Uni_JPT2_Homo_Q9H910 at 21% identity	+4%
+part_anon_sigset	JPT	decoy	JPT1 (sister paralog)	Q9UK76	JPT1	JPT1	Homo sapiens	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	23	Uni_JPT1_Bos_Q3T0T5 at 94% identity	-70%
+part_anon_sigset	JPT	decoy	JPT1 (sister paralog)	P97825	Jpt1	Jpt1	Mus musculus	154	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	24	Uni_Jpt1_Rattus_Q6AXU6 at 93% identity	-69%
+part_anon_sigset	JPT	decoy	JPT1 (sister paralog)	Q6AXU6	Jpt1	Jpt1	Rattus norvegicus	149	True	1	39	False	size+15,pfam+20,outlier+20,cluster+10,breadth+15,SISTER→39	22	Uni_Jpt1_Mus_P97825 at 93% identity	-71%
+part_anon_sigset	JPT	decoy	JPT1 (sister paralog)	I7KJP8	jpt1	jpt1	Xenopus tropicalis	143	True	0	39	False	size+15,cluster+10,breadth+15,SISTER→39	19	Uni_Jpt1_Mus_P97825 at 45% identity	-26%
+part_anon_sigset	JPT	decoy	JPT1 (sister paralog)	Q3T0T5	JPT1	JPT1	Bos taurus	154	True	0	39	False	size+15,outlier+20,cluster+10,breadth+15,SISTER→39	23	Uni_JPT1_Homo_Q9UK76 at 94% identity	-70%
+part_anon_sigset	JPT	decoy	symbol-collision trap	Q96RY5	CRAMP1	CRAMP1	Homo sapiens	1269	False	0	10	False	cluster+10	3	Uni_ALB_Homo_P02768 at 8% identity	+0%
+part_anon_sigset	JPT	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	4	Uni_Calm1_Mus_P0DP26 at 100% identity	-0%
+part_anon_sigset	JPT	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	25	False	size+15,cluster+10	4	Uni_CFL1_Homo_P23528 at 9% identity	+0%
+part_anon_sigset	JPT	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	25	False	size+15,cluster+10	6	Uni_PFN1_Homo_P07737 at 9% identity	+1%
+part_anon_sigset	JPT	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	25	False	size+15,cluster+10	5	Uni_RAC1_Homo_P63000 at 57% identity	-0%
+part_anon_sigset	JPT	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	25	False	size+15,cluster+10	3	Uni_CDC42_Homo_P60953 at 70% identity	-2%
+part_anon_sigset	JPT	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	25	False	size+15,cluster+10	4	Uni_RAC1_Homo_P63000 at 70% identity	-0%
+part_anon_sigset	JPT	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	3	Uni_KRAS_Homo_P01116 at 86% identity	-1%
+part_anon_sigset	JPT	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	5	Uni_HRAS_Homo_P01112 at 86% identity	-0%
+part_anon_sigset	JPT	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	25	False	size+15,cluster+10	7	Uni_LOCA0A6I8PKV3_Xenopus_A0A6I8PKV3 at 8% identity	+0%
+part_anon_sigset	JPT	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	25	False	size+15,cluster+10	3	Uni_PPIA_Homo_P62937 at 13% identity	-1%
+part_anon_sigset	JPT	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	25	False	size+15,cluster+10	5	Uni_SOD1_Homo_P00441 at 13% identity	-1%
+part_anon_sigset	JPT	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	25	False	size+15,cluster+10	5	Uni_CALM1_Homo_P0DP23 at 7% identity	+0%
+part_anon_sigset	JPT	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	25	False	size+15,cluster+10	6	Uni_PFN1_Homo_P07737 at 7% identity	+1%
+part_anon_sigset	JPT	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	5	Uni_CALM1_Homo_P0DP23 at 46% identity	+1%
+part_anon_sigset	JPT	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	25	False	size+15,cluster+10	6	Uni_LOCA0AAA9SSJ4_Bos_A0AAA9SSJ4 at 8% identity	+0%
+part_anon_sigset	JPT	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	4	Uni_CALM1_Homo_P0DP23 at 100% identity	-0%
+part_anon_sigset	JPT	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	10	False	cluster+10	3	Uni_HSPA5_Homo_P11021 at 9% identity	+1%
+part_anon_sigset	JPT	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	10	False	cluster+10	4	Uni_ALB_Homo_P02768 at 9% identity	-0%
+part_anon_sigset	LSM12	positive	LSM12	Q3MHD2	LSM12	LSM12	Homo sapiens	195	True	2	n/a	False				
+part_anon_sigset	LSM12	positive	LSM12	Q9D0R8	Lsm12	LOCQ9D0R8	Mus musculus	195	True	2	50	True	size+15,pfam+20,breadth+15	100	Uni_LSM12_Homo_Q3MHD2 at 100% identity	
+part_anon_sigset	LSM12	positive	LSM12	A0A8I6GM11	Lsm12	LOCA0A8I6GM11	Rattus norvegicus	195	True	2	50	True	size+15,pfam+20,breadth+15	100	Uni_LSM12_Homo_Q3MHD2 at 100% identity	
+part_anon_sigset	LSM12	positive	LSM12	Q5ZML5	LSM12	LOCQ5ZML5	Gallus gallus	194	True	2	50	True	size+15,pfam+20,breadth+15	94	Uni_LSM12_Homo_Q3MHD2 at 94% identity	
+part_anon_sigset	LSM12	positive	LSM12	Q6P833	lsm12	LOCQ6P833	Xenopus tropicalis	194	True	2	50	True	size+15,pfam+20,breadth+15	82	Uni_LSM12_Homo_Q3MHD2 at 82% identity	
+part_anon_sigset	LSM12	positive	LSM12	Q6PBA2	lsm12a	LOCQ6PBA2	Danio rerio	196	True	2	50	True	size+15,pfam+20,breadth+15	85	Uni_LSM12_Homo_Q3MHD2 at 85% identity	
+part_anon_sigset	LSM12	positive	LSM12	Q0VCF9	LSM12	LOCQ0VCF9	Bos taurus	195	True	2	50	True	size+15,pfam+20,breadth+15	100	Uni_LSM12_Homo_Q3MHD2 at 100% identity	
+part_anon_sigset	LSM12	positive	deep_grade	Q9VYR0	Lsm12a	LOCQ9VYR0	Drosophila melanogaster	217	True	2	65	True	size+15,pfam+20,outlier+20,cluster+10	29	Uni_LOCQ6PBA2_Danio_Q6PBA2 at 32% identity	
+part_anon_sigset	LSM12	positive	deep_grade	P38828	LSM12	LOCP38828	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	187	True	1	65	True	size+15,pfam+20,outlier+20,cluster+10	23	Uni_LOCQ6PBA2_Danio_Q6PBA2 at 24% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	O15116	LSM1	LSM1	Homo sapiens	133	True	0	25	False	size+15,cluster+10	7	Uni_LSM8_Homo_O95777 at 21% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	Q9Y333	LSM2	LSM2	Homo sapiens	95	False	0	10	False	cluster+10	6	Uni_LSM6_Homo_P62312 at 22% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	P62310	LSM3	LSM3	Homo sapiens	102	False	0	10	False	cluster+10	5	Uni_SNRPD2_Homo_P62316 at 21% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	Q9Y4Z0	LSM4	LSM4	Homo sapiens	139	True	0	25	False	size+15,cluster+10	4	Uni_SNRPD3_Homo_P62318 at 28% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	Q9Y4Y9	LSM5	LSM5	Homo sapiens	91	False	0	10	False	cluster+10	7	Uni_SNRPE_Homo_P62304 at 21% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	P62312	LSM6	LSM6	Homo sapiens	80	False	0	10	False	cluster+10	4	Uni_SNRPF_Homo_P62306 at 42% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	Q9UK45	LSM7	LSM7	Homo sapiens	103	False	0	10	False	cluster+10	5	Uni_SNRPG_Homo_P62308 at 27% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	O95777	LSM8	LSM8	Homo sapiens	96	False	0	10	False	cluster+10	6	Uni_LSM7_Homo_Q9UK45 at 24% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	Q8ND56	LSM14A	LSM14A	Homo sapiens	463	False	0	10	False	cluster+10	2	Uni_LSM4_Homo_Q9Y4Z0 at 8% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	P62314	SNRPD1	SNRPD1	Homo sapiens	119	False	0	10	False	cluster+10	7	Uni_SNRPD3_Homo_P62318 at 28% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	P62316	SNRPD2	SNRPD2	Homo sapiens	118	False	0	10	False	cluster+10	7	Uni_LSM3_Homo_P62310 at 21% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	P62318	SNRPD3	SNRPD3	Homo sapiens	126	True	0	25	False	size+15,cluster+10	7	Uni_SNRPD1_Homo_P62314 at 28% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	P62304	SNRPE	SNRPE	Homo sapiens	92	False	0	10	False	cluster+10	6	Uni_LSM5_Homo_Q9Y4Y9 at 21% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	P62306	SNRPF	SNRPF	Homo sapiens	86	False	0	10	False	cluster+10	5	Uni_LSM6_Homo_P62312 at 42% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	P62308	SNRPG	SNRPG	Homo sapiens	76	False	0	10	False	cluster+10	4	Uni_LSM7_Homo_Q9UK45 at 27% identity	
+part_anon_sigset	LSM12	decoy	Lsm/Sm fold set	Q8WWM7	ATXN2L	ATXN2L	Homo sapiens	1075	False	0	10	False	cluster+10	1	Uni_LSM14A_Homo_Q8ND56 at 7% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	6	Uni_Calm1_Mus_P0DP26 at 100% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	25	False	size+15,cluster+10	5	Uni_SNRPD3_Homo_P62318 at 7% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	25	False	size+15,cluster+10	4	Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	25	False	size+15,cluster+10	6	Uni_RAC1_Homo_P63000 at 58% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	25	False	size+15,cluster+10	4	Uni_CDC42_Homo_P60953 at 70% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	25	False	size+15,cluster+10	5	Uni_RAC1_Homo_P63000 at 70% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	5	Uni_KRAS_Homo_P01116 at 86% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	5	Uni_HRAS_Homo_P01112 at 86% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	25	False	size+15,cluster+10	4	Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	25	False	size+15,cluster+10	6	Uni_CFL1_Homo_P23528 at 9% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	25	False	size+15,cluster+10	7	Uni_CDC42_Homo_P60953 at 7% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	25	False	size+15,cluster+10	7	Uni_LOCQ6P833_Xenopus_Q6P833 at 8% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	25	False	size+15,cluster+10	5	Uni_LSM4_Homo_Q9Y4Z0 at 7% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	7	Uni_CALM1_Homo_P0DP23 at 46% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	25	False	size+15,cluster+10	7	Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_anon_sigset	LSM12	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	6	Uni_CALM1_Homo_P0DP23 at 100% identity	
+part_anon_sigset	LSM12	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	10	False	cluster+10	3	Uni_HSPA5_Homo_P11021 at 7% identity	
+part_anon_sigset	LSM12	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	10	False	cluster+10	3	Uni_ALB_Homo_P02768 at 7% identity	
+part_nosister	JPT	positive	JPT2	Q9H910	JPT2	JPT2	Homo sapiens	190	True	1	n/a	False				
+part_nosister	JPT	positive	JPT2	Q6PGH2	Jpt2	Jpt2	Mus musculus	190	True	0	n/a	False				
+part_nosister	JPT	positive	JPT2	Q5BK20	Jpt2	Jpt2	Rattus norvegicus	190	True	0	n/a	False				
+part_nosister	JPT	positive	JPT2	A0A6I8PKV3	jpt2	jpt2	Xenopus tropicalis	192	True	1	n/a	False				
+part_nosister	JPT	positive	JPT2	F1Q6E4	jpt2	jpt2	Danio rerio	218	True	1	n/a	False				
+part_nosister	JPT	positive	JPT2	A0AAA9SSJ4	JPT2	JPT2	Bos taurus	209	True	0	n/a	False				
+part_nosister	JPT	positive	JPT2	K7D4U4	HN1L	HN1L	Pan troglodytes	190	True	1	35	False	size+15,pfam+20	99	Uni_JPT2_Homo_Q9H910 at 99% identity	+75%
+part_nosister	JPT	positive	deep_grade	Q9I7K0	Jupiter	Jupiter	Drosophila melanogaster	208	True	1	65	True	size+15,pfam+20,outlier+20,cluster+10	21	Uni_JPT2_Homo_Q9H910 at 21% identity	+0%
+part_nosister	JPT	decoy	JPT1 (sister paralog)	Q9UK76	JPT1	JPT1	Homo sapiens	154	True	1	80	True	size+15,pfam+20,outlier+20,cluster+10,breadth+15	28	Uni_JPT1_Bos_Q3T0T5 at 94% identity	-66%
+part_nosister	JPT	decoy	JPT1 (sister paralog)	P97825	Jpt1	Jpt1	Mus musculus	154	True	1	80	True	size+15,pfam+20,outlier+20,cluster+10,breadth+15	27	Uni_Jpt1_Rattus_Q6AXU6 at 93% identity	-66%
+part_nosister	JPT	decoy	JPT1 (sister paralog)	Q6AXU6	Jpt1	Jpt1	Rattus norvegicus	149	True	1	80	True	size+15,pfam+20,outlier+20,cluster+10,breadth+15	26	Uni_Jpt1_Mus_P97825 at 93% identity	-67%
+part_nosister	JPT	decoy	JPT1 (sister paralog)	I7KJP8	jpt1	jpt1	Xenopus tropicalis	143	True	0	60	True	size+15,outlier+20,cluster+10,breadth+15	23	Uni_Jpt1_Mus_P97825 at 45% identity	-22%
+part_nosister	JPT	decoy	JPT1 (sister paralog)	Q3T0T5	JPT1	JPT1	Bos taurus	154	True	0	60	True	size+15,outlier+20,cluster+10,breadth+15	27	Uni_JPT1_Homo_Q9UK76 at 94% identity	-66%
+part_nosister	JPT	decoy	symbol-collision trap	Q96RY5	CRAMP1	CRAMP1	Homo sapiens	1269	False	0	10	False	cluster+10	4	Uni_ALB_Homo_P02768 at 8% identity	+1%
+part_nosister	JPT	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	4	Uni_Calm1_Mus_P0DP26 at 100% identity	-0%
+part_nosister	JPT	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	25	False	size+15,cluster+10	6	Uni_CFL1_Homo_P23528 at 9% identity	+2%
+part_nosister	JPT	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	25	False	size+15,cluster+10	7	Uni_PFN1_Homo_P07737 at 9% identity	+1%
+part_nosister	JPT	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	25	False	size+15,cluster+10	6	Uni_RAC1_Homo_P63000 at 57% identity	+1%
+part_nosister	JPT	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	25	False	size+15,cluster+10	4	Uni_CDC42_Homo_P60953 at 70% identity	-1%
+part_nosister	JPT	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	25	False	size+15,cluster+10	5	Uni_RAC1_Homo_P63000 at 70% identity	+0%
+part_nosister	JPT	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	4	Uni_KRAS_Homo_P01116 at 86% identity	-0%
+part_nosister	JPT	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	5	Uni_HRAS_Homo_P01112 at 86% identity	+1%
+part_nosister	JPT	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	25	False	size+15,cluster+10	8	Uni_jpt2_Xenopus_A0A6I8PKV3 at 8% identity	+1%
+part_nosister	JPT	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	25	False	size+15,cluster+10	6	Uni_PPIA_Homo_P62937 at 13% identity	+2%
+part_nosister	JPT	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	25	False	size+15,cluster+10	6	Uni_SOD1_Homo_P00441 at 13% identity	+0%
+part_nosister	JPT	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	25	False	size+15,cluster+10	7	Uni_CALM1_Homo_P0DP23 at 7% identity	+1%
+part_nosister	JPT	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	25	False	size+15,cluster+10	6	Uni_PFN1_Homo_P07737 at 7% identity	+0%
+part_nosister	JPT	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	5	Uni_CALM1_Homo_P0DP23 at 46% identity	+0%
+part_nosister	JPT	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	25	False	size+15,cluster+10	8	Uni_JPT2_Bos_A0AAA9SSJ4 at 8% identity	+2%
+part_nosister	JPT	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	4	Uni_CALM1_Homo_P0DP23 at 100% identity	-0%
+part_nosister	JPT	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	10	False	cluster+10	4	Uni_HSPA5_Homo_P11021 at 9% identity	+1%
+part_nosister	JPT	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	10	False	cluster+10	5	Uni_ALB_Homo_P02768 at 9% identity	+0%
+part_nosister	LSM12	positive	LSM12	Q3MHD2	LSM12	LSM12	Homo sapiens	195	True	2	n/a	False				
+part_nosister	LSM12	positive	LSM12	Q9D0R8	Lsm12	Lsm12	Mus musculus	195	True	2	n/a	False				
+part_nosister	LSM12	positive	LSM12	A0A8I6GM11	Lsm12	Lsm12	Rattus norvegicus	195	True	2	n/a	False				
+part_nosister	LSM12	positive	LSM12	Q5ZML5	LSM12	LSM12	Gallus gallus	194	True	2	n/a	False				
+part_nosister	LSM12	positive	LSM12	Q6P833	lsm12	lsm12	Xenopus tropicalis	194	True	2	n/a	False				
+part_nosister	LSM12	positive	LSM12	Q6PBA2	lsm12a	lsm12a	Danio rerio	196	True	2	n/a	False				
+part_nosister	LSM12	positive	LSM12	Q0VCF9	LSM12	LSM12	Bos taurus	195	True	2	n/a	False				
+part_nosister	LSM12	positive	deep_grade	Q9VYR0	Lsm12a	Lsm12a	Drosophila melanogaster	217	True	2	n/a	False				
+part_nosister	LSM12	positive	deep_grade	P38828	LSM12	LSM12	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	187	True	1	n/a	False				
+part_nosister	LSM12	decoy	Lsm/Sm fold set	O15116	LSM1	LSM1	Homo sapiens	133	True	0	25	False	size+15,cluster+10	8	Uni_LSM8_Homo_O95777 at 21% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	Q9Y333	LSM2	LSM2	Homo sapiens	95	False	0	10	False	cluster+10	8	Uni_LSM6_Homo_P62312 at 22% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	P62310	LSM3	LSM3	Homo sapiens	102	False	0	10	False	cluster+10	8	Uni_SNRPD2_Homo_P62316 at 21% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	Q9Y4Z0	LSM4	LSM4	Homo sapiens	139	True	0	25	False	size+15,cluster+10	9	Uni_SNRPD3_Homo_P62318 at 28% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	Q9Y4Y9	LSM5	LSM5	Homo sapiens	91	False	0	10	False	cluster+10	9	Uni_SNRPE_Homo_P62304 at 21% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	P62312	LSM6	LSM6	Homo sapiens	80	False	0	10	False	cluster+10	8	Uni_SNRPF_Homo_P62306 at 42% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	Q9UK45	LSM7	LSM7	Homo sapiens	103	False	0	10	False	cluster+10	6	Uni_SNRPG_Homo_P62308 at 27% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	O95777	LSM8	LSM8	Homo sapiens	96	False	0	10	False	cluster+10	6	Uni_LSM7_Homo_Q9UK45 at 24% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	Q8ND56	LSM14A	LSM14A	Homo sapiens	463	False	0	10	False	cluster+10	4	Uni_LSM4_Homo_Q9Y4Z0 at 8% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	P62314	SNRPD1	SNRPD1	Homo sapiens	119	False	0	10	False	cluster+10	8	Uni_SNRPD3_Homo_P62318 at 28% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	P62316	SNRPD2	SNRPD2	Homo sapiens	118	False	0	10	False	cluster+10	7	Uni_LSM3_Homo_P62310 at 21% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	P62318	SNRPD3	SNRPD3	Homo sapiens	126	True	0	25	False	size+15,cluster+10	9	Uni_SNRPD1_Homo_P62314 at 28% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	P62304	SNRPE	SNRPE	Homo sapiens	92	False	0	10	False	cluster+10	7	Uni_LSM5_Homo_Q9Y4Y9 at 21% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	P62306	SNRPF	SNRPF	Homo sapiens	86	False	0	10	False	cluster+10	6	Uni_LSM6_Homo_P62312 at 42% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	P62308	SNRPG	SNRPG	Homo sapiens	76	False	0	10	False	cluster+10	6	Uni_LSM7_Homo_Q9UK45 at 27% identity	
+part_nosister	LSM12	decoy	Lsm/Sm fold set	Q8WWM7	ATXN2L	ATXN2L	Homo sapiens	1075	False	0	10	False	cluster+10	2	Uni_LSM14A_Homo_Q8ND56 at 7% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P0DP23	CALM1	CALM1	Homo sapiens	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	7	Uni_Calm1_Mus_P0DP26 at 100% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P07737	PFN1	PFN1	Homo sapiens	140	True	0	25	False	size+15,cluster+10	6	Uni_SNRPD3_Homo_P62318 at 7% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P23528	CFL1	CFL1	Homo sapiens	166	True	0	25	False	size+15,cluster+10	5	Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P61586	RHOA	RHOA	Homo sapiens	193	True	0	25	False	size+15,cluster+10	8	Uni_RAC1_Homo_P63000 at 58% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P63000	RAC1	RAC1	Homo sapiens	192	True	0	25	False	size+15,cluster+10	5	Uni_CDC42_Homo_P60953 at 70% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P60953	CDC42	CDC42	Homo sapiens	191	True	0	25	False	size+15,cluster+10	6	Uni_RAC1_Homo_P63000 at 70% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P01112	HRAS	HRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	6	Uni_KRAS_Homo_P01116 at 86% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P01116	KRAS	KRAS	Homo sapiens	189	True	0	25	False	size+15,cluster+10	6	Uni_HRAS_Homo_P01112 at 86% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P13693	TPT1	TPT1	Homo sapiens	172	True	0	25	False	size+15,cluster+10	5	Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P00441	SOD1	SOD1	Homo sapiens	154	True	0	25	False	size+15,cluster+10	7	Uni_CFL1_Homo_P23528 at 9% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P62937	PPIA	PPIA	Homo sapiens	165	True	0	25	False	size+15,cluster+10	7	Uni_CDC42_Homo_P60953 at 7% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P23396	RPS3	RPS3	Homo sapiens	243	True	0	25	False	size+15,cluster+10	8	Uni_lsm12_Xenopus_Q6P833 at 8% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P18124	RPL7	RPL7	Homo sapiens	248	True	0	25	False	size+15,cluster+10	6	Uni_LSM4_Homo_Q9Y4Z0 at 7% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P60660	MYL6	MYL6	Homo sapiens	151	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	8	Uni_CALM1_Homo_P0DP23 at 46% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P37802	TAGLN2	TAGLN2	Homo sapiens	199	True	0	25	False	size+15,cluster+10	7	Uni_SNRPD1_Homo_P62314 at 9% identity	
+part_nosister	LSM12	decoy	in-band unrelated	P0DP26	Calm1	Calm1	Mus musculus	149	True	0	39	False	size+15,cluster+10,breadth+15,GATED→39	7	Uni_CALM1_Homo_P0DP23 at 100% identity	
+part_nosister	LSM12	decoy	out-of-band unrelated	P02768	ALB	ALB	Homo sapiens	609	False	0	10	False	cluster+10	4	Uni_HSPA5_Homo_P11021 at 7% identity	
+part_nosister	LSM12	decoy	out-of-band unrelated	P11021	HSPA5	HSPA5	Homo sapiens	654	False	0	10	False	cluster+10	4	Uni_ALB_Homo_P02768 at 7% identity	

@@ -1,0 +1,16 @@
+{
+ "calls": [
+  {
+   "argv": [
+    "mafft",
+    "--auto",
+    "--quiet",
+    "/dev/stdin"
+   ],
+   "returncode": 0,
+   "stdout_bytes": 106317
+  }
+ ],
+ "n_rows": 57,
+ "alignment_width": 1811
+}

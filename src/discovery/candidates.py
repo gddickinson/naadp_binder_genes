@@ -6,34 +6,27 @@ a transparent additive score in [0, 100] from up to six lines of evidence,
 so the user can see *why* it's flagged and where the evidence is strong
 or weak.
 
-Inputs
-------
-- The full set of ProteinVariants returned by a search.
-- A list of *known paralog* gene symbols (e.g. ["JPT2","LSM12"]).
-- Optional InterPro Pfam domain hits per UniProt accession.
-- Optional Foldseek structural hits already in `variants` (source=='Foldseek').
-
 Scoring (component points; total capped at 100)
 -----------------------------------------------
 +20  Sequence outlier:    identity to the nearest KNOWN paralog sits in
-                          [floor, ceiling] — the paralog twilight zone.
-                          (Measured against *known* members so a clade of
-                          mutually-similar novel orthologs can't mask
-                          itself.)
-+20  Structural fold:     a Foldseek hit links the candidate to a known
-                          paralog at TM-score >= 0.5
+                          [floor, ceiling] — the paralog twilight zone,
+                          measured against *known* members so a clade of
+                          novel orthologs can't mask itself.
++20  Structural fold:     Foldseek links it to a known paralog at TM >= 0.5
 +20  Domain signature:    candidate carries one of the family's defining
                           Pfam IDs (`family.FAMILY_PFAM_IDS`); OR (+15,
                           fallback for candidates absent from UniProt/
                           InterPro) it hits ≥ `signature_min_coverage` of
                           the MSA-derived family signature blocks
-+15  Size plausibility:   length_aa within configured min/max (binders:
-                          2000-3000 aa). Filters out fragments + huge fusions
-+15  Taxonomic breadth:   present in >=2 species — same symbol OR corroborated
-                          by *other candidates* in different species at
++15  Size plausibility:   length_aa within min/max (120-280 aa here).
+                          Worth almost nothing for this family — the decoy
+                          sits inside the band (D22); measured in S1 and
+                          tunable via `size_component_points`.
++15  Taxonomic breadth:   present in >=2 species — same symbol OR other
+                          candidates in different species at
                           >= `breadth_identity_min` (unnamed ortholog sets
-                          have a different id per species; mutual similarity
-                          between candidates is the retention signal)
+                          wear a different id per species, so mutual
+                          candidate similarity is the retention signal)
 +10  Cluster exclusion:   does not co-cluster with any known paralog at
                           the family threshold
 +10  Homology provenance: surfaced by a family-linked homology search
@@ -42,8 +35,7 @@ Scoring (component points; total capped at 100)
                           the fragmented-gene-model pattern that hides a
                           real paralog behind two partial models
 
-A candidate that scores >=60 is reported as "promising"; >=40 "worth
-manual review"; <40 is shown for completeness but not promoted.
+>=60 is "promising"; >=40 "worth manual review"; <40 is not promoted.
 
 Promotion gate (S2 decision, benchmark-driven): a candidate can only be
 promoted (score >= 40) if at least ONE family-specific evidence component
@@ -55,19 +47,20 @@ pair (TLN1) reaching exactly 40 on size+breadth+cluster alone. Candidates
 failing the gate are capped at 39 with an explanatory evidence note
 (`require_evidence_gate=False` restores the raw additive score).
 
-Outputs
--------
-- A `DiscoveryReport` with the ranked candidate list and per-candidate
-  evidence breakdown.
-- Written to `discovery/candidates.tsv` and `discovery/report.md` in the
-  results bundle.
+Partition rule (D14, implemented in S1): a run must not span the JPT and
+LSM12 families. `discover_novel_paralogs` calls
+`utils/partitions.py:assert_single_partition` on every set and raises;
+`discovery/partition.py:run_partitioned_discovery` is the correct route
+for a mixed set.
+
+Outputs: a `DiscoveryReport` (ranked candidates + per-candidate evidence),
+written to `discovery/candidates.tsv` + `report.md` in the results bundle.
 """
 
 from __future__ import annotations
 
 from collections import defaultdict
 from dataclasses import dataclass, field
-from pathlib import Path
 from typing import Iterable, Optional
 
 from ..analysis.distance import DistanceTable
@@ -75,6 +68,7 @@ from ..analysis.motifs import FamilySignatureSet, derive_family_signatures
 from ..core.models import ProteinVariant
 from ..utils.family import (FAMILY_PFAM_IDS, MAX_LENGTH_AA,
                              MIN_LENGTH_AA, SISTER_PARALOGS)
+from ..utils.partitions import assert_single_partition
 
 
 @dataclass
@@ -105,6 +99,17 @@ class DiscoveryConfig:
         default_factory=lambda: list(SISTER_PARALOGS))
     sister_margin: float = 0.10          # D7: two baits within ~10 % is no call
     exclude_sister_family: bool = True
+    # --- family partition (roadmap D14 / D14a, implemented in S1) ---
+    # JPT and LSM12 are unrelated. Every run is checked against the
+    # boundary and raises rather than returning a cross-family number; the
+    # opt-out exists only so S1 could measure the distortion before fixing
+    # it. `partition` records which family a report's numbers came from.
+    allow_cross_partition: bool = False
+    partition: Optional[str] = None
+    # Zero the size component. The band (120-280 aa) excludes almost
+    # nothing for these proteins and the decoy sits inside it, so S1
+    # measures what the component is worth before it is trusted (D22).
+    size_component_points: int = 15
 
 
 @dataclass
@@ -222,6 +227,11 @@ def discover_novel_paralogs(
     distances are skipped (cluster + sequence-outlier components score 0).
     """
     variants = list(variants)
+    # D14: a scorer run is a within-family operation. Checked here rather
+    # than in the callers, so a new call site cannot forget it.
+    if not config.allow_cross_partition:
+        assert_single_partition(variants, domain_hits,
+                                context="this discovery run")
     known = {g.upper() for g in config.known_paralogs}
     candidates: list[Candidate] = []
     notes: list[str] = []
@@ -266,8 +276,11 @@ def discover_novel_paralogs(
 
         # --- Component 1: size plausibility (cheap filter) ---
         if v.length_aa and config.min_length_aa <= v.length_aa <= config.max_length_aa:
-            c.score += 15
-            c.evidence["size"] = f"{v.length_aa} aa within family band {config.min_length_aa}-{config.max_length_aa}"
+            c.score += config.size_component_points
+            c.evidence["size"] = (
+                f"{v.length_aa} aa within family band "
+                f"{config.min_length_aa}-{config.max_length_aa} "
+                f"(+{config.size_component_points})")
         else:
             c.evidence["size"] = f"{v.length_aa or '?'} aa — outside family band"
 
@@ -331,8 +344,16 @@ def discover_novel_paralogs(
             nearest_any, id_any = _nearest_identity(mapped, distances)
             if nearest_any is not None:
                 c.evidence["nearest_in_set"] = f"{nearest_any} at {id_any:.0%} identity"
+            # `restrict=known_labels` even when empty: an empty known set
+            # means "nothing to measure against", not "measure against
+            # everything" (passing None scored candidates off their nearest
+            # neighbour of any kind — the D24 failure class).
             nearest_known, id_known = _nearest_identity(mapped, distances,
-                                                        restrict=known_labels or None)
+                                                        restrict=known_labels)
+            if not known_labels:
+                c.evidence["outlier"] = (
+                    "no named family member in this set — novelty and "
+                    "cluster components cannot be computed")
             if nearest_known is not None:
                 if config.novelty_floor <= id_known <= config.novelty_ceiling:
                     c.score += 20
@@ -378,11 +399,12 @@ def discover_novel_paralogs(
         # decoys scored 45 and passed). The length band is deliberately not
         # part of the call — it only appears in the size component.
         sister_call = False
-        if sister_labels and mapped and distances and mapped in distances.labels:
+        if (sister_labels and known_labels and mapped and distances
+                and mapped in distances.labels):
             nearest_sister, id_sister = _nearest_identity(
                 mapped, distances, restrict=sister_labels)
             _, id_known_for_margin = _nearest_identity(
-                mapped, distances, restrict=known_labels or None)
+                mapped, distances, restrict=known_labels)
             margin = id_known_for_margin - id_sister
             c.evidence["sister_margin"] = (
                 f"identity to nearest known {id_known_for_margin:.0%} vs "
@@ -455,29 +477,3 @@ def discover_novel_paralogs(
                      "Broaden the search (more species, lower max-per-source) "
                      "or enable Foldseek / InterPro for structural / domain hits.")
     return DiscoveryReport(config=config, candidates=deduped, notes=notes)
-
-
-def write_discovery(out_dir: Path, report: DiscoveryReport) -> dict:
-    """Persist a discovery report as `report.txt` + `candidates.tsv`.
-
-    Shared by the CLI, the domain scan, and the GUI bundle writer so the
-    on-disk schema stays identical everywhere. Returns the paths written.
-    """
-    out_dir.mkdir(parents=True, exist_ok=True)
-    text_path = out_dir / "report.txt"
-    text_path.write_text(report.text_summary())
-    tsv_path = out_dir / "candidates.tsv"
-    with tsv_path.open("w") as f:
-        f.write("score\tverdict\tlabel\taccession\tspecies\tlength_aa\treviewed\t"
-                "size\tdomain\tfold\toutlier\tbreadth\tcluster\tnearest_in_set\n")
-        for c in report.candidates:
-            ev = c.evidence
-            f.write("\t".join([
-                str(c.score), c.verdict(), c.label, c.variant.accession,
-                c.variant.species or "", str(c.variant.length_aa or ""),
-                c.variant.raw.get("reviewed", ""),
-                ev.get("size", ""), ev.get("domain", ""), ev.get("fold", ""),
-                ev.get("outlier", ""), ev.get("breadth", ""), ev.get("cluster", ""),
-                ev.get("nearest_in_set", ""),
-            ]) + "\n")
-    return {"report_txt": str(text_path), "candidates_tsv": str(tsv_path)}

@@ -22,7 +22,7 @@
 | `requirements.txt` | Third-party deps (`biopython`, `requests`). |
 | `presets/` | Bundled JSON queries: `naadp_bp`, `naadp_bp_zebrafish`, `naadp_bp_discovery`, `naadp_bp_paralog_mine` (Compara paralog mine), plus the special-mode presets `naadp_bp_domain_scan` (`"mode": "domain_scan"`) and `naadp_bp_all` (`"mode": "exhaustive"` — full harvest + every analysis). Presets may carry `known_paralogs` and a `discovery` block of scorer-threshold overrides, honoured by both the CLI and the GUI Discovery dialog. |
 | `cache/` | On-disk JSON cache (auto-created, gitignored). |
-| `results/` | Committed analysis output — one directory per task. `s0_baseline/` holds the S0 database snapshot (`symbol_table.tsv` + the raw pre-screen hits, `symbol_collision.tsv`, `pfam_counts.tsv`, `pfam_taxonomy.tsv`), the **signature-scope measurement** (`signature_scope.tsv`, `signature_recall.tsv` — why the census denominator changed, D25), the literature audit (`lit_claims.tsv`, `references.tsv`), the Ensembl endpoint probe, the smoke-test record (`smoke_test.json`) and the rendered `report.md`. `benchmark_controls/` holds the S1 control benchmark: both panels as fetched, the InterPro domain hits, the MAFFT trace, the recall / specificity / bait-margin tables and the rendered `report.md`. `toolchain_manifest.txt` records the exact tool versions every later task shells out to. |
+| `results/` | Committed analysis output — one directory per task. `s0_baseline/` holds the S0 database snapshot (`symbol_table.tsv` + the raw pre-screen hits, `symbol_collision.tsv`, `pfam_counts.tsv`, `pfam_taxonomy.tsv`), the **signature-scope measurement** (`signature_scope.tsv`, `signature_recall.tsv` — why the census denominator changed, D25), the literature audit (`lit_claims.tsv`, `references.tsv`), the Ensembl endpoint probe, the smoke-test record (`smoke_test.json`) and the rendered `report.md`. `benchmark_controls/` holds the S1 control benchmark: both panels as fetched (+ the unresolved-symbol lists and `symbol_collisions.tsv`), the InterPro domain hits, the MAFFT trace, `scores.tsv` (every record × every run), `partition_assignment.tsv`, `bait_margin.tsv`, `size_component.tsv` (the D22/D29 measurement), `crossfamily_identity.tsv` (**D28**), `alignment_width_effect.tsv`, `ensembl_reprobe.tsv`, `figures/s1_scorer_validation.png` and the rendered `report.md`. `toolchain_manifest.txt` records the exact tool versions every later task shells out to. |
 | `manuscript/` | The submission package, built by `scripts/s14_assemble.py` in S14a. See `manuscript/README.md`; nothing here is hand-edited except the numbered section files. |
 
 ## `scripts/` — roadmap-session tooling (not part of the app)
@@ -41,6 +41,13 @@ Ported and ready to use from session one:
 | `s0_ensembl_probe.py` | **Bounded Ensembl endpoint probe with timings** — `lookup/symbol` vs `xrefs/symbol` on the same genes, plus a `ping` control. Supplies the evidence behind the ensembl notes below. → `ensembl_endpoint_probe.tsv`. |
 | `s0_smoke_summary.py` | Reduces the timestamped smoke-test bundles to the small committed record the report quotes. → `smoke_test.json`. |
 | `s0_report.py` | **Renders both S0 documents from the committed tables** (D13): `results/s0_baseline/report.md` and `docs/naadp_binder_review_2026.md`. Neither is hand-written. |
+| `s1_toolchain.py` | **The version manifest every later task's methods section needs.** Probes each binary on PATH then in the `piezo1` conda env (D18), recording *where* it resolved. → `results/toolchain_manifest.txt` + `benchmark_controls/toolchain.tsv`. |
+| `s1_panels.py` | **The S1 ground truth**, fetched live from UniProt with `taxonomy_id` (D23). Every record declares its partition, because in production the partition is a property of the *search*, not a guess about the protein; records marked `BOTH` are emitted once per family. `_primary_first()` prefers entries whose **primary** symbol is the query and logs every rejected synonym match — `gene_exact:` matches synonyms, and it caught FBF1 (1,133 aa) answering to `ALB`. |
+| `s1_lib.py` | S1 helpers: `MafftTracer` (the *return code* is the evidence — `_mafft` falls back to the star alignment silently), **`anonymise()`** (this family's hold-out: one named reference per partition, every other true member wearing `LOC<accession>`, because a single-member family cannot be symbol-held-out without disabling half the scorer), `components()`, `bait_margins()`, TSV I/O. |
+| `s1_runs.py` | The scorer arrangements — `run_joint` (D14-violating, needs `allow_cross_partition=True`) and `run_parts` — plus the InterPro domain cache, `crossfamily_identity()` (**the number D14 turns on**) and `alignment_width_effect()`. |
+| `s1_benchmark.py` | The driver: six experiments in a fixed order, the joint runs **first** so the fix cannot erase its own evidence. Writes tables only. |
+| `s1_figures.py` | The S1 figure: cross-family vs within-family identity with the twilight zone shaded, and every JPT-partition score with the sister test on/off. |
+| `s1_report.py` + `s1_report_sections.py` | Render `results/benchmark_controls/report.md` from the committed tables (D13). |
 | `s14_lib.py` | Manuscript-assembly shared helpers: page geometry, the section order, the main / Extended Data / Supplementary figure maps (the *plan* — source paths are where the tasks write their figures), the deposit rules, and stdlib TSV/JSON/SHA-256/PNG-size helpers. |
 | `s14_figures.py` | Copies every committed figure into `manuscript/figures/` under its publication number, in every format the analysis produced. Nothing is re-plotted, so a manuscript figure cannot differ from the one in its results directory; files not in the manifest are deleted on every build. |
 | `s14_claims.py` | **The manuscript's drift guard.** Every load-bearing number is declared with its source table and the op that recovers it (`count` / `cell` / `nunique` / `sum` / `json` / `grep`, with `col__startswith` and `col__in` filters). Ships with an empty `CLAIMS` list and a worked example of each op. |
@@ -61,10 +68,13 @@ it carries the constraint the whole repo turns on:
 * **`FAMILY_PARTITIONS`** — the two unrelated families, `JPT` (PF17054,
   120–260 aa) and `LSM12` (PF09793 + PF21166, 150–280 aa), each with its own
   members, signatures and band. **Nothing may compute an identity, a tree or
-  a novelty score across a partition boundary** (roadmap D14). **Nothing
-  reads this yet** — wiring it into `discovery/candidates.py` is S1's job
-  (D14a). Until then, run one partition at a time via the `jpt` and `lsm12`
-  presets.
+  a novelty score across a partition boundary** (roadmap D14).
+  **Implemented in S1**: `utils/partitions.py` assigns every record to a
+  family and `discovery/candidates.py` raises `CrossPartitionError` on a
+  mixed set, so a cross-family number cannot be produced by omission. The
+  route for a mixed set is
+  `discovery/partition.py:run_partitioned_discovery`, which splits *before
+  the alignment*.
 * `SISTER_PARALOGS = ["JPT1", "HN1"]` — the decoy is *inside* the family and
   carries the identical Pfam. No domain signature separates binder from
   non-binder (D21).
@@ -143,7 +153,9 @@ as bait.
 
 | File | Key types / functions |
 |------|-----------------------|
-| `candidates.py` | `DiscoveryConfig`, `Candidate`, `DiscoveryReport`, `discover_novel_paralogs(…)`. Composite 8-criterion scorer + **promotion evidence gate** (D3: score ≥ 40 requires ≥ 1 family-specific component — outlier / domain / fold / split — else capped at 39) + the **sister-family test** (D14/D7, added in S1): a candidate closer to a labelled JPT1 bait than to any known binder paralog, by more than `sister_margin` (0.10), is assigned to the sister family and capped at 39, with the margin recorded. It is a positive test on distances — the candidate's own gene symbol is never consulted — and the length band is deliberately not part of the call. Without it all six JPT1 decoys were promoted at 45. Defaults read from `utils/family.py`. |
+| `candidates.py` | `DiscoveryConfig`, `Candidate`, `DiscoveryReport`, `discover_novel_paralogs(…)`. Composite 8-criterion scorer + **promotion evidence gate** (D3: score ≥ 40 requires ≥ 1 family-specific component — outlier / domain / fold / split — else capped at 39) + the **sister-family test** (D14/D7, added in S1): a candidate closer to a labelled JPT1 bait than to any known binder paralog, by more than `sister_margin` (0.10), is assigned to the sister family and capped at 39, with the margin recorded. It is a positive test on distances — the candidate's own gene symbol is never consulted — and the length band is deliberately not part of the call. **Measured here in S1: without it, 5/5 JPT1 decoys are promoted — at 80 for the three carrying PF17054 and 60 for the two that do not — and specificity falls 58/58 → 53/58.** (The sibling ITPR project's equivalent number was 6/6 at 45; that is *its* measurement, not this one.) **S1 also added the partition guard** — every run is checked against the JPT/LSM12 boundary and raises, with `allow_cross_partition=True` as the explicit opt-out the benchmark used to measure the distortion — the `size_component_points` knob (D29), and a fix for a scoring bug: `restrict=known_labels or None` turned an *empty* known set into "no restriction", so the outlier, cluster and sister components scored candidates against their nearest neighbour of any kind. Defaults read from `utils/family.py`. |
+| `partition.py` | **One analysis and one scorer pass per family** — `run_partitioned_discovery()` splits **before the alignment**, so each family gets its own MSA, identity matrix and tree and a cross-family cell has nowhere to exist. Unassignable records come back explicitly, never dropped (the D24 lesson applied to partitioning). Takes `signature_sets=` so a signature built from *named* members can be applied to unnamed candidates (**D30**). Plus `merge_reports()` (presentation only — every candidate keeps its partition tag) and `partition_table()`. |
+| `writer.py` | `write_discovery()` — split out of `candidates.py` so one on-disk schema is shared by the CLI, domain scan, exhaustive hunt and GUI. |
 | `domain_scan.py` | `run_domain_scan(…)` — the fourth-paralog hunt: enumerate every protein with a family Pfam ID via InterPro, filter out known paralogs *and the non-binding paralogs*, fetch sequences, run analysis + discovery. |
 | `exhaustive.py` | `run_exhaustive_hunt(…)` — the all-in-one `"mode": "exhaustive"` pipeline: Compara mine + ortholog expansion + InterPro enumeration → merged census (`naadp_bp_like_census.csv` + FASTA) → analyse + discovery + presence matrix + highlighted tree + bundle/report. |
 
@@ -165,6 +177,7 @@ as bait.
 | File | Functions |
 |------|-----------|
 | `family.py` | The family definition (see above). |
+| `partitions.py` | **The D14 guard.** `assign_partition()` (provenance → family Pfam → symbol, returning the reason it was made), `split_by_partition()`, `partitions_present()`, and `assert_single_partition()`, which **raises** `CrossPartitionError` rather than warning. Note what assignment is *not*: placing a protein in the JPT partition says it is a Jupiter-family protein, which JPT1 also is (D21). |
 | `species.py` | `SpeciesInfo`, `SPECIES_LOOKUP`, `DEFAULT_SPECIES_PANEL`, `resolve_species()`, `ensembl_species_slug()`. Covers the model organisms, the teleost 3R lineages and the non-metazoan margins. |
 | `data_root.py` | `get_data_root()` (falls back to `<project>/data` with a warning), **`require_data_root()`** (raises — use before anything bulk), `free_bytes()`. `python -m src.utils.data_root --require` is the session-protocol check. |
 | `exporters.py` | `write_fasta()`, `write_csv()`, `write_json()`. |
@@ -211,15 +224,17 @@ Post-search, the **Analysis menu** (`ToolsController` + `TaskRunner`) runs
 
 ## What is *not* here yet
 
-This project is at S-setup. Compared with the sibling `../ip3r_genes`:
+Compared with the sibling `../ip3r_genes`:
 
 | Missing | Why | Arrives in |
 |---|---|---|
-| `scripts/s0_*.py`, `scripts/s1_*.py` | family-specific; the siblings' versions are reference implementations to read, not code to inherit | S0, S1 |
-| `docs/naadp_binder_review_2026.md` | the literature review is S0's deliverable | S0 |
-| `results/s0_baseline/`, `results/benchmark_controls/` | no measurement has been run in this repo | S0, S1 |
-| partition awareness in `discovery/candidates.py` | the ported scorer has none — see roadmap D14a | S1 |
+| `scripts/s2_*.py` | the census enumeration is S2's deliverable | S2 |
+| `jpt.hmm` / `lsm12.hmm` profiles | S1 measured that the labelled-bait margin cannot call the deep grade (fly Jupiter is inside the D7 no-call band), so the profile route is **required**, not a cross-check | S3 |
+| an LSM12 sister panel | `SISTER_PARALOGS` names only JPT1/HN1; the LSM12 partition has no equivalent positive test, and its specificity rests on the domain component alone | S2/S20 |
+| any functional test | everything so far separates binder from paralog by distance to a labelled bait; nothing here can say a protein *binds NAADP* (D21) | S17 |
 
-Read `../ip3r_genes/INTERFACE.md` first, and its
-`results/benchmark_controls/report.md` before writing S1 here — it measured
-the failure this project expects in a sharper form.
+This project is at **S1 complete**. Read
+`results/benchmark_controls/report.md` before S2 — it carries the four
+constraints S2 inherits: the signature fallback (and that it must be built
+from the *named* panel), `family.py:SISTER_PANEL` in every JPT search, the
+primary-symbol rule for `pick_best`, and Ensembl's continued unreliability.

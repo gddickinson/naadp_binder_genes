@@ -103,3 +103,80 @@ second is the one that matters biologically: this project's central output is
 a claim that certain species *lack* these proteins, and a tool that silently
 reports "we looked and found nothing" when it never looked at all is the
 exact way such a claim goes wrong. Both are fixed.
+
+---
+
+## S1 — 2026-08-18 · Can we tell the binder from its twin?
+
+**The decoy wins unless we measure distance, and we now know by how much.**
+JPT1 is the same size as JPT2, carries the identical structural signature,
+and does not bind NAADP. We put five of them — human, mouse, rat, frog, cow
+— into the discovery pipeline as deliberate impostors, alongside sixteen
+unrelated proteins of the same size and the entire ancient Lsm protein
+family. With the pipeline's distance test switched off, **every single JPT1
+was accepted as a candidate binder**, three of them at the highest
+confidence the scorer can express. With the test switched on, all five were
+rejected, and nothing else in the panel moved. This is the sharpest possible
+statement of the project's central problem: *no structural signature
+separates the NAADP binder from its non-binding twin*. What separates them
+is how close each sits to a correctly-labelled example — and that is a much
+more fragile instrument than a domain.
+
+**How fragile is now measured, and it fails exactly where the interesting
+biology is.** The distance test works cleanly across the vertebrates, where
+JPT2 and JPT1 stay comfortably apart. It breaks on the deep branch. The
+fruit-fly Jupiter protein — the founding member of the family, the one it is
+named after — sits so close to the midpoint that the test refuses to call
+it, and under the more sensitive measurement we plan to adopt later it
+actually points to the wrong side. **So the further back in evolutionary
+time we look, the less this method can tell us**, and the non-vertebrate
+range question is precisely where we expect the novel biology to be. That
+question will have to be answered by profile models rather than by distance.
+*(pending: S3, S20)*
+
+**A third of our JPT2s are invisible to the catalogue.** Mouse, rat and cow
+JPT2 are real, well-studied proteins — the mouse one is manually reviewed —
+and none of them carries the structural signature the census was going to
+use to find them. Search for the family that way and you lose half your
+vertebrate examples without any warning that you have. We built a fallback
+that recognises members by the conserved sequence blocks the known members
+share, and it recovered all three, with no cost in false positives. **The
+census will therefore not treat "no signature" as "not in the family"** —
+which, for a project whose headline output is a list of species that *lack*
+these proteins, is the difference between a result and an artefact.
+
+**The two families interfere with each other, but only under one specific
+condition — and it is the condition we are heading into.** We have insisted
+from the start that JPT2 and LSM12 must never be compared to each other,
+since they share a ligand and nothing else. Testing that assumption produced
+a more precise answer than expected. As long as *each* family has at least
+one correctly-named member in the search, mixing them changes essentially
+nothing: every protein finds its real relatives and the unrelated family is
+simply too distant to interfere. But the moment one family has **no named
+member** — which is exactly what happens when we sweep genomes of flies,
+fungi and plants where nothing carries a recognisable name — the pipeline
+starts scoring those proteins against the *other* family, and nearly every
+score changes. Two genuine LSM12s were promoted on evidence borrowed from an
+unrelated human protein. The separation is now enforced in code rather than
+by convention: the software refuses to compare across the boundary at all.
+
+**A warning we have written down before it can bite us.** We plan to switch
+to a more sensitive way of measuring similarity, because it handles partial
+sequences better. Measured on the current data, that switch would raise the
+apparent similarity between JPT2 and LSM12 — two proteins with no common
+ancestry — from at most 11 % to as much as 39 %, and would put one in eight
+cross-family comparisons into the range the software treats as evidence of
+an exciting new relative. Nothing is wrong with the more sensitive
+measurement; what would be wrong is using it without the family boundary
+enforced. *(pending: S6)*
+
+**And one small, slightly embarrassing lesson about names.** While assembling
+a list of ordinary unrelated proteins to use as controls, we asked the
+database for albumin and it returned a completely different, twice-as-long
+protein that happens to list "ALB" among its alternative names — and our
+selection rule preferred it. We already knew about one such trap in this
+project, involving JPT2's own alias. Finding a second one by accident, on
+the first ordinary gene we happened to pick, says the problem is common
+rather than special. Every name-based lookup in the census now has to
+confirm it got the protein that actually *has* that name, not one that
+merely answers to it.

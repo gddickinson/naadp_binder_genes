@@ -1,0 +1,3 @@
+panel	n_rows	alignment_width	mean_pairwise_identity	n_true_member_pairs	mean_identity_true_members	min_identity_true_members
+without giant	32	1400	0.1075	28	0.4589	0.1357
+with giant	33	34359	0.1048	28	0.4473	0.0831

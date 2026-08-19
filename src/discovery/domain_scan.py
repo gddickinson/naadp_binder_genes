@@ -24,7 +24,8 @@ from ..databases.interpro import (
     fetch_uniprot_sequence,
     list_proteins_with_pfam,
 )
-from ..discovery.candidates import DiscoveryConfig, discover_novel_paralogs, write_discovery
+from ..discovery.candidates import DiscoveryConfig, discover_novel_paralogs
+from ..discovery.writer import write_discovery
 from ..utils.family import KNOWN_PARALOGS
 from ..utils.report import write_report
 from ..utils.results_writer import make_bundle_dir, write_bundle

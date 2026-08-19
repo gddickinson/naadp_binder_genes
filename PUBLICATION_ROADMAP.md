@@ -116,7 +116,20 @@ Claude: follow this protocol in every session that touches this project.
 Statuses: `pending` / `in_progress` / `completed YYYY-MM-DD`.
 Full step-by-step briefs: `docs/session_briefs.md`.
 
-> **Next session: S1.** S0 is complete: the literature baseline is verified
+> **Next session: S2.** S1 is complete. **Read
+> `results/benchmark_controls/report.md` before S2** — it carries four
+> things S2 depends on: (1) the MSA-signature fallback is what makes
+> "no Pfam" safe to treat as "still in the family" (D25's gap, closed —
+> and the signature set must be built from the *named* reference panel,
+> never derived from the candidate set); (2) the JPT1 decoy is excluded
+> only by the labelled-bait margin, which means every JPT-partition
+> search must carry `family.py:SISTER_PANEL`; (3) the labelled-bait
+> margin cannot call the deep grade, so S3's profiles are load-bearing
+> for S20, not a cross-check; (4) `gene_exact:` matches synonyms — the
+> panel builder now prefers primary symbols and `s0_lib.py:pick_best`
+> does not yet (emergent).
+>
+> S0 is complete: the literature baseline is verified
 > (`docs/naadp_binder_review_2026.md`), every `[db]` number re-derived, and
 > two blocking app bugs fixed. **Read `results/s0_baseline/report.md`
 > before S1** — it carries three things S1 needs: the measured ~40 %
@@ -139,7 +152,7 @@ Full step-by-step briefs: `docs/session_briefs.md`.
 | ID | Task (one session each) | Depends | Status | Results (headline) |
 |----|-------------------------|---------|--------|--------------------|
 | S0 | Literature baseline + scope confirmation: verify every `[lit]` claim, build `docs/naadp_binder_review_2026.md`, smoke-test the app | — | completed 2026-08-18 | **8 lit claims audited / 19 refs** (1 corrected, 1 refined, 1 re-tagged, 5 verified) → `docs/naadp_binder_review_2026.md`. **PF17054 covers only 46.2 % of IPR033335** and misses reviewed mouse JPT2 (Q6PGH2) → census denominator changed (**D25**). **Yeast LSM12 P38828 recovered** — `organism_id` vs `taxonomy_id` false absence (**D23**). **JPT1 vs JPT2 ≈ 40 % identity** [PMID:37607218] — calibrates S1. Two app bugs fixed: Entrez calls had **no timeout** (hung the pipeline), and an unreturned source was **silently dropped** (**D24**). All tables + `report.md` in `results/s0_baseline/`. |
-| S1 | Toolchain install + control benchmark **per partition**, with JPT1 as the sharp decoy, and a measurement of the cross-family distortion | S0 | pending | |
+| S1 | Toolchain install + control benchmark **per partition**, with JPT1 as the sharp decoy, and a measurement of the cross-family distortion | S0 | completed 2026-08-18 | **All 12 tools resolve** (`results/toolchain_manifest.txt`). **D14 implemented** (`utils/partitions.py` + `discovery/partition.py`): the scorer now **raises** on a mixed set and splits *before the alignment*. **Specificity 58/58**, JPT1 **5/5** — but **only because of the sister test**: disabled, **5/5 JPT1 decoys promote at 60–80**. **Recall 12/15 unnamed → 15/15 with the MSA-signature fallback**; all 3 misses are JPT2 orthologs with **no Pfam xref** (D25 at scorer level). **Cross-family distortion is conditional (D27)**: 1/57 scores change with both families named, **44/57 with 2 call flips** when one family has none. **Cross-family identity: max 0.108 full (0 % in twilight zone) vs 0.391 covered-only (13.1 %)** — S6's metric switch would manufacture novelty (**D28**). **Size component kept at +15 (D29)**, measured as carrying no information (band holds 17/17 members and 40/58 decoys). Two bugs fixed: the empty-known-set restrict bug and synonym-matching in `gene_exact`. All tables + `report.md` + figure in `results/benchmark_controls/`. |
 | S2 | Uncapped Pfam enumeration (PF17054; PF09793/PF21166) → census v2, with a partition call and a binder-vs-paralog call on every record | S1 | pending | |
 | S3 | Profile-HMM sweep (jpt.hmm, jpt1-decoy profile, lsm12.hmm) over reference proteomes + jackhmmer-to-convergence → census v3 | S1, S2 | pending | |
 | S4 | Genome scope: declared assembly manifest + download tooling | S1 | pending | |
@@ -177,14 +190,19 @@ Full step-by-step briefs: `docs/session_briefs.md`.
 
 | Added | From | Task | Status |
 |-------|------|------|--------|
-| 2026-08-18 | setup | **The ported scorer has no notion of partitions.** `discover_novel_paralogs` computes "identity to nearest known paralog" over whatever is in the set, so running both families at once makes every candidate an outlier by construction. `family.py:FAMILY_PARTITIONS` is declared and nothing reads it | open (S1) |
-| 2026-08-18 | setup | **The size band is declared but nearly useless** (120–280 aa, with JPT1 at 154 and JPT2 at 190 inside it). The `size+15` scorer component will fire on almost every candidate, real or not — a component contributing no information but plenty of score. Decide in S1 whether to zero it for this family and record the decision | open (S1) |
+| 2026-08-18 | setup | **The ported scorer has no notion of partitions.** `discover_novel_paralogs` computes "identity to nearest known paralog" over whatever is in the set, so running both families at once makes every candidate an outlier by construction. `family.py:FAMILY_PARTITIONS` is declared and nothing reads it | **closed 2026-08-18 (S1)** — `utils/partitions.py` + `discovery/partition.py`; the scorer raises on a mixed set |
+| 2026-08-18 | setup | **The size band is declared but nearly useless** (120–280 aa, with JPT1 at 154 and JPT2 at 190 inside it). The `size+15` scorer component will fire on almost every candidate, real or not — a component contributing no information but plenty of score. Decide in S1 whether to zero it for this family and record the decision | **closed 2026-08-18 (S1)** — measured and retained, see **D29**; re-weighting moved to S19 |
 | 2026-08-18 | setup | Chicken and zebrafish JPT1, and chicken JPT2, did not resolve by symbol. Given LSM12 resolves in all of them, this is more likely annotation or naming than absence — resolve by sequence | open (S2) |
 | 2026-08-18 | setup | **The co-occurrence deliverable depends on a sibling repo.** S23 joins against `../naadpr_genes`'s per-genome ledger, which does not exist until that project reaches its own S5. Track the dependency across repos or S23 will stall | open (S23) |
 | 2026-08-18 | S0 | **The JPT census denominator is wrong.** PF17054 covers 1,360 proteins against 2,944 in its own InterPro family entry IPR033335 (0.462), and misses reviewed mouse JPT2 (Q6PGH2), which carries IPR033335 and no Pfam cross-reference. LSM12's signatures are effectively complete for their entries, so **the two partitions need different denominators**. Settled as **D25**; S2 implements it | open (S2) |
-| 2026-08-18 | S0 | **Ensembl REST was degraded on 2026-08-18** and the app cannot currently rely on it: `/info/ping` 0.61 s, but `lookup/symbol` averaged 19.8 s over five calls and `xrefs/symbol` gave 2 timeouts + 1 HTTP 503; the full-panel smoke run lost Ensembl to the 900 s deadline. Evidence `results/s0_baseline/ensembl_endpoint_probe.tsv`. Re-probe at the start of S1; if still degraded, S2/S3 must not take Ensembl as a required source | open (S1) |
+| 2026-08-18 | S0 | **Ensembl REST was degraded on 2026-08-18** and the app cannot currently rely on it: `/info/ping` 0.61 s, but `lookup/symbol` averaged 19.8 s over five calls and `xrefs/symbol` gave 2 timeouts + 1 HTTP 503; the full-panel smoke run lost Ensembl to the 900 s deadline. Evidence `results/s0_baseline/ensembl_endpoint_probe.tsv`. Re-probe at the start of S1; if still degraded, S2/S3 must not take Ensembl as a required source | **closed 2026-08-18 (S1)** — re-probed: improved but still not dependable (`lookup/symbol` 4/5 ok mean 10.6 s; `xrefs/symbol` 3/5 with 2 timeouts; zebrafish still HTTP 400 **while `xrefs` on the same gene now succeeds**, so that one is a symbol/ID problem, not an outage). **S2/S3 must not require Ensembl.** `results/benchmark_controls/ensembl_reprobe.tsv` |
 | 2026-08-18 | S0 | **UniProt Pfam cross-references are incomplete on true family members.** Mouse JPT2 (Q6PGH2, reviewed) and *X. tropicalis* JPT1 (I7KJP8) carry IPR033335 but no Pfam xref at all. Any fetch that screens candidates by Pfam presence will drop them; `pick_best()` already falls back to the length band and records it, but S2's binder call must not treat "no Pfam" as "not in the family" | open (S2) |
 | 2026-08-18 | S0 | **The zebrafish Ensembl symbol lookup returns HTTP 400** (`/lookup/symbol/danio_rerio/lsm12`), unlike human and mouse. Probably a symbol-case or ID-type issue rather than an outage, since it did not time out. Resolve when Ensembl is healthy again | open (S2) |
+| 2026-08-18 | S1 | **`s0_lib.py:pick_best` does not check primary-vs-synonym symbols.** `gene_exact:` matches gene *synonyms*: `gene_exact:ALB AND taxonomy_id:9606` returns FBF1 (Q8TES7, 1,133 aa) alongside albumin, and reviewed-first/longest picks FBF1. Found by accident on the first unrelated control chosen for the S1 decoy panel, so HN1L/CRAMP1 is not a one-off. `s1_panels.py:_primary_first` implements the fix and logs every rejected synonym (`symbol_collisions.tsv`); the S0 helper S2 will use does not have it. **Port it before the census** | open (S2) |
+| 2026-08-18 | S1 | **The scorer's weights need recalibrating against a threshold, not patched.** The size component measurably carries no information for this family (fires on 17/17 members and 40/58 decoys) but is retained at +15 because the 40-point threshold was calibrated with it: zeroing it costs 7 true positives and gains no specificity (D29). Re-deriving weights + threshold together is a real piece of work and belongs in S19, not in a session that would do it silently | open (S19) |
+| 2026-08-18 | S1 | **The LSM12 partition has no sister-family panel.** `family.py:SISTER_PARALOGS` names only JPT1/HN1, so the positive distance test that saves the JPT partition has no LSM12 equivalent; LSM12 specificity rests entirely on the domain component and the D3 gate. The Lsm/Sm fold set (LSM1–8, SNRPD1–3, SNRPE/F/G, ATXN2L) scored 10–39 and is a candidate panel, but nothing has established that it is the *right* sister set | open (S2/S20) |
+| 2026-08-18 | S1 | **The labelled-bait margin is a vertebrate instrument.** *Drosophila* Jupiter sits at +0.041 (full) / −0.015 (fragment-aware) — inside the D7 no-call band and pointing at the wrong family under the metric S6 adopts; zebrafish JPT2 is at +0.071. Best-profile assignment (`jpt.hmm` vs a JPT1-decoy profile) is therefore **required** for S20, not optional | open (S3/S20) |
+| 2026-08-18 | S1 | **A panel-design rule the sibling projects never needed:** one 34,350 aa decoy (titin) inflated the JPT alignment from 1,400 to 34,359 columns. It did **not** corrupt within-family identity (0.459 → 0.447, gap-gap columns are skipped) but the runtime/memory cost is prohibitive at census scale. Out-of-band decoys for a ~190 aa family must be bounded; applies to any S2/S20 set that sweeps in a long protein | open |
 | 2026-08-18 | setup | **`src/gui/tools.py` is 549 lines — over the project's 500-line rule**, inherited from the sibling projects rather than introduced here (it is 549 there too). The natural seam is the Analysis-menu handlers vs `augment_bundle()`. Split it before adding any menu action | open |
 
 ---
@@ -349,6 +367,56 @@ non-vertebrate range question (S20) is **in scope as a headline result**,
 not supplementary — LSM12 already resolves in fly and yeast by symbol alone,
 and PF09793 sits in an ancient fold set, so the range question is where the
 novel biology most likely is, and it feeds S23.
+
+**D27 — The cross-family distortion is conditional, and the condition is
+"does this family have a named member?"** (measured in S1). The roadmap
+predicted that mixing JPT and LSM12 would put every candidate in the
+twilight zone by construction. It does not: as long as each family keeps
+at least one *named* member, each candidate's nearest known paralog is a
+real relative and the joint run reproduces the partitioned one almost
+exactly (1/57 scores differ, 0 call flips). The failure appears when a
+family has **no named member** — 44/57 scores change and 2 calls flip,
+each promoted on a cluster-exclusion point earned against an unrelated
+protein. That is the realistic state of the non-vertebrate sweep (S20),
+so **D14 stands unchanged, with its justification restated**: the hazard
+is not that strangers look novel, it is that the scorer computes *some*
+number for any pair it is handed and cannot tell a distant relative from
+a stranger. Evidence: `results/benchmark_controls/report.md` §2.
+
+**D28 — S6's metric change is pre-registered as a partition hazard**
+(measured in S1). Under the full-alignment identity the scorer uses
+today, JPT-vs-LSM12 pairs top out at **0.108** and **0 %** reach the
+0.20–0.40 twilight zone. Under the fragment-aware metric S6 adopts
+(`covered_only=True`) the same pairs reach **0.391** and **13.1 %
+(105/800)** land inside it — each worth +20, which also satisfies the D3
+gate. **The S6 switch must not be made without the partition guard
+active**, and any session that changes the identity metric re-runs
+`crossfamily_identity.tsv` and reports it.
+
+**D29 — The size component is retained at +15 and is never evidence**
+(measured in S1, resolving D22's open question). The 120–280 aa band
+contains 17/17 true family members and 40/58 decoys, including every
+JPT1 — it separates nothing. But zeroing it changes 7 promotion calls,
+**all of them true positives lost and no decoy gained**, because the
+40-point threshold, the D3 gate and the sister margin were calibrated
+with it in place and the informative components alone (`pfam+20` +
+`breadth+15` = 35) fall short. So it stays as a constant offset the
+threshold is calibrated against, and no report cites length as support
+for a family call. Re-deriving weights and threshold together is S19's
+job, logged as an emergent task rather than done silently.
+
+**D30 — "No Pfam" is not "not in the family", and the MSA-signature
+fallback is what makes that safe** (measured in S1, closing the S0
+emergent task). Three of six JPT2 orthologs in the control panel — mouse
+Q6PGH2 (reviewed), rat Q5BK20, cow A0AAA9SSJ4 — carry **no family Pfam
+cross-reference at all** and score 30–39 without the domain component,
+i.e. they are missed. Attaching the family signature derived from the
+*named* members recovers all three (`sig+15`) and specificity does not
+move (58/58). Two operational consequences: S2's binder call must not
+screen on Pfam presence, and the signature set must be **built from the
+named reference panel and applied to candidates**, never derived from
+the candidate set — an all-unnamed set yields one row and no PSSM
+(0 blocks measured).
 
 **D0b — This project also inherits the ITPR project's measured lessons.**
 Two carry directly: (1) a scorer whose domain component fires on a signature

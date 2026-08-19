@@ -3,14 +3,17 @@
 > **Status board and findings are at the bottom.** This README is the
 > state-of-the-project summary and is refreshed at the end of every session.
 
-**Status: S0 complete — the baseline is verified and two app bugs are
-fixed.** Every literature claim this project rests on has been traced to a
-primary source (19 references), every database number re-derived live, and
-the app run end to end. S0 changed three things before any census was
-attempted: the **census denominator** (the planned Pfam sees under half its
-family), the **organism query field** (one "absence" was ours, not the
-genome's), and two defects in the app — one that hung the pipeline, one that
-made a partial harvest look complete. The next session runs **S1**.
+**Status: S1 complete — the scorer is a validated instrument, per
+partition, and we know exactly what it cannot do.** S0 verified the
+literature baseline (19 references) and re-derived every database number.
+S1 installed the toolchain, implemented the two-family partition in code,
+and benchmarked the discovery scorer against 17 true members and 58 decoys
+led by JPT1 — the paralog that carries JPT2's signature and does not bind
+NAADP. **Without the labelled-bait distance test, 5/5 JPT1 decoys are
+promoted; with it, 0/5.** Recall on unnamed true members is 12/15, rising
+to **15/15** once the sequence-signature fallback is attached — which is
+what makes it safe to stop treating "no Pfam" as "not in the family".
+The next session runs **S2**.
 
 ## What this is
 
@@ -33,7 +36,8 @@ and nothing else — no common domain, no detectable similarity, no alignable
 ancestry. The pipeline assumes one family whose members are mutually
 comparable, so every distance, tree and novelty score has to be computed
 *within* a partition and never across. Run the `jpt` and `lsm12` presets
-separately; a run that mixes them is void until S1 makes it impossible.
+separately; **S1 made a mixed run impossible** — the scorer raises rather
+than returning a cross-family number.
 
 **2. The decoy is inside the family, and no domain separates it.**
 
@@ -123,7 +127,7 @@ A longest-first pick selects the wrong protein.
 2. **Does binder presence track two-pore-channel presence, lineage by lineage?** This joins against [`../naadpr_genes`](../naadpr_genes) and is the test neither project can run alone.
 3. What distinguishes JPT2 from JPT1 at sequence level, and is it constrained? If a conserved JPT2-specific surface exists, that is the project's central positive result.
 4. When did the JPT1/JPT2 duplication happen?
-5. How much does a two-family subject distort a one-family scorer? (A methods result, measured in S1.)
+5. How much does a two-family subject distort a one-family scorer? (A methods result. **Measured in S1: only when a family has no named member — then 44/57 scores change.**)
 
 ## Project status board
 
@@ -131,8 +135,8 @@ A longest-first pick selects the wrong protein.
 |---|---|---|
 | S-setup | Project created, families defined and verified | ✅ completed 2026-08-18 |
 | S0 | Literature baseline + scope confirmation | ✅ completed 2026-08-18 |
-| S1 | Toolchain + per-partition controls + the distortion measurement | ⏳ pending — **next** |
-| S2 | Pfam enumeration → census v2 | ⏳ pending |
+| S1 | Toolchain + per-partition controls + the distortion measurement | ✅ completed 2026-08-18 |
+| S2 | Uncapped InterPro enumeration → census v2 | ⏳ pending — **next** |
 | S3–S13, S15–S24 | HMM sweep, genome sweep, phylogeny, selection, structures, synthesis | ⏳ pending |
 | S14a/b/c | Manuscript, deposit, rewrite | ⏳ pending |
 
@@ -142,6 +146,35 @@ Full ledger and the Decisions log:
 ## Findings so far
 
 Plain-language entries per task: [`FINDINGS.md`](FINDINGS.md).
+
+**S1 (2026-08-18).** The project's central difficulty now has a number.
+JPT1 — same size as JPT2, identical structural signature, not a NAADP
+binder — is accepted as a candidate binder **5 times out of 5** unless the
+pipeline measures its distance to a correctly-labelled example; with that
+test on, it is rejected 5 times out of 5 and nothing else moves. So **no
+domain signature separates the binder from its twin**, and the thing that
+does is a fragile instrument: it works across the vertebrates and fails on
+the deep branch, where *Drosophila* Jupiter — the protein the family is
+named after — cannot be called at all. Separately, three of six vertebrate
+JPT2s carry no family signature in the databases and would have been lost;
+a sequence-block fallback recovers all three at no cost in false positives.
+And the two-family interference we assumed turns out to be **conditional**:
+harmless while each family has a named member, severe the moment one does
+not — which is exactly the state of the non-vertebrate sweep this project
+is building towards. It is now impossible in code.
+
+![S1 scorer validation](results/benchmark_controls/figures/s1_scorer_validation.png)
+
+*Left: JPT2 and LSM12 are unalignable — but under the more sensitive
+identity metric planned for later, 13 % of cross-family pairs would enter
+the range the scorer reads as an exciting new relative. Right: every
+JPT-partition record scored with the sister-family test off (filled) and on
+(open); the five JPT1 decoys in green are the only records it moves.*
+
+Report:
+[`results/benchmark_controls/report.md`](results/benchmark_controls/report.md)
+· Toolchain:
+[`results/toolchain_manifest.txt`](results/toolchain_manifest.txt)
 
 **S0 (2026-08-18).** The published story checks out, with one date corrected
 (26 years, not "two decades") and one credit reassigned (only JPT2 acts on
@@ -166,6 +199,6 @@ Verified literature baseline:
 | [`../piezo_genes`](../piezo_genes) | PIEZO1/2/3 mechanosensors | 24 sessions, manuscript assembled |
 | [`../ip3r_genes`](../ip3r_genes) | ITPR1/2/3, IP₃ receptors | S0–S1 complete |
 | [`../naadpr_genes`](../naadpr_genes) | TPCN1/2/3, two-pore channels | S-setup complete |
-| **this repo** | JPT2, LSM12 — the NAADP binders | S0 complete |
+| **this repo** | JPT2, LSM12 — the NAADP binders | S0–S1 complete |
 
 The method is shared; no result is.

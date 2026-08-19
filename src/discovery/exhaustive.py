@@ -45,12 +45,12 @@ from ..core.models import ProteinVariant, SearchQuery, SearchResult, SearchStatu
 from ..databases.compara import ComparaClient, ENSEMBL_REST, _PAUSE_S
 from ..databases.interpro import fetch_uniprot_sequence, list_proteins_with_pfam
 from ..utils.family import FAMILY_NAME, KNOWN_PARALOGS
+from ..discovery.writer import write_discovery
 from ..discovery.candidates import (
     DiscoveryConfig,
     _is_known,
     build_signature_set,
     discover_novel_paralogs,
-    write_discovery,
 )
 from ..utils.report import write_report
 from ..utils.results_writer import make_bundle_dir, write_bundle

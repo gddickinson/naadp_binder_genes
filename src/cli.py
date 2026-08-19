@@ -174,15 +174,40 @@ def run_headless(
                 print(f"[headless]   derived {len(sset.signatures)} family-signature blocks")
         # Presets may tune scorer thresholds via a "discovery" block, e.g.
         # {"discovery": {"novelty_ceiling": 0.55}}.
-        discovery_report = discover_novel_paralogs(
-            all_variants,
-            DiscoveryConfig(known_paralogs=known, **preset_data.get("discovery", {})),
-            analysis_label_for=label_map,
-            distances=(analysis_result.distances if analysis_result else None),
-            domain_hits=domain_hits,
-            foldseek_hits=foldseek_hits,
-            signature_set=sset,
-        )
+        overrides = dict(preset_data.get("discovery", {}))
+        # D14: a preset spanning both families (naadp_bp, naadp_bp_all) must
+        # not be scored in one set — each candidate's "nearest known paralog"
+        # would be an unrelated protein. Route it through one analysis and
+        # one scorer run per family instead of refusing it.
+        from .utils.partitions import partitions_present
+        spans = partitions_present(all_variants, domain_hits)
+        if len(spans) > 1:
+            from .discovery.partition import (merge_reports,
+                                              run_partitioned_discovery)
+            print(f"[headless]   set spans {len(spans)} families "
+                  f"({', '.join(sorted(spans))}) — running one analysis and "
+                  "one scorer pass per family (roadmap D14)")
+            runs, unassigned = run_partitioned_discovery(
+                all_variants, known, domain_hits=domain_hits,
+                foldseek_hits=foldseek_hits, use_mafft=False,
+                config_overrides=overrides)
+            discovery_report = merge_reports(runs)
+            if unassigned:
+                discovery_report.notes.append(
+                    f"{len(unassigned)} record(s) could not be assigned to "
+                    "either family and were not scored: "
+                    + ", ".join(v.accession for v in unassigned[:12]))
+        else:
+            discovery_report = discover_novel_paralogs(
+                all_variants,
+                DiscoveryConfig(known_paralogs=known,
+                                partition=next(iter(spans), None), **overrides),
+                analysis_label_for=label_map,
+                distances=(analysis_result.distances if analysis_result else None),
+                domain_hits=domain_hits,
+                foldseek_hits=foldseek_hits,
+                signature_set=sset,
+            )
         discovery_report_text = discovery_report.text_summary()
         print(f"[headless]   discovery: "
               f"{sum(1 for c in discovery_report.candidates if c.score >= 60)} promising, "

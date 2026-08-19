@@ -1,0 +1,65 @@
+run	accession	gene_symbol	species	length_aa	truth	panel_note	id_to_jpt2_bait	id_to_jpt1_bait	margin	call	correct	id_to_jpt2_bait_cov	id_to_jpt1_bait_cov	margin_cov	call_cov	correct_cov
+part_baseline	Q9H910	JPT2	Homo sapiens	190	bait	JPT2	0.000	0.243	-0.243	JPT1		0.000	0.362	-0.362	JPT1	
+part_baseline	Q6PGH2	Jpt2	Mus musculus	190	JPT2	JPT2	0.795	0.233	+0.562	JPT2	True	0.795	0.348	+0.447	JPT2	True
+part_baseline	Q5BK20	Jpt2	Rattus norvegicus	190	JPT2	JPT2	0.789	0.238	+0.552	JPT2	True	0.789	0.355	+0.434	JPT2	True
+part_baseline	A0A6I8PKV3	jpt2	Xenopus tropicalis	192	JPT2	JPT2	0.482	0.276	+0.206	JPT2	True	0.503	0.392	+0.111	JPT2	True
+part_baseline	F1Q6E4	jpt2	Danio rerio	218	JPT2	JPT2	0.393	0.262	+0.130	JPT2	True	0.455	0.384	+0.071	JPT2	True
+part_baseline	A0AAA9SSJ4	JPT2	Bos taurus	209	JPT2	JPT2	0.470	0.151	+0.319	JPT2	True	0.653	0.288	+0.365	JPT2	True
+part_baseline	K7D4U4	HN1L	Pan troglodytes	190	JPT2	JPT2	0.995	0.243	+0.752	JPT2	True	0.995	0.362	+0.632	JPT2	True
+part_baseline	Q9I7K0	Jupiter	Drosophila melanogaster	208	JPT2	deep_grade	0.215	0.174	+0.041	JPT2	True	0.288	0.303	-0.015	JPT1	False
+part_baseline	Q9UK76	JPT1	Homo sapiens	154	bait	JPT1 (sister paralog)	0.233	0.903	-0.670	JPT1		0.348	0.903	-0.555	JPT1	
+part_baseline	P97825	Jpt1	Mus musculus	154	bait	JPT1 (sister paralog)	0.243	0.903	-0.660	JPT1		0.362	0.903	-0.540	JPT1	
+part_baseline	Q6AXU6	Jpt1	Rattus norvegicus	149	JPT1	JPT1 (sister paralog)	0.223	0.929	-0.705	JPT1	True	0.346	0.960	-0.614	JPT1	True
+part_baseline	I7KJP8	jpt1	Xenopus tropicalis	143	JPT1	JPT1 (sister paralog)	0.193	0.449	-0.256	JPT1	True	0.298	0.496	-0.199	JPT1	True
+part_baseline	Q3T0T5	JPT1	Bos taurus	154	JPT1	JPT1 (sister paralog)	0.233	0.935	-0.702	JPT1	True	0.348	0.935	-0.587	JPT1	True
+part_baseline	Q96RY5	CRAMP1	Homo sapiens	1269	other	symbol-collision trap	0.031	0.026	+0.005	JPT2		0.211	0.216	-0.005	JPT1	
+part_baseline	P0DP23	CALM1	Homo sapiens	149	other	in-band unrelated	0.040	0.040	+0.000	JPT2		0.167	0.185	-0.019	JPT1	
+part_baseline	P07737	PFN1	Homo sapiens	140	other	in-band unrelated	0.044	0.037	+0.007	JPT2		0.139	0.176	-0.037	JPT1	
+part_baseline	P23528	CFL1	Homo sapiens	166	other	in-band unrelated	0.061	0.047	+0.015	JPT2		0.215	0.194	+0.022	JPT2	
+part_baseline	P61586	RHOA	Homo sapiens	193	other	in-band unrelated	0.049	0.048	+0.001	JPT2		0.197	0.246	-0.048	JPT1	
+part_baseline	P63000	RAC1	Homo sapiens	192	other	in-band unrelated	0.033	0.048	-0.016	JPT1		0.130	0.246	-0.116	JPT1	
+part_baseline	P60953	CDC42	Homo sapiens	191	other	in-band unrelated	0.043	0.045	-0.003	JPT1		0.171	0.228	-0.057	JPT1	
+part_baseline	P01112	HRAS	Homo sapiens	189	other	in-band unrelated	0.033	0.042	-0.009	JPT1		0.130	0.211	-0.081	JPT1	
+part_baseline	P01116	KRAS	Homo sapiens	189	other	in-band unrelated	0.046	0.045	+0.001	JPT2		0.184	0.228	-0.044	JPT1	
+part_baseline	P13693	TPT1	Homo sapiens	172	other	in-band unrelated	0.071	0.064	+0.007	JPT2		0.204	0.213	-0.009	JPT1	
+part_baseline	P00441	SOD1	Homo sapiens	154	other	in-band unrelated	0.030	0.035	-0.005	JPT1		0.110	0.176	-0.067	JPT1	
+part_baseline	P62937	PPIA	Homo sapiens	165	other	in-band unrelated	0.053	0.059	-0.006	JPT1		0.203	0.227	-0.025	JPT1	
+part_baseline	P23396	RPS3	Homo sapiens	243	other	in-band unrelated	0.050	0.045	+0.005	JPT2		0.145	0.167	-0.021	JPT1	
+part_baseline	P18124	RPL7	Homo sapiens	248	other	in-band unrelated	0.058	0.050	+0.007	JPT2		0.174	0.190	-0.016	JPT1	
+part_baseline	P60660	MYL6	Homo sapiens	151	other	in-band unrelated	0.051	0.040	+0.011	JPT2		0.206	0.182	+0.024	JPT2	
+part_baseline	P37802	TAGLN2	Homo sapiens	199	other	in-band unrelated	0.060	0.058	+0.002	JPT2		0.202	0.213	-0.011	JPT1	
+part_baseline	P0DP26	Calm1	Mus musculus	149	other	in-band unrelated	0.040	0.040	+0.000	JPT2		0.167	0.185	-0.019	JPT1	
+part_baseline	P02768	ALB	Homo sapiens	609	other	out-of-band unrelated	0.034	0.028	+0.006	JPT2		0.147	0.162	-0.015	JPT1	
+part_baseline	P11021	HSPA5	Homo sapiens	654	other	out-of-band unrelated	0.044	0.041	+0.003	JPT2		0.158	0.184	-0.025	JPT1	
+part_anonymised	Q9H910	JPT2	Homo sapiens	190	bait	JPT2	0.000	0.243	-0.243	JPT1		0.000	0.362	-0.362	JPT1	
+part_anonymised	Q6PGH2	Jpt2	Mus musculus	190	JPT2	JPT2	0.795	0.233	+0.562	JPT2	True	0.795	0.348	+0.447	JPT2	True
+part_anonymised	Q5BK20	Jpt2	Rattus norvegicus	190	JPT2	JPT2	0.789	0.238	+0.552	JPT2	True	0.789	0.355	+0.434	JPT2	True
+part_anonymised	A0A6I8PKV3	jpt2	Xenopus tropicalis	192	JPT2	JPT2	0.482	0.276	+0.206	JPT2	True	0.503	0.392	+0.111	JPT2	True
+part_anonymised	F1Q6E4	jpt2	Danio rerio	218	JPT2	JPT2	0.393	0.262	+0.130	JPT2	True	0.455	0.384	+0.071	JPT2	True
+part_anonymised	A0AAA9SSJ4	JPT2	Bos taurus	209	JPT2	JPT2	0.470	0.151	+0.319	JPT2	True	0.653	0.288	+0.365	JPT2	True
+part_anonymised	K7D4U4	HN1L	Pan troglodytes	190	JPT2	JPT2	0.995	0.243	+0.752	JPT2	True	0.995	0.362	+0.632	JPT2	True
+part_anonymised	Q9I7K0	Jupiter	Drosophila melanogaster	208	JPT2	deep_grade	0.215	0.174	+0.041	JPT2	True	0.288	0.303	-0.015	JPT1	False
+part_anonymised	Q9UK76	JPT1	Homo sapiens	154	bait	JPT1 (sister paralog)	0.233	0.903	-0.670	JPT1		0.348	0.903	-0.555	JPT1	
+part_anonymised	P97825	Jpt1	Mus musculus	154	bait	JPT1 (sister paralog)	0.243	0.903	-0.660	JPT1		0.362	0.903	-0.540	JPT1	
+part_anonymised	Q6AXU6	Jpt1	Rattus norvegicus	149	JPT1	JPT1 (sister paralog)	0.223	0.929	-0.705	JPT1	True	0.346	0.960	-0.614	JPT1	True
+part_anonymised	I7KJP8	jpt1	Xenopus tropicalis	143	JPT1	JPT1 (sister paralog)	0.193	0.449	-0.256	JPT1	True	0.298	0.496	-0.199	JPT1	True
+part_anonymised	Q3T0T5	JPT1	Bos taurus	154	JPT1	JPT1 (sister paralog)	0.233	0.935	-0.702	JPT1	True	0.348	0.935	-0.587	JPT1	True
+part_anonymised	Q96RY5	CRAMP1	Homo sapiens	1269	other	symbol-collision trap	0.031	0.026	+0.005	JPT2		0.211	0.216	-0.005	JPT1	
+part_anonymised	P0DP23	CALM1	Homo sapiens	149	other	in-band unrelated	0.040	0.040	+0.000	JPT2		0.167	0.185	-0.019	JPT1	
+part_anonymised	P07737	PFN1	Homo sapiens	140	other	in-band unrelated	0.044	0.037	+0.007	JPT2		0.139	0.176	-0.037	JPT1	
+part_anonymised	P23528	CFL1	Homo sapiens	166	other	in-band unrelated	0.061	0.047	+0.015	JPT2		0.215	0.194	+0.022	JPT2	
+part_anonymised	P61586	RHOA	Homo sapiens	193	other	in-band unrelated	0.049	0.048	+0.001	JPT2		0.197	0.246	-0.048	JPT1	
+part_anonymised	P63000	RAC1	Homo sapiens	192	other	in-band unrelated	0.033	0.048	-0.016	JPT1		0.130	0.246	-0.116	JPT1	
+part_anonymised	P60953	CDC42	Homo sapiens	191	other	in-band unrelated	0.043	0.045	-0.003	JPT1		0.171	0.228	-0.057	JPT1	
+part_anonymised	P01112	HRAS	Homo sapiens	189	other	in-band unrelated	0.033	0.042	-0.009	JPT1		0.130	0.211	-0.081	JPT1	
+part_anonymised	P01116	KRAS	Homo sapiens	189	other	in-band unrelated	0.046	0.045	+0.001	JPT2		0.184	0.228	-0.044	JPT1	
+part_anonymised	P13693	TPT1	Homo sapiens	172	other	in-band unrelated	0.071	0.064	+0.007	JPT2		0.204	0.213	-0.009	JPT1	
+part_anonymised	P00441	SOD1	Homo sapiens	154	other	in-band unrelated	0.030	0.035	-0.005	JPT1		0.110	0.176	-0.067	JPT1	
+part_anonymised	P62937	PPIA	Homo sapiens	165	other	in-band unrelated	0.053	0.059	-0.006	JPT1		0.203	0.227	-0.025	JPT1	
+part_anonymised	P23396	RPS3	Homo sapiens	243	other	in-band unrelated	0.050	0.045	+0.005	JPT2		0.145	0.167	-0.021	JPT1	
+part_anonymised	P18124	RPL7	Homo sapiens	248	other	in-band unrelated	0.058	0.050	+0.007	JPT2		0.174	0.190	-0.016	JPT1	
+part_anonymised	P60660	MYL6	Homo sapiens	151	other	in-band unrelated	0.051	0.040	+0.011	JPT2		0.206	0.182	+0.024	JPT2	
+part_anonymised	P37802	TAGLN2	Homo sapiens	199	other	in-band unrelated	0.060	0.058	+0.002	JPT2		0.202	0.213	-0.011	JPT1	
+part_anonymised	P0DP26	Calm1	Mus musculus	149	other	in-band unrelated	0.040	0.040	+0.000	JPT2		0.167	0.185	-0.019	JPT1	
+part_anonymised	P02768	ALB	Homo sapiens	609	other	out-of-band unrelated	0.034	0.028	+0.006	JPT2		0.147	0.162	-0.015	JPT1	
+part_anonymised	P11021	HSPA5	Homo sapiens	654	other	out-of-band unrelated	0.044	0.041	+0.003	JPT2		0.158	0.184	-0.025	JPT1	

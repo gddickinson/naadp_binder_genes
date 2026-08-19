@@ -1,11 +1,9 @@
-{
-  "task": "S0",
-  "workers": 1,
-  "steps": [
-    {
-      "label": "S0 database snapshot complete",
-      "done": 1,
-      "total": 1
-    }
-  ]
-}
+{"task": "S1", "workers": 1, "steps": [
+ {"label": "Ensembl re-probe", "done": true},
+ {"label": "Toolchain manifest (12/12)", "done": true},
+ {"label": "Partition the scorer (D14a)", "done": true},
+ {"label": "Fetch control panels (17+58)", "done": true},
+ {"label": "Benchmark: 6 experiments", "done": true},
+ {"label": "Size-component measurement (D22/D29)", "done": true},
+ {"label": "Figure + report.md", "done": true}
+]}
