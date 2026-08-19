@@ -116,10 +116,13 @@ Claude: follow this protocol in every session that touches this project.
 Statuses: `pending` / `in_progress` / `completed YYYY-MM-DD`.
 Full step-by-step briefs: `docs/session_briefs.md`.
 
-> **Next session: S0.** Nothing has been measured yet beyond the setup
-> verification recorded in `docs/naadp_binder_background.md`. S0 audits every
-> `[lit]` claim there against a citation, re-derives every `[db]` number, and
-> smoke tests the app end to end.
+> **Next session: S1.** S0 is complete: the literature baseline is verified
+> (`docs/naadp_binder_review_2026.md`), every `[db]` number re-derived, and
+> two blocking app bugs fixed. **Read `results/s0_baseline/report.md`
+> before S1** — it carries three things S1 needs: the measured ~40 %
+> JPT1/JPT2 identity (the difficulty the sister-margin has to beat), the
+> census-denominator change (**D25**), and the fact that Ensembl REST was
+> degraded on 2026-08-18, so S1 should not depend on it.
 >
 > **Read the sibling ITPR project's `results/benchmark_controls/report.md`
 > before S1.** It measured what happens when a scorer's domain component
@@ -135,7 +138,7 @@ Full step-by-step briefs: `docs/session_briefs.md`.
 
 | ID | Task (one session each) | Depends | Status | Results (headline) |
 |----|-------------------------|---------|--------|--------------------|
-| S0 | Literature baseline + scope confirmation: verify every `[lit]` claim, build `docs/naadp_binder_review_2026.md`, smoke-test the app | — | pending | |
+| S0 | Literature baseline + scope confirmation: verify every `[lit]` claim, build `docs/naadp_binder_review_2026.md`, smoke-test the app | — | completed 2026-08-18 | **8 lit claims audited / 19 refs** (1 corrected, 1 refined, 1 re-tagged, 5 verified) → `docs/naadp_binder_review_2026.md`. **PF17054 covers only 46.2 % of IPR033335** and misses reviewed mouse JPT2 (Q6PGH2) → census denominator changed (**D25**). **Yeast LSM12 P38828 recovered** — `organism_id` vs `taxonomy_id` false absence (**D23**). **JPT1 vs JPT2 ≈ 40 % identity** [PMID:37607218] — calibrates S1. Two app bugs fixed: Entrez calls had **no timeout** (hung the pipeline), and an unreturned source was **silently dropped** (**D24**). All tables + `report.md` in `results/s0_baseline/`. |
 | S1 | Toolchain install + control benchmark **per partition**, with JPT1 as the sharp decoy, and a measurement of the cross-family distortion | S0 | pending | |
 | S2 | Uncapped Pfam enumeration (PF17054; PF09793/PF21166) → census v2, with a partition call and a binder-vs-paralog call on every record | S1 | pending | |
 | S3 | Profile-HMM sweep (jpt.hmm, jpt1-decoy profile, lsm12.hmm) over reference proteomes + jackhmmer-to-convergence → census v3 | S1, S2 | pending | |
@@ -178,6 +181,10 @@ Full step-by-step briefs: `docs/session_briefs.md`.
 | 2026-08-18 | setup | **The size band is declared but nearly useless** (120–280 aa, with JPT1 at 154 and JPT2 at 190 inside it). The `size+15` scorer component will fire on almost every candidate, real or not — a component contributing no information but plenty of score. Decide in S1 whether to zero it for this family and record the decision | open (S1) |
 | 2026-08-18 | setup | Chicken and zebrafish JPT1, and chicken JPT2, did not resolve by symbol. Given LSM12 resolves in all of them, this is more likely annotation or naming than absence — resolve by sequence | open (S2) |
 | 2026-08-18 | setup | **The co-occurrence deliverable depends on a sibling repo.** S23 joins against `../naadpr_genes`'s per-genome ledger, which does not exist until that project reaches its own S5. Track the dependency across repos or S23 will stall | open (S23) |
+| 2026-08-18 | S0 | **The JPT census denominator is wrong.** PF17054 covers 1,360 proteins against 2,944 in its own InterPro family entry IPR033335 (0.462), and misses reviewed mouse JPT2 (Q6PGH2), which carries IPR033335 and no Pfam cross-reference. LSM12's signatures are effectively complete for their entries, so **the two partitions need different denominators**. Settled as **D25**; S2 implements it | open (S2) |
+| 2026-08-18 | S0 | **Ensembl REST was degraded on 2026-08-18** and the app cannot currently rely on it: `/info/ping` 0.61 s, but `lookup/symbol` averaged 19.8 s over five calls and `xrefs/symbol` gave 2 timeouts + 1 HTTP 503; the full-panel smoke run lost Ensembl to the 900 s deadline. Evidence `results/s0_baseline/ensembl_endpoint_probe.tsv`. Re-probe at the start of S1; if still degraded, S2/S3 must not take Ensembl as a required source | open (S1) |
+| 2026-08-18 | S0 | **UniProt Pfam cross-references are incomplete on true family members.** Mouse JPT2 (Q6PGH2, reviewed) and *X. tropicalis* JPT1 (I7KJP8) carry IPR033335 but no Pfam xref at all. Any fetch that screens candidates by Pfam presence will drop them; `pick_best()` already falls back to the length band and records it, but S2's binder call must not treat "no Pfam" as "not in the family" | open (S2) |
+| 2026-08-18 | S0 | **The zebrafish Ensembl symbol lookup returns HTTP 400** (`/lookup/symbol/danio_rerio/lsm12`), unlike human and mouse. Probably a symbol-case or ID-type issue rather than an outage, since it did not time out. Resolve when Ensembl is healthy again | open (S2) |
 | 2026-08-18 | setup | **`src/gui/tools.py` is 549 lines — over the project's 500-line rule**, inherited from the sibling projects rather than introduced here (it is 549 there too). The natural seam is the Analysis-menu handlers vs `augment_bundle()`. Split it before adding any menu action | open |
 
 ---
@@ -298,6 +305,50 @@ an unpaired comparison measures the assemblies.
 **D17 — Permutation nulls are drawn from real genomic windows**, not from a
 uniform shuffle, and the genes under test are removed from their own windows
 or the test is circular.
+
+**D23 — Symbol x organism queries use `taxonomy_id`, not `organism_id`**
+(measured in S0). UniProt's `organism_id` matches **one taxonomy node
+exactly**; `taxonomy_id` matches the node **and its descendants**. The setup
+snapshot used the first and recorded *S. cerevisiae* LSM12 as absent. It is
+not absent: P38828 (LSM12_YEAST, 187 aa, reviewed, PF09793+PF21166) sits
+under the S288c strain node (559292) while `species.py` carries the species
+node (4932). Switching field changes exactly one of thirty cells — but that
+cell is a reviewed entry, and the project's headline deliverable is an
+absence claim. Every symbol x organism query in this repo uses the subtree
+field, and `s0_db_snapshot.py` runs **both** and commits the difference so
+the artefact stays visible rather than being quietly fixed.
+
+**D24 — A source that does not return is recorded as a failure, never
+omitted** (measured in S0). The headless driver waits on a deadline and then
+proceeds with whatever arrived; the sources that never came back were simply
+absent from the bundle's `per_source` list. The first full-panel smoke run
+therefore produced a bundle reading "642 variants across 2 source(s)" with
+**no record anywhere that Ensembl had been asked and had failed** — a
+partial harvest indistinguishable from a complete one. For a project whose
+deliverable is an absence claim this is the most dangerous class of bug
+available, worse than a crash. `SearchOrchestrator` now records
+`started_sources`, and `cli.py` synthesises an explicit `ERROR` result for
+every dispatched source that did not return.
+
+**D25 — The census denominator is the InterPro *family* entry, not the
+Pfam** (measured in S0; scope confirmed with the user). PF17054 annotates
+1,360 UniProt proteins against 2,944 in IPR033335, the family entry it
+belongs to — **46.2 %** — because the PANTHER member (PTHR34930) covers the
+rest. It also misses a known true positive: reviewed mouse JPT2 (Q6PGH2)
+carries IPR033335 and **no Pfam cross-reference at all**. So S2 enumerates
+the JPT partition from **IPR033335** and the LSM12 partition from
+**IPR039683**, recording the Pfam-only list as a subset so the difference
+between the two denominators is itself a reported number. The partitions are
+asymmetric here — the LSM12 Pfams are effectively complete for their own
+entries (0.998, 1.000) — and the roadmap did not anticipate that.
+
+**D26 — Scope, confirmed with the user in S0.** The vertebrate genome scope
+(S4) is **the best reference assembly per vertebrate order**, inherited from
+the PIEZO project; absence claims are scoped to that declaration. The
+non-vertebrate range question (S20) is **in scope as a headline result**,
+not supplementary — LSM12 already resolves in fly and yeast by symbol alone,
+and PF09793 sits in an ancient fold set, so the range question is where the
+novel biology most likely is, and it feeds S23.
 
 **D0b — This project also inherits the ITPR project's measured lessons.**
 Two carry directly: (1) a scorer whose domain component fires on a signature

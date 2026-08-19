@@ -1,0 +1,12 @@
+probe	path	status	seconds	n_records	outcome
+lookup/symbol human LSM12	/lookup/symbol/homo_sapiens/LSM12	200	3.52	1	ok
+xrefs/symbol human LSM12	/xrefs/symbol/homo_sapiens/LSM12	200	11.92	1	ok
+lookup/symbol human JPT2	/lookup/symbol/homo_sapiens/JPT2	200	27.62	1	ok
+xrefs/symbol human JPT2	/xrefs/symbol/homo_sapiens/JPT2		30.48	0	TIMEOUT at 30s
+lookup/symbol human BRCA2	/lookup/symbol/homo_sapiens/BRCA2	200	21.63	1	ok
+xrefs/symbol human BRCA2	/xrefs/symbol/homo_sapiens/BRCA2	503	20.64	0	HTTP 503
+lookup/symbol mouse Lsm12	/lookup/symbol/mus_musculus/Lsm12	200	26.35	1	ok
+xrefs/symbol mouse Lsm12	/xrefs/symbol/mus_musculus/Lsm12	200	7.73	1	ok
+lookup/symbol zfish lsm12	/lookup/symbol/danio_rerio/lsm12	400	18.58	1	HTTP 400
+xrefs/symbol zfish lsm12	/xrefs/symbol/danio_rerio/lsm12		30.47	0	TIMEOUT at 30s
+ping	/info/ping	200	0.61	1	ok

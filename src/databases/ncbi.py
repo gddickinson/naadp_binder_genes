@@ -21,6 +21,7 @@ from Bio import Entrez
 
 from ..core.models import ProteinVariant, SearchQuery
 from .base import DatabaseClient
+from .entrez_util import ensure_socket_timeout, entrez_call
 
 
 class NCBIClient(DatabaseClient):
@@ -31,6 +32,9 @@ class NCBIClient(DatabaseClient):
         Entrez.email = email or "anonymous@example.com"
         if api_key:
             Entrez.api_key = api_key
+        # Bio.Entrez passes no timeout to urlopen; without this a stalled
+        # NCBI read hangs this worker thread forever (see entrez_util).
+        ensure_socket_timeout(timeout_s)
 
     def search(self, query: SearchQuery) -> list[ProteinVariant]:
         variants: list[ProteinVariant] = []
@@ -60,7 +64,8 @@ class NCBIClient(DatabaseClient):
     # ---- internals -------------------------------------------------------
 
     def _esearch(self, term: str, retmax: int) -> list[str]:
-        with Entrez.esearch(db="protein", term=term, retmax=retmax) as h:
+        with entrez_call(Entrez.esearch, db="protein", term=term,
+                         retmax=retmax, timeout_s=self.timeout_s) as h:
             data = Entrez.read(h)
         return list(data.get("IdList", []))
 
@@ -68,7 +73,9 @@ class NCBIClient(DatabaseClient):
         out: list[dict[str, Any]] = []
         for i in range(0, len(uids), chunk):
             batch = uids[i : i + chunk]
-            with Entrez.esummary(db="protein", id=",".join(batch)) as h:
+            with entrez_call(Entrez.esummary, db="protein",
+                             id=",".join(batch),
+                             timeout_s=self.timeout_s) as h:
                 summaries = Entrez.read(h)
             out.extend(summaries)
             time.sleep(0.34)
@@ -104,7 +111,9 @@ class NCBIClient(DatabaseClient):
         if not ids:
             return
         try:
-            with Entrez.efetch(db="protein", id=",".join(ids), rettype="fasta", retmode="text") as h:
+            with entrez_call(Entrez.efetch, db="protein", id=",".join(ids),
+                             rettype="fasta", retmode="text",
+                             timeout_s=self.timeout_s) as h:
                 fasta = h.read()
         except Exception:
             return

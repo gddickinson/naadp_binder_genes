@@ -27,6 +27,7 @@ from typing import Optional
 
 from ..core.models import ProteinVariant, SearchQuery
 from .base import DatabaseClient
+from .entrez_util import entrez_call
 
 
 class BlastClient(DatabaseClient):
@@ -163,10 +164,12 @@ class BlastClient(DatabaseClient):
         if self.email:
             Entrez.email = self.email
         try:
-            handle = Entrez.efetch(
+            handle = entrez_call(
+                Entrez.efetch,
                 db="protein",
                 id=",".join(v.accession for v in targets),
                 rettype="fasta", retmode="text",
+                timeout_s=self.timeout_s,
             )
             text = handle.read()
             handle.close()

@@ -1,0 +1,3 @@
+symbol_queried	accession	protein_name	gene_names	length_aa	status	pfam	is_expected_correct	is_longest_first_pick	query
+HN1L	Q96RY5	Protein cramped-like	CRAMP1;C16orf34;CRAMP1L;HN1L;KIAA1426	1269	SP	PF27753	False	True	gene_exact:HN1L
+HN1L	Q9H910	Jupiter microtubule associated homolog 2	JPT2;C16orf34;HN1L	190	SP	PF17054	True	False	gene_exact:HN1L

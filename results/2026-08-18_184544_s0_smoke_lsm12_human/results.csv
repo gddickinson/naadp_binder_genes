@@ -1,0 +1,26 @@
+source,gene_symbol,accession,species,taxon_id,length_aa,transcript_id,gene_id,description,url
+UniProt,LSM12,Q3MHD2,Homo sapiens,9606,195,,LSM12,Protein LSM12,https://www.uniprot.org/uniprotkb/Q3MHD2
+UniProt,LSM12,Q3MHD2-1,Homo sapiens,9606,,,LSM12,isoform 1 of Q3MHD2,https://www.uniprot.org/uniprotkb/Q3MHD2-1
+UniProt,LSM12,Q3MHD2-2,Homo sapiens,9606,,,LSM12,isoform 2 of Q3MHD2,https://www.uniprot.org/uniprotkb/Q3MHD2-2
+UniProt,LSM12,A0ACI8SAL5,Homo sapiens,9606,227,,LSM12,A0ACI8SAL5_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SAL5
+UniProt,LSM12,A0ACI8SPK9,Homo sapiens,9606,188,,LSM12,A0ACI8SPK9_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SPK9
+UniProt,LSM12,A0ACI8QHC3,Homo sapiens,9606,133,,LSM12,A0ACI8QHC3_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8QHC3
+UniProt,LSM12,A0ACI8SPI3,Homo sapiens,9606,163,,LSM12,A0ACI8SPI3_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SPI3
+UniProt,LSM12,A0ACI8R1G8,Homo sapiens,9606,192,,LSM12,A0ACI8R1G8_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8R1G8
+UniProt,LSM12,A0ACI8S7Z8,Homo sapiens,9606,226,,LSM12,A0ACI8S7Z8_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8S7Z8
+UniProt,LSM12,K7ELG9,Homo sapiens,9606,230,,LSM12,K7ELG9_HUMAN,https://www.uniprot.org/uniprotkb/K7ELG9
+UniProt,LSM12,A0ACI8QIX5,Homo sapiens,9606,191,,LSM12,A0ACI8QIX5_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8QIX5
+UniProt,LSM12,A0ACI8SPI9,Homo sapiens,9606,137,,LSM12,A0ACI8SPI9_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SPI9
+UniProt,LSM12,A0ACI8SPM6,Homo sapiens,9606,204,,LSM12,A0ACI8SPM6_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SPM6
+UniProt,LSM12,A0ACI8R797,Homo sapiens,9606,116,,LSM12,A0ACI8R797_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8R797
+UniProt,LSM12,A0ACI8SPG5,Homo sapiens,9606,170,,LSM12,A0ACI8SPG5_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SPG5
+UniProt,LSM12,A0ACI8SPI7,Homo sapiens,9606,138,,LSM12,A0ACI8SPI7_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SPI7
+NCBI,LSM12,Q3MHD2.2,,9606,195,,,RecName: Full=Protein LSM12,https://www.ncbi.nlm.nih.gov/protein/Q3MHD2.2
+NCBI,LSM12,NP_001358374.1,,9606,195,,,protein LSM12 isoform 3 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001358374.1
+NCBI,LSM12,NP_001356413.1,,9606,230,,,protein LSM12 isoform 1 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001356413.1
+NCBI,LSM12,NP_001356415.1,,9606,137,,,protein LSM12 isoform 4 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001356415.1
+NCBI,LSM12,NP_001356414.1,,9606,227,,,protein LSM12 isoform 2 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001356414.1
+NCBI,LSM12,NP_689557.1,,9606,195,,,protein LSM12 isoform 3 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_689557.1
+NCBI,LSM12,EAW51639.1,,9606,195,,,LSM12 homolog (S. cerevisiae) [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/EAW51639.1
+NCBI,LSM12,AAI05289.1,,9606,131,,,LSM12 protein [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/AAI05289.1
+NCBI,LSM12,AAH44587.1,,9606,195,,,LSM12 homolog (S. cerevisiae) [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/AAH44587.1

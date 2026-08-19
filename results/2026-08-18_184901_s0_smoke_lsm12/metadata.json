@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-08-18T18:49:01",
+  "query": {
+    "gene_symbols": [
+      "LSM12"
+    ],
+    "species": "",
+    "taxon_id": null,
+    "sources": [
+      "NCBI",
+      "Ensembl",
+      "UniProt"
+    ],
+    "max_results_per_source": 120,
+    "include_sequence": true
+  },
+  "per_source": [
+    {
+      "source": "UniProt",
+      "status": "ok",
+      "n_variants": 122,
+      "elapsed_s": 1.02,
+      "message": ""
+    },
+    {
+      "source": "NCBI",
+      "status": "ok",
+      "n_variants": 120,
+      "elapsed_s": 6.18,
+      "message": ""
+    }
+  ],
+  "totals": {
+    "variants": 242,
+    "csv_rows": 242,
+    "json_rows": 242,
+    "fasta_records": 233
+  },
+  "environment": {
+    "python": "3.11.15",
+    "platform": "macOS-26.6.1-arm64-arm-64bit"
+  },
+  "notes": "Headless run of preset 'lsm12'."
+}

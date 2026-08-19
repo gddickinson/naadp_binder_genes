@@ -1,0 +1,31 @@
+species	taxid	symbol_queried	partition	result	accession	length_aa	status	pfam	protein_name	n_hits_returned	screen_note	query	organism_id_result	organism_id_accession	field_changes_call
+human	9606	JPT2	JPT	found	Q9H910	190	SP	PF17054	Jupiter microtubule associated homolog 2	10	screened out by length: H3BMT0(115aa), H3BMM8(70aa), H3BS08(77aa), H3BTV5(116aa), H3BU95(98aa); in band but no required Pfam: A6NGP5, H3BU16, A0ACI8R2A3	gene_exact:JPT2 AND taxonomy_id:9606	found	Q9H910	False
+human	9606	LSM12	LSM12	found	Q3MHD2	195	SP	PF09793;PF21166	Protein LSM12	14	screened out by length: A0ACI8R797(116aa), A0ACI8SPI7(138aa), A0ACI8QHC3(133aa), A0ACI8SPI9(137aa); in band but no required Pfam: A0ACI8SAL5, A0ACI8SPK9, A0ACI8R1G8, A0ACI8S7Z8, A0ACI8SPG5, A0ACI8SPI3, A0ACI8QIX5, A0ACI8SPM6	gene_exact:LSM12 AND taxonomy_id:9606	found	Q3MHD2	False
+human	9606	JPT1	JPT	found	Q9UK76	154	SP	PF17054	Jupiter microtubule associated homolog 1	5	screened out by length: J3KSH8(93aa), J3KT51(104aa), A0ACI8REV9(115aa), F2Z3M5(44aa)	gene_exact:JPT1 AND taxonomy_id:9606	found	Q9UK76	False
+mouse	10090	JPT2	JPT	found	Q6PGH2	190	SP		Jupiter microtubule associated homolog 2	4	in band but no required Pfam: Q6PGH2, Q3TM10, Q3U7P4, Q3TJZ7; NO hit carried the required Pfam; fell back to length band	gene_exact:JPT2 AND taxonomy_id:10090	found	Q6PGH2	False
+mouse	10090	LSM12	LSM12	found	Q9D0R8	195	SP	PF09793;PF21166	Protein LSM12	2	screened out by length: A0A0A0MQC9(137aa)	gene_exact:LSM12 AND taxonomy_id:10090	found	Q9D0R8	False
+mouse	10090	JPT1	JPT	found	P97825	154	SP	PF17054	Jupiter microtubule associated homolog 1	1	single clean hit	gene_exact:JPT1 AND taxonomy_id:10090	found	P97825	False
+chicken	9031	JPT2	JPT	not found by symbol						0	no hit	gene_exact:JPT2 AND taxonomy_id:9031	not found by symbol		False
+chicken	9031	LSM12	LSM12	found	Q5ZML5	194	SP	PF09793;PF21166	Protein LSM12	3	single clean hit	gene_exact:LSM12 AND taxonomy_id:9031	found	Q5ZML5	False
+chicken	9031	JPT1	JPT	not found by symbol						0	no hit	gene_exact:JPT1 AND taxonomy_id:9031	not found by symbol		False
+X. tropicalis	8364	JPT2	JPT	found	A0A6I8PKV3	192	TR	PF17054	Jupiter microtubule associated homolog 2 isoform X1	3	in band but no required Pfam: B4F6I8, A0A8J0QEA5	gene_exact:JPT2 AND taxonomy_id:8364	found	A0A6I8PKV3	False
+X. tropicalis	8364	LSM12	LSM12	found	Q6P833	194	SP	PF09793;PF21166	Protein LSM12	2	single clean hit	gene_exact:LSM12 AND taxonomy_id:8364	found	Q6P833	False
+X. tropicalis	8364	JPT1	JPT	found	I7KJP8	143	TR		HN1 protein	2	in band but no required Pfam: I7KJP8, A0A8J0QCZ4; NO hit carried the required Pfam; fell back to length band	gene_exact:JPT1 AND taxonomy_id:8364	found	I7KJP8	False
+zebrafish	7955	JPT2	JPT	found	F1Q6E4	218	TR	PF17054	Jupiter microtubule associated homolog 2	1	single clean hit	gene_exact:JPT2 AND taxonomy_id:7955	found	F1Q6E4	False
+zebrafish	7955	LSM12	LSM12	found	Q6PBA2	196	SP	PF09793;PF21166	Protein LSM12 homolog A	1	single clean hit	gene_exact:LSM12 AND taxonomy_id:7955	found	Q6PBA2	False
+zebrafish	7955	JPT1	JPT	not found by symbol						0	no hit	gene_exact:JPT1 AND taxonomy_id:7955	not found by symbol		False
+fly	7227	JPT2	JPT	not found by symbol						0	no hit	gene_exact:JPT2 AND taxonomy_id:7227	not found by symbol		False
+fly	7227	LSM12	LSM12	found	Q9VYR0	217	SP	PF09793;PF21166	LSM12 homolog A	1	single clean hit	gene_exact:LSM12 AND taxonomy_id:7227	found	Q9VYR0	False
+fly	7227	JPT1	JPT	not found by symbol						0	no hit	gene_exact:JPT1 AND taxonomy_id:7227	not found by symbol		False
+worm	6239	JPT2	JPT	not found by symbol						0	no hit	gene_exact:JPT2 AND taxonomy_id:6239	not found by symbol		False
+worm	6239	LSM12	LSM12	not found by symbol						0	no hit	gene_exact:LSM12 AND taxonomy_id:6239	not found by symbol		False
+worm	6239	JPT1	JPT	not found by symbol						0	no hit	gene_exact:JPT1 AND taxonomy_id:6239	not found by symbol		False
+Arabidopsis	3702	JPT2	JPT	not found by symbol						0	no hit	gene_exact:JPT2 AND taxonomy_id:3702	not found by symbol		False
+Arabidopsis	3702	LSM12	LSM12	not found by symbol						0	no hit	gene_exact:LSM12 AND taxonomy_id:3702	not found by symbol		False
+Arabidopsis	3702	JPT1	JPT	not found by symbol						0	no hit	gene_exact:JPT1 AND taxonomy_id:3702	not found by symbol		False
+yeast	4932	JPT2	JPT	not found by symbol						0	no hit	gene_exact:JPT2 AND taxonomy_id:4932	not found by symbol		False
+yeast	4932	LSM12	LSM12	found	P38828	187	SP	PF09793;PF21166	Protein LSM12	1	single clean hit	gene_exact:LSM12 AND taxonomy_id:4932	not found by symbol		True
+yeast	4932	JPT1	JPT	not found by symbol						0	no hit	gene_exact:JPT1 AND taxonomy_id:4932	not found by symbol		False
+Dictyostelium	44689	JPT2	JPT	not found by symbol						0	no hit	gene_exact:JPT2 AND taxonomy_id:44689	not found by symbol		False
+Dictyostelium	44689	LSM12	LSM12	not found by symbol						0	no hit	gene_exact:LSM12 AND taxonomy_id:44689	not found by symbol		False
+Dictyostelium	44689	JPT1	JPT	not found by symbol						0	no hit	gene_exact:JPT1 AND taxonomy_id:44689	not found by symbol		False

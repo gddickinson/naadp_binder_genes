@@ -1,0 +1,549 @@
+[
+  {
+    "source": "UniProt",
+    "accession": "Q3MHD2",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 195,
+    "description": "Protein LSM12",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/Q3MHD2",
+    "raw": {
+      "uniProtkbId": "LSM12_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "Q3MHD2-1",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": null,
+    "description": "isoform 1 of Q3MHD2",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "",
+    "url": "https://www.uniprot.org/uniprotkb/Q3MHD2-1",
+    "raw": {
+      "parent": "Q3MHD2",
+      "isoform": {
+        "name": {
+          "value": "1"
+        },
+        "isoformIds": [
+          "Q3MHD2-1"
+        ],
+        "isoformSequenceStatus": "Displayed"
+      }
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "Q3MHD2-2",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": null,
+    "description": "isoform 2 of Q3MHD2",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "",
+    "url": "https://www.uniprot.org/uniprotkb/Q3MHD2-2",
+    "raw": {
+      "parent": "Q3MHD2",
+      "isoform": {
+        "name": {
+          "value": "2"
+        },
+        "isoformIds": [
+          "Q3MHD2-2"
+        ],
+        "sequenceIds": [
+          "VSP_028241"
+        ],
+        "isoformSequenceStatus": "Described"
+      }
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8SAL5",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 227,
+    "description": "A0ACI8SAL5_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTRDEFLPCCPVWSRTPGLKQSTHLGLPKRGDYSIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8SAL5",
+    "raw": {
+      "uniProtkbId": "A0ACI8SAL5_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8SPK9",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 188,
+    "description": "A0ACI8SPK9_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8SPK9",
+    "raw": {
+      "uniProtkbId": "A0ACI8SPK9_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8QHC3",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 133,
+    "description": "A0ACI8QHC3_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGELASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8QHC3",
+    "raw": {
+      "uniProtkbId": "A0ACI8QHC3_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8SPI3",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 163,
+    "description": "A0ACI8SPI3_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALSDLPRPPKVLGLQLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8SPI3",
+    "raw": {
+      "uniProtkbId": "A0ACI8SPI3_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8R1G8",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 192,
+    "description": "A0ACI8R1G8_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8R1G8",
+    "raw": {
+      "uniProtkbId": "A0ACI8R1G8_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8S7Z8",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 226,
+    "description": "A0ACI8S7Z8_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTDEFLPCCPVWSRTPGLKQSTHLGLPKRGDYSIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8S7Z8",
+    "raw": {
+      "uniProtkbId": "A0ACI8S7Z8_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "K7ELG9",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 230,
+    "description": "K7ELG9_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIRQSLALSPTLECSGAISAHCNLRLPGSSDSPASASRVPGTTGVCHHTRLEMGFHHVGQAGLELLT",
+    "url": "https://www.uniprot.org/uniprotkb/K7ELG9",
+    "raw": {
+      "uniProtkbId": "K7ELG9_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8QIX5",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 191,
+    "description": "A0ACI8QIX5_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8QIX5",
+    "raw": {
+      "uniProtkbId": "A0ACI8QIX5_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8SPI9",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 137,
+    "description": "A0ACI8SPI9_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGELASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8SPI9",
+    "raw": {
+      "uniProtkbId": "A0ACI8SPI9_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8SPM6",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 204,
+    "description": "A0ACI8SPM6_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALSILPCVKPESGPACSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8SPM6",
+    "raw": {
+      "uniProtkbId": "A0ACI8SPM6_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8R797",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 116,
+    "description": "A0ACI8R797_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8R797",
+    "raw": {
+      "uniProtkbId": "A0ACI8R797_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8SPG5",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 170,
+    "description": "A0ACI8SPG5_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTRDEFLPCCPVWSRTPGLKQSTHLGLPKRGDYSIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8SPG5",
+    "raw": {
+      "uniProtkbId": "A0ACI8SPG5_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8SPI7",
+    "gene_symbol": "LSM12",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 138,
+    "description": "A0ACI8SPI7_HUMAN",
+    "transcript_id": "",
+    "gene_id": "LSM12",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8SPI7",
+    "raw": {
+      "uniProtkbId": "A0ACI8SPI7_HUMAN"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "Q3MHD2.2",
+    "gene_symbol": "LSM12",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 195,
+    "description": "RecName: Full=Protein LSM12",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/Q3MHD2.2",
+    "raw": {
+      "Item": "[]",
+      "Id": "158705881",
+      "Caption": "Q3MHD2",
+      "Title": "RecName: Full=Protein LSM12",
+      "Extra": "gi|158705881|sp|Q3MHD2.2|LSM12_HUMAN[158705881]",
+      "Gi": "IntegerElement(158705881, attributes={})",
+      "CreateDate": "2007/10/02",
+      "UpdateDate": "2026/06/10",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(195, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "Q3MHD2.2"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001358374.1",
+    "gene_symbol": "LSM12",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 195,
+    "description": "protein LSM12 isoform 3 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001358374.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "1701944571",
+      "Caption": "NP_001358374",
+      "Title": "protein LSM12 isoform 3 [Homo sapiens]",
+      "Extra": "gi|1701944571|ref|NP_001358374.1|[1701944571]",
+      "Gi": "IntegerElement(1701944571, attributes={})",
+      "CreateDate": "2019/07/12",
+      "UpdateDate": "2025/04/29",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(195, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001358374.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001356413.1",
+    "gene_symbol": "LSM12",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 230,
+    "description": "protein LSM12 isoform 1 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIRQSLALSPTLECSGAISAHCNLRLPGSSDSPASASRVPGTTGVCHHTRLEMGFHHVGQAGLELLT",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001356413.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "1610576451",
+      "Caption": "NP_001356413",
+      "Title": "protein LSM12 isoform 1 [Homo sapiens]",
+      "Extra": "gi|1610576451|ref|NP_001356413.1|[1610576451]",
+      "Gi": "IntegerElement(1610576451, attributes={})",
+      "CreateDate": "2019/04/10",
+      "UpdateDate": "2025/04/28",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(230, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001356413.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001356415.1",
+    "gene_symbol": "LSM12",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 137,
+    "description": "protein LSM12 isoform 4 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGELASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001356415.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "1610576122",
+      "Caption": "NP_001356415",
+      "Title": "protein LSM12 isoform 4 [Homo sapiens]",
+      "Extra": "gi|1610576122|ref|NP_001356415.1|[1610576122]",
+      "Gi": "IntegerElement(1610576122, attributes={})",
+      "CreateDate": "2019/04/10",
+      "UpdateDate": "2025/04/28",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(137, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001356415.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001356414.1",
+    "gene_symbol": "LSM12",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 227,
+    "description": "protein LSM12 isoform 2 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTRDEFLPCCPVWSRTPGLKQSTHLGLPKRGDYSIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001356414.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "1610575840",
+      "Caption": "NP_001356414",
+      "Title": "protein LSM12 isoform 2 [Homo sapiens]",
+      "Extra": "gi|1610575840|ref|NP_001356414.1|[1610575840]",
+      "Gi": "IntegerElement(1610575840, attributes={})",
+      "CreateDate": "2019/04/10",
+      "UpdateDate": "2025/04/28",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(227, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001356414.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_689557.1",
+    "gene_symbol": "LSM12",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 195,
+    "description": "protein LSM12 isoform 3 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_689557.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "22748747",
+      "Caption": "NP_689557",
+      "Title": "protein LSM12 isoform 3 [Homo sapiens]",
+      "Extra": "gi|22748747|ref|NP_689557.1|[22748747]",
+      "Gi": "IntegerElement(22748747, attributes={})",
+      "CreateDate": "2002/09/06",
+      "UpdateDate": "2025/04/28",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(195, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_689557.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "EAW51639.1",
+    "gene_symbol": "LSM12",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 195,
+    "description": "LSM12 homolog (S. cerevisiae) [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/EAW51639.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "119572024",
+      "Caption": "EAW51639",
+      "Title": "LSM12 homolog (S. cerevisiae) [Homo sapiens]",
+      "Extra": "gi|119572024|gb|EAW51639.1||gnl|WGS:AADB|hCP44815[119572024]",
+      "Gi": "IntegerElement(119572024, attributes={})",
+      "CreateDate": "2006/12/18",
+      "UpdateDate": "2015/03/23",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(195, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "EAW51639.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "AAI05289.1",
+    "gene_symbol": "LSM12",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 131,
+    "description": "LSM12 protein [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALISPECPSSSGKPNHADILLINLQYVSEVEIINDRTETPPPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCK",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/AAI05289.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "75866788",
+      "Caption": "AAI05289",
+      "Title": "LSM12 protein [Homo sapiens]",
+      "Extra": "gi|75866788|gb|AAI05289.1|[75866788]",
+      "Gi": "IntegerElement(75866788, attributes={})",
+      "CreateDate": "2005/09/19",
+      "UpdateDate": "2006/01/27",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(131, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "AAI05289.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "AAH44587.1",
+    "gene_symbol": "LSM12",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 195,
+    "description": "LSM12 homolog (S. cerevisiae) [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MAAPPGEYFSVGSQVSCRTCQEQRLQGEVVAFDYQSKMLALKCPSSSGKPNHADILLINLQYVSEVEIINDRTETPRPLASLNVSKLASKARTEKEEKLSQAYAISAGVSLEGQQLFQTIHKTIKDCKWQEKNIVVMEEVVITPPYQVENCKGKEGSALSHVRKIVEKHFRDVESQKILQRSQAQQPQKEAALSS",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/AAH44587.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "27882563",
+      "Caption": "AAH44587",
+      "Title": "LSM12 homolog (S. cerevisiae) [Homo sapiens]",
+      "Extra": "gi|27882563|gb|AAH44587.1|[27882563]",
+      "Gi": "IntegerElement(27882563, attributes={})",
+      "CreateDate": "2003/01/23",
+      "UpdateDate": "2006/07/17",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(195, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "AAH44587.1"
+    }
+  }
+]

@@ -1,0 +1,6 @@
+partition	pfam	pfam_name	pfam_type	pfam_proteins	pfam_taxa	interpro_entry	interpro_name	interpro_type	interpro_members	interpro_proteins	interpro_taxa	pfam_fraction_of_interpro
+JPT	PF17054	Microtubule-Associated protein Jupiter	family	1360	2166	IPR033335	Microtubule-associated protein Jupiter	family	panther,pfam	2944	3550	0.462
+LSM12	PF09793	Anticodon-binding domain	domain	3161	7035	IPR019181	LSM12, anticodon-binding domain	domain	pfam,smart	3166	7042	0.998
+LSM12	PF21166	LSM12, LSM domain	domain	1718	4212	IPR048478	LSM12, LSM domain	domain	pfam	1718	4212	1.0
+JPT	(family-level entry)					IPR033335	Microtubule-associated protein Jupiter	family	panther,pfam	2944	3550	
+LSM12	(family-level entry)					IPR039683	Protein Lsm12-like	family	panther	3165	7039	

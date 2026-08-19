@@ -1,0 +1,643 @@
+source,gene_symbol,accession,species,taxon_id,length_aa,transcript_id,gene_id,description,url
+NCBI,JPT2,XP_086797431.1,,8324,173,,,jupiter microtubule associated homolog 2 isoform X2 [Lissotriton vulgaris],https://www.ncbi.nlm.nih.gov/protein/XP_086797431.1
+NCBI,JPT2,XP_086797430.1,,8324,193,,,jupiter microtubule associated homolog 2 isoform X1 [Lissotriton vulgaris],https://www.ncbi.nlm.nih.gov/protein/XP_086797430.1
+NCBI,JPT2,XP_086616267.1,,187382,188,,,jupiter microtubule associated homolog 2 [Chlamydotis macqueenii],https://www.ncbi.nlm.nih.gov/protein/XP_086616267.1
+NCBI,JPT2,XP_086547770.1,,9696,174,,,jupiter microtubule associated homolog 2 isoform X2 [Puma concolor],https://www.ncbi.nlm.nih.gov/protein/XP_086547770.1
+NCBI,JPT2,XP_086547769.1,,9696,174,,,jupiter microtubule associated homolog 2 isoform X2 [Puma concolor],https://www.ncbi.nlm.nih.gov/protein/XP_086547769.1
+NCBI,JPT2,XP_086579932.1,,9565,232,,,LOW QUALITY PROTEIN: jupiter microtubule associated homolog 2 [Theropithecus gelada],https://www.ncbi.nlm.nih.gov/protein/XP_086579932.1
+NCBI,JPT2,CAR8089736.1,,71582,205,,,jupiter microtubule associated homolog 2 [Rana dybowskii],https://www.ncbi.nlm.nih.gov/protein/CAR8089736.1
+NCBI,JPT2,XP_025772678.1,,9696,190,,,jupiter microtubule associated homolog 2 isoform X1 [Puma concolor],https://www.ncbi.nlm.nih.gov/protein/XP_025772678.1
+NCBI,JPT2,XP_086478238.1,,121530,188,,,jupiter microtubule associated homolog 2 [Tauraco erythrolophus],https://www.ncbi.nlm.nih.gov/protein/XP_086478238.1
+NCBI,JPT2,KAO1755717.1,,8030,214,,,jupiter microtubule associated homolog 2 [Salmo salar],https://www.ncbi.nlm.nih.gov/protein/KAO1755717.1
+NCBI,JPT2,XP_086329273.1,,188344,188,,,jupiter microtubule associated homolog 2 [Leptosomus discolor],https://www.ncbi.nlm.nih.gov/protein/XP_086329273.1
+NCBI,JPT2,XP_086232591.1,,30521,182,,,jupiter microtubule associated homolog 2 isoform X2 [Bos grunniens],https://www.ncbi.nlm.nih.gov/protein/XP_086232591.1
+NCBI,JPT2,XP_086232589.1,,30521,245,,,jupiter microtubule associated homolog 2 isoform X1 [Bos grunniens],https://www.ncbi.nlm.nih.gov/protein/XP_086232589.1
+NCBI,JPT2,XP_086144982.1,,3705843,219,,,jupiter microtubule associated homolog 2 [Aulonocara sp. 'chitande type north' Nkhata Bay],https://www.ncbi.nlm.nih.gov/protein/XP_086144982.1
+NCBI,JPT2,XP_086042062.1,,150448,226,,,jupiter microtubule associated homolog 2 [Aulostomus chinensis],https://www.ncbi.nlm.nih.gov/protein/XP_086042062.1
+NCBI,JPT2,XP_085989903.1,,109282,216,,,jupiter microtubule associated homolog 2 isoform X2 [Hippocampus guttulatus],https://www.ncbi.nlm.nih.gov/protein/XP_085989903.1
+NCBI,JPT2,XP_085989902.1,,109282,234,,,jupiter microtubule associated homolog 2 isoform X1 [Hippocampus guttulatus],https://www.ncbi.nlm.nih.gov/protein/XP_085989902.1
+NCBI,JPT2,XP_086010445.1,,215343,247,,,jupiter microtubule associated homolog 2 [Fistularia commersonii],https://www.ncbi.nlm.nih.gov/protein/XP_086010445.1
+NCBI,JPT2,XP_085922867.1,,1095086,247,,,jupiter microtubule associated homolog 2 [Leptonotus elevatus],https://www.ncbi.nlm.nih.gov/protein/XP_085922867.1
+NCBI,JPT2,XP_085912686.1,,1914718,220,,,jupiter microtubule associated homolog 2 [Filicampus tigris],https://www.ncbi.nlm.nih.gov/protein/XP_085912686.1
+NCBI,JPT2,XP_085790710.1,,161587,275,,,jupiter microtubule associated homolog 2 [Syngnathus leptorhynchus],https://www.ncbi.nlm.nih.gov/protein/XP_085790710.1
+NCBI,JPT2,CAR5382209.1,,48168,178,,,JPT2 [Thunnus atlanticus],https://www.ncbi.nlm.nih.gov/protein/CAR5382209.1
+NCBI,JPT2,CAR5224301.1,,8237,309,,,JPT2 [Thunnus thynnus],https://www.ncbi.nlm.nih.gov/protein/CAR5224301.1
+NCBI,JPT2,CAR5380701.1,,8236,185,,,JPT2 [Thunnus albacares],https://www.ncbi.nlm.nih.gov/protein/CAR5380701.1
+NCBI,JPT2,CAR5379226.1,,8235,181,,,Jpt2 [Thunnus alalunga],https://www.ncbi.nlm.nih.gov/protein/CAR5379226.1
+NCBI,JPT2,CAR5385150.1,,48169,114,,,JPT2 [Thunnus tonggol],https://www.ncbi.nlm.nih.gov/protein/CAR5385150.1
+NCBI,JPT2,CAR5384628.1,,48169,148,,,JPT2 [Thunnus tonggol],https://www.ncbi.nlm.nih.gov/protein/CAR5384628.1
+NCBI,JPT2,CAR5384660.1,,8238,180,,,JPT2 [Thunnus orientalis],https://www.ncbi.nlm.nih.gov/protein/CAR5384660.1
+NCBI,JPT2,CAR5377812.1,,8226,200,,,JPT2 [Katsuwonus pelamis],https://www.ncbi.nlm.nih.gov/protein/CAR5377812.1
+NCBI,JPT2,CAR5379304.1,,8241,180,,,JPT2 [Thunnus obesus],https://www.ncbi.nlm.nih.gov/protein/CAR5379304.1
+NCBI,JPT2,XP_085688962.1,,10089,174,,,jupiter microtubule associated homolog 2 isoform X2 [Mus caroli],https://www.ncbi.nlm.nih.gov/protein/XP_085688962.1
+NCBI,JPT2,XP_085688961.1,,10089,190,,,jupiter microtubule associated homolog 2 isoform X1 [Mus caroli],https://www.ncbi.nlm.nih.gov/protein/XP_085688961.1
+NCBI,JPT2,XP_085719259.1,,7764,158,,,jupiter microtubule associated homolog 2 isoform X2 [Eptatretus burgeri],https://www.ncbi.nlm.nih.gov/protein/XP_085719259.1
+NCBI,JPT2,XP_085719258.1,,7764,195,,,jupiter microtubule associated homolog 2 isoform X1 [Eptatretus burgeri],https://www.ncbi.nlm.nih.gov/protein/XP_085719258.1
+NCBI,JPT2,XP_085640715.1,,83875,241,,,jupiter microtubule associated homolog 2 [Trachurus japonicus],https://www.ncbi.nlm.nih.gov/protein/XP_085640715.1
+NCBI,JPT2,XP_048292133.2,,447135,189,,,jupiter microtubule associated homolog 2 [Myodes glareolus],https://www.ncbi.nlm.nih.gov/protein/XP_048292133.2
+NCBI,JPT2,KAM6196918.1,,43583,188,,,jupiter microtubule associated homolog 2 [Sarcoramphus papa],https://www.ncbi.nlm.nih.gov/protein/KAM6196918.1
+NCBI,JPT2,NP_001041535.1,,9823,188,,,jupiter microtubule associated homolog 2 [Sus scrofa],https://www.ncbi.nlm.nih.gov/protein/NP_001041535.1
+NCBI,JPT2,XP_085484287.1,,8323,173,,,jupiter microtubule associated homolog 2 isoform X2 [Triturus cristatus],https://www.ncbi.nlm.nih.gov/protein/XP_085484287.1
+NCBI,JPT2,XP_085484286.1,,8323,173,,,jupiter microtubule associated homolog 2 isoform X2 [Triturus cristatus],https://www.ncbi.nlm.nih.gov/protein/XP_085484286.1
+NCBI,JPT2,XP_085484284.1,,8323,173,,,jupiter microtubule associated homolog 2 isoform X2 [Triturus cristatus],https://www.ncbi.nlm.nih.gov/protein/XP_085484284.1
+NCBI,JPT2,XP_085484283.1,,8323,193,,,jupiter microtubule associated homolog 2 isoform X1 [Triturus cristatus],https://www.ncbi.nlm.nih.gov/protein/XP_085484283.1
+NCBI,JPT2,XP_021385298.2,,40157,230,,,jupiter microtubule associated homolog 2 [Lonchura striata],https://www.ncbi.nlm.nih.gov/protein/XP_021385298.2
+NCBI,JPT2,XP_015732730.1,,93934,146,,,jupiter microtubule associated homolog 2 isoform X2 [Coturnix japonica],https://www.ncbi.nlm.nih.gov/protein/XP_015732730.1
+NCBI,JPT2,XP_015732729.1,,93934,187,,,jupiter microtubule associated homolog 2 isoform X1 [Coturnix japonica],https://www.ncbi.nlm.nih.gov/protein/XP_015732729.1
+NCBI,JPT2,XP_085310008.1,,163618,219,,,jupiter microtubule associated homolog 2 [Copadichromis virginalis],https://www.ncbi.nlm.nih.gov/protein/XP_085310008.1
+NCBI,JPT2,XP_085259693.1,,304217,219,,,jupiter microtubule associated homolog 2 [Rhamphochromis longiceps],https://www.ncbi.nlm.nih.gov/protein/XP_085259693.1
+NCBI,JPT2,YFO54983.1,,9925,182,,,jupiter microtubule associated homolog 2 [Capra hircus],https://www.ncbi.nlm.nih.gov/protein/YFO54983.1
+NCBI,JPT2,XP_085208411.1,,163623,219,,,jupiter microtubule associated homolog 2 [Diplotaxodon limnothrissa],https://www.ncbi.nlm.nih.gov/protein/XP_085208411.1
+NCBI,JPT2,XP_014442508.1,,246437,186,,,jupiter microtubule associated homolog 2 [Tupaia chinensis],https://www.ncbi.nlm.nih.gov/protein/XP_014442508.1
+NCBI,JPT2,XP_056661628.1,,13616,191,,,jupiter microtubule associated homolog 2 isoform X4 [Monodelphis domestica],https://www.ncbi.nlm.nih.gov/protein/XP_056661628.1
+NCBI,JPT2,XP_007499423.1,,13616,191,,,jupiter microtubule associated homolog 2 isoform X3 [Monodelphis domestica],https://www.ncbi.nlm.nih.gov/protein/XP_007499423.1
+NCBI,JPT2,XP_007499422.1,,13616,192,,,jupiter microtubule associated homolog 2 isoform X2 [Monodelphis domestica],https://www.ncbi.nlm.nih.gov/protein/XP_007499422.1
+NCBI,JPT2,XP_007499421.1,,13616,208,,,jupiter microtubule associated homolog 2 isoform X1 [Monodelphis domestica],https://www.ncbi.nlm.nih.gov/protein/XP_007499421.1
+NCBI,JPT2,KAO1398007.1,,8022,212,,,jupiter microtubule associated homolog 2 [Oncorhynchus mykiss],https://www.ncbi.nlm.nih.gov/protein/KAO1398007.1
+NCBI,JPT2,XP_085171790.1,,8797,188,,,jupiter microtubule associated homolog 2 [Rhea americana],https://www.ncbi.nlm.nih.gov/protein/XP_085171790.1
+NCBI,JPT2,XP_085093234.1,,9103,188,,,jupiter microtubule associated homolog 2 [Meleagris gallopavo],https://www.ncbi.nlm.nih.gov/protein/XP_085093234.1
+NCBI,JPT2,XP_085126974.1,,35575,219,,,jupiter microtubule associated homolog 2 [Mchenga conophoros],https://www.ncbi.nlm.nih.gov/protein/XP_085126974.1
+NCBI,JPT2,XP_085012264.1,,420107,219,,,jupiter microtubule associated homolog 2 [Neolamprologus multifasciatus],https://www.ncbi.nlm.nih.gov/protein/XP_085012264.1
+NCBI,JPT2,KAO0912894.1,,9823,192,,,jupiter microtubule associated homolog 2 [Sus scrofa],https://www.ncbi.nlm.nih.gov/protein/KAO0912894.1
+NCBI,JPT2,XP_084931386.1,,1497555,188,,,jupiter microtubule associated homolog 2 [Lichenostomus cassidix],https://www.ncbi.nlm.nih.gov/protein/XP_084931386.1
+NCBI,JPT2,XP_084782460.1,,32509,219,,,jupiter microtubule associated homolog 2 [Perissodus microlepis],https://www.ncbi.nlm.nih.gov/protein/XP_084782460.1
+NCBI,JPT2,Q5BK20.1,,10116,190,,,RecName: Full=Jupiter microtubule associated homolog 2; AltName: Full=Hematological and neurological expressed 1-like protein; Short=HN1-like protein,https://www.ncbi.nlm.nih.gov/protein/Q5BK20.1
+NCBI,JPT2,Q6PGH2.1,,10090,190,,,RecName: Full=Jupiter microtubule associated homolog 2; AltName: Full=Hematological and neurological expressed 1-like protein; Short=HN1-like protein,https://www.ncbi.nlm.nih.gov/protein/Q6PGH2.1
+NCBI,JPT2,Q9H910.1,,9606,190,,,RecName: Full=Jupiter microtubule associated homolog 2; AltName: Full=Hematological and neurological expressed 1-like protein; Short=HN1-like protein,https://www.ncbi.nlm.nih.gov/protein/Q9H910.1
+NCBI,JPT2,XP_084674841.1,,8554,218,,,jupiter microtubule associated homolog 2 isoform X5 [Heloderma suspectum],https://www.ncbi.nlm.nih.gov/protein/XP_084674841.1
+NCBI,JPT2,XP_084674840.1,,8554,178,,,jupiter microtubule associated homolog 2 isoform X4 [Heloderma suspectum],https://www.ncbi.nlm.nih.gov/protein/XP_084674840.1
+NCBI,JPT2,XP_084674839.1,,8554,185,,,jupiter microtubule associated homolog 2 isoform X3 [Heloderma suspectum],https://www.ncbi.nlm.nih.gov/protein/XP_084674839.1
+NCBI,JPT2,XP_084674838.1,,8554,191,,,jupiter microtubule associated homolog 2 isoform X2 [Heloderma suspectum],https://www.ncbi.nlm.nih.gov/protein/XP_084674838.1
+NCBI,JPT2,XP_084674837.1,,8554,211,,,jupiter microtubule associated homolog 2 isoform X1 [Heloderma suspectum],https://www.ncbi.nlm.nih.gov/protein/XP_084674837.1
+NCBI,JPT2,XP_084738708.1,,412090,190,,,jupiter microtubule associated homolog 2 [Pipistrellus hanaki],https://www.ncbi.nlm.nih.gov/protein/XP_084738708.1
+NCBI,JPT2,XP_084620346.1,,83528,200,,,jupiter microtubule associated homolog 2 isoform 2 [Acomys minous],https://www.ncbi.nlm.nih.gov/protein/XP_084620346.1
+NCBI,JPT2,XP_084620345.1,,83528,190,,,jupiter microtubule associated homolog 2 isoform 1 [Acomys minous],https://www.ncbi.nlm.nih.gov/protein/XP_084620345.1
+NCBI,JPT2,XP_084600429.1,,211835,231,,,jupiter microtubule associated homolog 2 [Lutjanus erythropterus],https://www.ncbi.nlm.nih.gov/protein/XP_084600429.1
+NCBI,JPT2,XP_084534447.1,,182223,214,,,jupiter microtubule associated homolog 2 [Hypomesus nipponensis],https://www.ncbi.nlm.nih.gov/protein/XP_084534447.1
+NCBI,JPT2,XP_084496913.1,,27788,184,,,jupiter microtubule associated homolog 2 [Lepidochelys olivacea],https://www.ncbi.nlm.nih.gov/protein/XP_084496913.1
+NCBI,JPT2,XP_084392472.1,,219593,188,,,jupiter microtubule associated homolog 2 isoform 1 [Aythya ferina],https://www.ncbi.nlm.nih.gov/protein/XP_084392472.1
+NCBI,JPT2,XP_084392471.1,,219593,188,,,jupiter microtubule associated homolog 2 isoform 1 [Aythya ferina],https://www.ncbi.nlm.nih.gov/protein/XP_084392471.1
+NCBI,JPT2,XP_084426657.1,,48171,228,,,jupiter microtubule associated homolog 2 isoform 2 [Chelon labrosus],https://www.ncbi.nlm.nih.gov/protein/XP_084426657.1
+NCBI,JPT2,XP_084426656.1,,48171,237,,,jupiter microtubule associated homolog 2 isoform 1 [Chelon labrosus],https://www.ncbi.nlm.nih.gov/protein/XP_084426656.1
+NCBI,JPT2,XP_083330704.1,,662736,190,,,jupiter microtubule associated homolog 2 [Podarcis liolepis],https://www.ncbi.nlm.nih.gov/protein/XP_083330704.1
+NCBI,JPT2,XP_083268711.1,,65485,190,,,jupiter microtubule associated homolog 2 [Podarcis tiliguerta],https://www.ncbi.nlm.nih.gov/protein/XP_083268711.1
+NCBI,JPT2,XP_083441557.1,,65481,190,,,jupiter microtubule associated homolog 2 [Podarcis filfolensis],https://www.ncbi.nlm.nih.gov/protein/XP_083441557.1
+NCBI,JPT2,XP_083532472.1,,446415,210,,,jupiter microtubule associated homolog 2 [Argentina silus],https://www.ncbi.nlm.nih.gov/protein/XP_083532472.1
+NCBI,JPT2,XP_083787950.1,,94984,222,,,jupiter microtubule associated homolog 2 [Echiichthys vipera],https://www.ncbi.nlm.nih.gov/protein/XP_083787950.1
+NCBI,JPT2,XP_083812657.1,,197941,188,,,jupiter microtubule associated homolog 2 [Clangula hyemalis],https://www.ncbi.nlm.nih.gov/protein/XP_083812657.1
+NCBI,JPT2,XP_083833950.1,,36212,242,,,jupiter microtubule associated homolog 2 [Trachurus trachurus],https://www.ncbi.nlm.nih.gov/protein/XP_083833950.1
+NCBI,JPT2,XP_083752192.1,,90074,210,,,jupiter microtubule associated homolog 2 [Microchirus variegatus],https://www.ncbi.nlm.nih.gov/protein/XP_083752192.1
+NCBI,JPT2,XP_083568004.1,,90521,190,,,jupiter microtubule associated homolog 2 [Podarcis gaigeae],https://www.ncbi.nlm.nih.gov/protein/XP_083568004.1
+NCBI,JPT2,XP_083656231.1,,8843,188,,,jupiter microtubule associated homolog 2 [Anser anser],https://www.ncbi.nlm.nih.gov/protein/XP_083656231.1
+NCBI,JPT2,XP_083728503.1,,43581,188,,,jupiter microtubule associated homolog 2 [Zosterops lateralis],https://www.ncbi.nlm.nih.gov/protein/XP_083728503.1
+NCBI,JPT2,XP_083928420.1,,1090481,223,,,jupiter microtubule associated homolog 2 [Gymnoscopelus microlampas],https://www.ncbi.nlm.nih.gov/protein/XP_083928420.1
+NCBI,JPT2,XP_083978741.1,,38527,231,,,jupiter microtubule associated homolog 2 [Abramis brama],https://www.ncbi.nlm.nih.gov/protein/XP_083978741.1
+NCBI,JPT2,XP_084127181.1,,9123,188,,,jupiter microtubule associated homolog 2 [Gallinula chloropus],https://www.ncbi.nlm.nih.gov/protein/XP_084127181.1
+NCBI,JPT2,XP_084106401.1,,9375,324,,,jupiter microtubule associated homolog 2 [Talpa europaea],https://www.ncbi.nlm.nih.gov/protein/XP_084106401.1
+NCBI,JPT2,XP_084072477.1,,37598,184,,,jupiter microtubule associated homolog 2 isoform 3 [Fringilla coelebs],https://www.ncbi.nlm.nih.gov/protein/XP_084072477.1
+NCBI,JPT2,XP_084072476.1,,37598,185,,,jupiter microtubule associated homolog 2 isoform 2 [Fringilla coelebs],https://www.ncbi.nlm.nih.gov/protein/XP_084072476.1
+NCBI,JPT2,XP_084072475.1,,37598,188,,,jupiter microtubule associated homolog 2 isoform 1 [Fringilla coelebs],https://www.ncbi.nlm.nih.gov/protein/XP_084072475.1
+NCBI,JPT2,XP_084227079.1,,8173,215,,,jupiter microtubule associated homolog 2 [Pagrus pagrus],https://www.ncbi.nlm.nih.gov/protein/XP_084227079.1
+NCBI,JPT2,XP_084186993.1,,948063,232,,,jupiter microtubule associated homolog 2 isoform 2 [Notolepis coatsorum],https://www.ncbi.nlm.nih.gov/protein/XP_084186993.1
+NCBI,JPT2,XP_084186992.1,,948063,243,,,jupiter microtubule associated homolog 2 isoform 1 [Notolepis coatsorum],https://www.ncbi.nlm.nih.gov/protein/XP_084186992.1
+NCBI,JPT2,XP_084151966.1,,30387,188,,,jupiter microtubule associated homolog 2 [Netta rufina],https://www.ncbi.nlm.nih.gov/protein/XP_084151966.1
+NCBI,JPT2,XP_084261171.1,,48668,230,,,jupiter microtubule associated homolog 2 [Rutilus rutilus],https://www.ncbi.nlm.nih.gov/protein/XP_084261171.1
+NCBI,JPT2,XP_084293816.1,,473354,211,,,jupiter microtubule associated homolog 2 [Borostomias antarcticus],https://www.ncbi.nlm.nih.gov/protein/XP_084293816.1
+NCBI,JPT2,XP_083423276.1,,933932,207,,,jupiter microtubule associated homolog 2 [Silurus aristotelis],https://www.ncbi.nlm.nih.gov/protein/XP_083423276.1
+NCBI,JPT2,XP_083894097.1,,426098,222,,,jupiter microtubule associated homolog 2 [Eutrigla gurnardus],https://www.ncbi.nlm.nih.gov/protein/XP_083894097.1
+NCBI,JPT2,XP_083504881.1,,88708,222,,,jupiter microtubule associated homolog 2 [Poromitra crassiceps],https://www.ncbi.nlm.nih.gov/protein/XP_083504881.1
+NCBI,JPT2,XP_083228605.1,,103942,186,,,jupiter microtubule associated homolog 2 [Vipera ursinii],https://www.ncbi.nlm.nih.gov/protein/XP_083228605.1
+NCBI,JPT2,XP_083635528.1,,1091426,224,,,jupiter microtubule associated homolog 2 [Protomyctophum parallelum],https://www.ncbi.nlm.nih.gov/protein/XP_083635528.1
+NCBI,JPT2,YEX85410.1,,187939,187,,,jupiter microtubule associated homolog 2 isoform 2-T2 [Furcifer pardalis],https://www.ncbi.nlm.nih.gov/protein/YEX85410.1
+NCBI,JPT2,YEX85409.1,,187939,188,,,jupiter microtubule associated homolog 2 isoform 1-T1 [Furcifer pardalis],https://www.ncbi.nlm.nih.gov/protein/YEX85409.1
+NCBI,JPT2,KAO0174867.1,,1053555,207,,,jupiter microtubule associated homolog 2 [Astyanax lacustris],https://www.ncbi.nlm.nih.gov/protein/KAO0174867.1
+NCBI,JPT2,XP_040446207.1,,148594,188,,,jupiter microtubule associated homolog 2 [Falco naumanni],https://www.ncbi.nlm.nih.gov/protein/XP_040446207.1
+NCBI,JPT2,KAO0111919.1,,9823,192,,,jupiter microtubule associated homolog 2 [Sus scrofa],https://www.ncbi.nlm.nih.gov/protein/KAO0111919.1
+NCBI,JPT2,XP_024615412.1,,1706337,168,,,jupiter microtubule associated homolog 2 isoform X3 [Neophocaena asiaeorientalis asiaeorientalis],https://www.ncbi.nlm.nih.gov/protein/XP_024615412.1
+NCBI,JPT2,XP_024615410.1,,1706337,168,,,jupiter microtubule associated homolog 2 isoform X3 [Neophocaena asiaeorientalis asiaeorientalis],https://www.ncbi.nlm.nih.gov/protein/XP_024615410.1
+NCBI,JPT2,XP_024615409.1,,1706337,184,,,jupiter microtubule associated homolog 2 isoform X2 [Neophocaena asiaeorientalis asiaeorientalis],https://www.ncbi.nlm.nih.gov/protein/XP_024615409.1
+NCBI,JPT2,XP_024615408.1,,1706337,198,,,jupiter microtubule associated homolog 2 isoform X1 [Neophocaena asiaeorientalis asiaeorientalis],https://www.ncbi.nlm.nih.gov/protein/XP_024615408.1
+NCBI,JPT2,XP_023045058.1,,591936,189,,,jupiter microtubule associated homolog 2 isoform X2 [Piliocolobus tephrosceles],https://www.ncbi.nlm.nih.gov/protein/XP_023045058.1
+NCBI,JPT2,XP_023045057.1,,591936,190,,,jupiter microtubule associated homolog 2 isoform X1 [Piliocolobus tephrosceles],https://www.ncbi.nlm.nih.gov/protein/XP_023045057.1
+NCBI,JPT1,XP_086786906.1,,8324,145,,,jupiter microtubule associated homolog 1 [Lissotriton vulgaris],https://www.ncbi.nlm.nih.gov/protein/XP_086786906.1
+NCBI,JPT1,XP_086618544.1,,187382,112,,,jupiter microtubule associated homolog 1 isoform X3 [Chlamydotis macqueenii],https://www.ncbi.nlm.nih.gov/protein/XP_086618544.1
+NCBI,JPT1,XP_086618543.1,,187382,155,,,jupiter microtubule associated homolog 1 isoform X2 [Chlamydotis macqueenii],https://www.ncbi.nlm.nih.gov/protein/XP_086618543.1
+NCBI,JPT1,XP_086618542.1,,187382,160,,,jupiter microtubule associated homolog 1 isoform X1 [Chlamydotis macqueenii],https://www.ncbi.nlm.nih.gov/protein/XP_086618542.1
+NCBI,JPT1,CAR8099214.1,,71582,144,,,jupiter microtubule associated homolog 1 [Rana dybowskii],https://www.ncbi.nlm.nih.gov/protein/CAR8099214.1
+NCBI,JPT1,XP_025783386.1,,9696,154,,,jupiter microtubule associated homolog 1 [Puma concolor],https://www.ncbi.nlm.nih.gov/protein/XP_025783386.1
+NCBI,JPT1,XP_025219694.1,,9565,154,,,jupiter microtubule associated homolog 1 isoform X2 [Theropithecus gelada],https://www.ncbi.nlm.nih.gov/protein/XP_025219694.1
+NCBI,JPT1,XP_025219692.1,,9565,181,,,jupiter microtubule associated homolog 1 isoform X1 [Theropithecus gelada],https://www.ncbi.nlm.nih.gov/protein/XP_025219692.1
+NCBI,JPT1,XP_086480310.1,,121530,157,,,jupiter microtubule associated homolog 1 [Tauraco erythrolophus],https://www.ncbi.nlm.nih.gov/protein/XP_086480310.1
+NCBI,JPT1,XP_086329828.1,,188344,157,,,jupiter microtubule associated homolog 1 [Leptosomus discolor],https://www.ncbi.nlm.nih.gov/protein/XP_086329828.1
+NCBI,JPT1,XP_086212258.1,,30521,154,,,jupiter microtubule associated homolog 1 [Bos grunniens],https://www.ncbi.nlm.nih.gov/protein/XP_086212258.1
+NCBI,JPT1,CAR5236025.1,,8241,329,,,JPT1 [Thunnus obesus],https://www.ncbi.nlm.nih.gov/protein/CAR5236025.1
+NCBI,JPT1,CAR5382707.1,,48168,177,,,JPT1 [Thunnus atlanticus],https://www.ncbi.nlm.nih.gov/protein/CAR5382707.1
+NCBI,JPT1,CAR5236474.1,,48168,372,,,JPT1 [Thunnus atlanticus],https://www.ncbi.nlm.nih.gov/protein/CAR5236474.1
+NCBI,JPT1,CAR5224395.1,,8237,123,,,JPT1 [Thunnus thynnus],https://www.ncbi.nlm.nih.gov/protein/CAR5224395.1
+NCBI,JPT1,CAR5381205.1,,8236,113,,,JPT1 [Thunnus albacares],https://www.ncbi.nlm.nih.gov/protein/CAR5381205.1
+NCBI,JPT1,CAR5236141.1,,8236,543,,,JPT1 [Thunnus albacares],https://www.ncbi.nlm.nih.gov/protein/CAR5236141.1
+NCBI,JPT1,CAR5379705.1,,8235,178,,,JPT1 [Thunnus alalunga],https://www.ncbi.nlm.nih.gov/protein/CAR5379705.1
+NCBI,JPT1,CAR5235821.1,,8235,75,,,JPT1 [Thunnus alalunga],https://www.ncbi.nlm.nih.gov/protein/CAR5235821.1
+NCBI,JPT1,CAR5240810.1,,48169,101,,,JPT1 [Thunnus tonggol],https://www.ncbi.nlm.nih.gov/protein/CAR5240810.1
+NCBI,JPT1,CAR5385166.1,,8238,177,,,JPT1 [Thunnus orientalis],https://www.ncbi.nlm.nih.gov/protein/CAR5385166.1
+NCBI,JPT1,CAR5240365.1,,8238,384,,,JPT1 [Thunnus orientalis],https://www.ncbi.nlm.nih.gov/protein/CAR5240365.1
+NCBI,JPT1,CAR5378352.1,,8226,178,,,JPT1 [Katsuwonus pelamis],https://www.ncbi.nlm.nih.gov/protein/CAR5378352.1
+NCBI,JPT1,CAR5379765.1,,8241,120,,,JPT1 [Thunnus obesus],https://www.ncbi.nlm.nih.gov/protein/CAR5379765.1
+NCBI,JPT1,XP_021032357.2,,10089,154,,,jupiter microtubule associated homolog 1 isoform X1 [Mus caroli],https://www.ncbi.nlm.nih.gov/protein/XP_021032357.2
+NCBI,JPT1,KAN7400543.1,,44507,156,,,jupiter microtubule associated homolog 1 [Podocnemis expansa],https://www.ncbi.nlm.nih.gov/protein/KAN7400543.1
+NCBI,JPT1,KAN3548182.1,,249021,154,,,jupiter microtubule associated homolog 1 [Doryrhina cyclops],https://www.ncbi.nlm.nih.gov/protein/KAN3548182.1
+NCBI,JPT1,KAM8796936.1,,8805,157,,,jupiter microtubule associated homolog 1 [Eudromia elegans],https://www.ncbi.nlm.nih.gov/protein/KAM8796936.1
+NCBI,JPT1,KAM6240580.1,,9240,155,,,jupiter microtubule associated homolog 1 [Spheniscus humboldti],https://www.ncbi.nlm.nih.gov/protein/KAM6240580.1
+NCBI,JPT1,KAM3660602.1,,3111550,156,,,jupiter microtubule associated homolog 1 [Ammospiza maritima maritima],https://www.ncbi.nlm.nih.gov/protein/KAM3660602.1
+NCBI,JPT1,NP_001041534.1,,9823,154,,,jupiter microtubule associated homolog 1 [Sus scrofa],https://www.ncbi.nlm.nih.gov/protein/NP_001041534.1
+NCBI,JPT1,XP_085473171.1,,8323,145,,,jupiter microtubule associated homolog 1 [Triturus cristatus],https://www.ncbi.nlm.nih.gov/protein/XP_085473171.1
+NCBI,JPT1,XP_085379363.1,,93934,110,,,jupiter microtubule associated homolog 1 isoform X2 [Coturnix japonica],https://www.ncbi.nlm.nih.gov/protein/XP_085379363.1
+NCBI,JPT1,XP_021410222.2,,40157,157,,,jupiter microtubule associated homolog 1 [Lonchura striata],https://www.ncbi.nlm.nih.gov/protein/XP_021410222.2
+NCBI,JPT1,XP_015735744.1,,93934,156,,,jupiter microtubule associated homolog 1 isoform X1 [Coturnix japonica],https://www.ncbi.nlm.nih.gov/protein/XP_015735744.1
+NCBI,JPT1,YFO43670.1,,9925,149,,,jupiter microtubule associated homolog 1 isoform 3-T3 [Capra hircus],https://www.ncbi.nlm.nih.gov/protein/YFO43670.1
+NCBI,JPT1,YFO43669.1,,9925,154,,,jupiter microtubule associated homolog 1 isoform 2-T2 [Capra hircus],https://www.ncbi.nlm.nih.gov/protein/YFO43669.1
+NCBI,JPT1,YFO43668.1,,9925,192,,,jupiter microtubule associated homolog 1 isoform 1-T1 [Capra hircus],https://www.ncbi.nlm.nih.gov/protein/YFO43668.1
+NCBI,JPT1,XP_027626596.1,,246437,108,,,jupiter microtubule associated homolog 1 [Tupaia chinensis],https://www.ncbi.nlm.nih.gov/protein/XP_027626596.1
+NCBI,JPT1,XP_001369597.1,,13616,156,,,jupiter microtubule associated homolog 1 [Monodelphis domestica],https://www.ncbi.nlm.nih.gov/protein/XP_001369597.1
+NCBI,JPT1,XP_085160670.1,,8797,157,,,jupiter microtubule associated homolog 1 [Rhea americana],https://www.ncbi.nlm.nih.gov/protein/XP_085160670.1
+NCBI,JPT1,XP_085096067.1,,9103,159,,,jupiter microtubule associated homolog 1 isoform X1 [Meleagris gallopavo],https://www.ncbi.nlm.nih.gov/protein/XP_085096067.1
+NCBI,JPT1,XP_003211649.1,,9103,155,,,jupiter microtubule associated homolog 1 isoform X2 [Meleagris gallopavo],https://www.ncbi.nlm.nih.gov/protein/XP_003211649.1
+NCBI,JPT1,KAO0887301.1,,9823,154,,,jupiter microtubule associated homolog 1 [Sus scrofa],https://www.ncbi.nlm.nih.gov/protein/KAO0887301.1
+NCBI,JPT1,XP_084933853.1,,1497555,157,,,jupiter microtubule associated homolog 1 [Lichenostomus cassidix],https://www.ncbi.nlm.nih.gov/protein/XP_084933853.1
+NCBI,JPT1,Q3T0T5.3,,9913,154,,,"RecName: Full=Jupiter microtubule associated homolog 1; AltName: Full=Hematological and neurological expressed 1 protein; Contains: RecName: Full=Jupiter microtubule associated homolog 1, N-terminally processed",https://www.ncbi.nlm.nih.gov/protein/Q3T0T5.3
+NCBI,JPT1,Q6AXU6.3,,10116,149,,,"RecName: Full=Jupiter microtubule associated homolog 1; AltName: Full=Hematological and neurological expressed 1 protein; Contains: RecName: Full=Jupiter microtubule associated homolog 1, N-terminally processed",https://www.ncbi.nlm.nih.gov/protein/Q6AXU6.3
+NCBI,JPT1,P97825.3,,10090,154,,,"RecName: Full=Jupiter microtubule associated homolog 1; AltName: Full=Hematological and neurological expressed 1 protein; Contains: RecName: Full=Jupiter microtubule associated homolog 1, N-terminally processed",https://www.ncbi.nlm.nih.gov/protein/P97825.3
+NCBI,JPT1,Q9UK76.3,,9606,154,,,"RecName: Full=Jupiter microtubule associated homolog 1; AltName: Full=Androgen-regulated protein 2; AltName: Full=Hematological and neurological expressed 1 protein; Contains: RecName: Full=Jupiter microtubule associated homolog 1, N-terminally processed",https://www.ncbi.nlm.nih.gov/protein/Q9UK76.3
+NCBI,JPT1,XP_084694181.1,,8554,156,,,jupiter microtubule associated homolog 1 [Heloderma suspectum],https://www.ncbi.nlm.nih.gov/protein/XP_084694181.1
+NCBI,JPT1,XP_084717751.1,,412090,156,,,jupiter microtubule associated homolog 1 [Pipistrellus hanaki],https://www.ncbi.nlm.nih.gov/protein/XP_084717751.1
+NCBI,JPT1,XP_084603965.1,,83528,110,,,jupiter microtubule associated homolog 1 isoform 3 [Acomys minous],https://www.ncbi.nlm.nih.gov/protein/XP_084603965.1
+NCBI,JPT1,XP_084603964.1,,83528,154,,,jupiter microtubule associated homolog 1 isoform 2 [Acomys minous],https://www.ncbi.nlm.nih.gov/protein/XP_084603964.1
+NCBI,JPT1,XP_084603963.1,,83528,156,,,jupiter microtubule associated homolog 1 isoform 1 [Acomys minous],https://www.ncbi.nlm.nih.gov/protein/XP_084603963.1
+NCBI,JPT1,XP_084504274.1,,27788,156,,,jupiter microtubule associated homolog 1 [Lepidochelys olivacea],https://www.ncbi.nlm.nih.gov/protein/XP_084504274.1
+NCBI,JPT1,XP_084348192.1,,219593,112,,,jupiter microtubule associated homolog 1 isoform 2 [Aythya ferina],https://www.ncbi.nlm.nih.gov/protein/XP_084348192.1
+NCBI,JPT1,XP_084348191.1,,219593,157,,,jupiter microtubule associated homolog 1 isoform 1 [Aythya ferina],https://www.ncbi.nlm.nih.gov/protein/XP_084348191.1
+NCBI,JPT1,XP_083343420.1,,662736,155,,,jupiter microtubule associated homolog 1 isoform 2 [Podarcis liolepis],https://www.ncbi.nlm.nih.gov/protein/XP_083343420.1
+NCBI,JPT1,XP_083343419.1,,662736,156,,,jupiter microtubule associated homolog 1 isoform 1 [Podarcis liolepis],https://www.ncbi.nlm.nih.gov/protein/XP_083343419.1
+NCBI,JPT1,XP_083286232.1,,65485,155,,,jupiter microtubule associated homolog 1 isoform 2 [Podarcis tiliguerta],https://www.ncbi.nlm.nih.gov/protein/XP_083286232.1
+NCBI,JPT1,XP_083286231.1,,65485,156,,,jupiter microtubule associated homolog 1 isoform 1 [Podarcis tiliguerta],https://www.ncbi.nlm.nih.gov/protein/XP_083286231.1
+NCBI,JPT1,XP_083454469.1,,65481,125,,,jupiter microtubule associated homolog 1 isoform 3 [Podarcis filfolensis],https://www.ncbi.nlm.nih.gov/protein/XP_083454469.1
+NCBI,JPT1,XP_083454468.1,,65481,155,,,jupiter microtubule associated homolog 1 isoform 2 [Podarcis filfolensis],https://www.ncbi.nlm.nih.gov/protein/XP_083454468.1
+NCBI,JPT1,XP_083454467.1,,65481,156,,,jupiter microtubule associated homolog 1 isoform 1 [Podarcis filfolensis],https://www.ncbi.nlm.nih.gov/protein/XP_083454467.1
+NCBI,JPT1,XP_083815138.1,,197941,157,,,jupiter microtubule associated homolog 1 [Clangula hyemalis],https://www.ncbi.nlm.nih.gov/protein/XP_083815138.1
+NCBI,JPT1,XP_083661773.1,,8843,157,,,jupiter microtubule associated homolog 1 [Anser anser],https://www.ncbi.nlm.nih.gov/protein/XP_083661773.1
+NCBI,JPT1,XP_083584919.1,,90521,155,,,jupiter microtubule associated homolog 1 isoform 2 [Podarcis gaigeae],https://www.ncbi.nlm.nih.gov/protein/XP_083584919.1
+NCBI,JPT1,XP_083584918.1,,90521,156,,,jupiter microtubule associated homolog 1 isoform 1 [Podarcis gaigeae],https://www.ncbi.nlm.nih.gov/protein/XP_083584918.1
+NCBI,JPT1,XP_083730891.1,,43581,157,,,jupiter microtubule associated homolog 1 [Zosterops lateralis],https://www.ncbi.nlm.nih.gov/protein/XP_083730891.1
+NCBI,JPT1,XP_084129778.1,,9123,157,,,jupiter microtubule associated homolog 1 [Gallinula chloropus],https://www.ncbi.nlm.nih.gov/protein/XP_084129778.1
+NCBI,JPT1,XP_084095557.1,,9375,149,,,jupiter microtubule associated homolog 1 [Talpa europaea],https://www.ncbi.nlm.nih.gov/protein/XP_084095557.1
+NCBI,JPT1,XP_084074568.1,,37598,157,,,jupiter microtubule associated homolog 1 [Fringilla coelebs],https://www.ncbi.nlm.nih.gov/protein/XP_084074568.1
+NCBI,JPT1,XP_084154402.1,,30387,157,,,jupiter microtubule associated homolog 1 [Netta rufina],https://www.ncbi.nlm.nih.gov/protein/XP_084154402.1
+NCBI,JPT1,XP_083212287.1,,103942,152,,,jupiter microtubule associated homolog 1 [Vipera ursinii],https://www.ncbi.nlm.nih.gov/protein/XP_083212287.1
+NCBI,JPT1,NP_001232258.1,,59729,157,,,jupiter microtubule associated homolog 1 [Taeniopygia guttata],https://www.ncbi.nlm.nih.gov/protein/NP_001232258.1
+NCBI,JPT1,YEX64503.1,,187939,153,,,jupiter microtubule associated homolog 1 [Furcifer pardalis],https://www.ncbi.nlm.nih.gov/protein/YEX64503.1
+NCBI,JPT1,XP_040437658.1,,148594,157,,,jupiter microtubule associated homolog 1 [Falco naumanni],https://www.ncbi.nlm.nih.gov/protein/XP_040437658.1
+NCBI,JPT1,KAO0053688.1,,9823,154,,,jupiter microtubule associated homolog 1 [Sus scrofa],https://www.ncbi.nlm.nih.gov/protein/KAO0053688.1
+NCBI,JPT1,KAO0022998.1,,288555,140,,,jupiter microtubule associated homolog 1 isoform 2-T2 [Xenopus petersii],https://www.ncbi.nlm.nih.gov/protein/KAO0022998.1
+NCBI,JPT1,KAO0022997.1,,288555,144,,,jupiter microtubule associated homolog 1 isoform 1-T1 [Xenopus petersii],https://www.ncbi.nlm.nih.gov/protein/KAO0022997.1
+NCBI,JPT1,XP_024616984.1,,1706337,154,,,jupiter microtubule associated homolog 1 [Neophocaena asiaeorientalis asiaeorientalis],https://www.ncbi.nlm.nih.gov/protein/XP_024616984.1
+NCBI,JPT1,XP_023067612.1,,591936,181,,,jupiter microtubule associated homolog 1 isoform X3 [Piliocolobus tephrosceles],https://www.ncbi.nlm.nih.gov/protein/XP_023067612.1
+NCBI,JPT1,XP_023067611.1,,591936,150,,,jupiter microtubule associated homolog 1 isoform X2 [Piliocolobus tephrosceles],https://www.ncbi.nlm.nih.gov/protein/XP_023067611.1
+NCBI,JPT1,XP_023067610.1,,591936,154,,,jupiter microtubule associated homolog 1 isoform X1 [Piliocolobus tephrosceles],https://www.ncbi.nlm.nih.gov/protein/XP_023067610.1
+NCBI,JPT1,XP_002919884.1,,9646,154,,,jupiter microtubule associated homolog 1 [Ailuropoda melanoleuca],https://www.ncbi.nlm.nih.gov/protein/XP_002919884.1
+NCBI,JPT1,XP_019500063.1,,186990,154,,,jupiter microtubule associated homolog 1 [Hipposideros armiger],https://www.ncbi.nlm.nih.gov/protein/XP_019500063.1
+NCBI,JPT1,XP_063654066.1,,9598,108,,,jupiter microtubule associated homolog 1 isoform X1 [Pan troglodytes],https://www.ncbi.nlm.nih.gov/protein/XP_063654066.1
+NCBI,JPT1,XP_063654065.1,,9598,108,,,jupiter microtubule associated homolog 1 isoform X1 [Pan troglodytes],https://www.ncbi.nlm.nih.gov/protein/XP_063654065.1
+NCBI,JPT1,XP_063654064.1,,9598,108,,,jupiter microtubule associated homolog 1 isoform X1 [Pan troglodytes],https://www.ncbi.nlm.nih.gov/protein/XP_063654064.1
+NCBI,JPT1,XP_017740258.1,,61621,181,,,jupiter microtubule associated homolog 1 isoform X4 [Rhinopithecus bieti],https://www.ncbi.nlm.nih.gov/protein/XP_017740258.1
+NCBI,JPT1,XP_017740257.1,,61621,108,,,jupiter microtubule associated homolog 1 isoform X3 [Rhinopithecus bieti],https://www.ncbi.nlm.nih.gov/protein/XP_017740257.1
+NCBI,JPT1,XP_017740256.1,,61621,108,,,jupiter microtubule associated homolog 1 isoform X3 [Rhinopithecus bieti],https://www.ncbi.nlm.nih.gov/protein/XP_017740256.1
+NCBI,JPT1,XP_017740255.1,,61621,154,,,jupiter microtubule associated homolog 1 isoform X2 [Rhinopithecus bieti],https://www.ncbi.nlm.nih.gov/protein/XP_017740255.1
+NCBI,JPT1,XP_017740254.1,,61621,175,,,jupiter microtubule associated homolog 1 isoform X1 [Rhinopithecus bieti],https://www.ncbi.nlm.nih.gov/protein/XP_017740254.1
+NCBI,JPT1,XP_009431498.1,,9598,181,,,jupiter microtubule associated homolog 1 isoform X2 [Pan troglodytes],https://www.ncbi.nlm.nih.gov/protein/XP_009431498.1
+NCBI,JPT1,KAN9752654.1,,143539,153,,,jupiter microtubule associated homolog 1 [Correlophus ciliatus],https://www.ncbi.nlm.nih.gov/protein/KAN9752654.1
+NCBI,JPT1,KAN8371101.1,,3030661,155,,,jupiter microtubule associated homolog 1 isoform 2-T2 [Rhinolophus perniger lanosus],https://www.ncbi.nlm.nih.gov/protein/KAN8371101.1
+NCBI,JPT1,KAN8371100.1,,3030661,173,,,jupiter microtubule associated homolog 1 isoform 1-T1 [Rhinolophus perniger lanosus],https://www.ncbi.nlm.nih.gov/protein/KAN8371100.1
+NCBI,JPT1,KAN7994049.1,,70687,182,,,jupiter microtubule associated homolog 1 isoform 2-T2 [Tupaia tana],https://www.ncbi.nlm.nih.gov/protein/KAN7994049.1
+NCBI,JPT1,KAN7994048.1,,70687,154,,,jupiter microtubule associated homolog 1 isoform 1-T1 [Tupaia tana],https://www.ncbi.nlm.nih.gov/protein/KAN7994048.1
+NCBI,JPT1,XP_008964133.1,,9597,181,,,jupiter microtubule associated homolog 1 isoform X2 [Pan paniscus],https://www.ncbi.nlm.nih.gov/protein/XP_008964133.1
+NCBI,JPT1,XP_003813358.1,,9597,154,,,jupiter microtubule associated homolog 1 isoform X1 [Pan paniscus],https://www.ncbi.nlm.nih.gov/protein/XP_003813358.1
+NCBI,JPT1,XP_083004167.1,,326986,145,,,jupiter microtubule associated homolog 1 [Crinia signifera],https://www.ncbi.nlm.nih.gov/protein/XP_083004167.1
+NCBI,JPT1,XP_063513170.1,,9600,139,,,jupiter microtubule associated homolog 1 isoform X2 [Pongo pygmaeus],https://www.ncbi.nlm.nih.gov/protein/XP_063513170.1
+NCBI,JPT1,XP_063473323.1,,9590,219,,,jupiter microtubule associated homolog 1 isoform X2 [Symphalangus syndactylus],https://www.ncbi.nlm.nih.gov/protein/XP_063473323.1
+NCBI,JPT1,XP_063473322.1,,9590,226,,,jupiter microtubule associated homolog 1 isoform X1 [Symphalangus syndactylus],https://www.ncbi.nlm.nih.gov/protein/XP_063473322.1
+NCBI,JPT1,XP_055097168.1,,9590,154,,,jupiter microtubule associated homolog 1 isoform X4 [Symphalangus syndactylus],https://www.ncbi.nlm.nih.gov/protein/XP_055097168.1
+NCBI,JPT1,XP_055097167.1,,9590,154,,,jupiter microtubule associated homolog 1 isoform X3 [Symphalangus syndactylus],https://www.ncbi.nlm.nih.gov/protein/XP_055097167.1
+NCBI,JPT1,XP_054391726.1,,9601,174,,,jupiter microtubule associated homolog 1 isoform X1 [Pongo abelii],https://www.ncbi.nlm.nih.gov/protein/XP_054391726.1
+NCBI,JPT1,XP_054312315.1,,9600,181,,,jupiter microtubule associated homolog 1 isoform X3 [Pongo pygmaeus],https://www.ncbi.nlm.nih.gov/protein/XP_054312315.1
+NCBI,JPT1,XP_054312314.1,,9600,154,,,jupiter microtubule associated homolog 1 isoform X1 [Pongo pygmaeus],https://www.ncbi.nlm.nih.gov/protein/XP_054312314.1
+NCBI,JPT1,XP_024090950.1,,9601,181,,,jupiter microtubule associated homolog 1 isoform X3 [Pongo abelii],https://www.ncbi.nlm.nih.gov/protein/XP_024090950.1
+NCBI,JPT1,XP_024090948.1,,9601,154,,,jupiter microtubule associated homolog 1 isoform X2 [Pongo abelii],https://www.ncbi.nlm.nih.gov/protein/XP_024090948.1
+NCBI,JPT1,KAN7614417.1,,9440,164,,,LOW QUALITY PROTEIN: jupiter microtubule associated homolog 1 [Antrozous pallidus],https://www.ncbi.nlm.nih.gov/protein/KAN7614417.1
+NCBI,JPT1,KAN7522130.1,,51014,154,,,jupiter microtubule associated homolog 1 [Artibeus intermedius],https://www.ncbi.nlm.nih.gov/protein/KAN7522130.1
+NCBI,JPT1,KAN7514008.1,,1552295,154,,,jupiter microtubule associated homolog 1 [Molossus alvarezi],https://www.ncbi.nlm.nih.gov/protein/KAN7514008.1
+NCBI,JPT1,KAN7443812.1,,124745,108,,,jupiter microtubule associated homolog 1 isoform 2-T2 [Corynorhinus townsendii],https://www.ncbi.nlm.nih.gov/protein/KAN7443812.1
+NCBI,JPT1,KAN7443811.1,,124745,154,,,jupiter microtubule associated homolog 1 isoform 1-T1 [Corynorhinus townsendii],https://www.ncbi.nlm.nih.gov/protein/KAN7443811.1
+NCBI,JPT1,KAN7377987.1,,118683,156,,,jupiter microtubule associated homolog 1 [Cyclura pinguis],https://www.ncbi.nlm.nih.gov/protein/KAN7377987.1
+NCBI,JPT1,KAN7369706.1,,9281,152,,,jupiter microtubule associated homolog 1 [Dasyurus maculatus],https://www.ncbi.nlm.nih.gov/protein/KAN7369706.1
+NCBI,HN1L,NP_001421598.1,,8030,205,,,hematological and neurological expressed 1-like protein isoform 2 [Salmo salar],https://www.ncbi.nlm.nih.gov/protein/NP_001421598.1
+NCBI,HN1L,Q6PG95.3,,10090,1285,,,RecName: Full=Protein cramped-like; AltName: Full=Cramped chromatin regulator homolog 1; AltName: Full=Hematological and neurological expressed 1-like protein,https://www.ncbi.nlm.nih.gov/protein/Q6PG95.3
+NCBI,HN1L,Q96RY5.3,,9606,1269,,,RecName: Full=Protein cramped-like; AltName: Full=Cramped chromatin regulator homolog 1; AltName: Full=Hematological and neurological expressed 1-like protein,https://www.ncbi.nlm.nih.gov/protein/Q96RY5.3
+NCBI,HN1L,NP_001117168.2,,8030,210,,,hematological and neurological expressed 1-like protein isoform 1 [Salmo salar],https://www.ncbi.nlm.nih.gov/protein/NP_001117168.2
+NCBI,HN1L,KAO0257371.1,,66447,95,,,HN1L protein product [Galaxias brevipinnis],https://www.ncbi.nlm.nih.gov/protein/KAO0257371.1
+NCBI,HN1L,KAN7729839.1,,191775,298,,,Hematological and neurological expressed 1-like [Bulinus ugandae],https://www.ncbi.nlm.nih.gov/protein/KAN7729839.1
+NCBI,HN1L,NP_001265837.1,,8090,219,,,jupiter microtubule associated homolog 2 [Oryzias latipes],https://www.ncbi.nlm.nih.gov/protein/NP_001265837.1
+NCBI,HN1L,XP_011476178.1,,8090,235,,,jupiter microtubule associated homolog 2 isoform X1 [Oryzias latipes],https://www.ncbi.nlm.nih.gov/protein/XP_011476178.1
+NCBI,HN1L,NP_001247643.1,,9544,190,,,jupiter microtubule associated homolog 2 [Macaca mulatta],https://www.ncbi.nlm.nih.gov/protein/NP_001247643.1
+NCBI,HN1L,XP_077839783.1,,9544,151,,,jupiter microtubule associated homolog 2 isoform X3 [Macaca mulatta],https://www.ncbi.nlm.nih.gov/protein/XP_077839783.1
+NCBI,HN1L,XP_077839782.1,,9544,204,,,jupiter microtubule associated homolog 2 isoform X2 [Macaca mulatta],https://www.ncbi.nlm.nih.gov/protein/XP_077839782.1
+NCBI,HN1L,XP_077839781.1,,9544,232,,,jupiter microtubule associated homolog 2 isoform X1 [Macaca mulatta],https://www.ncbi.nlm.nih.gov/protein/XP_077839781.1
+NCBI,HN1L,NP_065876.3,,9606,1269,,,protein cramped-like [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_065876.3
+NCBI,HN1L,NP_955869.3,,7955,218,,,jupiter microtubule associated homolog 2 [Danio rerio],https://www.ncbi.nlm.nih.gov/protein/NP_955869.3
+NCBI,HN1L,NP_001135495.1,,8364,146,,,jupiter microtubule associated homolog 2 [Xenopus tropicalis],https://www.ncbi.nlm.nih.gov/protein/NP_001135495.1
+NCBI,HN1L,NP_945175.1,,10090,190,,,jupiter microtubule associated homolog 2 [Mus musculus],https://www.ncbi.nlm.nih.gov/protein/NP_945175.1
+NCBI,HN1L,NP_001013200.1,,10116,190,,,jupiter microtubule associated homolog 2 [Rattus norvegicus],https://www.ncbi.nlm.nih.gov/protein/NP_001013200.1
+NCBI,HN1L,NP_001421597.1,,9606,151,,,jupiter microtubule associated homolog 2 isoform 6 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001421597.1
+NCBI,HN1L,NP_001421596.1,,9606,178,,,jupiter microtubule associated homolog 2 isoform 5 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001421596.1
+NCBI,HN1L,NP_001421595.1,,9606,204,,,jupiter microtubule associated homolog 2 isoform 3 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001421595.1
+NCBI,HN1L,NP_001421594.1,,9606,218,,,jupiter microtubule associated homolog 2 isoform 2 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001421594.1
+NCBI,HN1L,NP_001421593.1,,9606,232,,,jupiter microtubule associated homolog 2 isoform 1 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001421593.1
+NCBI,HN1L,NP_653171.1,,9606,190,,,jupiter microtubule associated homolog 2 isoform 4 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_653171.1
+NCBI,HN1L,XP_015315704.1,,9913,209,,,jupiter microtubule associated homolog 2 isoform X1 [Bos taurus],https://www.ncbi.nlm.nih.gov/protein/XP_015315704.1
+NCBI,HN1L,XP_063125380.1,,10116,174,,,jupiter microtubule associated homolog 2 isoform X1 [Rattus norvegicus],https://www.ncbi.nlm.nih.gov/protein/XP_063125380.1
+NCBI,HN1L,NP_001075015.1,,9913,182,,,jupiter microtubule associated homolog 2 [Bos taurus],https://www.ncbi.nlm.nih.gov/protein/NP_001075015.1
+NCBI,HN1L,NP_001383125.1,,9031,188,,,jupiter microtubule associated homolog 2 [Gallus gallus],https://www.ncbi.nlm.nih.gov/protein/NP_001383125.1
+NCBI,HN1L,KAJ7427737.1,,1566151,125,,,hematological and neurological expressed 1 like protein [Willisornis vidua],https://www.ncbi.nlm.nih.gov/protein/KAJ7427737.1
+NCBI,HN1L,NP_001316241.1,,7998,208,,,jupiter microtubule associated homolog 2 [Ictalurus punctatus],https://www.ncbi.nlm.nih.gov/protein/NP_001316241.1
+NCBI,HN1L,KAG6923765.1,,8475,52,,,"hematological and neurological expressed 1 like, partial [Chelydra serpentina]",https://www.ncbi.nlm.nih.gov/protein/KAG6923765.1
+NCBI,HN1L,XP_041433745.1,,8355,172,,,jupiter microtubule associated homolog 2 S homeolog isoform X1 [Xenopus laevis],https://www.ncbi.nlm.nih.gov/protein/XP_041433745.1
+NCBI,HN1L,KAF7221211.1,,105023,208,,,hematological and neurological expressed 1-like [Nothobranchius furzeri],https://www.ncbi.nlm.nih.gov/protein/KAF7221211.1
+NCBI,HN1L,NP_001163822.1,,31033,231,,,jupiter microtubule associated homolog 2 [Takifugu rubripes],https://www.ncbi.nlm.nih.gov/protein/NP_001163822.1
+NCBI,HN1L,NP_001087627.1,,8355,188,,,Jupiter microtubule associated homolog 2 S homeolog [Xenopus laevis],https://www.ncbi.nlm.nih.gov/protein/NP_001087627.1
+NCBI,HN1L,KAF4798496.1,,311356,188,,,Hematological and neurological expressed 1-like protein [Turdus rufiventris],https://www.ncbi.nlm.nih.gov/protein/KAF4798496.1
+NCBI,HN1L,XP_012825626.1,,8364,192,,,jupiter microtubule associated homolog 2 isoform X1 [Xenopus tropicalis],https://www.ncbi.nlm.nih.gov/protein/XP_012825626.1
+NCBI,HN1L,TNN83438.1,,230148,239,,,Hematological and neurological expressed 1-like protein [Liparis tanakae],https://www.ncbi.nlm.nih.gov/protein/TNN83438.1
+NCBI,HN1L,BBG62337.1,,742503,190,,,hematological and neurological expressed 1-like [Tokudaia muenninki],https://www.ncbi.nlm.nih.gov/protein/BBG62337.1
+NCBI,HN1L,PKK21870.1,,8932,188,,,hematological and neurological expressed 1-like [Columba livia],https://www.ncbi.nlm.nih.gov/protein/PKK21870.1
+NCBI,HN1L,SBP39776.1,,105023,208,,,hematological and neurological expressed 1-like [Nothobranchius furzeri],https://www.ncbi.nlm.nih.gov/protein/SBP39776.1
+NCBI,HN1L,SBR08561.1,,321403,208,,,hematological and neurological expressed 1-like [Nothobranchius kuhntae],https://www.ncbi.nlm.nih.gov/protein/SBR08561.1
+NCBI,HN1L,SBR66270.1,,451742,208,,,hematological and neurological expressed 1-like [Nothobranchius rachovii],https://www.ncbi.nlm.nih.gov/protein/SBR66270.1
+NCBI,HN1L,SBQ47504.1,,1143690,208,,,hematological and neurological expressed 1-like [Nothobranchius korthausae],https://www.ncbi.nlm.nih.gov/protein/SBQ47504.1
+NCBI,HN1L,SBP14211.1,,60296,211,,,hematological and neurological expressed 1-like [Iconisemion striatum],https://www.ncbi.nlm.nih.gov/protein/SBP14211.1
+NCBI,HN1L,SBP83193.1,,1051664,208,,,hematological and neurological expressed 1-like [Nothobranchius kadleci],https://www.ncbi.nlm.nih.gov/protein/SBP83193.1
+NCBI,HN1L,SBR62517.1,,704102,208,,,hematological and neurological expressed 1-like [Nothobranchius pienaari],https://www.ncbi.nlm.nih.gov/protein/SBR62517.1
+NCBI,HN1L,SBS48810.1,,105023,208,,,hematological and neurological expressed 1-like [Nothobranchius furzeri],https://www.ncbi.nlm.nih.gov/protein/SBS48810.1
+NCBI,HN1L,SBP22347.1,,60296,211,,,hematological and neurological expressed 1-like [Iconisemion striatum],https://www.ncbi.nlm.nih.gov/protein/SBP22347.1
+NCBI,HN1L,SBS17562.1,,451742,208,,,hematological and neurological expressed 1-like [Nothobranchius rachovii],https://www.ncbi.nlm.nih.gov/protein/SBS17562.1
+NCBI,HN1L,SBR21738.1,,321403,208,,,hematological and neurological expressed 1-like [Nothobranchius kuhntae],https://www.ncbi.nlm.nih.gov/protein/SBR21738.1
+NCBI,HN1L,SBQ29206.1,,1051664,208,,,hematological and neurological expressed 1-like [Nothobranchius kadleci],https://www.ncbi.nlm.nih.gov/protein/SBQ29206.1
+NCBI,HN1L,SBQ84197.1,,1143690,208,,,hematological and neurological expressed 1-like [Nothobranchius korthausae],https://www.ncbi.nlm.nih.gov/protein/SBQ84197.1
+NCBI,HN1L,SBR76590.1,,704102,208,,,hematological and neurological expressed 1-like [Nothobranchius pienaari],https://www.ncbi.nlm.nih.gov/protein/SBR76590.1
+NCBI,HN1L,OWK55872.1,,40157,186,,,Hematological and neurological expressed 1-like protein [Lonchura striata],https://www.ncbi.nlm.nih.gov/protein/OWK55872.1
+NCBI,HN1L,OPJ87580.1,,372326,188,,,hematological and neurological expressed 1-like protein [Patagioenas fasciata monilis],https://www.ncbi.nlm.nih.gov/protein/OPJ87580.1
+NCBI,HN1L,JAV40983.1,,51338,190,,,hematological and neurological expressed 1-like protein [Castor canadensis],https://www.ncbi.nlm.nih.gov/protein/JAV40983.1
+NCBI,HN1L,XP_019395459.1,,8502,183,,,PREDICTED: hematological and neurological expressed 1-like protein [Crocodylus porosus],https://www.ncbi.nlm.nih.gov/protein/XP_019395459.1
+NCBI,HN1L,XP_019362944.1,,94835,178,,,"PREDICTED: hematological and neurological expressed 1-like protein, partial [Gavialis gangeticus]",https://www.ncbi.nlm.nih.gov/protein/XP_019362944.1
+NCBI,HN1L,XP_018407876.1,,125878,191,,,PREDICTED: hematological and neurological expressed 1-like protein [Nanorana parkeri],https://www.ncbi.nlm.nih.gov/protein/XP_018407876.1
+NCBI,HN1L,CCP81482.1,,452646,190,,,"Hematological and neurological expressed 1-like protein, partial [Neogale vison]",https://www.ncbi.nlm.nih.gov/protein/CCP81482.1
+NCBI,HN1L,XP_017895524.1,,9925,182,,,PREDICTED: hematological and neurological expressed 1-like protein [Capra hircus],https://www.ncbi.nlm.nih.gov/protein/XP_017895524.1
+NCBI,HN1L,XP_017664411.1,,321398,188,,,PREDICTED: hematological and neurological expressed 1-like protein isoform X3 [Lepidothrix coronata],https://www.ncbi.nlm.nih.gov/protein/XP_017664411.1
+NCBI,HN1L,XP_017664410.1,,321398,196,,,PREDICTED: hematological and neurological expressed 1-like protein isoform X2 [Lepidothrix coronata],https://www.ncbi.nlm.nih.gov/protein/XP_017664410.1
+NCBI,HN1L,XP_017664408.1,,321398,214,,,PREDICTED: hematological and neurological expressed 1-like protein isoform X1 [Lepidothrix coronata],https://www.ncbi.nlm.nih.gov/protein/XP_017664408.1
+NCBI,HN1L,XP_008640611.1,,85066,188,,,PREDICTED: hematological and neurological expressed 1-like protein [Corvus brachyrhynchos],https://www.ncbi.nlm.nih.gov/protein/XP_008640611.1
+NCBI,HN1L,XP_005054304.2,,59894,186,,,PREDICTED: hematological and neurological expressed 1-like protein [Ficedula albicollis],https://www.ncbi.nlm.nih.gov/protein/XP_005054304.2
+NCBI,HN1L,XP_016063568.1,,291302,190,,,PREDICTED: hematological and neurological expressed 1-like protein [Miniopterus natalensis],https://www.ncbi.nlm.nih.gov/protein/XP_016063568.1
+NCBI,HN1L,KYO32461.1,,8496,183,,,hematological and neurological expressed 1-like protein [Alligator mississippiensis],https://www.ncbi.nlm.nih.gov/protein/KYO32461.1
+NCBI,HN1L,XP_006763989.1,,225400,190,,,PREDICTED: hematological and neurological expressed 1-like protein [Myotis davidii],https://www.ncbi.nlm.nih.gov/protein/XP_006763989.1
+NCBI,HN1L,XP_015283619.1,,146911,187,,,PREDICTED: hematological and neurological expressed 1-like protein [Gekko japonicus],https://www.ncbi.nlm.nih.gov/protein/XP_015283619.1
+NCBI,HN1L,XP_015255486.1,,28743,212,,,PREDICTED: hematological and neurological expressed 1-like protein [Cyprinodon variegatus],https://www.ncbi.nlm.nih.gov/protein/XP_015255486.1
+NCBI,HN1L,XP_014869297.1,,48701,198,,,PREDICTED: hematological and neurological expressed 1-like protein isoform X2 [Poecilia mexicana],https://www.ncbi.nlm.nih.gov/protein/XP_014869297.1
+NCBI,HN1L,XP_014869296.1,,48701,210,,,PREDICTED: hematological and neurological expressed 1-like protein isoform X1 [Poecilia mexicana],https://www.ncbi.nlm.nih.gov/protein/XP_014869296.1
+NCBI,HN1L,XP_014814297.1,,198806,188,,,PREDICTED: hematological and neurological expressed 1-like protein [Calidris pugnax],https://www.ncbi.nlm.nih.gov/protein/XP_014814297.1
+NCBI,HN1L,JAO23836.1,,188132,214,,,HN1L [Poeciliopsis prolifica],https://www.ncbi.nlm.nih.gov/protein/JAO23836.1
+NCBI,HN1L,JAO23835.1,,188132,202,,,HN1L [Poeciliopsis prolifica],https://www.ncbi.nlm.nih.gov/protein/JAO23835.1
+NCBI,HN1L,XP_014745724.1,,9172,187,,,PREDICTED: hematological and neurological expressed 1-like protein [Sturnus vulgaris],https://www.ncbi.nlm.nih.gov/protein/XP_014745724.1
+NCBI,HN1L,JAO00178.1,,10181,190,,,hematological and neurological expressed 1-like protein [Heterocephalus glaber],https://www.ncbi.nlm.nih.gov/protein/JAO00178.1
+NCBI,HN1L,XP_005866617.2,,109478,174,,,PREDICTED: hematological and neurological expressed 1-like protein [Myotis brandtii],https://www.ncbi.nlm.nih.gov/protein/XP_005866617.2
+NCBI,HN1L,XP_005522831.2,,181119,215,,,PREDICTED: hematological and neurological expressed 1-like protein isoform X2 [Pseudopodoces humilis],https://www.ncbi.nlm.nih.gov/protein/XP_005522831.2
+NCBI,HN1L,XP_014107913.1,,181119,186,,,PREDICTED: hematological and neurological expressed 1-like protein isoform X1 [Pseudopodoces humilis],https://www.ncbi.nlm.nih.gov/protein/XP_014107913.1
+NCBI,HN1L,XP_013924392.1,,35019,188,,,PREDICTED: hematological and neurological expressed 1-like protein [Thamnophis sirtalis],https://www.ncbi.nlm.nih.gov/protein/XP_013924392.1
+NCBI,HN1L,XP_005391598.1,,34839,174,,,PREDICTED: hematological and neurological expressed 1-like protein isoform X2 [Chinchilla lanigera],https://www.ncbi.nlm.nih.gov/protein/XP_005391598.1
+NCBI,HN1L,XP_005391597.1,,34839,190,,,PREDICTED: hematological and neurological expressed 1-like protein isoform X1 [Chinchilla lanigera],https://www.ncbi.nlm.nih.gov/protein/XP_005391597.1
+NCBI,HN1L,XP_012866771.1,,10020,189,,,PREDICTED: hematological and neurological expressed 1-like protein [Dipodomys ordii],https://www.ncbi.nlm.nih.gov/protein/XP_012866771.1
+NCBI,HN1L,XP_004691891.1,,143302,197,,,PREDICTED: hematological and neurological expressed 1-like protein [Condylura cristata],https://www.ncbi.nlm.nih.gov/protein/XP_004691891.1
+NCBI,HN1L,XP_012503212.1,,379532,190,,,PREDICTED: hematological and neurological expressed 1-like protein [Propithecus coquereli],https://www.ncbi.nlm.nih.gov/protein/XP_012503212.1
+NCBI,HN1L,XP_004403186.1,,9708,190,,,PREDICTED: hematological and neurological expressed 1-like protein [Odobenus rosmarus divergens],https://www.ncbi.nlm.nih.gov/protein/XP_004403186.1
+NCBI,HN1L,XP_011822332.1,,9568,174,,,PREDICTED: hematological and neurological expressed 1-like protein [Mandrillus leucophaeus],https://www.ncbi.nlm.nih.gov/protein/XP_011822332.1
+NCBI,HN1L,XP_011822331.1,,9568,174,,,PREDICTED: hematological and neurological expressed 1-like protein [Mandrillus leucophaeus],https://www.ncbi.nlm.nih.gov/protein/XP_011822331.1
+NCBI,HN1L,XP_011812864.1,,336983,174,,,PREDICTED: hematological and neurological expressed 1-like protein [Colobus angolensis palliatus],https://www.ncbi.nlm.nih.gov/protein/XP_011812864.1
+NCBI,HN1L,XP_011812863.1,,336983,174,,,PREDICTED: hematological and neurological expressed 1-like protein [Colobus angolensis palliatus],https://www.ncbi.nlm.nih.gov/protein/XP_011812863.1
+NCBI,HN1L,XP_011889417.1,,9531,190,,,PREDICTED: hematological and neurological expressed 1-like protein [Cercocebus atys],https://www.ncbi.nlm.nih.gov/protein/XP_011889417.1
+NCBI,HN1L,XP_010849573.1,,43346,182,,,PREDICTED: hematological and neurological expressed 1-like protein [Bison bison bison],https://www.ncbi.nlm.nih.gov/protein/XP_010849573.1
+NCBI,HN1L,XP_009322515.1,,9238,146,,,PREDICTED: hematological and neurological expressed 1-like protein [Pygoscelis adeliae],https://www.ncbi.nlm.nih.gov/protein/XP_009322515.1
+NCBI,HN1L,XP_010566865.1,,52644,146,,,PREDICTED: hematological and neurological expressed 1-like protein isoform X3 [Haliaeetus leucocephalus],https://www.ncbi.nlm.nih.gov/protein/XP_010566865.1
+NCBI,HN1L,XP_010566864.1,,52644,176,,,PREDICTED: hematological and neurological expressed 1-like protein isoform X2 [Haliaeetus leucocephalus],https://www.ncbi.nlm.nih.gov/protein/XP_010566864.1
+NCBI,HN1L,XP_010566863.1,,52644,188,,,PREDICTED: hematological and neurological expressed 1-like protein isoform X1 [Haliaeetus leucocephalus],https://www.ncbi.nlm.nih.gov/protein/XP_010566863.1
+NCBI,HN1L,XP_010293389.1,,97097,136,,,"PREDICTED: hematological and neurological expressed 1-like protein, partial [Phaethon lepturus]",https://www.ncbi.nlm.nih.gov/protein/XP_010293389.1
+NCBI,HN1L,XP_010213172.1,,94827,146,,,PREDICTED: hematological and neurological expressed 1-like protein [Tinamus guttatus],https://www.ncbi.nlm.nih.gov/protein/XP_010213172.1
+NCBI,HN1L,XP_010180661.1,,54374,188,,,PREDICTED: hematological and neurological expressed 1-like protein [Mesitornis unicolor],https://www.ncbi.nlm.nih.gov/protein/XP_010180661.1
+NCBI,HN1L,XP_010083590.1,,240206,144,,,PREDICTED: hematological and neurological expressed 1-like protein [Pterocles gutturalis],https://www.ncbi.nlm.nih.gov/protein/XP_010083590.1
+NCBI,HN1L,XP_010159499.1,,54383,146,,,PREDICTED: hematological and neurological expressed 1-like protein [Eurypyga helias],https://www.ncbi.nlm.nih.gov/protein/XP_010159499.1
+NCBI,HN1L,XP_010130981.1,,175836,146,,,PREDICTED: hematological and neurological expressed 1-like protein [Buceros rhinoceros silvestris],https://www.ncbi.nlm.nih.gov/protein/XP_010130981.1
+NCBI,HN1L,AFI38712.1,,9544,190,,,hematological and neurological expressed 1-like protein [Macaca mulatta],https://www.ncbi.nlm.nih.gov/protein/AFI38712.1
+NCBI,HN1L,AFH28871.1,,9544,190,,,hematological and neurological expressed 1-like protein [Macaca mulatta],https://www.ncbi.nlm.nih.gov/protein/AFH28871.1
+NCBI,HN1L,AFE67191.1,,9544,190,,,hematological and neurological expressed 1-like protein [Macaca mulatta],https://www.ncbi.nlm.nih.gov/protein/AFE67191.1
+NCBI,HN1L,XP_010003351.1,,8897,146,,,PREDICTED: hematological and neurological expressed 1-like protein [Chaetura pelagica],https://www.ncbi.nlm.nih.gov/protein/XP_010003351.1
+NCBI,HN1L,XP_010020617.1,,176057,146,,,PREDICTED: hematological and neurological expressed 1-like protein [Nestor notabilis],https://www.ncbi.nlm.nih.gov/protein/XP_010020617.1
+NCBI,HN1L,XP_009884672.1,,50402,188,,,PREDICTED: hematological and neurological expressed 1-like protein [Charadrius vociferus],https://www.ncbi.nlm.nih.gov/protein/XP_009884672.1
+NCBI,HN1L,XP_009876966.1,,57397,146,,,PREDICTED: hematological and neurological expressed 1-like protein [Apaloderma vittatum],https://www.ncbi.nlm.nih.gov/protein/XP_009876966.1
+NCBI,HN1L,XP_009704487.1,,54380,146,,,PREDICTED: hematological and neurological expressed 1-like protein [Cariama cristata],https://www.ncbi.nlm.nih.gov/protein/XP_009704487.1
+NCBI,HN1L,XP_009582657.1,,30455,146,,,PREDICTED: hematological and neurological expressed 1-like protein [Fulmarus glacialis],https://www.ncbi.nlm.nih.gov/protein/XP_009582657.1
+NCBI,HN1L,XP_009461138.1,,128390,146,,,PREDICTED: hematological and neurological expressed 1-like protein [Nipponia nippon],https://www.ncbi.nlm.nih.gov/protein/XP_009461138.1
+NCBI,HN1L,AAI37174.1,,9606,1065,,,"Crm, cramped-like (Drosophila) [Homo sapiens]",https://www.ncbi.nlm.nih.gov/protein/AAI37174.1
+NCBI,HN1L,AAI37173.1,,9606,1065,,,"Crm, cramped-like (Drosophila) [Homo sapiens]",https://www.ncbi.nlm.nih.gov/protein/AAI37173.1
+UniProt,JPT2,Q9H910,Homo sapiens,9606,190,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/Q9H910
+UniProt,JPT2,Q9H910-1,Homo sapiens,9606,,,JPT2,isoform 1 of Q9H910,https://www.uniprot.org/uniprotkb/Q9H910-1
+UniProt,JPT2,Q9H910-2,Homo sapiens,9606,,,JPT2,isoform 2 of Q9H910,https://www.uniprot.org/uniprotkb/Q9H910-2
+UniProt,JPT2,Q9H910-3,Homo sapiens,9606,,,JPT2,isoform 3 of Q9H910,https://www.uniprot.org/uniprotkb/Q9H910-3
+UniProt,JPT2,Q5BK20,Rattus norvegicus,10116,190,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/Q5BK20
+UniProt,JPT2,Q6PGH2,Mus musculus,10090,190,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/Q6PGH2
+UniProt,JPT2,D3ZNU3,Rattus norvegicus,10116,1338,,JPT2,Protein cramped-like,https://www.uniprot.org/uniprotkb/D3ZNU3
+UniProt,JPT2,H3BMT0,Homo sapiens,9606,115,,JPT2,H3BMT0_HUMAN,https://www.uniprot.org/uniprotkb/H3BMT0
+UniProt,JPT2,H3BMV3,Homo sapiens,9606,190,,JPT2,H3BMV3_HUMAN,https://www.uniprot.org/uniprotkb/H3BMV3
+UniProt,JPT2,A6NGP5,Homo sapiens,9606,178,,JPT2,A6NGP5_HUMAN,https://www.uniprot.org/uniprotkb/A6NGP5
+UniProt,JPT2,H3BU16,Homo sapiens,9606,167,,JPT2,H3BU16_HUMAN,https://www.uniprot.org/uniprotkb/H3BU16
+UniProt,JPT2,H3BMM8,Homo sapiens,9606,70,,JPT2,H3BMM8_HUMAN,https://www.uniprot.org/uniprotkb/H3BMM8
+UniProt,JPT2,A0AAA9SSJ4,Bos taurus,9913,209,,JPT2,A0AAA9SSJ4_BOVIN,https://www.uniprot.org/uniprotkb/A0AAA9SSJ4
+UniProt,JPT2,A0ABK0LLJ5,Rattus norvegicus,10116,193,,JPT2,A0ABK0LLJ5_RAT,https://www.uniprot.org/uniprotkb/A0ABK0LLJ5
+UniProt,JPT2,Q3TJZ7,Mus musculus,10090,174,,JPT2,Hematological and neurological expressed 1-like protein,https://www.uniprot.org/uniprotkb/Q3TJZ7
+UniProt,JPT2,Q3TM10,Mus musculus,10090,190,,JPT2,Q3TM10_MOUSE,https://www.uniprot.org/uniprotkb/Q3TM10
+UniProt,JPT2,Q3U7P4,Mus musculus,10090,190,,JPT2,Hematological and neurological expressed 1-like protein,https://www.uniprot.org/uniprotkb/Q3U7P4
+UniProt,JPT2,A0A2I3THD0,Pan troglodytes,9598,218,,JPT2,A0A2I3THD0_PANTR,https://www.uniprot.org/uniprotkb/A0A2I3THD0
+UniProt,JPT2,A0A2U3VB39,Tursiops truncatus,9739,184,,JPT2,A0A2U3VB39_TURTR,https://www.uniprot.org/uniprotkb/A0A2U3VB39
+UniProt,JPT2,A0A452E1B7,Capra hircus,9925,215,,JPT2,A0A452E1B7_CAPHI,https://www.uniprot.org/uniprotkb/A0A452E1B7
+UniProt,JPT2,A0A672YMM2,Sphaeramia orbicularis,375764,214,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0A672YMM2
+UniProt,JPT2,A0A673VMV5,Suricata suricatta,37032,1240,,JPT2,A0A673VMV5_SURSU,https://www.uniprot.org/uniprotkb/A0A673VMV5
+UniProt,JPT2,A0A7N6FBB1,Anabas testudineus,64144,225,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0A7N6FBB1
+UniProt,JPT2,A0A8C8XHG8,Panthera leo,9689,192,,JPT2,A0A8C8XHG8_PANLE,https://www.uniprot.org/uniprotkb/A0A8C8XHG8
+UniProt,JPT2,A0A9L0ILF2,Equus asinus,9793,219,,JPT2,A0A9L0ILF2_EQUAS,https://www.uniprot.org/uniprotkb/A0A9L0ILF2
+UniProt,JPT2,A0AAY5KYW5,Esox lucius,8010,217,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0AAY5KYW5
+UniProt,JPT2,A0ABI7Z5N7,Felis catus,9685,165,,JPT2,Small ribosomal subunit protein eS19,https://www.uniprot.org/uniprotkb/A0ABI7Z5N7
+UniProt,JPT2,A0ABI7Z623,Felis catus,9685,306,,JPT2,Small ribosomal subunit protein eS19,https://www.uniprot.org/uniprotkb/A0ABI7Z623
+UniProt,JPT2,F7D6K1,Monodelphis domestica,13616,191,,JPT2,F7D6K1_MONDO,https://www.uniprot.org/uniprotkb/F7D6K1
+UniProt,JPT2,G1LNM5,Ailuropoda melanoleuca,9646,198,,JPT2,G1LNM5_AILME,https://www.uniprot.org/uniprotkb/G1LNM5
+UniProt,JPT2,G1NTZ1,Myotis lucifugus,59463,178,,JPT2,G1NTZ1_MYOLU,https://www.uniprot.org/uniprotkb/G1NTZ1
+UniProt,JPT2,U3IWJ7,Anas platyrhynchos platyrhynchos,8840,184,,JPT2,U3IWJ7_ANAPP,https://www.uniprot.org/uniprotkb/U3IWJ7
+UniProt,JPT2,A0A2J8R979,Pongo abelii,9601,218,,JPT2,A0A2J8R979_PONAB,https://www.uniprot.org/uniprotkb/A0A2J8R979
+UniProt,JPT2,A0A2K5QJW5,Cebus imitator,2715852,214,,JPT2,A0A2K5QJW5_CEBIM,https://www.uniprot.org/uniprotkb/A0A2K5QJW5
+UniProt,JPT2,A0A3P8P1S2,Astatotilapia calliptera,8154,219,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0A3P8P1S2
+UniProt,JPT2,A0A670Y4Q6,Pseudonaja textilis,8673,187,,JPT2,A0A670Y4Q6_PSETE,https://www.uniprot.org/uniprotkb/A0A670Y4Q6
+UniProt,JPT2,A0A671FY16,Rhinolophus ferrumequinum,59479,190,,JPT2,A0A671FY16_RHIFE,https://www.uniprot.org/uniprotkb/A0A671FY16
+UniProt,JPT2,A0A6I9L232,Peromyscus maniculatus bairdii,230844,190,,JPT2,A0A6I9L232_PERMB,https://www.uniprot.org/uniprotkb/A0A6I9L232
+UniProt,JPT2,A0A6P3RCT6,Pteropus vampyrus,132908,190,,JPT2,A0A6P3RCT6_PTEVA,https://www.uniprot.org/uniprotkb/A0A6P3RCT6
+UniProt,JPT2,A0A6P5LUV4,Phascolarctos cinereus,38626,191,,JPT2,A0A6P5LUV4_PHACI,https://www.uniprot.org/uniprotkb/A0A6P5LUV4
+UniProt,JPT2,A0A803V9I2,Ficedula albicollis,59894,221,,JPT2,A0A803V9I2_FICAL,https://www.uniprot.org/uniprotkb/A0A803V9I2
+UniProt,JPT2,A0A8B9YTV2,Bos grunniens,30521,182,,JPT2,A0A8B9YTV2_BOSGR,https://www.uniprot.org/uniprotkb/A0A8B9YTV2
+UniProt,JPT2,A0A8C2VWC2,Chinchilla lanigera,34839,190,,JPT2,A0A8C2VWC2_CHILA,https://www.uniprot.org/uniprotkb/A0A8C2VWC2
+UniProt,JPT2,A0A8C4YSB9,Gopherus evgoodei,1825980,185,,JPT2,A0A8C4YSB9_9SAUR,https://www.uniprot.org/uniprotkb/A0A8C4YSB9
+UniProt,JPT2,A0A8C6AQK7,Monodon monoceros,40151,184,,JPT2,A0A8C6AQK7_MONMO,https://www.uniprot.org/uniprotkb/A0A8C6AQK7
+UniProt,JPT2,A0A8C6RSE3,Nannospalax galili,1026970,185,,JPT2,Hematological and neurological expressed 1-like protein,https://www.uniprot.org/uniprotkb/A0A8C6RSE3
+UniProt,JPT2,A0A8C6XNP3,Naja naja,35670,241,,JPT2,A0A8C6XNP3_NAJNA,https://www.uniprot.org/uniprotkb/A0A8C6XNP3
+UniProt,JPT2,A0AAY4BE62,Denticeps clupeoides,299321,216,,JPT2,Homeobox domain-containing protein,https://www.uniprot.org/uniprotkb/A0AAY4BE62
+UniProt,JPT2,A0AAY4BJ65,Denticeps clupeoides,299321,194,,JPT2,Hematological and neurological expressed 1-like protein,https://www.uniprot.org/uniprotkb/A0AAY4BJ65
+UniProt,JPT2,A0AAY5ERR6,Electrophorus electricus,8005,254,,JPT2,Myozenin 2a,https://www.uniprot.org/uniprotkb/A0AAY5ERR6
+UniProt,JPT2,A0AAZ1WY74,Oreochromis aureus,47969,225,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0AAZ1WY74
+UniProt,JPT2,A0ABI7WC84,Felis catus,9685,245,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0ABI7WC84
+UniProt,JPT2,A0ABI7Z645,Felis catus,9685,188,,JPT2,Ribosomal protein S19,https://www.uniprot.org/uniprotkb/A0ABI7Z645
+UniProt,JPT2,H9G775,Anolis carolinensis,28377,191,,JPT2,H9G775_ANOCA,https://www.uniprot.org/uniprotkb/H9G775
+UniProt,JPT2,I3M2U3,Ictidomys tridecemlineatus,43179,190,,JPT2,I3M2U3_ICTTR,https://www.uniprot.org/uniprotkb/I3M2U3
+UniProt,JPT2,A0A2I2YRH6,Gorilla gorilla gorilla,9595,218,,JPT2,A0A2I2YRH6_GORGO,https://www.uniprot.org/uniprotkb/A0A2I2YRH6
+UniProt,JPT2,A0A2K6NQ63,Rhinopithecus roxellana,61622,218,,JPT2,A0A2K6NQ63_RHIRO,https://www.uniprot.org/uniprotkb/A0A2K6NQ63
+UniProt,JPT2,A0A4W2BP98,Bos indicus x Bos taurus,30522,182,,JPT2,A0A4W2BP98_BOBOX,https://www.uniprot.org/uniprotkb/A0A4W2BP98
+UniProt,JPT2,A0A665TJV7,Echeneis naucrates,173247,213,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0A665TJV7
+UniProt,JPT2,A0A672GE81,Salarias fasciatus,181472,216,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0A672GE81
+UniProt,JPT2,A0A673GPW8,Sinocyclocheilus rhinocerous,307959,211,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0A673GPW8
+UniProt,JPT2,A0A673VLN4,Suricata suricatta,37032,252,,JPT2,A0A673VLN4_SURSU,https://www.uniprot.org/uniprotkb/A0A673VLN4
+UniProt,JPT2,A0A673VMP6,Suricata suricatta,37032,1271,,JPT2,A0A673VMP6_SURSU,https://www.uniprot.org/uniprotkb/A0A673VMP6
+UniProt,JPT2,A0A6F9DET9,Phallusia mammillata,59560,129,,JPT2,Microtubule-associated protein Jupiter,https://www.uniprot.org/uniprotkb/A0A6F9DET9
+UniProt,JPT2,A0A8C0GWZ3,Chelonoidis abingdonii,106734,102,,JPT2,A0A8C0GWZ3_CHEAB,https://www.uniprot.org/uniprotkb/A0A8C0GWZ3
+UniProt,JPT2,A0A8C0JK72,Canis lupus dingo,286419,188,,JPT2,A0A8C0JK72_CANLU,https://www.uniprot.org/uniprotkb/A0A8C0JK72
+UniProt,JPT2,A0A8C3IIG9,Chrysemys picta bellii,8478,119,,JPT2,A0A8C3IIG9_CHRPI,https://www.uniprot.org/uniprotkb/A0A8C3IIG9
+UniProt,JPT2,A0A8C3YV98,Catagonus wagneri,51154,188,,JPT2,A0A8C3YV98_9CETA,https://www.uniprot.org/uniprotkb/A0A8C3YV98
+UniProt,JPT2,A0A8C5RWK9,Laticauda laticaudata,8630,191,,JPT2,A0A8C5RWK9_LATLA,https://www.uniprot.org/uniprotkb/A0A8C5RWK9
+UniProt,JPT2,A0A8C5XK66,Microcebus murinus,30608,198,,JPT2,A0A8C5XK66_MICMU,https://www.uniprot.org/uniprotkb/A0A8C5XK66
+UniProt,JPT2,A0A8C5ZNP5,Marmota marmota marmota,9994,175,,JPT2,A0A8C5ZNP5_MARMA,https://www.uniprot.org/uniprotkb/A0A8C5ZNP5
+UniProt,JPT2,A0A9V1GJR1,Panthera pardus,9691,190,,JPT2,A0A9V1GJR1_PANPR,https://www.uniprot.org/uniprotkb/A0A9V1GJR1
+UniProt,JPT2,A0AAR2J1W7,Pygocentrus nattereri,42514,208,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0AAR2J1W7
+UniProt,JPT2,A0AAY5EH69,Electrophorus electricus,8005,204,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0AAY5EH69
+UniProt,JPT2,A0AAZ3PR20,Oncorhynchus tshawytscha,74940,212,,JPT2,HN1-like protein,https://www.uniprot.org/uniprotkb/A0AAZ3PR20
+UniProt,JPT2,A0ABI7WCF8,Felis catus,9685,71,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0ABI7WCF8
+UniProt,JPT2,A0ABI7Z621,Felis catus,9685,295,,JPT2,Small ribosomal subunit protein eS19,https://www.uniprot.org/uniprotkb/A0ABI7Z621
+UniProt,JPT2,G3WHH9,Sarcophilus harrisii,9305,216,,JPT2,G3WHH9_SARHA,https://www.uniprot.org/uniprotkb/G3WHH9
+UniProt,JPT2,J9JIM0,Sus scrofa,9823,192,,JPT2,J9JIM0_PIG,https://www.uniprot.org/uniprotkb/J9JIM0
+UniProt,JPT2,K7F618,Pelodiscus sinensis,13735,170,,JPT2,K7F618_PELSI,https://www.uniprot.org/uniprotkb/K7F618
+UniProt,JPT2,A0A670JJH7,Podarcis muralis,64176,184,,JPT2,A0A670JJH7_PODMU,https://www.uniprot.org/uniprotkb/A0A670JJH7
+UniProt,JPT2,A0A673VAX5,Suricata suricatta,37032,1235,,JPT2,A0A673VAX5_SURSU,https://www.uniprot.org/uniprotkb/A0A673VAX5
+UniProt,JPT2,A0A7M4DW83,Crocodylus porosus,8502,183,,JPT2,A0A7M4DW83_CROPO,https://www.uniprot.org/uniprotkb/A0A7M4DW83
+UniProt,JPT2,A0A8B9BJ39,Anser brachyrhynchus,132585,188,,JPT2,A0A8B9BJ39_9AVES,https://www.uniprot.org/uniprotkb/A0A8B9BJ39
+UniProt,JPT2,A0A8C2MYN5,Cricetulus griseus,10029,190,,JPT2,A0A8C2MYN5_CRIGR,https://www.uniprot.org/uniprotkb/A0A8C2MYN5
+UniProt,JPT2,A0A8C5DNC2,Gouania willdenowi,441366,247,,JPT2,Hematological and neurological expressed 1-like protein,https://www.uniprot.org/uniprotkb/A0A8C5DNC2
+UniProt,JPT2,A0A8C6FFD0,Moschus moschiferus,68415,215,,JPT2,A0A8C6FFD0_MOSMO,https://www.uniprot.org/uniprotkb/A0A8C6FFD0
+UniProt,JPT2,A0A8C8HB83,Oncorhynchus tshawytscha,74940,214,,JPT2,Hematological and neurological expressed 1-like protein,https://www.uniprot.org/uniprotkb/A0A8C8HB83
+UniProt,JPT2,A0A8I3P624,Canis lupus familiaris,9615,188,,JPT2,A0A8I3P624_CANLF,https://www.uniprot.org/uniprotkb/A0A8I3P624
+UniProt,JPT2,A0AAZ3S8S4,Oncorhynchus tshawytscha,74940,198,,JPT2,Hematological and neurological expressed 1-like protein,https://www.uniprot.org/uniprotkb/A0AAZ3S8S4
+UniProt,JPT2,A0ABI7VY01,Felis catus,9685,205,,JPT2,Cystatin domain-containing protein,https://www.uniprot.org/uniprotkb/A0ABI7VY01
+UniProt,JPT2,F6SRV4,Macaca mulatta,9544,190,,JPT2,F6SRV4_MACMU,https://www.uniprot.org/uniprotkb/F6SRV4
+UniProt,JPT2,A0A1U7QV76,Mesocricetus auratus,10036,190,,JPT2,A0A1U7QV76_MESAU,https://www.uniprot.org/uniprotkb/A0A1U7QV76
+UniProt,JPT2,A0A286XBV5,Cavia porcellus,10141,190,,JPT2,A0A286XBV5_CAVPO,https://www.uniprot.org/uniprotkb/A0A286XBV5
+UniProt,JPT2,A0A663F5Q7,Aquila chrysaetos chrysaetos,223781,188,,JPT2,A0A663F5Q7_AQUCH,https://www.uniprot.org/uniprotkb/A0A663F5Q7
+UniProt,JPT2,A0A672THX4,Strigops habroptila,2489341,188,,JPT2,A0A672THX4_STRHB,https://www.uniprot.org/uniprotkb/A0A672THX4
+UniProt,JPT2,A0A673VLD9,Suricata suricatta,37032,1273,,JPT2,A0A673VLD9_SURSU,https://www.uniprot.org/uniprotkb/A0A673VLD9
+UniProt,JPT2,A0A674HGW8,Taeniopygia guttata,59729,186,,JPT2,A0A674HGW8_TAEGU,https://www.uniprot.org/uniprotkb/A0A674HGW8
+UniProt,JPT2,A0A674I7B9,Terrapene triunguis,2587831,185,,JPT2,A0A674I7B9_9SAUR,https://www.uniprot.org/uniprotkb/A0A674I7B9
+UniProt,JPT2,A0A6I8NU72,Ornithorhynchus anatinus,9258,190,,JPT2,A0A6I8NU72_ORNAN,https://www.uniprot.org/uniprotkb/A0A6I8NU72
+UniProt,JPT2,A0A6J1VEE2,Notechis scutatus,8663,187,,JPT2,A0A6J1VEE2_9SAUR,https://www.uniprot.org/uniprotkb/A0A6J1VEE2
+UniProt,JPT2,A0A8C2U2H9,Coturnix japonica,93934,187,,JPT2,A0A8C2U2H9_COTJA,https://www.uniprot.org/uniprotkb/A0A8C2U2H9
+UniProt,JPT2,A0A8C6RSJ2,Nannospalax galili,1026970,191,,JPT2,Hematological and neurological expressed 1-like protein,https://www.uniprot.org/uniprotkb/A0A8C6RSJ2
+UniProt,JPT2,A0A8C9AQ16,Prolemur simus,1328070,190,,JPT2,A0A8C9AQ16_PROSS,https://www.uniprot.org/uniprotkb/A0A8C9AQ16
+UniProt,JPT2,A0A8C9MGW3,Serinus canaria,9135,188,,JPT2,A0A8C9MGW3_SERCA,https://www.uniprot.org/uniprotkb/A0A8C9MGW3
+UniProt,JPT2,A0A8D2DCD0,Sciurus vulgaris,55149,190,,JPT2,A0A8D2DCD0_SCIVU,https://www.uniprot.org/uniprotkb/A0A8D2DCD0
+UniProt,JPT2,A0A8D2KJV0,Urocitellus parryii,9999,190,,JPT2,A0A8D2KJV0_UROPR,https://www.uniprot.org/uniprotkb/A0A8D2KJV0
+UniProt,JPT2,A0A9L0THN8,Equus caballus,9796,219,,JPT2,A0A9L0THN8_HORSE,https://www.uniprot.org/uniprotkb/A0A9L0THN8
+UniProt,JPT2,A0AAY5EUX1,Electrophorus electricus,8005,279,,JPT2,Myozenin 2a,https://www.uniprot.org/uniprotkb/A0AAY5EUX1
+UniProt,JPT2,A0AAZ1XSA7,Oreochromis aureus,47969,218,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/A0AAZ1XSA7
+UniProt,JPT2,A0AAZ3SC84,Oncorhynchus tshawytscha,74940,212,,JPT2,Hematological and neurological expressed 1-like protein,https://www.uniprot.org/uniprotkb/A0AAZ3SC84
+UniProt,JPT2,A0ABI7Z5V8,Felis catus,9685,315,,JPT2,Small ribosomal subunit protein eS19,https://www.uniprot.org/uniprotkb/A0ABI7Z5V8
+UniProt,JPT2,G3TGS7,Loxodonta africana,9785,191,,JPT2,G3TGS7_LOXAF,https://www.uniprot.org/uniprotkb/G3TGS7
+UniProt,JPT2,G3UQ24,Meleagris gallopavo,9103,197,,JPT2,G3UQ24_MELGA,https://www.uniprot.org/uniprotkb/G3UQ24
+UniProt,JPT2,Q66J93,Xenopus laevis,8355,188,,JPT2,Q66J93_XENLA,https://www.uniprot.org/uniprotkb/Q66J93
+UniProt,JPT2,B4F6I8,Xenopus tropicalis,8364,146,,JPT2,Hematological and neurological expressed 1-like,https://www.uniprot.org/uniprotkb/B4F6I8
+UniProt,JPT2,F1Q6E4,Danio rerio,7955,218,,JPT2,F1Q6E4_DANRE,https://www.uniprot.org/uniprotkb/F1Q6E4
+UniProt,JPT2,A0ACI8R2A3,Homo sapiens,9606,187,,JPT2,A0ACI8R2A3_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8R2A3
+UniProt,JPT2,H3BS08,Homo sapiens,9606,77,,JPT2,H3BS08_HUMAN,https://www.uniprot.org/uniprotkb/H3BS08
+UniProt,JPT2,H3BTV5,Homo sapiens,9606,116,,JPT2,H3BTV5_HUMAN,https://www.uniprot.org/uniprotkb/H3BTV5
+UniProt,JPT2,H3BU95,Homo sapiens,9606,98,,JPT2,H3BU95_HUMAN,https://www.uniprot.org/uniprotkb/H3BU95
+UniProt,JPT2,A0A3Q1N1K0,Bos taurus,9913,208,,JPT2,A0A3Q1N1K0_BOVIN,https://www.uniprot.org/uniprotkb/A0A3Q1N1K0
+UniProt,JPT2,A0A3Q1LWD5,Bos taurus,9913,168,,JPT2,A0A3Q1LWD5_BOVIN,https://www.uniprot.org/uniprotkb/A0A3Q1LWD5
+UniProt,JPT1,Q9UK76,Homo sapiens,9606,154,,JPT1,Jupiter microtubule associated homolog 1,https://www.uniprot.org/uniprotkb/Q9UK76
+UniProt,JPT1,Q9UK76-1,Homo sapiens,9606,,,JPT1,isoform 1 of Q9UK76,https://www.uniprot.org/uniprotkb/Q9UK76-1
+UniProt,JPT1,Q9UK76-2,Homo sapiens,9606,,,JPT1,isoform 2 of Q9UK76,https://www.uniprot.org/uniprotkb/Q9UK76-2
+UniProt,JPT1,Q9UK76-3,Homo sapiens,9606,,,JPT1,isoform 3 of Q9UK76,https://www.uniprot.org/uniprotkb/Q9UK76-3
+UniProt,JPT1,P97825,Mus musculus,10090,154,,JPT1,Jupiter microtubule associated homolog 1,https://www.uniprot.org/uniprotkb/P97825
+UniProt,JPT1,Q3T0T5,Bos taurus,9913,154,,JPT1,Jupiter microtubule associated homolog 1,https://www.uniprot.org/uniprotkb/Q3T0T5
+UniProt,JPT1,Q6AXU6,Rattus norvegicus,10116,149,,JPT1,Jupiter microtubule associated homolog 1,https://www.uniprot.org/uniprotkb/Q6AXU6
+UniProt,JPT1,J3KSH8,Homo sapiens,9606,93,,JPT1,J3KSH8_HUMAN,https://www.uniprot.org/uniprotkb/J3KSH8
+UniProt,JPT1,J3KT51,Homo sapiens,9606,104,,JPT1,J3KT51_HUMAN,https://www.uniprot.org/uniprotkb/J3KT51
+UniProt,JPT1,A0A5F7ZZF0,Macaca mulatta,9544,94,,JPT1,A0A5F7ZZF0_MACMU,https://www.uniprot.org/uniprotkb/A0A5F7ZZF0
+UniProt,JPT1,A0A5F8AA52,Macaca mulatta,9544,359,,JPT1,Small ubiquitin-related modifier 2,https://www.uniprot.org/uniprotkb/A0A5F8AA52
+UniProt,JPT1,A0A672GGB0,Salarias fasciatus,181472,174,,JPT1,Jupiter microtubule associated homolog 1b,https://www.uniprot.org/uniprotkb/A0A672GGB0
+UniProt,JPT1,A0A8C5GSH3,Gouania willdenowi,441366,172,,JPT1,Jupiter microtubule associated homolog 1b,https://www.uniprot.org/uniprotkb/A0A8C5GSH3
+UniProt,JPT1,A0A673VNG6,Suricata suricatta,37032,190,,JPT1,Jupiter microtubule associated homolog 1,https://www.uniprot.org/uniprotkb/A0A673VNG6
+UniProt,JPT1,A0A8C3UK93,Catharus ustulatus,91951,157,,JPT1,Hematological and neurological expressed 1 protein,https://www.uniprot.org/uniprotkb/A0A8C3UK93
+UniProt,JPT1,A0A672ZLL9,Sphaeramia orbicularis,375764,174,,JPT1,Jupiter microtubule associated homolog 1b,https://www.uniprot.org/uniprotkb/A0A672ZLL9
+UniProt,JPT1,A0A673VNF6,Suricata suricatta,37032,154,,JPT1,Jupiter microtubule associated homolog 1,https://www.uniprot.org/uniprotkb/A0A673VNF6
+UniProt,JPT1,A0A8C7N7Z8,Oncorhynchus kisutch,8019,307,,JPT1,A0A8C7N7Z8_ONCKI,https://www.uniprot.org/uniprotkb/A0A8C7N7Z8
+UniProt,JPT1,H2TWV3,Takifugu rubripes,31033,318,,JPT1,Jupiter microtubule associated homolog 1a,https://www.uniprot.org/uniprotkb/H2TWV3
+UniProt,JPT1,I7JI34,Xenopus laevis,8355,141,,JPT1,I7JI34_XENLA,https://www.uniprot.org/uniprotkb/I7JI34
+UniProt,JPT1,A0A8C9IY99,Piliocolobus tephrosceles,591936,255,,JPT1,Small ubiquitin-related modifier 2,https://www.uniprot.org/uniprotkb/A0A8C9IY99
+UniProt,JPT1,A0A3B5KAQ1,Takifugu rubripes,31033,264,,JPT1,Jupiter microtubule associated homolog 1b,https://www.uniprot.org/uniprotkb/A0A3B5KAQ1
+UniProt,JPT1,A0A665VC45,Echeneis naucrates,173247,174,,JPT1,Jupiter microtubule associated homolog 1b,https://www.uniprot.org/uniprotkb/A0A665VC45
+UniProt,JPT1,A0A673VMG0,Suricata suricatta,37032,144,,JPT1,Jupiter microtubule associated homolog 1,https://www.uniprot.org/uniprotkb/A0A673VMG0
+UniProt,JPT1,A0A8U7MUY6,Corvus moneduloides,1196302,156,,JPT1,A0A8U7MUY6_CORMO,https://www.uniprot.org/uniprotkb/A0A8U7MUY6
+UniProt,JPT1,A0A852CL51,Ramphastos sulfuratus,322582,155,,JPT1,A0A852CL51_9PICI,https://www.uniprot.org/uniprotkb/A0A852CL51
+UniProt,JPT1,A0ACI8REV9,Homo sapiens,9606,115,,JPT1,A0ACI8REV9_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8REV9
+UniProt,JPT1,F2Z3M5,Homo sapiens,9606,44,,JPT1,F2Z3M5_HUMAN,https://www.uniprot.org/uniprotkb/F2Z3M5
+UniProt,JPT1,A0A8L2Q2G1,Rattus norvegicus,10116,144,,JPT1,A0A8L2Q2G1_RAT,https://www.uniprot.org/uniprotkb/A0A8L2Q2G1
+UniProt,JPT1,A0A059NZR0,Rattus norvegicus,10116,149,,JPT1,A0A059NZR0_RAT,https://www.uniprot.org/uniprotkb/A0A059NZR0
+UniProt,JPT1,A0ABK0L5H0,Rattus norvegicus,10116,154,,JPT1,A0ABK0L5H0_RAT,https://www.uniprot.org/uniprotkb/A0ABK0L5H0
+UniProt,JPT1,A0ABK0LSQ2,Rattus norvegicus,10116,148,,JPT1,A0ABK0LSQ2_RAT,https://www.uniprot.org/uniprotkb/A0ABK0LSQ2
+UniProt,JPT1,A0A1D5QKR3,Macaca mulatta,9544,245,,JPT1,A0A1D5QKR3_MACMU,https://www.uniprot.org/uniprotkb/A0A1D5QKR3
+UniProt,JPT1,A0A250XVF2,Castor canadensis,51338,154,,JPT1,A0A250XVF2_CASCN,https://www.uniprot.org/uniprotkb/A0A250XVF2
+UniProt,JPT1,A0A2I3G1Y4,Nomascus leucogenys,61853,108,,JPT1,A0A2I3G1Y4_NOMLE,https://www.uniprot.org/uniprotkb/A0A2I3G1Y4
+UniProt,JPT1,A0A2Y9GCB1,Neomonachus schauinslandi,29088,154,,JPT1,A0A2Y9GCB1_NEOSC,https://www.uniprot.org/uniprotkb/A0A2Y9GCB1
+UniProt,JPT1,A0A5F7ZLS9,Macaca mulatta,9544,154,,JPT1,A0A5F7ZLS9_MACMU,https://www.uniprot.org/uniprotkb/A0A5F7ZLS9
+UniProt,JPT1,A0A663LSB8,Athene cunicularia,194338,157,,JPT1,A0A663LSB8_ATHCN,https://www.uniprot.org/uniprotkb/A0A663LSB8
+UniProt,JPT1,A0A670KD64,Podarcis muralis,64176,156,,JPT1,A0A670KD64_PODMU,https://www.uniprot.org/uniprotkb/A0A670KD64
+UniProt,JPT1,A0A7N4NST8,Sarcophilus harrisii,9305,215,,JPT1,A0A7N4NST8_SARHA,https://www.uniprot.org/uniprotkb/A0A7N4NST8
+UniProt,JPT1,A0A803Y3F9,Meleagris gallopavo,9103,224,,JPT1,A0A803Y3F9_MELGA,https://www.uniprot.org/uniprotkb/A0A803Y3F9
+UniProt,JPT1,A0A8B8W4H7,Balaenoptera musculus,9771,154,,JPT1,A0A8B8W4H7_BALMU,https://www.uniprot.org/uniprotkb/A0A8B8W4H7
+UniProt,JPT1,A0A8B9CG62,Anser brachyrhynchus,132585,154,,JPT1,A0A8B9CG62_9AVES,https://www.uniprot.org/uniprotkb/A0A8B9CG62
+UniProt,JPT1,A0A8C0L8J9,Canis lupus dingo,286419,154,,JPT1,A0A8C0L8J9_CANLU,https://www.uniprot.org/uniprotkb/A0A8C0L8J9
+UniProt,JPT1,A0A8C3E9P0,Corvus moneduloides,1196302,157,,JPT1,A0A8C3E9P0_CORMO,https://www.uniprot.org/uniprotkb/A0A8C3E9P0
+UniProt,JPT1,A0A8C4YLV6,Gopherus evgoodei,1825980,156,,JPT1,A0A8C4YLV6_9SAUR,https://www.uniprot.org/uniprotkb/A0A8C4YLV6
+UniProt,JPT1,A0A8C6DNU0,Moschus moschiferus,68415,154,,JPT1,A0A8C6DNU0_MOSMO,https://www.uniprot.org/uniprotkb/A0A8C6DNU0
+UniProt,JPT1,A0A8C7AYE0,Neogale vison,452646,154,,JPT1,A0A8C7AYE0_NEOVI,https://www.uniprot.org/uniprotkb/A0A8C7AYE0
+UniProt,JPT1,A0A8C9IXF5,Piliocolobus tephrosceles,591936,71,,JPT1,A0A8C9IXF5_9PRIM,https://www.uniprot.org/uniprotkb/A0A8C9IXF5
+UniProt,JPT1,A0A8C9IYD2,Piliocolobus tephrosceles,591936,154,,JPT1,A0A8C9IYD2_9PRIM,https://www.uniprot.org/uniprotkb/A0A8C9IYD2
+UniProt,JPT1,A0A8D2KA51,Theropithecus gelada,9565,181,,JPT1,A0A8D2KA51_THEGE,https://www.uniprot.org/uniprotkb/A0A8D2KA51
+UniProt,JPT1,A0A8D2N4R8,Zonotrichia albicollis,44394,156,,JPT1,A0A8D2N4R8_ZONAL,https://www.uniprot.org/uniprotkb/A0A8D2N4R8
+UniProt,JPT1,A0A8I5UTK9,Pongo abelii,9601,175,,JPT1,A0A8I5UTK9_PONAB,https://www.uniprot.org/uniprotkb/A0A8I5UTK9
+UniProt,JPT1,A0A9L0TNW7,Equus caballus,9796,144,,JPT1,A0A9L0TNW7_HORSE,https://www.uniprot.org/uniprotkb/A0A9L0TNW7
+UniProt,JPT1,A0A9V1GGG6,Panthera pardus,9691,154,,JPT1,A0A9V1GGG6_PANPR,https://www.uniprot.org/uniprotkb/A0A9V1GGG6
+UniProt,JPT1,A0A9Y4K3A1,Stegastes partitus,144197,173,,JPT1,A0A9Y4K3A1_9TELE,https://www.uniprot.org/uniprotkb/A0A9Y4K3A1
+UniProt,JPT1,A0ABM2EL60,Equus przewalskii,9798,181,,JPT1,A0ABM2EL60_EQUPR,https://www.uniprot.org/uniprotkb/A0ABM2EL60
+UniProt,JPT1,A0AC58K8M3,Castor canadensis,51338,108,,JPT1,A0AC58K8M3_CASCN,https://www.uniprot.org/uniprotkb/A0AC58K8M3
+UniProt,JPT1,A0AC58K8M5,Castor canadensis,51338,159,,JPT1,A0AC58K8M5_CASCN,https://www.uniprot.org/uniprotkb/A0AC58K8M5
+UniProt,JPT1,G1NAT2,Meleagris gallopavo,9103,155,,JPT1,G1NAT2_MELGA,https://www.uniprot.org/uniprotkb/G1NAT2
+UniProt,JPT1,G3RDN8,Gorilla gorilla gorilla,9595,181,,JPT1,G3RDN8_GORGO,https://www.uniprot.org/uniprotkb/G3RDN8
+UniProt,JPT1,G3T7H0,Loxodonta africana,9785,154,,JPT1,G3T7H0_LOXAF,https://www.uniprot.org/uniprotkb/G3T7H0
+UniProt,JPT1,A0A2I2Z9J9,Gorilla gorilla gorilla,9595,108,,JPT1,A0A2I2Z9J9_GORGO,https://www.uniprot.org/uniprotkb/A0A2I2Z9J9
+UniProt,JPT1,A0A2U3X9L1,Leptonychotes weddellii,9713,154,,JPT1,A0A2U3X9L1_LEPWE,https://www.uniprot.org/uniprotkb/A0A2U3X9L1
+UniProt,JPT1,A0A452R435,Ursus americanus,9643,157,,JPT1,A0A452R435_URSAM,https://www.uniprot.org/uniprotkb/A0A452R435
+UniProt,JPT1,A0A5F5PQK0,Equus caballus,9796,177,,JPT1,A0A5F5PQK0_HORSE,https://www.uniprot.org/uniprotkb/A0A5F5PQK0
+UniProt,JPT1,A0A671EXC2,Rhinolophus ferrumequinum,59479,155,,JPT1,A0A671EXC2_RHIFE,https://www.uniprot.org/uniprotkb/A0A671EXC2
+UniProt,JPT1,A0A672URM8,Strigops habroptila,2489341,155,,JPT1,A0A672URM8_STRHB,https://www.uniprot.org/uniprotkb/A0A672URM8
+UniProt,JPT1,A0A674JM08,Terrapene triunguis,2587831,118,,JPT1,A0A674JM08_9SAUR,https://www.uniprot.org/uniprotkb/A0A674JM08
+UniProt,JPT1,A0A6I8N6F8,Ornithorhynchus anatinus,9258,101,,JPT1,A0A6I8N6F8_ORNAN,https://www.uniprot.org/uniprotkb/A0A6I8N6F8
+UniProt,JPT1,A0A6I9I1L7,Vicugna pacos,30538,154,,JPT1,A0A6I9I1L7_VICPA,https://www.uniprot.org/uniprotkb/A0A6I9I1L7
+UniProt,JPT1,A0A6J2FK89,Zalophus californianus,9704,154,,JPT1,A0A6J2FK89_ZALCA,https://www.uniprot.org/uniprotkb/A0A6J2FK89
+UniProt,JPT1,A0A6J2J0V1,Pipra filicauda,649802,154,,JPT1,A0A6J2J0V1_9PASS,https://www.uniprot.org/uniprotkb/A0A6J2J0V1
+UniProt,JPT1,A0A6J2M8Q9,Phyllostomus discolor,89673,154,,JPT1,A0A6J2M8Q9_9CHIR,https://www.uniprot.org/uniprotkb/A0A6J2M8Q9
+UniProt,JPT1,A0A6J3E100,Aythya fuligula,219594,157,,JPT1,A0A6J3E100_AYTFU,https://www.uniprot.org/uniprotkb/A0A6J3E100
+UniProt,JPT1,A0A6J3ETW3,Sapajus apella,9515,154,,JPT1,A0A6J3ETW3_SAPAP,https://www.uniprot.org/uniprotkb/A0A6J3ETW3
+UniProt,JPT1,A0A6P7YM84,Microcaecilia unicolor,1415580,155,,JPT1,A0A6P7YM84_9AMPH,https://www.uniprot.org/uniprotkb/A0A6P7YM84
+UniProt,JPT1,A0A7M4E549,Crocodylus porosus,8502,157,,JPT1,A0A7M4E549_CROPO,https://www.uniprot.org/uniprotkb/A0A7M4E549
+UniProt,JPT1,A0A803XYF4,Meleagris gallopavo,9103,224,,JPT1,A0A803XYF4_MELGA,https://www.uniprot.org/uniprotkb/A0A803XYF4
+UniProt,JPT1,A0A8B8R414,Camelus ferus,419612,154,,JPT1,A0A8B8R414_CAMFR,https://www.uniprot.org/uniprotkb/A0A8B8R414
+UniProt,JPT1,A0A8C0IRN5,Chelonoidis abingdonii,106734,156,,JPT1,A0A8C0IRN5_CHEAB,https://www.uniprot.org/uniprotkb/A0A8C0IRN5
+UniProt,JPT1,A0A8C6CLC7,Monodon monoceros,40151,154,,JPT1,A0A8C6CLC7_MONMO,https://www.uniprot.org/uniprotkb/A0A8C6CLC7
+UniProt,JPT1,A0A8C6RQA1,Nannospalax galili,1026970,150,,JPT1,A0A8C6RQA1_NANGA,https://www.uniprot.org/uniprotkb/A0A8C6RQA1
+UniProt,JPT1,A0A8C7L9B8,Oncorhynchus kisutch,8019,203,,JPT1,A0A8C7L9B8_ONCKI,https://www.uniprot.org/uniprotkb/A0A8C7L9B8
+UniProt,JPT1,A0A8C9CXM4,Phocoena sinus,42100,154,,JPT1,A0A8C9CXM4_PHOSS,https://www.uniprot.org/uniprotkb/A0A8C9CXM4
+UniProt,JPT1,A0A8I3Q2D7,Canis lupus familiaris,9615,166,,JPT1,A0A8I3Q2D7_CANLF,https://www.uniprot.org/uniprotkb/A0A8I3Q2D7
+UniProt,JPT1,A0A8I5U2J9,Pongo abelii,9601,183,,JPT1,A0A8I5U2J9_PONAB,https://www.uniprot.org/uniprotkb/A0A8I5U2J9
+UniProt,JPT1,A0A9L0IE98,Equus asinus,9793,144,,JPT1,A0A9L0IE98_EQUAS,https://www.uniprot.org/uniprotkb/A0A9L0IE98
+UniProt,JPT1,A0A9L0S7U5,Equus caballus,9796,181,,JPT1,A0A9L0S7U5_HORSE,https://www.uniprot.org/uniprotkb/A0A9L0S7U5
+UniProt,JPT1,A0ABM2XTR0,Mesocricetus auratus,10036,154,,JPT1,A0ABM2XTR0_MESAU,https://www.uniprot.org/uniprotkb/A0ABM2XTR0
+UniProt,JPT1,A0ABM3SS28,Balaenoptera acutorostrata,9767,154,,JPT1,A0ABM3SS28_BALAC,https://www.uniprot.org/uniprotkb/A0ABM3SS28
+UniProt,JPT1,A0ABM4R3R5,Bos indicus,9915,154,,JPT1,A0ABM4R3R5_BOSIN,https://www.uniprot.org/uniprotkb/A0ABM4R3R5
+UniProt,JPT1,A0ACI6RHC1,Ovis aries,9940,149,,JPT1,A0ACI6RHC1_SHEEP,https://www.uniprot.org/uniprotkb/A0ACI6RHC1
+UniProt,JPT1,K7FF93,Pelodiscus sinensis,13735,153,,JPT1,K7FF93_PELSI,https://www.uniprot.org/uniprotkb/K7FF93
+UniProt,JPT1,U3JES0,Ficedula albicollis,59894,157,,JPT1,U3JES0_FICAL,https://www.uniprot.org/uniprotkb/U3JES0
+UniProt,JPT1,A0A1D5QI85,Macaca mulatta,9544,172,,JPT1,A0A1D5QI85_MACMU,https://www.uniprot.org/uniprotkb/A0A1D5QI85
+UniProt,JPT1,A0A2I3RYH6,Pan troglodytes,9598,154,,JPT1,A0A2I3RYH6_PANTR,https://www.uniprot.org/uniprotkb/A0A2I3RYH6
+UniProt,JPT1,A0A2J8Y0H0,Pongo abelii,9601,154,,JPT1,A0A2J8Y0H0_PONAB,https://www.uniprot.org/uniprotkb/A0A2J8Y0H0
+UniProt,JPT1,A0A2U3V0H9,Tursiops truncatus,9739,154,,JPT1,A0A2U3V0H9_TURTR,https://www.uniprot.org/uniprotkb/A0A2U3V0H9
+UniProt,JPT1,A0A2U4BMB3,Tursiops truncatus,9739,162,,JPT1,A0A2U4BMB3_TURTR,https://www.uniprot.org/uniprotkb/A0A2U4BMB3
+UniProt,JPT1,A0A2Y9QUG6,Trichechus manatus latirostris,127582,147,,JPT1,A0A2Y9QUG6_TRIMA,https://www.uniprot.org/uniprotkb/A0A2Y9QUG6
+UniProt,JPT1,A0A3Q7PIA9,Callorhinus ursinus,34884,154,,JPT1,A0A3Q7PIA9_CALUR,https://www.uniprot.org/uniprotkb/A0A3Q7PIA9
+UniProt,JPT1,A0A3Q7T5S1,Vulpes vulpes,9627,154,,JPT1,A0A3Q7T5S1_VULVU,https://www.uniprot.org/uniprotkb/A0A3Q7T5S1
+UniProt,JPT1,A0A493T9X5,Anas platyrhynchos platyrhynchos,8840,157,,JPT1,A0A493T9X5_ANAPP,https://www.uniprot.org/uniprotkb/A0A493T9X5
+UniProt,JPT1,A0A5F4VZ59,Callithrix jacchus,9483,181,,JPT1,A0A5F4VZ59_CALJA,https://www.uniprot.org/uniprotkb/A0A5F4VZ59
+UniProt,JPT1,A0A667IPX7,Lynx canadensis,61383,154,,JPT1,A0A667IPX7_LYNCA,https://www.uniprot.org/uniprotkb/A0A667IPX7
+UniProt,JPT1,A0A6I9N3N9,Notothenia coriiceps,8208,172,,JPT1,A0A6I9N3N9_9TELE,https://www.uniprot.org/uniprotkb/A0A6I9N3N9
+UniProt,JPT1,A0A6J1YV54,Acinonyx jubatus,32536,154,,JPT1,A0A6J1YV54_ACIJB,https://www.uniprot.org/uniprotkb/A0A6J1YV54
+UniProt,JPT1,A0A6J3EWJ6,Sapajus apella,9515,181,,JPT1,A0A6J3EWJ6_SAPAP,https://www.uniprot.org/uniprotkb/A0A6J3EWJ6
+UniProt,JPT1,A0A6P3Q790,Pteropus vampyrus,132908,154,,JPT1,A0A6P3Q790_PTEVA,https://www.uniprot.org/uniprotkb/A0A6P3Q790
+UniProt,JPT1,A0A6P5LIN3,Phascolarctos cinereus,38626,152,,JPT1,A0A6P5LIN3_PHACI,https://www.uniprot.org/uniprotkb/A0A6P5LIN3
+UniProt,JPT1,A0A6P6I5J9,Puma concolor,9696,166,,JPT1,A0A6P6I5J9_PUMCO,https://www.uniprot.org/uniprotkb/A0A6P6I5J9
+UniProt,JPT1,A0A6P6I6I6,Puma concolor,9696,190,,JPT1,A0A6P6I6I6_PUMCO,https://www.uniprot.org/uniprotkb/A0A6P6I6I6
+UniProt,JPT1,A0A6P7Y9L5,Microcaecilia unicolor,1415580,165,,JPT1,A0A6P7Y9L5_9AMPH,https://www.uniprot.org/uniprotkb/A0A6P7Y9L5
+UniProt,JPT1,A0A8C2V397,Chinchilla lanigera,34839,154,,JPT1,A0A8C2V397_CHILA,https://www.uniprot.org/uniprotkb/A0A8C2V397
+UniProt,JPT1,A0A8C3IY77,Chrysemys picta bellii,8478,156,,JPT1,A0A8C3IY77_CHRPI,https://www.uniprot.org/uniprotkb/A0A8C3IY77
+UniProt,JPT1,A0A8C5W6P2,Microcebus murinus,30608,155,,JPT1,A0A8C5W6P2_MICMU,https://www.uniprot.org/uniprotkb/A0A8C5W6P2
+UniProt,JPT1,A0A8C6YTD8,Nothoprocta perdicaria,30464,157,,JPT1,A0A8C6YTD8_NOTPE,https://www.uniprot.org/uniprotkb/A0A8C6YTD8
+UniProt,JPT1,A0A9F2RBS6,Python bivittatus,176946,153,,JPT1,A0A9F2RBS6_PYTBI,https://www.uniprot.org/uniprotkb/A0A9F2RBS6
+UniProt,JPT1,A0A9L0JY14,Equus asinus,9793,173,,JPT1,A0A9L0JY14_EQUAS,https://www.uniprot.org/uniprotkb/A0A9L0JY14
+UniProt,JPT1,A0A9Y3R9Q9,Pundamilia nyererei,303518,137,,JPT1,A0A9Y3R9Q9_9CICH,https://www.uniprot.org/uniprotkb/A0A9Y3R9Q9
+UniProt,JPT1,A0ABM0KQC8,Microtus ochrogaster,79684,155,,JPT1,A0ABM0KQC8_MICOH,https://www.uniprot.org/uniprotkb/A0ABM0KQC8
+UniProt,JPT1,A0ABM4J7P2,Odocoileus virginianus,9874,184,,JPT1,A0ABM4J7P2_ODOVR,https://www.uniprot.org/uniprotkb/A0ABM4J7P2
+UniProt,HN1L,Q96RY5,Homo sapiens,9606,1269,,HN1L,Protein cramped-like,https://www.uniprot.org/uniprotkb/Q96RY5
+UniProt,HN1L,Q6PG95,Mus musculus,10090,1285,,HN1L,Protein cramped-like,https://www.uniprot.org/uniprotkb/Q6PG95
+UniProt,HN1L,A0A1S3EQV0,Dipodomys ordii,10020,189,,HN1L,A0A1S3EQV0_DIPOR,https://www.uniprot.org/uniprotkb/A0A1S3EQV0
+UniProt,HN1L,A0A6P3I551,Bison bison bison,43346,182,,HN1L,A0A6P3I551_BISBB,https://www.uniprot.org/uniprotkb/A0A6P3I551
+UniProt,HN1L,Q05B85,Bos taurus,9913,182,,HN1L,Q05B85_BOVIN,https://www.uniprot.org/uniprotkb/Q05B85
+UniProt,HN1L,A0A059NZV6,Rattus norvegicus,10116,190,,HN1L,A0A059NZV6_RAT,https://www.uniprot.org/uniprotkb/A0A059NZV6
+UniProt,HN1L,A0A1S2WZU8,Salmo salar,8030,210,,HN1L,A0A1S2WZU8_SALSA,https://www.uniprot.org/uniprotkb/A0A1S2WZU8
+UniProt,HN1L,A0ABM1LCD2,Gekko japonicus,146911,187,,HN1L,A0ABM1LCD2_GEKJA,https://www.uniprot.org/uniprotkb/A0ABM1LCD2
+UniProt,HN1L,A0AC36JYX1,Salmo salar,8030,205,,HN1L,A0AC36JYX1_SALSA,https://www.uniprot.org/uniprotkb/A0AC36JYX1
+UniProt,HN1L,U3FN87,Callithrix jacchus,9483,190,,HN1L,U3FN87_CALJA,https://www.uniprot.org/uniprotkb/U3FN87
+UniProt,HN1L,A0ABM0RGB8,Galeopterus variegatus,482537,169,,HN1L,A0ABM0RGB8_GALVR,https://www.uniprot.org/uniprotkb/A0ABM0RGB8
+UniProt,HN1L,Q6UY53,Mus musculus,10090,465,,HN1L,Q6UY53_MOUSE,https://www.uniprot.org/uniprotkb/Q6UY53
+UniProt,HN1L,A0A340X157,Lipotes vexillifer,118797,184,,HN1L,A0A340X157_LIPVE,https://www.uniprot.org/uniprotkb/A0A340X157
+UniProt,HN1L,A0A6J0GRF1,Lepidothrix coronata,321398,196,,HN1L,A0A6J0GRF1_9PASS,https://www.uniprot.org/uniprotkb/A0A6J0GRF1
+UniProt,HN1L,A0A9B0U7P7,Chrysochloris asiatica,185453,190,,HN1L,A0A9B0U7P7_CHRAS,https://www.uniprot.org/uniprotkb/A0A9B0U7P7
+UniProt,HN1L,A0ABM0RGB0,Galeopterus variegatus,482537,185,,HN1L,A0ABM0RGB0_GALVR,https://www.uniprot.org/uniprotkb/A0ABM0RGB0
+UniProt,HN1L,H9EXT2,Macaca mulatta,9544,190,,HN1L,H9EXT2_MACMU,https://www.uniprot.org/uniprotkb/H9EXT2
+UniProt,HN1L,U6DH76,Neogale vison,452646,190,,HN1L,U6DH76_NEOVI,https://www.uniprot.org/uniprotkb/U6DH76
+UniProt,HN1L,A0A6I9YJG7,Thamnophis sirtalis,35019,188,,HN1L,A0A6I9YJG7_9SAUR,https://www.uniprot.org/uniprotkb/A0A6I9YJG7
+UniProt,HN1L,A0A8B7RTT4,Hipposideros armiger,186990,190,,HN1L,A0A8B7RTT4_HIPAR,https://www.uniprot.org/uniprotkb/A0A8B7RTT4
+UniProt,HN1L,A0A8B7RVL5,Hipposideros armiger,186990,174,,HN1L,A0A8B7RVL5_HIPAR,https://www.uniprot.org/uniprotkb/A0A8B7RVL5
+UniProt,HN1L,I7L9D1,Ictalurus punctatus,7998,208,,HN1L,I7L9D1_ICTPU,https://www.uniprot.org/uniprotkb/I7L9D1
+UniProt,HN1L,K7D4U4,Pan troglodytes,9598,190,,HN1L,K7D4U4_PANTR,https://www.uniprot.org/uniprotkb/K7D4U4
+UniProt,HN1L,A0A2U3W539,Odobenus rosmarus divergens,9708,190,,HN1L,A0A2U3W539_ODORO,https://www.uniprot.org/uniprotkb/A0A2U3W539
+UniProt,HN1L,A0A6J0GQS1,Lepidothrix coronata,321398,214,,HN1L,A0A6J0GQS1_9PASS,https://www.uniprot.org/uniprotkb/A0A6J0GQS1
+UniProt,HN1L,A0A6J0GR76,Lepidothrix coronata,321398,188,,HN1L,A0A6J0GR76_9PASS,https://www.uniprot.org/uniprotkb/A0A6J0GR76
+UniProt,HN1L,B5X0X5,Salmo salar,8030,214,,HN1L,B5X0X5_SALSA,https://www.uniprot.org/uniprotkb/B5X0X5
+UniProt,HN1L,B5XH75,Salmo salar,8030,215,,HN1L,B5XH75_SALSA,https://www.uniprot.org/uniprotkb/B5XH75
+UniProt,HN1L,A0A8J0PZV2,Xenopus laevis,8355,188,,HN1L,A0A8J0PZV2_XENLA,https://www.uniprot.org/uniprotkb/A0A8J0PZV2
+UniProt,HN1L,A0A8J1LYD1,Xenopus laevis,8355,172,,HN1L,A0A8J1LYD1_XENLA,https://www.uniprot.org/uniprotkb/A0A8J1LYD1
+UniProt,HN1L,A0A8J0QEA5,Xenopus tropicalis,8364,146,,HN1L,A0A8J0QEA5_XENTR,https://www.uniprot.org/uniprotkb/A0A8J0QEA5
+UniProt,HN1L,A0A6I8PKV3,Xenopus tropicalis,8364,192,,HN1L,A0A6I8PKV3_XENTR,https://www.uniprot.org/uniprotkb/A0A6I8PKV3
+UniProt,HN1L,A0A978WCE5,Ictalurus punctatus,7998,208,,HN1L,A0A978WCE5_ICTPU,https://www.uniprot.org/uniprotkb/A0A978WCE5
+UniProt,HN1L,A0ABQ9DTD4,Willisornis vidua,1566151,125,,HN1L,A0ABQ9DTD4_9PASS,https://www.uniprot.org/uniprotkb/A0ABQ9DTD4
+UniProt,HN1L,A0A151N6T7,Alligator mississippiensis,8496,183,,HN1L,A0A151N6T7_ALLMI,https://www.uniprot.org/uniprotkb/A0A151N6T7
+UniProt,HN1L,A0A4Z2J184,Liparis tanakae,230148,239,,HN1L,A0A4Z2J184_9TELE,https://www.uniprot.org/uniprotkb/A0A4Z2J184
+UniProt,HN1L,A0A1V4KT61,Patagioenas fasciata monilis,372326,188,,HN1L,A0A1V4KT61_PATFA,https://www.uniprot.org/uniprotkb/A0A1V4KT61
+UniProt,HN1L,A0A218UR87,Lonchura striata,40157,186,,HN1L,A0A218UR87_9PASE,https://www.uniprot.org/uniprotkb/A0A218UR87
+UniProt,HN1L,A0A2I0LWR3,Columba livia,8932,188,,HN1L,A0A2I0LWR3_COLLI,https://www.uniprot.org/uniprotkb/A0A2I0LWR3
+UniProt,HN1L,A0A8T1S500,Chelydra serpentina,8475,52,,HN1L,A0A8T1S500_CHESE,https://www.uniprot.org/uniprotkb/A0A8T1S500

@@ -1,0 +1,4 @@
+pfam	partition	uniprot_proteins	url
+PF17054	JPT	1360	https://www.ebi.ac.uk/interpro/api/protein/UniProt/entry/pfam/PF17054/
+PF09793	LSM12	3164	https://www.ebi.ac.uk/interpro/api/protein/UniProt/entry/pfam/PF09793/
+PF21166	LSM12	1718	https://www.ebi.ac.uk/interpro/api/protein/UniProt/entry/pfam/PF21166/

@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-08-18T18:33:58",
+  "query": {
+    "gene_symbols": [
+      "JPT2",
+      "JPT1",
+      "HN1L"
+    ],
+    "species": "",
+    "taxon_id": null,
+    "sources": [
+      "NCBI",
+      "Ensembl",
+      "UniProt"
+    ],
+    "max_results_per_source": 120,
+    "include_sequence": true
+  },
+  "per_source": [
+    {
+      "source": "NCBI",
+      "status": "ok",
+      "n_variants": 356,
+      "elapsed_s": 0.0,
+      "message": "(cached)"
+    },
+    {
+      "source": "UniProt",
+      "status": "ok",
+      "n_variants": 286,
+      "elapsed_s": 0.0,
+      "message": "(cached)"
+    }
+  ],
+  "totals": {
+    "variants": 642,
+    "csv_rows": 642,
+    "json_rows": 642,
+    "fasta_records": 627
+  },
+  "environment": {
+    "python": "3.11.15",
+    "platform": "macOS-26.6.1-arm64-arm-64bit"
+  },
+  "notes": "Headless run of preset 'jpt'."
+}

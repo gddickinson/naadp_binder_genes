@@ -1,0 +1,403 @@
+{
+  "task": "S0",
+  "snapshot_date": "2026-08-18",
+  "python": "3.11.15",
+  "n_queries": 67,
+  "queries": [
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+taxonomy_id%3A9606&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 10
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+organism_id%3A9606&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 10
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+taxonomy_id%3A9606&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 14
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+organism_id%3A9606&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 14
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+taxonomy_id%3A9606&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 5
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+organism_id%3A9606&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 5
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+taxonomy_id%3A10090&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 4
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+organism_id%3A10090&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 4
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+taxonomy_id%3A10090&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 2
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+organism_id%3A10090&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 2
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+taxonomy_id%3A10090&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 1
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+organism_id%3A10090&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 1
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+taxonomy_id%3A9031&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+organism_id%3A9031&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+taxonomy_id%3A9031&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 3
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+organism_id%3A9031&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 3
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+taxonomy_id%3A9031&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+organism_id%3A9031&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+taxonomy_id%3A8364&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 3
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+organism_id%3A8364&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 3
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+taxonomy_id%3A8364&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 2
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+organism_id%3A8364&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 2
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+taxonomy_id%3A8364&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 2
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+organism_id%3A8364&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 2
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+taxonomy_id%3A7955&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 1
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+organism_id%3A7955&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 1
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+taxonomy_id%3A7955&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 1
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+organism_id%3A7955&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 1
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+taxonomy_id%3A7955&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+organism_id%3A7955&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+taxonomy_id%3A7227&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+organism_id%3A7227&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+taxonomy_id%3A7227&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 1
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+organism_id%3A7227&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 1
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+taxonomy_id%3A7227&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+organism_id%3A7227&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+taxonomy_id%3A6239&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+organism_id%3A6239&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+taxonomy_id%3A6239&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+organism_id%3A6239&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+taxonomy_id%3A6239&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+organism_id%3A6239&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+taxonomy_id%3A3702&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+organism_id%3A3702&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+taxonomy_id%3A3702&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+organism_id%3A3702&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+taxonomy_id%3A3702&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+organism_id%3A3702&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+taxonomy_id%3A4932&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+organism_id%3A4932&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+taxonomy_id%3A4932&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 1
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+organism_id%3A4932&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+taxonomy_id%3A4932&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+organism_id%3A4932&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+taxonomy_id%3A44689&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT2+AND+organism_id%3A44689&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+taxonomy_id%3A44689&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ALSM12+AND+organism_id%3A44689&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "taxonomy_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+taxonomy_id%3A44689&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "uniprot_gene_exact",
+      "field": "organism_id",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AJPT1+AND+organism_id%3A44689&size=50&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 0
+    },
+    {
+      "kind": "symbol_collision",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3AHN1L&size=100&fields=accession%2Cid%2Cprotein_name%2Cgene_names%2Clength%2Creviewed%2Corganism_name%2Corganism_id%2Cxref_pfam&format=json",
+      "n_hits": 49
+    },
+    {
+      "kind": "interpro_count",
+      "url": "https://www.ebi.ac.uk/interpro/api/protein/UniProt/entry/pfam/PF17054/",
+      "n_hits": 1360
+    },
+    {
+      "kind": "interpro_taxonomy",
+      "url": "https://www.ebi.ac.uk/interpro/api/taxonomy/uniprot/entry/pfam/PF17054/",
+      "n_hits": 25
+    },
+    {
+      "kind": "interpro_count",
+      "url": "https://www.ebi.ac.uk/interpro/api/protein/UniProt/entry/pfam/PF09793/",
+      "n_hits": 3164
+    },
+    {
+      "kind": "interpro_taxonomy",
+      "url": "https://www.ebi.ac.uk/interpro/api/taxonomy/uniprot/entry/pfam/PF09793/",
+      "n_hits": 25
+    },
+    {
+      "kind": "interpro_count",
+      "url": "https://www.ebi.ac.uk/interpro/api/protein/UniProt/entry/pfam/PF21166/",
+      "n_hits": 1718
+    },
+    {
+      "kind": "interpro_taxonomy",
+      "url": "https://www.ebi.ac.uk/interpro/api/taxonomy/uniprot/entry/pfam/PF21166/",
+      "n_hits": 25
+    }
+  ]
+}

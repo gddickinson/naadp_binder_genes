@@ -1,0 +1,51 @@
+species	taxid	symbol_queried	partition	accession	entry_name	protein_name	gene_names	length_aa	status	pfam	organism
+human	9606	JPT2	JPT	Q9H910	JUPI2_HUMAN	Jupiter microtubule associated homolog 2	JPT2;C16orf34;HN1L	190	SP	PF17054	Homo sapiens
+human	9606	JPT2	JPT	A6NGP5	A6NGP5_HUMAN	Jupiter microtubule associated homolog 2	JPT2	178	TR		Homo sapiens
+human	9606	JPT2	JPT	H3BU16	H3BU16_HUMAN	Jupiter microtubule associated homolog 2	JPT2	167	TR		Homo sapiens
+human	9606	JPT2	JPT	H3BMT0	H3BMT0_HUMAN	Jupiter microtubule associated homolog 2	JPT2	115	TR		Homo sapiens
+human	9606	JPT2	JPT	H3BMV3	H3BMV3_HUMAN	Jupiter microtubule associated homolog 2	JPT2	190	TR	PF17054	Homo sapiens
+human	9606	JPT2	JPT	H3BMM8	H3BMM8_HUMAN	Jupiter microtubule associated homolog 2	JPT2	70	TR	PF17054	Homo sapiens
+human	9606	JPT2	JPT	A0ACI8R2A3	A0ACI8R2A3_HUMAN	Jupiter microtubule associated homolog 2	JPT2	187	TR		Homo sapiens
+human	9606	JPT2	JPT	H3BS08	H3BS08_HUMAN	Jupiter microtubule associated homolog 2	JPT2	77	TR		Homo sapiens
+human	9606	JPT2	JPT	H3BTV5	H3BTV5_HUMAN	Jupiter microtubule associated homolog 2	JPT2	116	TR		Homo sapiens
+human	9606	JPT2	JPT	H3BU95	H3BU95_HUMAN	Jupiter microtubule associated homolog 2	JPT2	98	TR	PF17054	Homo sapiens
+human	9606	LSM12	LSM12	Q3MHD2	LSM12_HUMAN	Protein LSM12	LSM12	195	SP	PF09793;PF21166	Homo sapiens
+human	9606	LSM12	LSM12	A0ACI8SAL5	A0ACI8SAL5_HUMAN	LSM12 homolog	LSM12	227	TR		Homo sapiens
+human	9606	LSM12	LSM12	A0ACI8SPK9	A0ACI8SPK9_HUMAN	LSM12 homolog	LSM12	188	TR		Homo sapiens
+human	9606	LSM12	LSM12	A0ACI8R1G8	A0ACI8R1G8_HUMAN	LSM12 homolog	LSM12	192	TR		Homo sapiens
+human	9606	LSM12	LSM12	A0ACI8S7Z8	A0ACI8S7Z8_HUMAN	LSM12 homolog	LSM12	226	TR		Homo sapiens
+human	9606	LSM12	LSM12	K7ELG9	K7ELG9_HUMAN	LSM12 homolog	LSM12	230	TR	PF09793;PF21166	Homo sapiens
+human	9606	LSM12	LSM12	A0ACI8R797	A0ACI8R797_HUMAN	LSM12 homolog	LSM12	116	TR		Homo sapiens
+human	9606	LSM12	LSM12	A0ACI8SPG5	A0ACI8SPG5_HUMAN	LSM12 homolog	LSM12	170	TR		Homo sapiens
+human	9606	LSM12	LSM12	A0ACI8SPI7	A0ACI8SPI7_HUMAN	LSM12 homolog	LSM12	138	TR		Homo sapiens
+human	9606	LSM12	LSM12	A0ACI8QHC3	A0ACI8QHC3_HUMAN	LSM12 homolog	LSM12	133	TR		Homo sapiens
+human	9606	LSM12	LSM12	A0ACI8SPI3	A0ACI8SPI3_HUMAN	LSM12 homolog	LSM12	163	TR		Homo sapiens
+human	9606	LSM12	LSM12	A0ACI8QIX5	A0ACI8QIX5_HUMAN	LSM12 homolog	LSM12	191	TR		Homo sapiens
+human	9606	LSM12	LSM12	A0ACI8SPI9	A0ACI8SPI9_HUMAN	LSM12 homolog	LSM12	137	TR		Homo sapiens
+human	9606	LSM12	LSM12	A0ACI8SPM6	A0ACI8SPM6_HUMAN	LSM12 homolog	LSM12	204	TR		Homo sapiens
+human	9606	JPT1	JPT	Q9UK76	JUPI1_HUMAN	Jupiter microtubule associated homolog 1	JPT1;ARM2;HN1	154	SP	PF17054	Homo sapiens
+human	9606	JPT1	JPT	J3KSH8	J3KSH8_HUMAN	Jupiter microtubule associated homolog 1	JPT1	93	TR		Homo sapiens
+human	9606	JPT1	JPT	J3KT51	J3KT51_HUMAN	Jupiter microtubule associated homolog 1	JPT1	104	TR	PF17054	Homo sapiens
+human	9606	JPT1	JPT	A0ACI8REV9	A0ACI8REV9_HUMAN	Jupiter microtubule associated homolog 1	JPT1	115	TR		Homo sapiens
+human	9606	JPT1	JPT	F2Z3M5	F2Z3M5_HUMAN	Jupiter microtubule associated homolog 1	JPT1	44	TR		Homo sapiens
+mouse	10090	JPT2	JPT	Q6PGH2	JUPI2_MOUSE	Jupiter microtubule associated homolog 2	Jpt2;D17Ertd441e;Hn1l	190	SP		Mus musculus
+mouse	10090	JPT2	JPT	Q3TJZ7	Q3TJZ7_MOUSE	Hematological and neurological expressed 1-like protein	Jpt2;D17Ertd441e;Hn1l	174	TR		Mus musculus
+mouse	10090	JPT2	JPT	Q3TM10	Q3TM10_MOUSE	HN1-like protein	Jpt2;D17Ertd441e;Hn1l	190	TR		Mus musculus
+mouse	10090	JPT2	JPT	Q3U7P4	Q3U7P4_MOUSE	Hematological and neurological expressed 1-like protein	Jpt2;D17Ertd441e;Hn1l	190	TR		Mus musculus
+mouse	10090	LSM12	LSM12	Q9D0R8	LSM12_MOUSE	Protein LSM12	Lsm12	195	SP	PF09793;PF21166	Mus musculus
+mouse	10090	LSM12	LSM12	A0A0A0MQC9	A0A0A0MQC9_MOUSE	LSM12 homolog	Lsm12	137	TR	PF09793	Mus musculus
+mouse	10090	JPT1	JPT	P97825	JUPI1_MOUSE	Jupiter microtubule associated homolog 1	Jpt1;Hn1	154	SP	PF17054	Mus musculus
+chicken	9031	LSM12	LSM12	Q5ZML5	LSM12_CHICK	Protein LSM12	LSM12	194	SP	PF09793;PF21166	Gallus gallus
+chicken	9031	LSM12	LSM12	A0A8V0ZVW5	A0A8V0ZVW5_CHICK	LSM12 homolog	LSM12	211	TR	PF09793	Gallus gallus
+chicken	9031	LSM12	LSM12	A0A8V1A8L9	A0A8V1A8L9_CHICK	LSM12 homolog	LSM12	176	TR	PF09793;PF21166	Gallus gallus
+X. tropicalis	8364	JPT2	JPT	B4F6I8	B4F6I8_XENTR	Hematological and neurological expressed 1-like	jpt2;hn1l	146	TR		Xenopus tropicalis
+X. tropicalis	8364	JPT2	JPT	A0A8J0QEA5	A0A8J0QEA5_XENTR	Hematological and neurological expressed 1-like protein	jpt2;hn1l	146	TR		Xenopus tropicalis
+X. tropicalis	8364	JPT2	JPT	A0A6I8PKV3	A0A6I8PKV3_XENTR	Jupiter microtubule associated homolog 2 isoform X1	jpt2;hn1l	192	TR	PF17054	Xenopus tropicalis
+X. tropicalis	8364	LSM12	LSM12	Q6P833	LSM12_XENTR	Protein LSM12	lsm12	194	SP	PF09793;PF21166	Xenopus tropicalis
+X. tropicalis	8364	LSM12	LSM12	F6X492	F6X492_XENTR	Protein LSM12 homolog isoform X1	lsm12	194	TR	PF09793;PF21166	Xenopus tropicalis
+X. tropicalis	8364	JPT1	JPT	I7KJP8	I7KJP8_XENTR	HN1 protein	jpt1;hn1	143	TR		Xenopus tropicalis
+X. tropicalis	8364	JPT1	JPT	A0A8J0QCZ4	A0A8J0QCZ4_XENTR	Hematological and neurological expressed 1 protein	jpt1;arm2;hn1;hn1a	143	TR		Xenopus tropicalis
+zebrafish	7955	JPT2	JPT	F1Q6E4	F1Q6E4_DANRE	Jupiter microtubule associated homolog 2	jpt2;fc04g11;hn1l;wu:fb37f03;wu:fc04g11;zgc:55712	218	TR	PF17054	Danio rerio
+zebrafish	7955	LSM12	LSM12	Q6PBA2	LS12A_DANRE	Protein LSM12 homolog A	lsm12a;lsm12	196	SP	PF09793;PF21166	Danio rerio
+fly	7227	LSM12	LSM12	Q9VYR0	LSM12_DROME	LSM12 homolog A	Lsm12a;Lsm12	217	SP	PF09793;PF21166	Drosophila melanogaster
+yeast	4932	LSM12	LSM12	P38828	LSM12_YEAST	Protein LSM12	LSM12	187	SP	PF09793;PF21166	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)

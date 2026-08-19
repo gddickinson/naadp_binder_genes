@@ -1,0 +1,11 @@
+{
+  "task": "S0",
+  "workers": 1,
+  "steps": [
+    {
+      "label": "S0 database snapshot complete",
+      "done": 1,
+      "total": 1
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+pfam	partition	tax_id	name	rank	counters
+PF17054	JPT	703913	Salariinae		{}
+PF17054	JPT	561520	Zoarcinae		{}
+PF17054	JPT	684658	Aphidius gifuensis (Parasitoid wasp)		{}
+PF17054	JPT	124128	Husinae		{}
+PF17054	JPT	185452	Chrysochloris		{}
+PF17054	JPT	129917	Hippocampinae (seahorses)		{}
+PF17054	JPT	1955251	Proctotrupomorpha		{}
+PF17054	JPT	475327	Bombycinae		{}
+PF17054	JPT	27404	Daphnia galeata		{}
+PF17054	JPT	33342	Paraneoptera		{}
+PF17054	JPT	33341	Polyneoptera		{}
+PF17054	JPT	7215	Drosophila (fruit flies)		{}
+PF17054	JPT	630221	Cyprinus carpio carpio		{}
+PF17054	JPT	9527	Cercopithecidae (Old World monkeys)		{}
+PF17054	JPT	9515	Sapajus apella (Brown-capped capuchin)		{}
+PF17054	JPT	9407	Rousettus aegyptiacus (Egyptian fruit bat)		{}
+PF17054	JPT	30648	Dipodidae (jerboas)		{}
+PF17054	JPT	6683	Decapoda		{}
+PF17054	JPT	31033	Takifugu rubripes (Japanese pufferfish)		{}
+PF17054	JPT	7956	Carassius		{}
+PF17054	JPT	10028	Cricetulus		{}
+PF17054	JPT	280405	Larinioides		{}
+PF17054	JPT	8530	Teiidae (whiptails)		{}
+PF17054	JPT	9779	Proboscidea (elephants)		{}
+PF17054	JPT	13037	Danaus plexippus (Monarch butterfly)		{}
+PF09793	LSM12	43138	Paramecium pentaurelia		{}
+PF09793	LSM12	104780	Adinetidae		{}
+PF09793	LSM12	46746	Caryophylliidae		{}
+PF09793	LSM12	44281	Pneumocystaceae		{}
+PF09793	LSM12	703913	Salariinae		{}
+PF09793	LSM12	161649	Cinclus mexicanus (American dipper)		{}
+PF09793	LSM12	2604842	Cyamophila willieti		{}
+PF09793	LSM12	71239	Cucurbitales		{}
+PF09793	LSM12	561520	Zoarcinae		{}
+PF09793	LSM12	684658	Aphidius gifuensis (Parasitoid wasp)		{}
+PF09793	LSM12	877559	Thecamonas		{}
+PF09793	LSM12	269621	Microbotryum intermedium		{}
+PF09793	LSM12	280699	Cyanidioschyzon merolae (strain NIES-3377 / 10D) (Unicellular red alga)		{}
+PF09793	LSM12	124128	Husinae		{}
+PF09793	LSM12	59585	Corynespora		{}
+PF09793	LSM12	45136	Sporormia		{}
+PF09793	LSM12	1047171	Zymoseptoria tritici (Speckled leaf blotch fungus)		{}
+PF09793	LSM12	1077377	Plenodomus tracheiphilus		{}
+PF09793	LSM12	4870	Endogonaceae		{}
+PF09793	LSM12	185452	Chrysochloris		{}
+PF09793	LSM12	293227	Cyphellophora europaea		{}
+PF09793	LSM12	135651	Caenorhabditis brenneri (Nematode worm)		{}
+PF09793	LSM12	129917	Hippocampinae (seahorses)		{}
+PF09793	LSM12	1955251	Proctotrupomorpha		{}
+PF09793	LSM12	22097	Amborellaceae		{}
+PF21166	LSM12	104780	Adinetidae		{}
+PF21166	LSM12	46746	Caryophylliidae		{}
+PF21166	LSM12	44281	Pneumocystaceae		{}
+PF21166	LSM12	703913	Salariinae		{}
+PF21166	LSM12	2604842	Cyamophila willieti		{}
+PF21166	LSM12	71239	Cucurbitales		{}
+PF21166	LSM12	561520	Zoarcinae		{}
+PF21166	LSM12	684658	Aphidius gifuensis (Parasitoid wasp)		{}
+PF21166	LSM12	124128	Husinae		{}
+PF21166	LSM12	185452	Chrysochloris		{}
+PF21166	LSM12	129917	Hippocampinae (seahorses)		{}
+PF21166	LSM12	1955251	Proctotrupomorpha		{}
+PF21166	LSM12	475327	Bombycinae		{}
+PF21166	LSM12	81972	Arabidopsis lyrata subsp. lyrata (Lyre-leaved rock-cress)		{}
+PF21166	LSM12	27404	Daphnia galeata		{}
+PF21166	LSM12	99105	Tanacetum		{}
+PF21166	LSM12	6231	Nematoda (nematodes)		{}
+PF21166	LSM12	33342	Paraneoptera		{}
+PF21166	LSM12	33341	Polyneoptera		{}
+PF21166	LSM12	159415	Clavelinidae		{}
+PF21166	LSM12	7215	Drosophila (fruit flies)		{}
+PF21166	LSM12	91827	Gunneridae		{}
+PF21166	LSM12	630221	Cyprinus carpio carpio		{}
+PF21166	LSM12	9632	Ursidae (bears)		{}
+PF21166	LSM12	9527	Cercopithecidae (Old World monkeys)		{}

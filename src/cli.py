@@ -121,8 +121,26 @@ def run_headless(
         except queue.Empty:
             print(f"[headless]   …waiting (got {len(results)}/{started})")
 
+    # A source that never came back must be recorded, not dropped. Otherwise
+    # the bundle's per_source list simply omits it and a partial harvest is
+    # indistinguishable from a complete one — fatal for a project whose
+    # deliverable is an absence claim (roadmap D24).
+    returned = {r.source for r in results}
+    missing = [s for s in getattr(orch, "started_sources", []) if s not in returned]
+    for src in missing:
+        results.append(SearchResult(
+            source=src, query=query, status=SearchStatus.ERROR,
+            message=f"did not return within {timeout_s}s (recorded as a "
+                    f"failure, not an empty result)",
+            elapsed_s=float(timeout_s)))
+        print(f"[headless]   [ERROR] {src:9s} did not return within "
+              f"{timeout_s}s — recorded as a failure")
+
     all_variants = [v for r in results for v in r.variants]
-    print(f"[headless] total: {len(all_variants)} variants across {len(results)} source(s)")
+    ok_sources = [r for r in results if r.status is not SearchStatus.ERROR]
+    print(f"[headless] total: {len(all_variants)} variants across "
+          f"{len(ok_sources)}/{len(results)} source(s)"
+          + (f"; FAILED: {', '.join(missing)}" if missing else ""))
 
     analysis_result = None
     discovery_report = None

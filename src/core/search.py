@@ -51,6 +51,7 @@ class SearchOrchestrator:
 
     def reset(self) -> None:
         self._cancel.clear()
+        self.started_sources: list[str] = []
         self._workers = [t for t in self._workers if t.is_alive()]
 
     def start(self, query: SearchQuery, on_done: Optional[Callable[[], None]] = None) -> int:
@@ -66,6 +67,12 @@ class SearchOrchestrator:
             return 0
         sequence_first = [s for s in sources if s not in BAIT_SOURCES]
         bait_sources = [s for s in sources if s in BAIT_SOURCES]
+
+        # Record which sources were dispatched, so a caller that gives up
+        # waiting can tell a source that returned nothing from one that never
+        # returned at all. Without this a timed-out source vanishes from the
+        # bundle metadata and a partial harvest reads as a complete one.
+        self.started_sources = list(sequence_first) + list(bait_sources)
 
         total = len(sequence_first) + len(bait_sources)
         outstanding = {"n": total}

@@ -1,0 +1,243 @@
+source,gene_symbol,accession,species,taxon_id,length_aa,transcript_id,gene_id,description,url
+UniProt,LSM12,Q3MHD2,Homo sapiens,9606,195,,LSM12,Protein LSM12,https://www.uniprot.org/uniprotkb/Q3MHD2
+UniProt,LSM12,Q3MHD2-1,Homo sapiens,9606,,,LSM12,isoform 1 of Q3MHD2,https://www.uniprot.org/uniprotkb/Q3MHD2-1
+UniProt,LSM12,Q3MHD2-2,Homo sapiens,9606,,,LSM12,isoform 2 of Q3MHD2,https://www.uniprot.org/uniprotkb/Q3MHD2-2
+UniProt,LSM12,Q9D0R8,Mus musculus,10090,195,,LSM12,Protein LSM12,https://www.uniprot.org/uniprotkb/Q9D0R8
+UniProt,LSM12,P38828,Saccharomyces cerevisiae (strain ATCC 204508 / S288c),559292,187,,LSM12,Protein LSM12,https://www.uniprot.org/uniprotkb/P38828
+UniProt,LSM12,Q9VYR0,Drosophila melanogaster,7227,217,,LSM12,LSM12 homolog A,https://www.uniprot.org/uniprotkb/Q9VYR0
+UniProt,LSM12,Q38E83,Trypanosoma brucei brucei (strain 927/4 GUTat10.1),185431,190,,LSM12,PBP1-interacting protein LSM12,https://www.uniprot.org/uniprotkb/Q38E83
+UniProt,LSM12,Q0VCF9,Bos taurus,9913,195,,LSM12,Protein LSM12,https://www.uniprot.org/uniprotkb/Q0VCF9
+UniProt,LSM12,Q6PBA2,Danio rerio,7955,196,,LSM12,Protein LSM12 homolog A,https://www.uniprot.org/uniprotkb/Q6PBA2
+UniProt,LSM12,Q6P833,Xenopus tropicalis,8364,194,,LSM12,Protein LSM12,https://www.uniprot.org/uniprotkb/Q6P833
+UniProt,LSM12,Q6GP89,Xenopus laevis,8355,194,,LSM12,Protein LSM12,https://www.uniprot.org/uniprotkb/Q6GP89
+UniProt,LSM12,Q5RAT5,Pongo abelii,9601,195,,LSM12,Protein LSM12,https://www.uniprot.org/uniprotkb/Q5RAT5
+UniProt,LSM12,Q5ZML5,Gallus gallus,9031,194,,LSM12,Protein LSM12,https://www.uniprot.org/uniprotkb/Q5ZML5
+UniProt,LSM12,A0ACI8SAL5,Homo sapiens,9606,227,,LSM12,A0ACI8SAL5_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SAL5
+UniProt,LSM12,A0ACI8SPK9,Homo sapiens,9606,188,,LSM12,A0ACI8SPK9_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SPK9
+UniProt,LSM12,A0ACI8QHC3,Homo sapiens,9606,133,,LSM12,A0ACI8QHC3_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8QHC3
+UniProt,LSM12,A0ACI8SPI3,Homo sapiens,9606,163,,LSM12,A0ACI8SPI3_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SPI3
+UniProt,LSM12,A0ACI8R1G8,Homo sapiens,9606,192,,LSM12,A0ACI8R1G8_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8R1G8
+UniProt,LSM12,A0ACI8S7Z8,Homo sapiens,9606,226,,LSM12,A0ACI8S7Z8_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8S7Z8
+UniProt,LSM12,K7ELG9,Homo sapiens,9606,230,,LSM12,K7ELG9_HUMAN,https://www.uniprot.org/uniprotkb/K7ELG9
+UniProt,LSM12,A0ACI8QIX5,Homo sapiens,9606,191,,LSM12,A0ACI8QIX5_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8QIX5
+UniProt,LSM12,A0ACI8SPI9,Homo sapiens,9606,137,,LSM12,A0ACI8SPI9_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SPI9
+UniProt,LSM12,A0ACI8SPM6,Homo sapiens,9606,204,,LSM12,A0ACI8SPM6_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SPM6
+UniProt,LSM12,A0ACI8R797,Homo sapiens,9606,116,,LSM12,A0ACI8R797_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8R797
+UniProt,LSM12,A0ACI8SPG5,Homo sapiens,9606,170,,LSM12,A0ACI8SPG5_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SPG5
+UniProt,LSM12,A0ACI8SPI7,Homo sapiens,9606,138,,LSM12,A0ACI8SPI7_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8SPI7
+UniProt,LSM12,A0A8T1WV98,Phytophthora boehmeriae,109152,122,,LSM12,U6 snRNA-associated Sm-like protein LSm1,https://www.uniprot.org/uniprotkb/A0A8T1WV98
+UniProt,LSM12,A0ABR2WW14,Basidiobolus ranarum,34480,138,,LSM12,U6 snRNA-associated Sm-like protein LSm1,https://www.uniprot.org/uniprotkb/A0ABR2WW14
+UniProt,LSM12,A0A5B0QCA8,Puccinia graminis f. sp. tritici,56615,178,,LSM12,U6 snRNA-associated Sm-like protein LSm1,https://www.uniprot.org/uniprotkb/A0A5B0QCA8
+UniProt,LSM12,A0A9P6J851,Mortierella alpina,64518,136,,LSM12,U6 snRNA-associated Sm-like protein LSm1,https://www.uniprot.org/uniprotkb/A0A9P6J851
+UniProt,LSM12,A0A367KV83,Rhizopus stolonifer,4846,137,,LSM12,U6 snRNA-associated Sm-like protein LSm1,https://www.uniprot.org/uniprotkb/A0A367KV83
+UniProt,LSM12,A0A6C1EAS8,Saccharomyces pastorianus,27292,172,,LSM12,U6 snRNA-associated Sm-like protein LSm1,https://www.uniprot.org/uniprotkb/A0A6C1EAS8
+UniProt,LSM12,A0ABQ8TH98,Periplaneta americana,6978,134,,LSM12,U6 snRNA-associated Sm-like protein LSm1,https://www.uniprot.org/uniprotkb/A0ABQ8TH98
+UniProt,LSM12,A0ABR2WW13,Basidiobolus ranarum,34480,122,,LSM12,U6 snRNA-associated Sm-like protein LSm1,https://www.uniprot.org/uniprotkb/A0ABR2WW13
+UniProt,LSM12,D4A8G0,Rattus norvegicus,10116,177,,LSM12,D4A8G0_RAT,https://www.uniprot.org/uniprotkb/D4A8G0
+UniProt,LSM12,A0A8I6GM11,Rattus norvegicus,10116,195,,LSM12,A0A8I6GM11_RAT,https://www.uniprot.org/uniprotkb/A0A8I6GM11
+UniProt,LSM12,A0A0A0MQC9,Mus musculus,10090,137,,LSM12,A0A0A0MQC9_MOUSE,https://www.uniprot.org/uniprotkb/A0A0A0MQC9
+UniProt,LSM12,A0ABK0LSQ5,Rattus norvegicus,10116,137,,LSM12,A0ABK0LSQ5_RAT,https://www.uniprot.org/uniprotkb/A0ABK0LSQ5
+UniProt,LSM12,A0A1S3GHM5,Dipodomys ordii,10020,195,,LSM12,A0A1S3GHM5_DIPOR,https://www.uniprot.org/uniprotkb/A0A1S3GHM5
+UniProt,LSM12,A0A287D5N5,Ictidomys tridecemlineatus,43179,137,,LSM12,A0A287D5N5_ICTTR,https://www.uniprot.org/uniprotkb/A0A287D5N5
+UniProt,LSM12,A0A2I2Y1P3,Gorilla gorilla gorilla,9595,195,,LSM12,A0A2I2Y1P3_GORGO,https://www.uniprot.org/uniprotkb/A0A2I2Y1P3
+UniProt,LSM12,A0A2Y9GEE3,Neomonachus schauinslandi,29088,195,,LSM12,A0A2Y9GEE3_NEOSC,https://www.uniprot.org/uniprotkb/A0A2Y9GEE3
+UniProt,LSM12,A0A3Q7NC42,Callorhinus ursinus,34884,195,,LSM12,A0A3Q7NC42_CALUR,https://www.uniprot.org/uniprotkb/A0A3Q7NC42
+UniProt,LSM12,A0A452QP90,Ursus americanus,9643,161,,LSM12,A0A452QP90_URSAM,https://www.uniprot.org/uniprotkb/A0A452QP90
+UniProt,LSM12,A0A5F7ZA92,Macaca mulatta,9544,188,,LSM12,A0A5F7ZA92_MACMU,https://www.uniprot.org/uniprotkb/A0A5F7ZA92
+UniProt,LSM12,A0A6F9DKJ8,Phallusia mammillata,59560,201,,LSM12,A0A6F9DKJ8_9ASCI,https://www.uniprot.org/uniprotkb/A0A6F9DKJ8
+UniProt,LSM12,A0A6I8NEK0,Ornithorhynchus anatinus,9258,272,,LSM12,A0A6I8NEK0_ORNAN,https://www.uniprot.org/uniprotkb/A0A6I8NEK0
+UniProt,LSM12,A0A6J0TMC6,Pogona vitticeps,103695,194,,LSM12,A0A6J0TMC6_9SAUR,https://www.uniprot.org/uniprotkb/A0A6J0TMC6
+UniProt,LSM12,A0A6J1YHW3,Acinonyx jubatus,32536,195,,LSM12,A0A6J1YHW3_ACIJB,https://www.uniprot.org/uniprotkb/A0A6J1YHW3
+UniProt,LSM12,A0A6P3R5I2,Pteropus vampyrus,132908,195,,LSM12,A0A6P3R5I2_PTEVA,https://www.uniprot.org/uniprotkb/A0A6P3R5I2
+UniProt,LSM12,A0A6P5DIQ8,Bos indicus,9915,195,,LSM12,A0A6P5DIQ8_BOSIN,https://www.uniprot.org/uniprotkb/A0A6P5DIQ8
+UniProt,LSM12,A0A6P7RFI4,Mus caroli,10089,195,,LSM12,A0A6P7RFI4_MUSCR,https://www.uniprot.org/uniprotkb/A0A6P7RFI4
+UniProt,LSM12,A0A8B8R5M0,Camelus ferus,419612,137,,LSM12,A0A8B8R5M0_CAMFR,https://www.uniprot.org/uniprotkb/A0A8B8R5M0
+UniProt,LSM12,A0A8C0IMR0,Chelonoidis abingdonii,106734,186,,LSM12,A0A8C0IMR0_CHEAB,https://www.uniprot.org/uniprotkb/A0A8C0IMR0
+UniProt,LSM12,A0A8C3MWY0,Geospiza parvula,87175,194,,LSM12,A0A8C3MWY0_GEOPR,https://www.uniprot.org/uniprotkb/A0A8C3MWY0
+UniProt,LSM12,A0A8C3YPI6,Catagonus wagneri,51154,195,,LSM12,A0A8C3YPI6_9CETA,https://www.uniprot.org/uniprotkb/A0A8C3YPI6
+UniProt,LSM12,A0A8C5K1U8,Jaculus jaculus,51337,137,,LSM12,AD domain-containing protein,https://www.uniprot.org/uniprotkb/A0A8C5K1U8
+UniProt,LSM12,A0A8C5ULM2,Microcebus murinus,30608,137,,LSM12,A0A8C5ULM2_MICMU,https://www.uniprot.org/uniprotkb/A0A8C5ULM2
+UniProt,LSM12,A0A8C7C075,Neogale vison,452646,195,,LSM12,A0A8C7C075_NEOVI,https://www.uniprot.org/uniprotkb/A0A8C7C075
+UniProt,LSM12,A0A8C9I1H7,Piliocolobus tephrosceles,591936,230,,LSM12,A0A8C9I1H7_9PRIM,https://www.uniprot.org/uniprotkb/A0A8C9I1H7
+UniProt,LSM12,A0A8C9N1R7,Serinus canaria,9135,123,,LSM12,A0A8C9N1R7_SERCA,https://www.uniprot.org/uniprotkb/A0A8C9N1R7
+UniProt,LSM12,A0A8C9S7V5,Scleropages formosus,113540,196,,LSM12,A0A8C9S7V5_SCLFO,https://www.uniprot.org/uniprotkb/A0A8C9S7V5
+UniProt,LSM12,A0A8V5GW38,Melopsittacus undulatus,13146,204,,LSM12,A0A8V5GW38_MELUD,https://www.uniprot.org/uniprotkb/A0A8V5GW38
+UniProt,LSM12,A0AA97K852,Eublepharis macularius,481883,195,,LSM12,A0AA97K852_EUBMA,https://www.uniprot.org/uniprotkb/A0AA97K852
+UniProt,LSM12,A0AAJ7WX05,Petromyzon marinus,7757,194,,LSM12,A0AAJ7WX05_PETMA,https://www.uniprot.org/uniprotkb/A0AAJ7WX05
+UniProt,LSM12,A0ABM2EUH5,Equus przewalskii,9798,195,,LSM12,A0ABM2EUH5_EQUPR,https://www.uniprot.org/uniprotkb/A0ABM2EUH5
+UniProt,LSM12,A0AC58NNR4,Camelus bactrianus,9837,195,,LSM12,A0AC58NNR4_CAMBA,https://www.uniprot.org/uniprotkb/A0AC58NNR4
+UniProt,LSM12,A0ACI6RAY0,Ovis aries,9940,198,,LSM12,A0ACI6RAY0_SHEEP,https://www.uniprot.org/uniprotkb/A0ACI6RAY0
+UniProt,LSM12,C1C259,Caligus clemensi,344056,215,,LSM12,C1C259_CALCM,https://www.uniprot.org/uniprotkb/C1C259
+UniProt,LSM12,D2HCU6,Ailuropoda melanoleuca,9646,195,,LSM12,D2HCU6_AILME,https://www.uniprot.org/uniprotkb/D2HCU6
+UniProt,LSM12,G1SVE6,Oryctolagus cuniculus,9986,195,,LSM12,G1SVE6_RABIT,https://www.uniprot.org/uniprotkb/G1SVE6
+UniProt,LSM12,H3B8C0,Latimeria chalumnae,7897,194,,LSM12,H3B8C0_LATCH,https://www.uniprot.org/uniprotkb/H3B8C0
+UniProt,LSM12,T2MC23,Hydra vulgaris,6087,184,,LSM12,T2MC23_HYDVU,https://www.uniprot.org/uniprotkb/T2MC23
+UniProt,LSM12,A0A250YBQ7,Castor canadensis,51338,195,,LSM12,A0A250YBQ7_CASCN,https://www.uniprot.org/uniprotkb/A0A250YBQ7
+UniProt,LSM12,A0A2I2ZF75,Gorilla gorilla gorilla,9595,137,,LSM12,A0A2I2ZF75_GORGO,https://www.uniprot.org/uniprotkb/A0A2I2ZF75
+UniProt,LSM12,A0A2I3HLH8,Nomascus leucogenys,61853,229,,LSM12,A0A2I3HLH8_NOMLE,https://www.uniprot.org/uniprotkb/A0A2I3HLH8
+UniProt,LSM12,A0A2K5RNR7,Cebus imitator,2715852,137,,LSM12,A0A2K5RNR7_CEBIM,https://www.uniprot.org/uniprotkb/A0A2K5RNR7
+UniProt,LSM12,A0A2U3Y590,Leptonychotes weddellii,9713,126,,LSM12,A0A2U3Y590_LEPWE,https://www.uniprot.org/uniprotkb/A0A2U3Y590
+UniProt,LSM12,A0A2U4BP81,Tursiops truncatus,9739,195,,LSM12,A0A2U4BP81_TURTR,https://www.uniprot.org/uniprotkb/A0A2U4BP81
+UniProt,LSM12,A0A3Q0FZ42,Alligator sinensis,38654,236,,LSM12,A0A3Q0FZ42_ALLSI,https://www.uniprot.org/uniprotkb/A0A3Q0FZ42
+UniProt,LSM12,A0A5F9DRB0,Oryctolagus cuniculus,9986,375,,LSM12,A0A5F9DRB0_RABIT,https://www.uniprot.org/uniprotkb/A0A5F9DRB0
+UniProt,LSM12,A0A667IJM6,Lynx canadensis,61383,195,,LSM12,A0A667IJM6_LYNCA,https://www.uniprot.org/uniprotkb/A0A667IJM6
+UniProt,LSM12,A0A6J0J7N2,Lepidothrix coronata,321398,194,,LSM12,A0A6J0J7N2_9PASS,https://www.uniprot.org/uniprotkb/A0A6J0J7N2
+UniProt,LSM12,A0A6J1U3W9,Notechis scutatus,8663,194,,LSM12,A0A6J1U3W9_9SAUR,https://www.uniprot.org/uniprotkb/A0A6J1U3W9
+UniProt,LSM12,A0A6P6HC70,Puma concolor,9696,195,,LSM12,A0A6P6HC70_PUMCO,https://www.uniprot.org/uniprotkb/A0A6P6HC70
+UniProt,LSM12,A0A6P7ZTC7,Microcaecilia unicolor,1415580,194,,LSM12,A0A6P7ZTC7_9AMPH,https://www.uniprot.org/uniprotkb/A0A6P7ZTC7
+UniProt,LSM12,A0A803TRN5,Anolis carolinensis,28377,194,,LSM12,A0A803TRN5_ANOCA,https://www.uniprot.org/uniprotkb/A0A803TRN5
+UniProt,LSM12,A0A8B7T927,Hipposideros armiger,186990,195,,LSM12,A0A8B7T927_HIPAR,https://www.uniprot.org/uniprotkb/A0A8B7T927
+UniProt,LSM12,A0A8B8W7I8,Balaenoptera musculus,9771,195,,LSM12,A0A8B8W7I8_BALMU,https://www.uniprot.org/uniprotkb/A0A8B8W7I8
+UniProt,LSM12,A0A8C0KIQ0,Canis lupus dingo,286419,195,,LSM12,A0A8C0KIQ0_CANLU,https://www.uniprot.org/uniprotkb/A0A8C0KIQ0
+UniProt,LSM12,A0A8C2LC46,Cricetulus griseus,10029,195,,LSM12,A0A8C2LC46_CRIGR,https://www.uniprot.org/uniprotkb/A0A8C2LC46
+UniProt,LSM12,A0A8C3IUE7,Chrysemys picta bellii,8478,194,,LSM12,A0A8C3IUE7_CHRPI,https://www.uniprot.org/uniprotkb/A0A8C3IUE7
+UniProt,LSM12,A0A8C5K0Y2,Jaculus jaculus,51337,195,,LSM12,LSM12 anticodon-binding domain-containing protein,https://www.uniprot.org/uniprotkb/A0A8C5K0Y2
+UniProt,LSM12,A0A8C5QU76,Leptobrachium leishanense,445787,232,,LSM12,A0A8C5QU76_9ANUR,https://www.uniprot.org/uniprotkb/A0A8C5QU76
+UniProt,LSM12,A0A8C5SLQ5,Laticauda laticaudata,8630,194,,LSM12,A0A8C5SLQ5_LATLA,https://www.uniprot.org/uniprotkb/A0A8C5SLQ5
+UniProt,LSM12,A0A8C5W1B2,Microcebus murinus,30608,195,,LSM12,A0A8C5W1B2_MICMU,https://www.uniprot.org/uniprotkb/A0A8C5W1B2
+UniProt,LSM12,A0A8C6CJY5,Monodon monoceros,40151,195,,LSM12,A0A8C6CJY5_MONMO,https://www.uniprot.org/uniprotkb/A0A8C6CJY5
+UniProt,LSM12,A0A8C6ZFU5,Nothoprocta perdicaria,30464,195,,LSM12,A0A8C6ZFU5_NOTPE,https://www.uniprot.org/uniprotkb/A0A8C6ZFU5
+UniProt,LSM12,A0A8C8XAL2,Panthera leo,9689,195,,LSM12,A0A8C8XAL2_PANLE,https://www.uniprot.org/uniprotkb/A0A8C8XAL2
+UniProt,LSM12,A0A8C9HUU8,Piliocolobus tephrosceles,591936,214,,LSM12,A0A8C9HUU8_9PRIM,https://www.uniprot.org/uniprotkb/A0A8C9HUU8
+UniProt,LSM12,A0A8C9LTL9,Piliocolobus tephrosceles,591936,195,,LSM12,A0A8C9LTL9_9PRIM,https://www.uniprot.org/uniprotkb/A0A8C9LTL9
+UniProt,LSM12,A0A8D2FA04,Theropithecus gelada,9565,195,,LSM12,A0A8D2FA04_THEGE,https://www.uniprot.org/uniprotkb/A0A8D2FA04
+UniProt,LSM12,A0A8W4FFA0,Sus scrofa,9823,195,,LSM12,A0A8W4FFA0_PIG,https://www.uniprot.org/uniprotkb/A0A8W4FFA0
+UniProt,LSM12,A0A9B0SZP1,Chrysochloris asiatica,185453,195,,LSM12,A0A9B0SZP1_CHRAS,https://www.uniprot.org/uniprotkb/A0A9B0SZP1
+UniProt,LSM12,A0AAJ7WWQ7,Petromyzon marinus,7757,195,,LSM12,A0AAJ7WWQ7_PETMA,https://www.uniprot.org/uniprotkb/A0AAJ7WWQ7
+UniProt,LSM12,A0AAX6PTN9,Heterocephalus glaber,10181,195,,LSM12,A0AAX6PTN9_HETGA,https://www.uniprot.org/uniprotkb/A0AAX6PTN9
+UniProt,LSM12,A0ABM1KY69,Gekko japonicus,146911,195,,LSM12,A0ABM1KY69_GEKJA,https://www.uniprot.org/uniprotkb/A0ABM1KY69
+UniProt,LSM12,A0ABM4FTI0,Apteryx mantelli,2696672,194,,LSM12,A0ABM4FTI0_9AVES,https://www.uniprot.org/uniprotkb/A0ABM4FTI0
+UniProt,LSM12,A0AC58K9L8,Castor canadensis,51338,189,,LSM12,A0AC58K9L8_CASCN,https://www.uniprot.org/uniprotkb/A0AC58K9L8
+UniProt,LSM12,C1C241,Caligus clemensi,344056,215,,LSM12,C1C241_CALCM,https://www.uniprot.org/uniprotkb/C1C241
+UniProt,LSM12,C1C2B4,Caligus clemensi,344056,215,,LSM12,C1C2B4_CALCM,https://www.uniprot.org/uniprotkb/C1C2B4
+UniProt,LSM12,F6YE35,Equus caballus,9796,207,,LSM12,F6YE35_HORSE,https://www.uniprot.org/uniprotkb/F6YE35
+UniProt,LSM12,H0X2T4,Otolemur garnettii,30611,195,,LSM12,H0X2T4_OTOGA,https://www.uniprot.org/uniprotkb/H0X2T4
+UniProt,LSM12,I0FP64,Macaca mulatta,9544,195,,LSM12,I0FP64_MACMU,https://www.uniprot.org/uniprotkb/I0FP64
+UniProt,LSM12,I3M9N5,Ictidomys tridecemlineatus,43179,195,,LSM12,I3M9N5_ICTTR,https://www.uniprot.org/uniprotkb/I3M9N5
+UniProt,LSM12,K7B2T7,Pan troglodytes,9598,195,,LSM12,K7B2T7_PANTR,https://www.uniprot.org/uniprotkb/K7B2T7
+UniProt,LSM12,M4VHS4,Salmo salar,8030,196,,LSM12,M4VHS4_SALSA,https://www.uniprot.org/uniprotkb/M4VHS4
+UniProt,LSM12,A0A2I3H2X1,Nomascus leucogenys,61853,137,,LSM12,A0A2I3H2X1_NOMLE,https://www.uniprot.org/uniprotkb/A0A2I3H2X1
+UniProt,LSM12,A0A2I3SFB4,Pan troglodytes,9598,137,,LSM12,A0A2I3SFB4_PANTR,https://www.uniprot.org/uniprotkb/A0A2I3SFB4
+UniProt,LSM12,A0A2R8MPU5,Callithrix jacchus,9483,195,,LSM12,A0A2R8MPU5_CALJA,https://www.uniprot.org/uniprotkb/A0A2R8MPU5
+UniProt,LSM12,A0A2U3WFD1,Odobenus rosmarus divergens,9708,195,,LSM12,A0A2U3WFD1_ODORO,https://www.uniprot.org/uniprotkb/A0A2U3WFD1
+UniProt,LSM12,A0A340X7Y9,Lipotes vexillifer,118797,195,,LSM12,A0A340X7Y9_LIPVE,https://www.uniprot.org/uniprotkb/A0A340X7Y9
+NCBI,LSM12,NP_001032344.2,,8364,194,,,protein LSM12 [Xenopus tropicalis],https://www.ncbi.nlm.nih.gov/protein/NP_001032344.2
+NCBI,LSM12,XP_086780072.1,,8324,193,,,protein LSM12 [Lissotriton vulgaris],https://www.ncbi.nlm.nih.gov/protein/XP_086780072.1
+NCBI,LSM12,XP_086720316.1,,156563,194,,,protein LSM12 [Cyanistes caeruleus],https://www.ncbi.nlm.nih.gov/protein/XP_086720316.1
+NCBI,LSM12,XP_086622837.1,,187382,194,,,protein LSM12 [Chlamydotis macqueenii],https://www.ncbi.nlm.nih.gov/protein/XP_086622837.1
+NCBI,LSM12,XP_086577561.1,,9565,137,,,protein LSM12 isoform X3 [Theropithecus gelada],https://www.ncbi.nlm.nih.gov/protein/XP_086577561.1
+NCBI,LSM12,XP_086577560.1,,9565,230,,,protein LSM12 isoform X1 [Theropithecus gelada],https://www.ncbi.nlm.nih.gov/protein/XP_086577560.1
+NCBI,LSM12,CAR8098738.1,,71582,206,,,LOW QUALITY PROTEIN: protein LSM12 homolog [Rana dybowskii],https://www.ncbi.nlm.nih.gov/protein/CAR8098738.1
+NCBI,LSM12,CAR8098737.1,,71582,206,,,LOW QUALITY PROTEIN: protein LSM12 homolog [Rana dybowskii],https://www.ncbi.nlm.nih.gov/protein/CAR8098737.1
+NCBI,LSM12,CAR8098736.1,,71582,206,,,LOW QUALITY PROTEIN: protein LSM12 homolog [Rana dybowskii],https://www.ncbi.nlm.nih.gov/protein/CAR8098736.1
+NCBI,LSM12,XP_025773360.1,,9696,195,,,protein LSM12 [Puma concolor],https://www.ncbi.nlm.nih.gov/protein/XP_025773360.1
+NCBI,LSM12,XP_025217722.1,,9565,195,,,protein LSM12 isoform X2 [Theropithecus gelada],https://www.ncbi.nlm.nih.gov/protein/XP_025217722.1
+NCBI,LSM12,XP_086487146.1,,121530,136,,,protein LSM12 isoform X2 [Tauraco erythrolophus],https://www.ncbi.nlm.nih.gov/protein/XP_086487146.1
+NCBI,LSM12,XP_086487145.1,,121530,194,,,protein LSM12 isoform X1 [Tauraco erythrolophus],https://www.ncbi.nlm.nih.gov/protein/XP_086487145.1
+NCBI,LSM12,XP_086213581.1,,30521,195,,,protein LSM12 [Bos grunniens],https://www.ncbi.nlm.nih.gov/protein/XP_086213581.1
+NCBI,LSM12,XP_029339928.2,,10089,195,,,protein LSM12 [Mus caroli],https://www.ncbi.nlm.nih.gov/protein/XP_029339928.2
+NCBI,LSM12,XP_085739931.1,,7764,198,,,protein LSM12 isoform X5 [Eptatretus burgeri],https://www.ncbi.nlm.nih.gov/protein/XP_085739931.1
+NCBI,LSM12,XP_085739930.1,,7764,209,,,protein LSM12 isoform X4 [Eptatretus burgeri],https://www.ncbi.nlm.nih.gov/protein/XP_085739930.1
+NCBI,LSM12,XP_085739929.1,,7764,236,,,protein LSM12 isoform X3 [Eptatretus burgeri],https://www.ncbi.nlm.nih.gov/protein/XP_085739929.1
+NCBI,LSM12,XP_085739928.1,,7764,247,,,protein LSM12 isoform X2 [Eptatretus burgeri],https://www.ncbi.nlm.nih.gov/protein/XP_085739928.1
+NCBI,LSM12,XP_085739927.1,,7764,308,,,protein LSM12 isoform X1 [Eptatretus burgeri],https://www.ncbi.nlm.nih.gov/protein/XP_085739927.1
+NCBI,LSM12,XP_048301610.2,,447135,195,,,protein LSM12 [Myodes glareolus],https://www.ncbi.nlm.nih.gov/protein/XP_048301610.2
+NCBI,LSM12,KAN3545886.1,,249021,195,,,protein LSM12 [Doryrhina cyclops],https://www.ncbi.nlm.nih.gov/protein/KAN3545886.1
+NCBI,LSM12,KAM9520953.1,,51906,194,,,protein LSM12 [Guaruba guarouba],https://www.ncbi.nlm.nih.gov/protein/KAM9520953.1
+NCBI,LSM12,KAM4645611.1,,151761,194,,,protein LSM12 [Amazona ochrocephala],https://www.ncbi.nlm.nih.gov/protein/KAM4645611.1
+NCBI,LSM12,KAM3658297.1,,3111550,194,,,protein LSM12 [Ammospiza maritima maritima],https://www.ncbi.nlm.nih.gov/protein/KAM3658297.1
+NCBI,LSM12,KAJ3062666.1,,2724200,212,,,protein with role in RNA processing [Podochytrium sp. JEL0797],https://www.ncbi.nlm.nih.gov/protein/KAJ3062666.1
+NCBI,LSM12,KAI9668442.1,,91480,227,,,MAG: protein with role in RNA processing [Alyxoria varia],https://www.ncbi.nlm.nih.gov/protein/KAI9668442.1
+NCBI,LSM12,DAA06815.1,,559292,187,,,TPA: Lsm12p [Saccharomyces cerevisiae S288C],https://www.ncbi.nlm.nih.gov/protein/DAA06815.1
+NCBI,LSM12,NP_011989.1,,559292,187,,,Lsm12p [Saccharomyces cerevisiae S288C],https://www.ncbi.nlm.nih.gov/protein/NP_011989.1
+NCBI,LSM12,XP_077644504.1,,40157,194,,,protein LSM12 [Lonchura striata],https://www.ncbi.nlm.nih.gov/protein/XP_077644504.1
+NCBI,LSM12,XP_015741374.1,,93934,194,,,protein LSM12 [Coturnix japonica],https://www.ncbi.nlm.nih.gov/protein/XP_015741374.1
+NCBI,LSM12,NP_766535.1,,10090,195,,,protein LSM12 [Mus musculus],https://www.ncbi.nlm.nih.gov/protein/NP_766535.1
+NCBI,LSM12,YFO45273.1,,9925,195,,,protein LSM12 [Capra hircus],https://www.ncbi.nlm.nih.gov/protein/YFO45273.1
+NCBI,LSM12,XP_027623628.1,,246437,195,,,protein LSM12 isoform X1 [Tupaia chinensis],https://www.ncbi.nlm.nih.gov/protein/XP_027623628.1
+NCBI,LSM12,XP_006167434.1,,246437,195,,,protein LSM12 isoform X2 [Tupaia chinensis],https://www.ncbi.nlm.nih.gov/protein/XP_006167434.1
+NCBI,LSM12,XP_007482467.1,,13616,184,,,protein LSM12 isoform X2 [Monodelphis domestica],https://www.ncbi.nlm.nih.gov/protein/XP_007482467.1
+NCBI,LSM12,XP_001367938.1,,13616,195,,,protein LSM12 isoform X1 [Monodelphis domestica],https://www.ncbi.nlm.nih.gov/protein/XP_001367938.1
+NCBI,LSM12,XP_023454638.1,,122368,224,,,Lsm12p [Cercospora beticola],https://www.ncbi.nlm.nih.gov/protein/XP_023454638.1
+NCBI,LSM12,XP_085179195.1,,8797,147,,,"protein LSM12, partial [Rhea americana]",https://www.ncbi.nlm.nih.gov/protein/XP_085179195.1
+NCBI,LSM12,XP_085067109.1,,9103,194,,,protein LSM12 [Meleagris gallopavo],https://www.ncbi.nlm.nih.gov/protein/XP_085067109.1
+NCBI,LSM12,KAO0887759.1,,9823,195,,,protein LSM12 [Sus scrofa],https://www.ncbi.nlm.nih.gov/protein/KAO0887759.1
+NCBI,LSM12,XP_084939414.1,,1497555,194,,,protein LSM12 [Lichenostomus cassidix],https://www.ncbi.nlm.nih.gov/protein/XP_084939414.1
+NCBI,LSM12,XP_020922559.1,,9823,195,,,protein LSM12 [Sus scrofa],https://www.ncbi.nlm.nih.gov/protein/XP_020922559.1
+NCBI,LSM12,Q3MHD2.2,,9606,195,,,RecName: Full=Protein LSM12,https://www.ncbi.nlm.nih.gov/protein/Q3MHD2.2
+NCBI,LSM12,Q6P833.2,,8364,194,,,RecName: Full=Protein LSM12,https://www.ncbi.nlm.nih.gov/protein/Q6P833.2
+NCBI,LSM12,Q38E83.1,,185431,190,,,RecName: Full=PBP1-interacting protein LSM12,https://www.ncbi.nlm.nih.gov/protein/Q38E83.1
+NCBI,LSM12,Q6PBA2.1,,7955,196,,,RecName: Full=Protein LSM12 homolog A,https://www.ncbi.nlm.nih.gov/protein/Q6PBA2.1
+NCBI,LSM12,Q5ZML5.1,,9031,194,,,RecName: Full=Protein LSM12,https://www.ncbi.nlm.nih.gov/protein/Q5ZML5.1
+NCBI,LSM12,Q9VYR0.2,,7227,217,,,RecName: Full=LSM12 homolog A,https://www.ncbi.nlm.nih.gov/protein/Q9VYR0.2
+NCBI,LSM12,NP_998313.1,,7955,196,,,protein LSM12 homolog A [Danio rerio],https://www.ncbi.nlm.nih.gov/protein/NP_998313.1
+NCBI,LSM12,P38828.1,,559292,187,,,RecName: Full=Protein LSM12; AltName: Full=Sm-like protein 12,https://www.ncbi.nlm.nih.gov/protein/P38828.1
+NCBI,LSM12,XP_084661014.1,,8554,194,,,protein LSM12 isoform X2 [Heloderma suspectum],https://www.ncbi.nlm.nih.gov/protein/XP_084661014.1
+NCBI,LSM12,XP_084661013.1,,8554,221,,,protein LSM12 isoform X1 [Heloderma suspectum],https://www.ncbi.nlm.nih.gov/protein/XP_084661013.1
+NCBI,LSM12,XP_084719770.1,,412090,195,,,protein LSM12 [Pipistrellus hanaki],https://www.ncbi.nlm.nih.gov/protein/XP_084719770.1
+NCBI,LSM12,XP_084604268.1,,83528,195,,,protein LSM12 isoform 1 [Acomys minous],https://www.ncbi.nlm.nih.gov/protein/XP_084604268.1
+NCBI,LSM12,XP_084471914.1,,27788,194,,,protein LSM12 [Lepidochelys olivacea],https://www.ncbi.nlm.nih.gov/protein/XP_084471914.1
+NCBI,LSM12,XP_084352437.1,,219593,192,,,protein LSM12 [Aythya ferina],https://www.ncbi.nlm.nih.gov/protein/XP_084352437.1
+NCBI,LSM12,XP_083326460.1,,662736,194,,,protein LSM12 [Podarcis liolepis],https://www.ncbi.nlm.nih.gov/protein/XP_083326460.1
+NCBI,LSM12,XP_083267831.1,,65485,194,,,protein LSM12 [Podarcis tiliguerta],https://www.ncbi.nlm.nih.gov/protein/XP_083267831.1
+NCBI,LSM12,XP_083439768.1,,65481,194,,,protein LSM12 [Podarcis filfolensis],https://www.ncbi.nlm.nih.gov/protein/XP_083439768.1
+NCBI,LSM12,XP_083566089.1,,90521,194,,,protein LSM12 [Podarcis gaigeae],https://www.ncbi.nlm.nih.gov/protein/XP_083566089.1
+NCBI,LSM12,XP_083709886.1,,8843,121,,,LOW QUALITY PROTEIN: protein LSM12 [Anser anser],https://www.ncbi.nlm.nih.gov/protein/XP_083709886.1
+NCBI,LSM12,XP_083733576.1,,43581,194,,,protein LSM12 [Zosterops lateralis],https://www.ncbi.nlm.nih.gov/protein/XP_083733576.1
+NCBI,LSM12,XP_084131445.1,,9123,194,,,LOW QUALITY PROTEIN: protein LSM12 [Gallinula chloropus],https://www.ncbi.nlm.nih.gov/protein/XP_084131445.1
+NCBI,LSM12,XP_084093379.1,,9375,136,,,protein LSM12 isoform 2 [Talpa europaea],https://www.ncbi.nlm.nih.gov/protein/XP_084093379.1
+NCBI,LSM12,XP_084093378.1,,9375,194,,,protein LSM12 isoform 1 [Talpa europaea],https://www.ncbi.nlm.nih.gov/protein/XP_084093378.1
+NCBI,LSM12,XP_084078346.1,,37598,194,,,protein LSM12 [Fringilla coelebs],https://www.ncbi.nlm.nih.gov/protein/XP_084078346.1
+NCBI,LSM12,XP_084157250.1,,30387,145,,,protein LSM12 [Netta rufina],https://www.ncbi.nlm.nih.gov/protein/XP_084157250.1
+NCBI,LSM12,XP_083234337.1,,103942,194,,,protein LSM12 isoform 2 [Vipera ursinii],https://www.ncbi.nlm.nih.gov/protein/XP_083234337.1
+NCBI,LSM12,XP_083234336.1,,103942,199,,,protein LSM12 isoform 1 [Vipera ursinii],https://www.ncbi.nlm.nih.gov/protein/XP_083234336.1
+NCBI,LSM12,YEX80001.1,,187939,194,,,protein LSM12 [Furcifer pardalis],https://www.ncbi.nlm.nih.gov/protein/YEX80001.1
+NCBI,LSM12,KAO0242138.1,,66447,196,,,LSM12 protein product [Galaxias brevipinnis],https://www.ncbi.nlm.nih.gov/protein/KAO0242138.1
+NCBI,LSM12,KAO0232374.1,,66447,196,,,LSM12 protein product [Galaxias brevipinnis],https://www.ncbi.nlm.nih.gov/protein/KAO0232374.1
+NCBI,LSM12,XP_040473349.1,,148594,194,,,protein LSM12 [Falco naumanni],https://www.ncbi.nlm.nih.gov/protein/XP_040473349.1
+NCBI,LSM12,KAO0051115.1,,9823,195,,,protein LSM12 [Sus scrofa],https://www.ncbi.nlm.nih.gov/protein/KAO0051115.1
+NCBI,LSM12,KAO0025646.1,,288555,194,,,protein LSM12 [Xenopus petersii],https://www.ncbi.nlm.nih.gov/protein/KAO0025646.1
+NCBI,LSM12,XP_024616729.1,,1706337,195,,,protein LSM12 [Neophocaena asiaeorientalis asiaeorientalis],https://www.ncbi.nlm.nih.gov/protein/XP_024616729.1
+NCBI,LSM12,XP_031790261.1,,591936,230,,,protein LSM12 isoform X1 [Piliocolobus tephrosceles],https://www.ncbi.nlm.nih.gov/protein/XP_031790261.1
+NCBI,LSM12,XP_023047249.1,,591936,195,,,protein LSM12 isoform X2 [Piliocolobus tephrosceles],https://www.ncbi.nlm.nih.gov/protein/XP_023047249.1
+NCBI,LSM12,XP_002919778.1,,9646,195,,,protein LSM12 [Ailuropoda melanoleuca],https://www.ncbi.nlm.nih.gov/protein/XP_002919778.1
+NCBI,LSM12,XP_019521150.1,,186990,195,,,protein LSM12 [Hipposideros armiger],https://www.ncbi.nlm.nih.gov/protein/XP_019521150.1
+NCBI,LSM12,NP_001253722.1,,9544,195,,,protein LSM12 [Macaca mulatta],https://www.ncbi.nlm.nih.gov/protein/NP_001253722.1
+NCBI,LSM12,XP_054527417.1,,9598,227,,,protein LSM12 isoform X1 [Pan troglodytes],https://www.ncbi.nlm.nih.gov/protein/XP_054527417.1
+NCBI,LSM12,XP_054527415.1,,9598,195,,,protein LSM12 isoform X2 [Pan troglodytes],https://www.ncbi.nlm.nih.gov/protein/XP_054527415.1
+NCBI,LSM12,XP_017731503.1,,61621,195,,,protein LSM12 [Rhinopithecus bieti],https://www.ncbi.nlm.nih.gov/protein/XP_017731503.1
+NCBI,LSM12,KAN9771912.1,,143539,195,,,protein LSM12 [Correlophus ciliatus],https://www.ncbi.nlm.nih.gov/protein/KAN9771912.1
+NCBI,LSM12,KAN8372497.1,,3030661,195,,,protein LSM12 [Rhinolophus perniger lanosus],https://www.ncbi.nlm.nih.gov/protein/KAN8372497.1
+NCBI,LSM12,KAN7993029.1,,70687,195,,,protein LSM12 [Tupaia tana],https://www.ncbi.nlm.nih.gov/protein/KAN7993029.1
+NCBI,LSM12,XP_063455090.1,,9597,227,,,protein LSM12 isoform X2 [Pan paniscus],https://www.ncbi.nlm.nih.gov/protein/XP_063455090.1
+NCBI,LSM12,XP_054957746.1,,9597,230,,,protein LSM12 isoform X3 [Pan paniscus],https://www.ncbi.nlm.nih.gov/protein/XP_054957746.1
+NCBI,LSM12,XP_034797653.1,,9597,195,,,protein LSM12 isoform X1 [Pan paniscus],https://www.ncbi.nlm.nih.gov/protein/XP_034797653.1
+NCBI,LSM12,XP_083003503.1,,326986,194,,,protein LSM12 [Crinia signifera],https://www.ncbi.nlm.nih.gov/protein/XP_083003503.1
+NCBI,LSM12,XP_055112980.1,,9590,137,,,protein LSM12 isoform X4 [Symphalangus syndactylus],https://www.ncbi.nlm.nih.gov/protein/XP_055112980.1
+NCBI,LSM12,XP_055112979.1,,9590,195,,,protein LSM12 isoform X3 [Symphalangus syndactylus],https://www.ncbi.nlm.nih.gov/protein/XP_055112979.1
+NCBI,LSM12,XP_055112978.1,,9590,227,,,protein LSM12 isoform X2 [Symphalangus syndactylus],https://www.ncbi.nlm.nih.gov/protein/XP_055112978.1
+NCBI,LSM12,XP_055112977.1,,9590,230,,,protein LSM12 isoform X1 [Symphalangus syndactylus],https://www.ncbi.nlm.nih.gov/protein/XP_055112977.1
+NCBI,LSM12,XP_054391139.1,,9601,230,,,protein LSM12 isoform X1 [Pongo abelii],https://www.ncbi.nlm.nih.gov/protein/XP_054391139.1
+NCBI,LSM12,XP_054313778.1,,9600,230,,,protein LSM12 isoform X2 [Pongo pygmaeus],https://www.ncbi.nlm.nih.gov/protein/XP_054313778.1
+NCBI,LSM12,XP_054313777.1,,9600,195,,,protein LSM12 isoform X1 [Pongo pygmaeus],https://www.ncbi.nlm.nih.gov/protein/XP_054313777.1
+NCBI,LSM12,KAN7740054.1,,191775,184,,,protein with role in RNA processing [Bulinus ugandae],https://www.ncbi.nlm.nih.gov/protein/KAN7740054.1
+NCBI,LSM12,KAN7614052.1,,9440,195,,,protein LSM12 [Antrozous pallidus],https://www.ncbi.nlm.nih.gov/protein/KAN7614052.1
+NCBI,LSM12,KAN7525109.1,,51014,195,,,protein LSM12 [Artibeus intermedius],https://www.ncbi.nlm.nih.gov/protein/KAN7525109.1
+NCBI,LSM12,KAN7516518.1,,1552295,192,,,protein LSM12 isoform 2-T2 [Molossus alvarezi],https://www.ncbi.nlm.nih.gov/protein/KAN7516518.1
+NCBI,LSM12,KAN7516517.1,,1552295,195,,,protein LSM12 isoform 1-T1 [Molossus alvarezi],https://www.ncbi.nlm.nih.gov/protein/KAN7516517.1
+NCBI,LSM12,KAN7443143.1,,124745,195,,,protein LSM12 [Corynorhinus townsendii],https://www.ncbi.nlm.nih.gov/protein/KAN7443143.1
+NCBI,LSM12,KAN7415270.1,,44507,194,,,protein LSM12 [Podocnemis expansa],https://www.ncbi.nlm.nih.gov/protein/KAN7415270.1
+NCBI,LSM12,KAN7371687.1,,9281,195,,,protein LSM12 [Dasyurus maculatus],https://www.ncbi.nlm.nih.gov/protein/KAN7371687.1
+NCBI,LSM12,KAN7343257.1,,118683,194,,,protein LSM12 [Cyclura pinguis],https://www.ncbi.nlm.nih.gov/protein/KAN7343257.1
+NCBI,LSM12,KAN7312693.1,,9802,195,,,protein LSM12 [Tapirus indicus],https://www.ncbi.nlm.nih.gov/protein/KAN7312693.1
+NCBI,LSM12,KAN7285048.1,,3379902,194,,,protein LSM12 [Dibamus cf. smithi],https://www.ncbi.nlm.nih.gov/protein/KAN7285048.1
+NCBI,LSM12,KAN7269988.1,,2767082,194,,,protein LSM12 [Lycocorax pyrrhopterus obiensis],https://www.ncbi.nlm.nih.gov/protein/KAN7269988.1
+NCBI,LSM12,KAN7265527.1,,77598,195,,,protein LSM12 [Heterohyrax brucei],https://www.ncbi.nlm.nih.gov/protein/KAN7265527.1
+NCBI,LSM12,KAN7164019.1,,9725,195,,,protein LSM12 [Inia geoffrensis],https://www.ncbi.nlm.nih.gov/protein/KAN7164019.1
+NCBI,LSM12,KAN7155898.1,,153643,193,,,LOW QUALITY PROTEIN: protein LSM12 [Bucorvus abyssinicus],https://www.ncbi.nlm.nih.gov/protein/KAN7155898.1
+NCBI,LSM12,KAN7121096.1,,52224,194,,,protein LSM12 isoform 2-T2 [Shinisaurus crocodilurus],https://www.ncbi.nlm.nih.gov/protein/KAN7121096.1
+NCBI,LSM12,KAN7121095.1,,52224,201,,,protein LSM12 isoform 1-T1 [Shinisaurus crocodilurus],https://www.ncbi.nlm.nih.gov/protein/KAN7121095.1
+NCBI,LSM12,KAN7025531.1,,40151,195,,,protein LSM12 [Monodon monoceros],https://www.ncbi.nlm.nih.gov/protein/KAN7025531.1
+NCBI,LSM12,KAN7018325.1,,27634,195,,,protein LSM12 [Artibeus lituratus],https://www.ncbi.nlm.nih.gov/protein/KAN7018325.1
+NCBI,LSM12,KAN6926273.1,,372063,195,,,protein LSM12 [Peromyscus maniculatus sonoriensis],https://www.ncbi.nlm.nih.gov/protein/KAN6926273.1
+NCBI,LSM12,KAN6867545.1,,2917703,194,,,protein LSM12 [Aspidoscelis tigris stejnegeri],https://www.ncbi.nlm.nih.gov/protein/KAN6867545.1

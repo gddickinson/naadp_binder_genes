@@ -1,0 +1,47 @@
+source,gene_symbol,accession,species,taxon_id,length_aa,transcript_id,gene_id,description,url
+UniProt,JPT2,Q9H910,Homo sapiens,9606,190,,JPT2,Jupiter microtubule associated homolog 2,https://www.uniprot.org/uniprotkb/Q9H910
+UniProt,JPT2,Q9H910-1,Homo sapiens,9606,,,JPT2,isoform 1 of Q9H910,https://www.uniprot.org/uniprotkb/Q9H910-1
+UniProt,JPT2,Q9H910-2,Homo sapiens,9606,,,JPT2,isoform 2 of Q9H910,https://www.uniprot.org/uniprotkb/Q9H910-2
+UniProt,JPT2,Q9H910-3,Homo sapiens,9606,,,JPT2,isoform 3 of Q9H910,https://www.uniprot.org/uniprotkb/Q9H910-3
+UniProt,JPT2,H3BMT0,Homo sapiens,9606,115,,JPT2,H3BMT0_HUMAN,https://www.uniprot.org/uniprotkb/H3BMT0
+UniProt,JPT2,H3BMV3,Homo sapiens,9606,190,,JPT2,H3BMV3_HUMAN,https://www.uniprot.org/uniprotkb/H3BMV3
+UniProt,JPT2,A6NGP5,Homo sapiens,9606,178,,JPT2,A6NGP5_HUMAN,https://www.uniprot.org/uniprotkb/A6NGP5
+UniProt,JPT2,H3BU16,Homo sapiens,9606,167,,JPT2,H3BU16_HUMAN,https://www.uniprot.org/uniprotkb/H3BU16
+UniProt,JPT2,H3BMM8,Homo sapiens,9606,70,,JPT2,H3BMM8_HUMAN,https://www.uniprot.org/uniprotkb/H3BMM8
+UniProt,JPT2,A0ACI8R2A3,Homo sapiens,9606,187,,JPT2,A0ACI8R2A3_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8R2A3
+UniProt,JPT2,H3BS08,Homo sapiens,9606,77,,JPT2,H3BS08_HUMAN,https://www.uniprot.org/uniprotkb/H3BS08
+UniProt,JPT2,H3BTV5,Homo sapiens,9606,116,,JPT2,H3BTV5_HUMAN,https://www.uniprot.org/uniprotkb/H3BTV5
+UniProt,JPT2,H3BU95,Homo sapiens,9606,98,,JPT2,H3BU95_HUMAN,https://www.uniprot.org/uniprotkb/H3BU95
+UniProt,JPT1,Q9UK76,Homo sapiens,9606,154,,JPT1,Jupiter microtubule associated homolog 1,https://www.uniprot.org/uniprotkb/Q9UK76
+UniProt,JPT1,Q9UK76-1,Homo sapiens,9606,,,JPT1,isoform 1 of Q9UK76,https://www.uniprot.org/uniprotkb/Q9UK76-1
+UniProt,JPT1,Q9UK76-2,Homo sapiens,9606,,,JPT1,isoform 2 of Q9UK76,https://www.uniprot.org/uniprotkb/Q9UK76-2
+UniProt,JPT1,Q9UK76-3,Homo sapiens,9606,,,JPT1,isoform 3 of Q9UK76,https://www.uniprot.org/uniprotkb/Q9UK76-3
+UniProt,JPT1,J3KSH8,Homo sapiens,9606,93,,JPT1,J3KSH8_HUMAN,https://www.uniprot.org/uniprotkb/J3KSH8
+UniProt,JPT1,J3KT51,Homo sapiens,9606,104,,JPT1,J3KT51_HUMAN,https://www.uniprot.org/uniprotkb/J3KT51
+UniProt,JPT1,A0ACI8REV9,Homo sapiens,9606,115,,JPT1,A0ACI8REV9_HUMAN,https://www.uniprot.org/uniprotkb/A0ACI8REV9
+UniProt,JPT1,F2Z3M5,Homo sapiens,9606,44,,JPT1,F2Z3M5_HUMAN,https://www.uniprot.org/uniprotkb/F2Z3M5
+UniProt,HN1L,Q96RY5,Homo sapiens,9606,1269,,HN1L,Protein cramped-like,https://www.uniprot.org/uniprotkb/Q96RY5
+NCBI,JPT2,Q9H910.1,,9606,190,,,RecName: Full=Jupiter microtubule associated homolog 2; AltName: Full=Hematological and neurological expressed 1-like protein; Short=HN1-like protein,https://www.ncbi.nlm.nih.gov/protein/Q9H910.1
+NCBI,JPT2,NP_001421597.1,,9606,151,,,jupiter microtubule associated homolog 2 isoform 6 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001421597.1
+NCBI,JPT2,NP_001421596.1,,9606,178,,,jupiter microtubule associated homolog 2 isoform 5 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001421596.1
+NCBI,JPT2,NP_001421595.1,,9606,204,,,jupiter microtubule associated homolog 2 isoform 3 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001421595.1
+NCBI,JPT2,NP_001421594.1,,9606,218,,,jupiter microtubule associated homolog 2 isoform 2 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001421594.1
+NCBI,JPT2,NP_001421593.1,,9606,232,,,jupiter microtubule associated homolog 2 isoform 1 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001421593.1
+NCBI,JPT2,NP_653171.1,,9606,190,,,jupiter microtubule associated homolog 2 isoform 4 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_653171.1
+NCBI,JPT1,Q9UK76.3,,9606,154,,,"RecName: Full=Jupiter microtubule associated homolog 1; AltName: Full=Androgen-regulated protein 2; AltName: Full=Hematological and neurological expressed 1 protein; Contains: RecName: Full=Jupiter microtubule associated homolog 1, N-terminally processed",https://www.ncbi.nlm.nih.gov/protein/Q9UK76.3
+NCBI,JPT1,XP_024306547.1,,9606,108,,,jupiter microtubule associated homolog 1 isoform X1 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/XP_024306547.1
+NCBI,JPT1,NP_001275540.1,,9606,120,,,jupiter microtubule associated homolog 1 isoform 4 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001275540.1
+NCBI,JPT1,NP_001275539.1,,9606,108,,,jupiter microtubule associated homolog 1 isoform 3 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001275539.1
+NCBI,JPT1,NP_001275538.1,,9606,108,,,jupiter microtubule associated homolog 1 isoform 3 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001275538.1
+NCBI,JPT1,NP_001002032.1,,9606,181,,,jupiter microtubule associated homolog 1 isoform 2 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001002032.1
+NCBI,JPT1,NP_001002033.1,,9606,108,,,jupiter microtubule associated homolog 1 isoform 3 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_001002033.1
+NCBI,JPT1,NP_057269.1,,9606,154,,,jupiter microtubule associated homolog 1 isoform 1 [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_057269.1
+NCBI,HN1L,Q96RY5.3,,9606,1269,,,RecName: Full=Protein cramped-like; AltName: Full=Cramped chromatin regulator homolog 1; AltName: Full=Hematological and neurological expressed 1-like protein,https://www.ncbi.nlm.nih.gov/protein/Q96RY5.3
+NCBI,HN1L,NP_065876.3,,9606,1269,,,protein cramped-like [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/NP_065876.3
+NCBI,HN1L,AAI37174.1,,9606,1065,,,"Crm, cramped-like (Drosophila) [Homo sapiens]",https://www.ncbi.nlm.nih.gov/protein/AAI37174.1
+NCBI,HN1L,AAI37173.1,,9606,1065,,,"Crm, cramped-like (Drosophila) [Homo sapiens]",https://www.ncbi.nlm.nih.gov/protein/AAI37173.1
+NCBI,HN1L,AAH60853.1,,9606,190,,,Hematological and neurological expressed 1-like [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/AAH60853.1
+NCBI,HN1L,AAH14438.1,,9606,190,,,Hematological and neurological expressed 1-like [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/AAH14438.1
+NCBI,HN1L,AAP83792.1,,9606,174,,,hematological and neurological expressed 1-like protein B [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/AAP83792.1
+NCBI,HN1L,AAP83791.1,,9606,174,,,hematological and neurological expressed 1-like protein B [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/AAP83791.1
+NCBI,HN1L,AAK61289.1,,9606,190,,,HN1 like [Homo sapiens],https://www.ncbi.nlm.nih.gov/protein/AAK61289.1

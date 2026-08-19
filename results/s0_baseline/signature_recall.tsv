@@ -1,0 +1,14 @@
+label	accession	role	partition	length_aa	status	protein_name	planned_pfam	pfam_annotated	interpro_annotated	found_by_planned_pfam
+Hs_JPT2_Q9H910	Q9H910	reference (known binder)	JPT	190	SP	Jupiter microtubule associated homolog 2	PF17054	PF17054	IPR033335	True
+Hs_LSM12_Q3MHD2	Q3MHD2	reference (known binder)	LSM12	195	SP	Protein LSM12	PF09793,PF21166	PF09793,PF21166	IPR019181,IPR039683,IPR047574,IPR047575,IPR048478	True
+Hs_JPT1_Q9UK76	Q9UK76	sister paralog (known non-binder)	JPT	154	SP	Jupiter microtubule associated homolog 1	PF17054	PF17054	IPR033335	True
+Mm_JPT1_P97825	P97825	sister paralog (known non-binder)	JPT	154	SP	Jupiter microtubule associated homolog 1	PF17054	PF17054	IPR033335	True
+mouse_JPT2	Q6PGH2	S0 symbol-table ortholog	JPT	190	SP	Jupiter microtubule associated homolog 2	PF17054	NONE	IPR033335	False
+mouse_LSM12	Q9D0R8	S0 symbol-table ortholog	LSM12	195	SP	Protein LSM12	PF09793,PF21166	PF09793,PF21166	IPR019181,IPR039683,IPR047574,IPR047575,IPR048478	True
+chicken_LSM12	Q5ZML5	S0 symbol-table ortholog	LSM12	194	SP	Protein LSM12	PF09793,PF21166	PF09793,PF21166	IPR019181,IPR039683,IPR047574,IPR047575,IPR048478	True
+X. tropicalis_JPT2	A0A6I8PKV3	S0 symbol-table ortholog	JPT	192	TR		PF17054	PF17054	IPR033335	True
+X. tropicalis_LSM12	Q6P833	S0 symbol-table ortholog	LSM12	194	SP	Protein LSM12	PF09793,PF21166	PF09793,PF21166	IPR019181,IPR039683,IPR047574,IPR047575,IPR048478	True
+X. tropicalis_JPT1	I7KJP8	S0 symbol-table ortholog	JPT	143	TR		PF17054	NONE	IPR033335	False
+zebrafish_JPT2	F1Q6E4	S0 symbol-table ortholog	JPT	218	TR		PF17054	PF17054	IPR033335	True
+zebrafish_LSM12	Q6PBA2	S0 symbol-table ortholog	LSM12	196	SP	Protein LSM12 homolog A	PF09793,PF21166	PF09793,PF21166	IPR019181,IPR039683,IPR047574,IPR047575,IPR048478	True
+fly_LSM12	Q9VYR0	S0 symbol-table ortholog	LSM12	217	SP	LSM12 homolog A	PF09793,PF21166	PF09793,PF21166	IPR019181,IPR039683,IPR047574,IPR047575,IPR048478	True

@@ -1,0 +1,11 @@
+{
+  "n_claims": 8,
+  "n_references": 19,
+  "verdicts": {
+    "qualified": 1,
+    "corrected": 1,
+    "verified": 4,
+    "refined": 1,
+    "retag": 1
+  }
+}

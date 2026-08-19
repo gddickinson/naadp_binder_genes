@@ -18,6 +18,7 @@ from typing import Optional
 from Bio import Entrez
 
 from ..utils.family import LITERATURE_KEYWORD
+from ..databases.entrez_util import entrez_call
 
 
 @dataclass
@@ -46,7 +47,8 @@ def search_literature(
     terms = [accession] + ([uniprot_id] if uniprot_id else [])
     direct_q = " OR ".join(f'"{t}"' for t in terms)
     try:
-        with Entrez.esearch(db="pubmed", term=direct_q, retmax=20) as h:
+        with entrez_call(Entrez.esearch, db="pubmed", term=direct_q,
+                         retmax=20) as h:
             data = Entrez.read(h)
         ev.direct_pmids = list(data.get("IdList", []))
     except Exception as e:
@@ -57,7 +59,8 @@ def search_literature(
         org_q = (f'"{organism}"[Title/Abstract] AND '
                  f'"{LITERATURE_KEYWORD}"[Title/Abstract]')
         try:
-            with Entrez.esearch(db="pubmed", term=org_q, retmax=20) as h:
+            with entrez_call(Entrez.esearch, db="pubmed", term=org_q,
+                             retmax=20) as h:
                 data = Entrez.read(h)
             ev.organism_family_pmids = list(data.get("IdList", []))
         except Exception as e:
@@ -68,7 +71,8 @@ def search_literature(
         if not pmids:
             return []
         try:
-            with Entrez.esummary(db="pubmed", id=",".join(pmids[:max_titles])) as h:
+            with entrez_call(Entrez.esummary, db="pubmed",
+                             id=",".join(pmids[:max_titles])) as h:
                 rec = Entrez.read(h)
         except Exception:
             return []

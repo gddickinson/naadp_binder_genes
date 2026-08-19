@@ -1,0 +1,1168 @@
+[
+  {
+    "source": "UniProt",
+    "accession": "Q9H910",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 190,
+    "description": "Jupiter microtubule associated homolog 2",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "MFQVPDSEGGRAGSRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGEKGSARKAGPAKEQEPMPTVDSHEPRLGPRPRSHNKVLNPPGGKSSISFY",
+    "url": "https://www.uniprot.org/uniprotkb/Q9H910",
+    "raw": {
+      "uniProtkbId": "JUPI2_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "Q9H910-1",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": null,
+    "description": "isoform 1 of Q9H910",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "",
+    "url": "https://www.uniprot.org/uniprotkb/Q9H910-1",
+    "raw": {
+      "parent": "Q9H910",
+      "isoform": {
+        "name": {
+          "value": "1"
+        },
+        "synonyms": [
+          {
+            "value": "HN1LA"
+          }
+        ],
+        "isoformIds": [
+          "Q9H910-1"
+        ],
+        "isoformSequenceStatus": "Displayed"
+      }
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "Q9H910-2",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": null,
+    "description": "isoform 2 of Q9H910",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "",
+    "url": "https://www.uniprot.org/uniprotkb/Q9H910-2",
+    "raw": {
+      "parent": "Q9H910",
+      "isoform": {
+        "name": {
+          "value": "2"
+        },
+        "synonyms": [
+          {
+            "value": "HN1LB"
+          },
+          {
+            "value": "HN1LC"
+          }
+        ],
+        "isoformIds": [
+          "Q9H910-2"
+        ],
+        "sequenceIds": [
+          "VSP_014706"
+        ],
+        "isoformSequenceStatus": "Described"
+      }
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "Q9H910-3",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": null,
+    "description": "isoform 3 of Q9H910",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "",
+    "url": "https://www.uniprot.org/uniprotkb/Q9H910-3",
+    "raw": {
+      "parent": "Q9H910",
+      "isoform": {
+        "name": {
+          "value": "3"
+        },
+        "isoformIds": [
+          "Q9H910-3"
+        ],
+        "sequenceIds": [
+          "VSP_057423"
+        ],
+        "isoformSequenceStatus": "Described"
+      }
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "H3BMT0",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 115,
+    "description": "H3BMT0_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "MKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAAR",
+    "url": "https://www.uniprot.org/uniprotkb/H3BMT0",
+    "raw": {
+      "uniProtkbId": "H3BMT0_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "H3BMV3",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 190,
+    "description": "H3BMV3_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "MFQVPDSEGGRAGSRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPEKSQLFRYTKEEEELWRPPSTKLYRTSGSNSQTSFQKRLETLGQEMKEFSS",
+    "url": "https://www.uniprot.org/uniprotkb/H3BMV3",
+    "raw": {
+      "uniProtkbId": "H3BMV3_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A6NGP5",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 178,
+    "description": "A6NGP5_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "MMRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGEKGSARKAGPAKEQEPMPTVDSHEPRLGPRPRSHNKVLNPPGGKSSISFY",
+    "url": "https://www.uniprot.org/uniprotkb/A6NGP5",
+    "raw": {
+      "uniProtkbId": "A6NGP5_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "H3BU16",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 167,
+    "description": "H3BU16_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "MKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGEKGSARKAGPAKEQEPMPTVDSHEPRLGPRPRSHNKVLNPPGG",
+    "url": "https://www.uniprot.org/uniprotkb/H3BU16",
+    "raw": {
+      "uniProtkbId": "H3BU16_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "H3BMM8",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 70,
+    "description": "H3BMM8_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "MFQVPDSEGGRAGSRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGSCFLM",
+    "url": "https://www.uniprot.org/uniprotkb/H3BMM8",
+    "raw": {
+      "uniProtkbId": "H3BMM8_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8R2A3",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 187,
+    "description": "A0ACI8R2A3_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "MFQVPDSEGGRAGSRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGEKGSARKAGPAKEQEPMPTVDSHEPRLGPRPRSHNKVLNPPGGKSSISFY",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8R2A3",
+    "raw": {
+      "uniProtkbId": "A0ACI8R2A3_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "H3BS08",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 77,
+    "description": "H3BS08_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "MFQVPDSEGGRAGSRKWQLLTGSLASTSPSLLSGQGPWAPLQRSASTRLVSGGHEAPRRRIEQSFWKSRRSYSFQQA",
+    "url": "https://www.uniprot.org/uniprotkb/H3BS08",
+    "raw": {
+      "uniProtkbId": "H3BS08_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "H3BTV5",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 116,
+    "description": "H3BTV5_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "PSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGIMWIQGKLLRL",
+    "url": "https://www.uniprot.org/uniprotkb/H3BTV5",
+    "raw": {
+      "uniProtkbId": "H3BTV5_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "H3BU95",
+    "gene_symbol": "JPT2",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 98,
+    "description": "H3BU95_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT2",
+    "sequence": "MFQVPDSEGGRAGSRKWQLLTGSLASTSPSLLSGQGPWAPLQRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGSCFLM",
+    "url": "https://www.uniprot.org/uniprotkb/H3BU95",
+    "raw": {
+      "uniProtkbId": "H3BU95_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "Q9UK76",
+    "gene_symbol": "JPT1",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 154,
+    "description": "Jupiter microtubule associated homolog 1",
+    "transcript_id": "",
+    "gene_id": "JPT1",
+    "sequence": "MTTTTTFKGVDPNSRNSSRVLRPPGGGSNFSLGFDEPTEQPVRKNKMASNIFGTPEENQASWAKSAGAKSSGGREDLESSGLQRRNSSEASSGDFLDLKGEGDIHENVDTDLPGSLGQSEEKPVPAAPVPSPVAPAPVPSRRNPPGGKSSLVLG",
+    "url": "https://www.uniprot.org/uniprotkb/Q9UK76",
+    "raw": {
+      "uniProtkbId": "JUPI1_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "Q9UK76-1",
+    "gene_symbol": "JPT1",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": null,
+    "description": "isoform 1 of Q9UK76",
+    "transcript_id": "",
+    "gene_id": "JPT1",
+    "sequence": "",
+    "url": "https://www.uniprot.org/uniprotkb/Q9UK76-1",
+    "raw": {
+      "parent": "Q9UK76",
+      "isoform": {
+        "name": {
+          "value": "1"
+        },
+        "synonyms": [
+          {
+            "value": "HN1A"
+          }
+        ],
+        "isoformIds": [
+          "Q9UK76-1"
+        ],
+        "isoformSequenceStatus": "Displayed"
+      }
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "Q9UK76-2",
+    "gene_symbol": "JPT1",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": null,
+    "description": "isoform 2 of Q9UK76",
+    "transcript_id": "",
+    "gene_id": "JPT1",
+    "sequence": "",
+    "url": "https://www.uniprot.org/uniprotkb/Q9UK76-2",
+    "raw": {
+      "parent": "Q9UK76",
+      "isoform": {
+        "name": {
+          "value": "2"
+        },
+        "synonyms": [
+          {
+            "value": "HN1B"
+          }
+        ],
+        "isoformIds": [
+          "Q9UK76-2"
+        ],
+        "sequenceIds": [
+          "VSP_017133"
+        ],
+        "isoformSequenceStatus": "Described"
+      }
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "Q9UK76-3",
+    "gene_symbol": "JPT1",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": null,
+    "description": "isoform 3 of Q9UK76",
+    "transcript_id": "",
+    "gene_id": "JPT1",
+    "sequence": "",
+    "url": "https://www.uniprot.org/uniprotkb/Q9UK76-3",
+    "raw": {
+      "parent": "Q9UK76",
+      "isoform": {
+        "name": {
+          "value": "3"
+        },
+        "synonyms": [
+          {
+            "value": "HN1C"
+          }
+        ],
+        "isoformIds": [
+          "Q9UK76-3"
+        ],
+        "sequenceIds": [
+          "VSP_017132"
+        ],
+        "isoformSequenceStatus": "Described"
+      }
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "J3KSH8",
+    "gene_symbol": "JPT1",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 93,
+    "description": "J3KSH8_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT1",
+    "sequence": "MASNIFGTPEENQASWAKSAGAKSSGGREDLESSGLQRRNSSEASSGDFLDLKGEGDIHENVDTDLPGSLGQSEEKPVPAAPVPSPVAPAPVP",
+    "url": "https://www.uniprot.org/uniprotkb/J3KSH8",
+    "raw": {
+      "uniProtkbId": "J3KSH8_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "J3KT51",
+    "gene_symbol": "JPT1",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 104,
+    "description": "J3KT51_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT1",
+    "sequence": "MTTTTTFKGVDPNSRNSSRVLRPPGGGSNFSLGFDEPTEQPVRKNKMASNIFGTPEENQASWAKSAGAKSSGGREDLESSGLQRRNSSEASSGDFLDLKVSVTA",
+    "url": "https://www.uniprot.org/uniprotkb/J3KT51",
+    "raw": {
+      "uniProtkbId": "J3KT51_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "A0ACI8REV9",
+    "gene_symbol": "JPT1",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 115,
+    "description": "A0ACI8REV9_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT1",
+    "sequence": "MTTTTTFKGVDPNSRNSSRVLRPPGGGSNFSLGFDEPTEQPVRKNKMASNIFGTPEENQASWAKSAENVDTDLPGSLGQSEEKPVPAAPVPSPVAPAPVPSRRNPPGGKSSLVLG",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACI8REV9",
+    "raw": {
+      "uniProtkbId": "A0ACI8REV9_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "F2Z3M5",
+    "gene_symbol": "JPT1",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 44,
+    "description": "F2Z3M5_HUMAN",
+    "transcript_id": "",
+    "gene_id": "JPT1",
+    "sequence": "MTTTTTFKGVDPNSRNSSRDTGSCHVAQAGLELLGSSDDPALAS",
+    "url": "https://www.uniprot.org/uniprotkb/F2Z3M5",
+    "raw": {
+      "uniProtkbId": "F2Z3M5_HUMAN"
+    }
+  },
+  {
+    "source": "UniProt",
+    "accession": "Q96RY5",
+    "gene_symbol": "HN1L",
+    "species": "Homo sapiens",
+    "taxon_id": 9606,
+    "length_aa": 1269,
+    "description": "Protein cramped-like",
+    "transcript_id": "",
+    "gene_id": "HN1L",
+    "sequence": "MTVKLGDGGSGEDGLKKLGKRAADEESLEGEGAGGADAAEESSGTKRDEKTPRAGADGPPAPPGAPQAPSPPQGSPQDQHHFLRSSVRPQSKRPRKDPPSAVGSGNAGGSGPRGKGAEGGGSSSGNVSGVAPAAPAGGSRSSSRNLGSSGGEKEEGKKVRRQWESWSTEDKNTFFEGLYEHGKDFEAIQNNIALKYKKKGKPASMVKNKEQVRHFYYRTWHKITKYIDFDHVFSRGLKKSSQELYGLICYGELRKKIGGCMDDKNATKLNELIQVGATTVRYKGRNLRIKAPMCRALKKLCDPDGLSDEEDQKPVRLPLKVPIELQPRNNHAWARVQSLAQNPRLRMIVELHRKVSSLIEFLKQKWALHEVRVRKTLEERQLQDSCSAPMQEKVTLHLFPGENCTLTPLPGVARVVHSKAFCTVHWQEGGRCKQSAKDAHVLPPAQILGIQSGQGTARGQVKCPRSGAEGKGVGRPPPAADALQSSGESSPESAPGEGAALSLSSPDAPDRPPPRHQDTGPCLEKTPAEGRDSPTREPGALPCACGQLPDLEDELSLLDPLPRYLKSCQDLIVPEQCRCADTRPGSEQPPLGGAASPEVLAPVSKEAADLAPTGPSPRPGPGLLLDVCTKDLADAPAEELQEKGSPAGPPPSQGQPAARPPKEVPASRLAQQLREEGWNLQTSESLTLAEVYLMMGKPSKLQLEYDWLGPGRQDPRPGSLPTALHKQRLLSCLLKLISTEVNPKLALEANTISTASVRPAQEEQSMTPPGKVVTVSSRSPRCPRNQASLRSSKTFPPSSAPCSSGLRNPPRPLLVPGPSSTGSNDSDGGLFAVPTTLPPNSRHGKLFSPSKEAELTFRQHLNSISMQSDFFLPKPRKLRNRHLRKPLVVQRTLLPRPSENQSHNVCSFSILSNSSVTGRGSFRPIQSSLTKAALSRPIVPKVLPPQATSHLASAIDLAATSAGILSGNPLPALDTEGLSGISPLSSDEVTGAISGQDSTGTHQDGDTLPTVGGSDPFVSIPSRPEQEPVADSFQGSSVLSLSELPKAPLQNGLSIPLSSSESSSTRLSPPDVSALLDISLPGPPEDALSQGEPATHISDSIIEIAISSGQYGEGVPLSPAKLNGSDSSKSLPSPSSSPQPHWIASPTHDPQWYPSDSTDSSLSSLFASFISPEKSRKMLPTPIGTNSGTSLLGPSLLDGNSRDSFVSRSLADVAEVVDSQLVCMMNENSIDYISRFNDLAQELSIAEPGRREALFDGGGGGPAVSDLSQ",
+    "url": "https://www.uniprot.org/uniprotkb/Q96RY5",
+    "raw": {
+      "uniProtkbId": "CRML_HUMAN"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "Q9H910.1",
+    "gene_symbol": "JPT2",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 190,
+    "description": "RecName: Full=Jupiter microtubule associated homolog 2; AltName: Full=Hematological and neurological expressed 1-like protein; Short=HN1-like protein",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/Q9H910.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "71152128",
+      "Caption": "Q9H910",
+      "Title": "RecName: Full=Jupiter microtubule associated homolog 2; AltName: Full=Hematological and neurological expressed 1-like protein; Short=HN1-like protein",
+      "Extra": "gi|71152128|sp|Q9H910.1|JUPI2_HUMAN[71152128]",
+      "Gi": "IntegerElement(71152128, attributes={})",
+      "CreateDate": "2005/07/19",
+      "UpdateDate": "2026/06/10",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(190, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "Q9H910.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001421597.1",
+    "gene_symbol": "JPT2",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 151,
+    "description": "jupiter microtubule associated homolog 2 isoform 6 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MFQVPDSEGGRAGSRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGIMWIQGKLLRL",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001421597.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "2858997999",
+      "Caption": "NP_001421597",
+      "Title": "jupiter microtubule associated homolog 2 isoform 6 [Homo sapiens]",
+      "Extra": "gi|2858997999|ref|NP_001421597.1|[2858997999]",
+      "Gi": "IntegerElement(2858997999, attributes={})",
+      "CreateDate": "2024/11/20",
+      "UpdateDate": "2025/05/05",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(151, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001421597.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001421596.1",
+    "gene_symbol": "JPT2",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 178,
+    "description": "jupiter microtubule associated homolog 2 isoform 5 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MMRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGEKGSARKAGPAKEQEPMPTVDSHEPRLGPRPRSHNKVLNPPGGKSSISFY",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001421596.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "2858997620",
+      "Caption": "NP_001421596",
+      "Title": "jupiter microtubule associated homolog 2 isoform 5 [Homo sapiens]",
+      "Extra": "gi|2858997620|ref|NP_001421596.1|[2858997620]",
+      "Gi": "IntegerElement(2858997620, attributes={})",
+      "CreateDate": "2024/11/20",
+      "UpdateDate": "2025/05/05",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(178, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001421596.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001421595.1",
+    "gene_symbol": "JPT2",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 204,
+    "description": "jupiter microtubule associated homolog 2 isoform 3 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MFQVPDSEGGRAGSRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPEKSQLFRYTKEEEELWRPPSTKLYRTSGSNSQTSFQKRLETLGQEMKEFSSKVTPVQFPELCSLS",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001421595.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "2858997436",
+      "Caption": "NP_001421595",
+      "Title": "jupiter microtubule associated homolog 2 isoform 3 [Homo sapiens]",
+      "Extra": "gi|2858997436|ref|NP_001421595.1|[2858997436]",
+      "Gi": "IntegerElement(2858997436, attributes={})",
+      "CreateDate": "2024/11/20",
+      "UpdateDate": "2025/05/05",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(204, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001421595.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001421594.1",
+    "gene_symbol": "JPT2",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 218,
+    "description": "jupiter microtubule associated homolog 2 isoform 2 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MFQVPDSEGGRAGSRKWQLLTGSLASTSPSLLSGQGPWAPLQRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGEKGSARKAGPAKEQEPMPTVDSHEPRLGPRPRSHNKVLNPPGGKSSISFY",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001421594.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "2858997434",
+      "Caption": "NP_001421594",
+      "Title": "jupiter microtubule associated homolog 2 isoform 2 [Homo sapiens]",
+      "Extra": "gi|2858997434|ref|NP_001421594.1|[2858997434]",
+      "Gi": "IntegerElement(2858997434, attributes={})",
+      "CreateDate": "2024/11/20",
+      "UpdateDate": "2025/05/05",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(218, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001421594.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001421593.1",
+    "gene_symbol": "JPT2",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 232,
+    "description": "jupiter microtubule associated homolog 2 isoform 1 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MFQVPDSEGGRAGSRKWQLLTGSLASTSPSLLSGQGPWAPLQRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPEKSQLFRYTKEEEELWRPPSTKLYRTSGSNSQTSFQKRLETLGQEMKEFSSKVTPVQFPELCSLS",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001421593.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "2858997426",
+      "Caption": "NP_001421593",
+      "Title": "jupiter microtubule associated homolog 2 isoform 1 [Homo sapiens]",
+      "Extra": "gi|2858997426|ref|NP_001421593.1|[2858997426]",
+      "Gi": "IntegerElement(2858997426, attributes={})",
+      "CreateDate": "2024/11/20",
+      "UpdateDate": "2025/05/05",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(232, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001421593.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_653171.1",
+    "gene_symbol": "JPT2",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 190,
+    "description": "jupiter microtubule associated homolog 2 isoform 4 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MFQVPDSEGGRAGSRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGEKGSARKAGPAKEQEPMPTVDSHEPRLGPRPRSHNKVLNPPGGKSSISFY",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_653171.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "21700763",
+      "Caption": "NP_653171",
+      "Title": "jupiter microtubule associated homolog 2 isoform 4 [Homo sapiens]",
+      "Extra": "gi|21700763|ref|NP_653171.1|[21700763]",
+      "Gi": "IntegerElement(21700763, attributes={})",
+      "CreateDate": "2002/07/06",
+      "UpdateDate": "2025/04/27",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(190, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_653171.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "Q9UK76.3",
+    "gene_symbol": "JPT1",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 154,
+    "description": "RecName: Full=Jupiter microtubule associated homolog 1; AltName: Full=Androgen-regulated protein 2; AltName: Full=Hematological and neurological expressed 1 protein; Contains: RecName: Full=Jupiter microtubule associated homolog 1, N-terminally processed",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/Q9UK76.3",
+    "raw": {
+      "Item": "[]",
+      "Id": "74735046",
+      "Caption": "Q9UK76",
+      "Title": "RecName: Full=Jupiter microtubule associated homolog 1; AltName: Full=Androgen-regulated protein 2; AltName: Full=Hematological and neurological expressed 1 protein; Contains: RecName: Full=Jupiter microtubule associated homolog 1, N-terminally processed",
+      "Extra": "gi|74735046|sp|Q9UK76.3|JUPI1_HUMAN[74735046]",
+      "Gi": "IntegerElement(74735046, attributes={})",
+      "CreateDate": "2006/01/24",
+      "UpdateDate": "2026/06/10",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(154, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "Q9UK76.3"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "XP_024306547.1",
+    "gene_symbol": "JPT1",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 108,
+    "description": "jupiter microtubule associated homolog 1 isoform X1 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MASNIFGTPEENQASWAKSAGAKSSGGREDLESSGLQRRNSSEASSGDFLDLKGEGDIHENVDTDLPGSLGQSEEKPVPAAPVPSPVAPAPVPSRRNPPGGKSSLVLG",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/XP_024306547.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "1370471174",
+      "Caption": "XP_024306547",
+      "Title": "jupiter microtubule associated homolog 1 isoform X1 [Homo sapiens]",
+      "Extra": "gi|1370471174|ref|XP_024306547.1|[1370471174]",
+      "Gi": "IntegerElement(1370471174, attributes={})",
+      "CreateDate": "2018/03/26",
+      "UpdateDate": "2025/08/05",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(108, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "XP_024306547.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001275540.1",
+    "gene_symbol": "JPT1",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 120,
+    "description": "jupiter microtubule associated homolog 1 isoform 4 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MTTTTTFKGVDPNSRNSSRVLRPPGGGSNFSLGFDEPTEQPVRKNKMASNIFGTPEENQASWAKSAGAKSSGGREDLESSGLQRRNSSEASSGDFLDLKGEGDIHGKKCGHRLARQPGAE",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001275540.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "568599844",
+      "Caption": "NP_001275540",
+      "Title": "jupiter microtubule associated homolog 1 isoform 4 [Homo sapiens]",
+      "Extra": "gi|568599844|ref|NP_001275540.1|[568599844]",
+      "Gi": "IntegerElement(568599844, attributes={})",
+      "CreateDate": "2013/12/24",
+      "UpdateDate": "2025/04/27",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(120, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001275540.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001275539.1",
+    "gene_symbol": "JPT1",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 108,
+    "description": "jupiter microtubule associated homolog 1 isoform 3 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MASNIFGTPEENQASWAKSAGAKSSGGREDLESSGLQRRNSSEASSGDFLDLKGEGDIHENVDTDLPGSLGQSEEKPVPAAPVPSPVAPAPVPSRRNPPGGKSSLVLG",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001275539.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "568599824",
+      "Caption": "NP_001275539",
+      "Title": "jupiter microtubule associated homolog 1 isoform 3 [Homo sapiens]",
+      "Extra": "gi|568599824|ref|NP_001275539.1|[568599824]",
+      "Gi": "IntegerElement(568599824, attributes={})",
+      "CreateDate": "2013/12/24",
+      "UpdateDate": "2025/04/27",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(108, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001275539.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001275538.1",
+    "gene_symbol": "JPT1",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 108,
+    "description": "jupiter microtubule associated homolog 1 isoform 3 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MASNIFGTPEENQASWAKSAGAKSSGGREDLESSGLQRRNSSEASSGDFLDLKGEGDIHENVDTDLPGSLGQSEEKPVPAAPVPSPVAPAPVPSRRNPPGGKSSLVLG",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001275538.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "568599822",
+      "Caption": "NP_001275538",
+      "Title": "jupiter microtubule associated homolog 1 isoform 3 [Homo sapiens]",
+      "Extra": "gi|568599822|ref|NP_001275538.1|[568599822]",
+      "Gi": "IntegerElement(568599822, attributes={})",
+      "CreateDate": "2013/12/24",
+      "UpdateDate": "2025/04/27",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(108, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001275538.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001002032.1",
+    "gene_symbol": "JPT1",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 181,
+    "description": "jupiter microtubule associated homolog 1 isoform 2 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MTTTTTFKGVDPNSRNSSRVLRPPGGGSNFSLGFDEPTEQPVRKNKMASNIFGTPEENQASWAKSAGAKSSGGREDLESSGLQRRNSSEASSGDFLDLKKMWTQTCQAAWGRVKRSPCLLRLCPARWPRPQCHPEEIPLAASPASSWVSSDCPERCRSVCFLHACELHNLSLTVHLLDLFH",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001002032.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "50345294",
+      "Caption": "NP_001002032",
+      "Title": "jupiter microtubule associated homolog 1 isoform 2 [Homo sapiens]",
+      "Extra": "gi|50345294|ref|NP_001002032.1|[50345294]",
+      "Gi": "IntegerElement(50345294, attributes={})",
+      "CreateDate": "2004/07/16",
+      "UpdateDate": "2025/04/27",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(181, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001002032.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_001002033.1",
+    "gene_symbol": "JPT1",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 108,
+    "description": "jupiter microtubule associated homolog 1 isoform 3 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MASNIFGTPEENQASWAKSAGAKSSGGREDLESSGLQRRNSSEASSGDFLDLKGEGDIHENVDTDLPGSLGQSEEKPVPAAPVPSPVAPAPVPSRRNPPGGKSSLVLG",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_001002033.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "50345292",
+      "Caption": "NP_001002033",
+      "Title": "jupiter microtubule associated homolog 1 isoform 3 [Homo sapiens]",
+      "Extra": "gi|50345292|ref|NP_001002033.1|[50345292]",
+      "Gi": "IntegerElement(50345292, attributes={})",
+      "CreateDate": "2004/07/16",
+      "UpdateDate": "2025/04/27",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(108, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_001002033.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_057269.1",
+    "gene_symbol": "JPT1",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 154,
+    "description": "jupiter microtubule associated homolog 1 isoform 1 [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MTTTTTFKGVDPNSRNSSRVLRPPGGGSNFSLGFDEPTEQPVRKNKMASNIFGTPEENQASWAKSAGAKSSGGREDLESSGLQRRNSSEASSGDFLDLKGEGDIHENVDTDLPGSLGQSEEKPVPAAPVPSPVAPAPVPSRRNPPGGKSSLVLG",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_057269.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "7705877",
+      "Caption": "NP_057269",
+      "Title": "jupiter microtubule associated homolog 1 isoform 1 [Homo sapiens]",
+      "Extra": "gi|7705877|ref|NP_057269.1|[7705877]",
+      "Gi": "IntegerElement(7705877, attributes={})",
+      "CreateDate": "2000/05/03",
+      "UpdateDate": "2025/04/27",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(154, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_057269.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "Q96RY5.3",
+    "gene_symbol": "HN1L",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 1269,
+    "description": "RecName: Full=Protein cramped-like; AltName: Full=Cramped chromatin regulator homolog 1; AltName: Full=Hematological and neurological expressed 1-like protein",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/Q96RY5.3",
+    "raw": {
+      "Item": "[]",
+      "Id": "308153609",
+      "Caption": "Q96RY5",
+      "Title": "RecName: Full=Protein cramped-like; AltName: Full=Cramped chromatin regulator homolog 1; AltName: Full=Hematological and neurological expressed 1-like protein",
+      "Extra": "gi|308153609|sp|Q96RY5.3|CRML_HUMAN[308153609]",
+      "Gi": "IntegerElement(308153609, attributes={})",
+      "CreateDate": "2006/12/12",
+      "UpdateDate": "2026/06/10",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(1269, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "Q96RY5.3"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "NP_065876.3",
+    "gene_symbol": "HN1L",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 1269,
+    "description": "protein cramped-like [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MTVKLGDGGSGEDGLKKLGKRAADEESLEGEGAGGADAAEESSGTKRDEKTPRAGADGPPAPPGAPQAPSPPQGSPQDQHHFLRSSVRPQSKRPRKDPPSAVGSGNAGGSGPRGKGAEGGGSSSGNVSGVAPAAPAGGSRSSSRNLGSSGGEKEEGKKVRRQWESWSTEDKNTFFEGLYEHGKDFEAIQNNIALKYKKKGKPASMVKNKEQVRHFYYRTWHKITKYIDFDHVFSRGLKKSSQELYGLICYGELRKKIGGCMDDKNATKLNELIQVGATTVRYKGRNLRIKAPMCRALKKLCDPDGLSDEEDQKPVRLPLKVPIELQPRNNHAWARVQSLAQNPRLRMIVELHRKVSSLIEFLKQKWALHEVRVRKTLEERQLQDSCSAPMQEKVTLHLFPGENCTLTPLPGVARVVHSKAFCTVHWQEGGRCKQSAKDAHVLPPAQILGIQSGQGTARGQVKCPRSGAEGKGVGRPPPAADALQSSGESSPESAPGEGAALSLSSPDAPDRPPPRHQDTGPCLEKTPAEGRDSPTREPGALPCACGQLPDLEDELSLLDPLPRYLKSCQDLIVPEQCRCADTRPGSEQPPLGGAASPEVLAPVSKEAADLAPTGPSPRPGPGLLLDVCTKDLADAPAEELQEKGSPAGPPPSQGQPAARPPKEVPASRLAQQLREEGWNLQTSESLTLAEVYLMMGKPSKLQLEYDWLGPGRQDPRPGSLPTALHKQRLLSCLLKLISTEVNPKLALEANTISTASVRPAQEEQSMTPPGKVVTVSSRSPRCPRNQASLRSSKTFPPSSAPCSSGLRNPPRPLLVPGPSSTGSNDSDGGLFAVPTTLPPNSRHGKLFSPSKEAELTFRQHLNSISMQSDFFLPKPRKLRNRHLRKPLVVQRTLLPRPSENQSHNVCSFSILSNSSVTGRGSFRPIQSSLTKAALSRPIVPKVLPPQATSHLASAIDLAATSAGILSGNPLPALDTEGLSGISPLSSDEVTGAISGQDSTGTHQDGDTLPTVGGSDPFVSIPSRPEQEPVADSFQGSSVLSLSELPKAPLQNGLSIPLSSSESSSTRLSPPDVSALLDISLPGPPEDALSQGEPATHISDSIIEIAISSGQYGEGVPLSPAKLNGSDSSKSLPSPSSSPQPHWIASPTHDPQWYPSDSTDSSLSSLFASFISPEKSRKMLPTPIGTNSGTSLLGPSLLDGNSRDSFVSRSLADVAEVVDSQLVCMMNENSIDYISRFNDLAQELSIAEPGRREALFDGGGGGPAVSDLSQ",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/NP_065876.3",
+    "raw": {
+      "Item": "[]",
+      "Id": "223972612",
+      "Caption": "NP_065876",
+      "Title": "protein cramped-like [Homo sapiens]",
+      "Extra": "gi|223972612|ref|NP_065876.3|[223972612]",
+      "Gi": "IntegerElement(223972612, attributes={})",
+      "CreateDate": "2004/04/05",
+      "UpdateDate": "2025/11/21",
+      "Flags": "IntegerElement(512, attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(1269, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "NP_065876.3"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "AAI37174.1",
+    "gene_symbol": "HN1L",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 1065,
+    "description": "Crm, cramped-like (Drosophila) [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MVKNKEQVRHFYYRTWHKITKYIDFDHVFSRGLKKSSQELYGLICYGELRKKIGGCMDDKNATKLNELIQVGATTVRYKGRNLRIKAPMCRALKKLCDPDGLSDEEDQKPVRLPLKVPIELQPRNNHAWARVQSLAQNPRLRMIVELHRKVSSLIEFLKQKWALHEVRVRKTLEERQLQDSCSAPMQEKVTLHLFPGENCTLTPLPGVARVVHSKAFCTVHWQEGGRCKQSAKDAHVLPPAQILGIQSGQGTARGQVKCPRSGAEGKGVGRPPPAADALQSSGESSPESAPGEGAALSLSSPDAPDRPPPRHQDTGPCLEKTPAEGRDSPTREPGALPCACGQLPDLEDELSLLDPLPRYLKSCQDLIVPEQCRCADTRPGSEQPPLGGAASPEVLAPVSKEAADLAPTGPSPRPGPGLLLDVCTKDLADAPAEELQEKGSPAGPPPSQGQPAARPPKEVPASRLAQQLREEGWNLQTSESLTLAEVYLMMGKPSKLQLEYDWLGPGRQDPRPGSLPTALHKQRLLSCLLKLISTEVNPKLALEANTISTASVRPAQEEQSMTPPGKVVTVSSRSPRCPRNQASLRSSKTFPPSSAPCSSGLRNPPRPLLVPGPSSTGSNDSDGGLFAVPTTLPPNSRHGKLFSPSKEAELTFRQHLNSISMQSDFFLPKPRKLRNRHLRKPLVVQRTLLPRPSENQSHNVCSFSILSNSSVTGRGSFRPIQSSLTKAALSRPIVPKVLPPQATSHLASAIDLAATSAGILSGNPLPALDTEGLSGISPLSSDEVTGAISGQDSTGTHQDGDTLPTVGGSDPFVSIPSRPEQEPVADSFQGSSVLSLSELPKAPLQNGLSIPLSSSESSSTRLSPPDVSALLDISLPGPPEDALSQGEPATHISDSIIEIAISSGQYGEGVPLSPAKLNGSDSSKSLPSPSSSPQPHWIASPTHDPQWYPSDSTDSSLSSLFASFISPEKSRKMLPTPIGTNSGTSLLGPSLLDGNSRDSFVSRSLADVAEVVDSQLVCMMNENSIDYISRFNDLAQELSIAEPGRREALFDGGGGGPAVSDLSQ",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/AAI37174.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "187952529",
+      "Caption": "AAI37174",
+      "Title": "Crm, cramped-like (Drosophila) [Homo sapiens]",
+      "Extra": "gi|187952529|gb|AAI37174.1|[187952529]",
+      "Gi": "IntegerElement(187952529, attributes={})",
+      "CreateDate": "2008/05/12",
+      "UpdateDate": "2008/05/12",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(1065, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "AAI37174.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "AAI37173.1",
+    "gene_symbol": "HN1L",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 1065,
+    "description": "Crm, cramped-like (Drosophila) [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MVKNKEQVRHFYYRTWHKITKYIDFDHVFSRGLKKSSQELYGLICYGELRKKIGGCMDDKNATKLNELIQVGATTVRYKGRNLRIKAPMCRALKKLCDPDGLSDEEDQKPVRLPLKVPIELQPRNNHAWARVQSLAQNPRLRMIVELHRKVSSLIEFLKQKWALHEVRVRKTLEERQLQDSCSAPMQEKVTLHLFPGENCTLTPLPGVARVVHSKAFCTVHWQEGGRCKQSAKDAHVLPPAQILGIQSGQGTARGQVKCPRSGAEGKGVGRPPPAADALQSSGESSPESAPGEGAALSLSSPDAPDRPPPRHQDTGPCLEKTPAEGRDSPTREPGALPCACGQLPDLEDELSLLDPLPRYLKSCQDLIVPEQCRCADTRPGSEQPPLGGAASPEVLAPVSKEAADLAPTGPSPRPGPGLLLDVCTKDLADAPAEELQEKGSPAGPPPSQGQPAARPPKEVPASRLAQQLREEGWNLQTSESLTLAEVYLMMGKPSKLQLEYDWLGPGRQDPRPGSLPTALHKQRLLSCLLKLISTEVNPKLALEANTISTASVRPAQEEQSMTPPGKVVTVSSRSPRCPRNQASLRSSKTFPPSSAPCSSGLRNPPRPLLVPGPSSTGSNDSDGGLFAVPTTLPPNSRHGKLFSPSKEAELTFRQHLNSISMQSDFFLPKPRKLRNRHLRKPLVVQRTLLPRPSENQSHNVCSFSILSNSSVTGRGSFRPIQSSLTKAALSRPIVPKVLPPQATSHLASAIDLAATSAGILSGNPLPALDTEGLSGISPLSSDEVTGAISGQDSTGTHQDGDTLPTVGGSDPFVSIPSRPEQEPVADSFQGSSVLSLSELPKAPLQNGLSIPLSSSESSSTRLSPPDVSALLDISLPGPPEDALSQGEPATHISDSIIEIAISSGQYGEGVPLSPAKLNGSDSSKSLPSPSSSPQPHWIASPTHDPQWYPSDSTDSSLSSLFASFISPEKSRKMLPTPIGTNSGTSLLGPSLLDGNSRDSFVSRSLADVAEVVDSQLVCMMNENSIDYISRFNDLAQELSIAEPGRREALFDGGGGGPAVSDLSQ",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/AAI37173.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "187950545",
+      "Caption": "AAI37173",
+      "Title": "Crm, cramped-like (Drosophila) [Homo sapiens]",
+      "Extra": "gi|187950545|gb|AAI37173.1|[187950545]",
+      "Gi": "IntegerElement(187950545, attributes={})",
+      "CreateDate": "2008/05/12",
+      "UpdateDate": "2008/05/12",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(1065, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "AAI37173.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "AAH60853.1",
+    "gene_symbol": "HN1L",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 190,
+    "description": "Hematological and neurological expressed 1-like [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MFQVPDSEGGRAGSRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGEKGSARKAGPAKEQEPMPTVDSHEPRLGPRPRSHNKVLNPPGGKSSISFY",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/AAH60853.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "38511978",
+      "Caption": "AAH60853",
+      "Title": "Hematological and neurological expressed 1-like [Homo sapiens]",
+      "Extra": "gi|38511978|gb|AAH60853.1|[38511978]",
+      "Gi": "IntegerElement(38511978, attributes={})",
+      "CreateDate": "2003/11/25",
+      "UpdateDate": "2006/12/22",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(190, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "AAH60853.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "AAH14438.1",
+    "gene_symbol": "HN1L",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 190,
+    "description": "Hematological and neurological expressed 1-like [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MFQVPDSEGGRAGSRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGEKGSARKAGPAKEQEPMPTVDSHEPRLGPRPRSHNKVLNPPGGKSSISFY",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/AAH14438.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "15680182",
+      "Caption": "AAH14438",
+      "Title": "Hematological and neurological expressed 1-like [Homo sapiens]",
+      "Extra": "gi|15680182|gb|AAH14438.1|[15680182]",
+      "Gi": "IntegerElement(15680182, attributes={})",
+      "CreateDate": "2001/09/19",
+      "UpdateDate": "2006/12/22",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(190, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "AAH14438.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "AAP83792.1",
+    "gene_symbol": "HN1L",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 174,
+    "description": "hematological and neurological expressed 1-like protein B [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGEKGSARKAGPAKEQEPMPTVDSHEPRLGPRPRSHNKVLNPPGGKSSISFY",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/AAP83792.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "32479247",
+      "Caption": "AAP83792",
+      "Title": "hematological and neurological expressed 1-like protein B [Homo sapiens]",
+      "Extra": "gi|32479247|gb|AAP83792.1|[32479247]",
+      "Gi": "IntegerElement(32479247, attributes={})",
+      "CreateDate": "2004/07/01",
+      "UpdateDate": "2004/07/01",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(174, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "AAP83792.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "AAP83791.1",
+    "gene_symbol": "HN1L",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 174,
+    "description": "hematological and neurological expressed 1-like protein B [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGEKGSARKAGPAKEQEPMPTVDSHEPRLGPRPRSHNKVLNPPGGKSSISFY",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/AAP83791.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "32479245",
+      "Caption": "AAP83791",
+      "Title": "hematological and neurological expressed 1-like protein B [Homo sapiens]",
+      "Extra": "gi|32479245|gb|AAP83791.1|[32479245]",
+      "Gi": "IntegerElement(32479245, attributes={})",
+      "CreateDate": "2004/07/01",
+      "UpdateDate": "2004/07/01",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(174, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "AAP83791.1"
+    }
+  },
+  {
+    "source": "NCBI",
+    "accession": "AAK61289.1",
+    "gene_symbol": "HN1L",
+    "species": "",
+    "taxon_id": 9606,
+    "length_aa": 190,
+    "description": "HN1 like [Homo sapiens]",
+    "transcript_id": "",
+    "gene_id": "",
+    "sequence": "MFQVPDSEGGRAGSRAMKPPGGESSNLFGSPEEATPSSRPNRMASNIFGPTEEPQNIPKRTNPPGGKGSGIFDESTPVQTRQHLNPPGGKTSDIFGSPVTATSRLAHPNKPKDHVFLCEGEEPKSDLKAARSIPAGAEPGEKGSARKAGPAKEQEPMPTVDSHEPRLGPRPRSHNKVLNPPGGKSSISFY",
+    "url": "https://www.ncbi.nlm.nih.gov/protein/AAK61289.1",
+    "raw": {
+      "Item": "[]",
+      "Id": "14336761",
+      "Caption": "AAK61289",
+      "Title": "HN1 like [Homo sapiens]",
+      "Extra": "gi|14336761|gb|AAK61289.1|AE006639_3[14336761]",
+      "Gi": "IntegerElement(14336761, attributes={})",
+      "CreateDate": "2000/12/07",
+      "UpdateDate": "2002/08/15",
+      "Flags": "NoneElement(attributes={})",
+      "TaxId": "IntegerElement(9606, attributes={})",
+      "Length": "IntegerElement(190, attributes={})",
+      "Status": "live",
+      "ReplacedBy": "",
+      "Comment": "  ",
+      "AccessionVersion": "AAK61289.1"
+    }
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "runs": [
+    {
+      "partition": "JPT",
+      "preset": "jpt",
+      "scope": "all species in the panel, max 120",
+      "bundle": "2026-08-18_183358_s0_smoke_jpt",
+      "n_variants": 642,
+      "n_sequences": 627,
+      "sources_requested": 3,
+      "sources_ok": 2,
+      "sources": "NCBI=ok(356), UniProt=ok(286)",
+      "per_source": [
+        {
+          "source": "NCBI",
+          "status": "ok",
+          "n_variants": 356,
+          "elapsed_s": 0.0,
+          "message": "(cached)"
+        },
+        {
+          "source": "UniProt",
+          "status": "ok",
+          "n_variants": 286,
+          "elapsed_s": 0.0,
+          "message": "(cached)"
+        }
+      ]
+    },
+    {
+      "partition": "JPT",
+      "preset": "jpt",
+      "scope": "Homo sapiens, max 25",
+      "bundle": "2026-08-18_184510_s0_smoke_jpt_human",
+      "n_variants": 46,
+      "n_sequences": 37,
+      "sources_requested": 3,
+      "sources_ok": 2,
+      "sources": "UniProt=ok(22), NCBI=ok(24), Ensembl=error(0)",
+      "per_source": [
+        {
+          "source": "UniProt",
+          "status": "ok",
+          "n_variants": 22,
+          "elapsed_s": 2.08,
+          "message": ""
+        },
+        {
+          "source": "NCBI",
+          "status": "ok",
+          "n_variants": 24,
+          "elapsed_s": 6.14,
+          "message": ""
+        },
+        {
+          "source": "Ensembl",
+          "status": "error",
+          "n_variants": 0,
+          "elapsed_s": 11.03,
+          "message": "Ensembl symbol lookup failed: 500 from Ensembl"
+        }
+      ]
+    },
+    {
+      "partition": "LSM12",
+      "preset": "lsm12",
+      "scope": "Homo sapiens, max 25",
+      "bundle": "2026-08-18_184544_s0_smoke_lsm12_human",
+      "n_variants": 25,
+      "n_sequences": 22,
+      "sources_requested": 3,
+      "sources_ok": 2,
+      "sources": "UniProt=ok(16), NCBI=ok(9), Ensembl=empty(0)",
+      "per_source": [
+        {
+          "source": "UniProt",
+          "status": "ok",
+          "n_variants": 16,
+          "elapsed_s": 0.72,
+          "message": ""
+        },
+        {
+          "source": "NCBI",
+          "status": "ok",
+          "n_variants": 9,
+          "elapsed_s": 7.39,
+          "message": ""
+        },
+        {
+          "source": "Ensembl",
+          "status": "empty",
+          "n_variants": 0,
+          "elapsed_s": 32.82,
+          "message": ""
+        }
+      ]
+    },
+    {
+      "partition": "LSM12",
+      "preset": "lsm12",
+      "scope": "all species in the panel, max 120",
+      "bundle": "2026-08-18_184901_s0_smoke_lsm12",
+      "n_variants": 242,
+      "n_sequences": 233,
+      "sources_requested": 3,
+      "sources_ok": 2,
+      "sources": "UniProt=ok(122), NCBI=ok(120)",
+      "per_source": [
+        {
+          "source": "UniProt",
+          "status": "ok",
+          "n_variants": 122,
+          "elapsed_s": 1.02,
+          "message": ""
+        },
+        {
+          "source": "NCBI",
+          "status": "ok",
+          "n_variants": 120,
+          "elapsed_s": 6.18,
+          "message": ""
+        }
+      ]
+    }
+  ],
+  "note": "NCBI and UniProt returned on every run. **Ensembl did not**, and the failure is server-side rather than in this repo: the S0 endpoint probe (`ensembl_endpoint_probe.tsv`) measured `/info/ping` at 0.61 s while `lookup/symbol` averaged 19.8 s over five calls and `xrefs/symbol` returned two timeouts and one HTTP 503. In the runs above Ensembl returned HTTP 500 for the JPT symbols and an empty result for LSM12. The completion criterion 'NCBI, Ensembl and UniProt all return' is therefore **met for two of three sources**, with the third documented as a live outage and its behaviour now correctly recorded rather than silently dropped.\n\nRead the four runs together: the two `Homo sapiens` runs were made **after** the D24 fix and name Ensembl explicitly with its status (`error` / `empty`); the two full-panel runs were made **before** it and Ensembl is simply *absent* from their `per_source` list \u2014 which is the bug D24 describes, preserved here as its own evidence."
+}
