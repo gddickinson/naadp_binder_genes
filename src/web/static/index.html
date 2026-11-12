@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NAADP binder census</title>
+<meta name="description" content="Read-only results dashboard of the JPT2 / LSM12 (NAADP-binding protein) census: ledger, committed tables, benchmark and findings, each with its source file and commit.">
+<link rel="icon" href="static/icon.svg">
+<link rel="stylesheet" href="static/style.css">
+<link rel="stylesheet" href="static/style_app.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/"><span class="mark"></span>NAADP binders</a>
+  <nav class="groups">
+    <a href="#/ledger" data-nav="ledger">Ledger</a>
+    <details><summary>Results</summary><div class="menu">
+      <a href="#/baseline" data-nav="baseline">S0 database baseline</a>
+      <a href="#/literature" data-nav="literature">S0 literature audit</a>
+      <a href="#/benchmark" data-nav="benchmark">S1 scorer benchmark</a>
+      <a href="#/trees" data-nav="trees">Trees</a>
+    </div></details>
+    <a href="#/findings" data-nav="findings">Findings</a>
+    <details><summary>Sources</summary><div class="menu">
+      <a href="#/reports" data-nav="reports">Rendered reports</a>
+      <a href="#/tables" data-nav="tables">All committed tables</a>
+    </div></details>
+    <a href="#/about" data-nav="about">About</a>
+  </nav>
+  <div class="right"><a class="small mute" href="https://github.com/gddickinson/naadp_binder_genes" target="_blank" rel="noopener">GitHub</a></div>
+</header>
+<main id="app" tabindex="-1"></main>
+<footer class="foot">NAADP binder census · <a href="https://github.com/gddickinson/naadp_binder_genes">source on GitHub</a> · <span id="mode"></span> · <span id="headref"></span></footer>
+<script type="module" src="static/main.js"></script>
+</body>
+</html>

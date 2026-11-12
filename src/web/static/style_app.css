@@ -1,0 +1,36 @@
+/* NAADP binder census: accent palette + dashboard styles. Chart identity colours follow scripts/figstyle.py PARALOG
+   (JPT2 blue, LSM12 orange, JPT1 aqua), re-stepped for the dark surface and validated (dataviz validate_palette.js). */
+:root { --accent:#38e8c6; --accent2:#c58bff; --accent3:#5ab0ff; --glow:rgba(56,232,198,.12);
+  --jpt2:#3a8ef0; --lsm12:#e0682f; --jpt1:#16ad7a; --deep:#9478f0; --other:#6b7390; }
+.badge { display:inline-block; font:11px var(--mono); padding:1px 8px; border-radius:3px; border:1px solid; white-space:nowrap; }
+.badge.done { color:var(--good); border-color:color-mix(in srgb, var(--good) 50%, transparent); }
+.badge.active { color:var(--accent3); border-color:var(--accent3); }
+.badge.open, .badge.pending { color:var(--warn); border-color:color-mix(in srgb, var(--warn) 50%, transparent); }
+.prov { font:12px/1.5 var(--mono); color:var(--mute); margin-top:10px; border-top:1px dashed var(--line); padding-top:6px; }
+.prov span { margin-right:10px; } .prov a { color:var(--accent3); }
+.tile .how { display:block; font:11px var(--mono); color:var(--mute); margin-top:4px; opacity:.85; }
+.tile b.pend { color:var(--warn); font-size:20px; }
+.tbl-tools { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin:6px 0; }
+.tbl-tools input { max-width:260px; }
+.tbl { max-height:520px; overflow:auto; border:1px solid var(--line); border-radius:4px; }
+.tbl table { font-size:13px; } .tbl th { position:sticky; top:0; background:#0b0f1e; cursor:pointer; white-space:nowrap; }
+.tbl td { max-width:420px; } .tbl td.long { min-width:260px; }
+.legend { display:flex; gap:14px; flex-wrap:wrap; font-size:13px; color:var(--mute); margin:6px 0; }
+.legend i { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:5px; vertical-align:middle; }
+.legend i.hollow { background:transparent !important; border:2px solid; }
+svg.chart { width:100%; height:auto; display:block; } svg.chart text { fill:var(--mute); font:11px var(--mono); }
+svg.chart .grid { stroke:var(--line); } svg.chart .thr { stroke:var(--warn); stroke-dasharray:4 4; }
+svg.chart .dot:hover { stroke:var(--ink); stroke-width:2; }
+.tip { position:fixed; pointer-events:none; background:#080b17; border:1px solid var(--line); padding:6px 10px; font:12px var(--mono);
+  border-radius:4px; z-index:20; max-width:320px; box-shadow:0 8px 24px rgba(0,0,0,.5); }
+.grid-sym td.found { color:var(--ink); } .grid-sym td.miss { color:var(--warn); } .grid-sym td small { display:block; color:var(--mute); }
+.md h1 { font-size:28px; } .md h2 { font-size:20px; } .md img { max-width:100%; background:#fff; border-radius:4px; }
+.md table { font-size:13px; margin:10px 0; } .md blockquote { border-left:3px solid var(--accent2); margin:10px 0; padding:2px 14px; color:#c6d4ee; }
+.md .pending { color:var(--warn); }
+.fig { background:#fff; border-radius:4px; max-width:100%; display:block; }
+details.raw summary { cursor:pointer; color:var(--accent3); font-size:13px; }
+.sr { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); }
+.pending { color:var(--warn); }
+.tiles { grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
+.tile .prov { overflow-wrap:anywhere; font-size:11px; }
+.panel > h2:first-child { margin-top:0; }

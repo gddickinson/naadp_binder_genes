@@ -71,6 +71,32 @@ python3 scripts/dashboard.py --open
 python -m src.utils.data_root --require  # exit 1 = drive not attached
 ```
 
+## Results dashboard (web)
+
+A read-only dashboard of the committed outputs: the task ledger, the S0 database baseline and literature audit, the S1
+scorer benchmark (recall, specificity, every record's score per run, the JPT1 bait margins), FINDINGS.md with every
+*(pending: task)* marker tracked against the ledger, the rendered reports, and a browser for every committed table.
+
+* **Live site:** https://gddickinson.github.io/naadp_binder_genes/ (rebuilt on every push to `main`).
+* **Every number is read from a committed file at build time** (the app reads `git show HEAD:<path>`, so uncommitted
+  edits never appear), and every panel names its source file, the last commit that changed it and a SHA-256 prefix,
+  linked to that version on GitHub. Headline counts print the row filter that produced them.
+* **Pending work is labelled pending** with the roadmap's own status words. There are no trees yet (S7 is pending), and
+  the Trees page says so rather than drawing one.
+
+```
+pip install -r requirements-web.txt
+python run_web.py                         # http://127.0.0.1:8175
+python scripts/build_static.py            # static site -> site/
+python -m pytest -q tests/test_web.py
+```
+
+| Overview | S1 benchmark |
+|---|---|
+| ![Overview](docs/img/home.png) | ![S1 benchmark](docs/img/benchmark.png) |
+| **S0 baseline** | **Findings** |
+| ![S0 baseline](docs/img/baseline.png) | ![Findings](docs/img/findings.png) |
+
 ## The science
 
 Re-derived live 2026-08-18 by `scripts/s0_db_snapshot.py`

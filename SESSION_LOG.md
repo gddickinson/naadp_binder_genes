@@ -253,3 +253,23 @@ S2 must carry: the signature fallback (built from the named panel, applied
 to candidates), `family.py:SISTER_PANEL` in every JPT search, the
 primary-symbol rule for `pick_best`, and the fact that Ensembl is still not
 dependable. The external drive is not required for S2.
+
+---
+
+## 2026-11-12 — Web results dashboard (not a ledger task)
+
+Added a read-only web dashboard of the committed outputs (`src/web/`, `run_web.py` on port 8175) and a static GitHub
+Pages export (`scripts/build_static.py`, `.github/workflows/pages.yml`). Pages: overview (headline tiles), ledger, S0
+database baseline, S0 literature audit, S1 scorer benchmark (run metrics, per-record scores per run, bait margins,
+distortion, identity, every S1 table, Figure S1), findings with a `(pending: task)` tracker, trees (none committed:
+shows S6/S7/S13/S16 as pending), rendered reports, and a browser for all 26 committed tables under `results/`.
+
+- Every value is read via `git show HEAD:<path>`, so uncommitted working-tree edits cannot reach the site; each panel
+  carries its file, last commit, SHA-256 prefix and GitHub link. Headline counts print the row filter used.
+- Cross-check test: the JPT1 sister-test headline counted from `scores.tsv` matches `summary.json`'s independent
+  `part_*_jpt1_*` keys (5/5 promoted with the test off, 0/5 with it on).
+- Static site 1.2 MB. `pytest tests/test_web.py`: all pass; screenshots.py `--static` and `--base`: all routes ok, no
+  phone-width overflow.
+- Noted, not changed: the ledger's S0 headline says "5 verified" literature claims; `lit_audit_meta.json` records
+  4 verified + 1 qualified (+1 corrected, 1 refined, 1 re-tagged = 8). The dashboard shows the table's verdicts.
+- FINDINGS.md line 25 marker `(pending: S1, S6, S7)`: S1 is now completed; S6/S7 still pending, so the marker stands.

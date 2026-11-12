@@ -42,3 +42,6 @@ results/selection/codeml/*/rub
 # The alignments, results and every derived TSV are committed.
 results/constraint/mafft_*.log
 results/constraint/fel/*.log
+
+# Static web site build output
+site/

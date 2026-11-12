@@ -184,6 +184,23 @@ as bait.
 | `results_writer.py` | `make_bundle_dir()`, `write_bundle()`. |
 | `report.py` | `write_report()` — publication-style markdown + standalone HTML with embedded figures. |
 
+## `src/web/` — read-only results dashboard (web app + static GitHub Pages site)
+
+Reads only files committed at git HEAD; nothing here computes a result. `python run_web.py` → http://127.0.0.1:8175;
+`scripts/build_static.py` exports the same pages to `site/` (published by `.github/workflows/pages.yml`).
+
+| File | Purpose |
+|------|---------|
+| `committed.py` | `read_bytes()`/`read_text()` via `git show HEAD:<path>` (never the working tree), `tracked(prefix)`, `head()`, and `provenance(path)` → file, last commit touching it, date, SHA-256 prefix, GitHub link. |
+| `parse.py` | `table()` (TSV/CSV → columns/rows, capped), `md_tables()`, `ledger()` (task ledger, analysis block, emergent tasks, "Next session"), `status_kind()` (the repo's status words → display class), `pending_markers()` (FINDINGS.md `(pending: …)`). |
+| `panels.py` | Stage pages: `baseline()` (S0 snapshot tables + species × symbol grid), `literature()` (claims + references), `benchmark()` (summary.json run metrics, scores, bait margins, distortion, identity, S1 tables, figure). |
+| `pages.py` | `overview()` (headline tiles, each with source file + cell/row filter + commit), `ledger_data()`, `findings()` (markers × ledger status), `trees()` (committed tree files, else pending tasks), `reports()`/`report()`, `tables()`/`one_table()`, `figure_paths()`. |
+| `app.py` | FastAPI routes under `/api`; `STATIC_ENDPOINTS` (JSON) and `STATIC_FILES` (committed PNG figures) for the static export. |
+| `static/` | Front end, plain ES modules, no build step: `index.html`, `core.js` + `style.css` (shared web kit, unchanged), `style_app.css`, `main.js`, `static_api.js`, `ui.js` (provenance, badges, tables, tooltips), `md.js` (markdown renderer), `chart.js` (SVG dot chart), one module per page: `home`, `ledger`, `baseline`, `literature`, `benchmark`, `findings`, `trees`, `reports`, `tables`, `about`. |
+
+Also: `run_web.py`, `requirements-web.txt`, `scripts/build_static.py`, `scripts/screenshots.py` (Playwright smoke test +
+README images in `docs/img/`), `tests/test_web.py`.
+
 ## `src/cli.py` — headless pipeline
 
 `run_headless(project_root, preset, …, analyze, discover, interpro_lookup,
